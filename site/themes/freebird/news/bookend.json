@@ -1,0 +1,41 @@
+{
+    "bookendVersion": "v1.0",
+    "shareProviders": [
+        "facebook",
+        "email",
+        "whatsapp",
+        "sms"
+    ],
+    "components": [  
+    {
+        "type": "heading",
+        "text": "Links"
+    },
+    {
+        "type": "small",
+        "title": "Next Steps",
+        "url": "https://mosaik-stuttgart.net",
+        "image": "nextsteps.jpg"
+    },
+    {
+        "type": "small",
+        "title": "Homezones",
+        "url": "https://mosaik-stuttgart.net",
+        "image": "homezones.jpg"
+    },
+    {
+        "type": "small",
+        "title": "Gottesdienst",
+        "url": "https://mosaik-stuttgart.net",
+        "image": "gottesdienst.jpg"
+    },
+    {
+        "type": "cta-link",
+        "links": [
+          {
+            "text": "Zurück zur Website",
+            "url": "/"
+          }
+        ]
+    }]
+}

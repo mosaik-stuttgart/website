@@ -1,0 +1,4 @@
+login_type: username
+enable_gravatar: false
+driver: file
+redis_write_file: true

@@ -1,0 +1,12 @@
+tracking_id: UX-92379-98
+async: true
+beacon: false
+anonymize_ip: true
+display_features: false
+link_id: false
+track_uid: false
+ignore_admins: false
+debug: false
+trace_debugging: false
+disable_sending: false
+view_id: '165510316'

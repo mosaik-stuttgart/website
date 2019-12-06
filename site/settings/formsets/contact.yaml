@@ -1,0 +1,18 @@
+title: Kontakt
+fields:
+  name:
+    display: Name
+    validate: 'required'
+  email:
+    display: 'E-Mail Adresse'
+    validate: required|email
+  message:
+    display: Nachricht
+columns:
+  - name
+  - email
+  - message
+metrics:
+  -
+    type: total
+    label: Gesamt

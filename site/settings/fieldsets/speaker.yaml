@@ -1,0 +1,27 @@
+title: Sprecher
+hide: true
+sections:
+  main:
+    display: Main
+    fields:
+      image:
+        type: assets
+        container: main
+        display: Bild
+        max_files: 1
+        restrict: false
+        folder: profile
+        mode: list
+      title:
+        type: text
+        display: Name
+        width: 66
+        localizable: true
+      slug:
+        type: text
+        display: Slug
+        width: 33
+      role:
+        type: text
+        display: Rolle
+taxonomies: true

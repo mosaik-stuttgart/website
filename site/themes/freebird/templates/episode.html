@@ -1,0 +1,87 @@
+<main class="bg-white pt-6 md:pt-12">        
+<div class="mt-16 px-3 max-w-lg mx-auto pb-24">
+    <div id="player" class="shadow rounded-px overflow-hidden"></div>
+    <div class="mt-3 py-5 pl-1">
+        <h4 class="uppercase text-gray-800 py-1 font-semibold">Sprecher</h4>
+        <div class="flex">
+            {{ relate:speaker }}
+            {{if image }}<img class="h-10 w-10 rounded-full mr-3 object-cover" src="{{image}}" alt=""> {{/if}}
+            <div class="py-1 text-lg">{{title}}</div>
+            {{ /relate:speaker }}
+        </div>
+        {{if sermon_series}}
+        <h4 class="mt-8 text-gray-800 pt-1">
+            <span class="uppercase font-semibold">Predigtserie: </span>
+            <span class="font-thin text-gray-800">{{sermon_series}}{{title}}{{/sermon_series}}</span>
+        </h4>
+        
+        <div class="flex">
+                {{collection:podcasts taxonomy='sermon_series/{{sermon_series}}{{slug}}{{/sermon_series}}' as="item" title:isnt="{{title}}"}}
+                <ul class="w-2/3">
+                    {{item}}
+                        <li class="rounded-sm border border-gray-500 my-2 hover:bg-gray-200 hover:border-gray-500 hover:text-black">
+                            <a href="{{ url }}" style="text-decoration: none" class="flex px-4 py-3 align-center">
+                            <div class="mr-4">
+                                <span class="text-xl font-bold leading-none">{{date format="d"}}</span> <br>
+                                <span class="text-xs leading-none uppercase -mt-1 block">{{ date format="M"}}</span>
+                            </div>
+                            <span class="text-lg leading-tight inline-flex items-center min-h-full no-underline">{{title}}</span>
+                            <div class="ml-auto h-full w-8 pl-1">
+                                    <svg class="stroke-current" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                            </div>
+                            </a>
+                        </li>
+                    {{/item}}
+                </ul>
+                
+            {{/collection:podcasts}}
+        </div>
+        {{/if}}
+   </div>
+   
+</div>
+</main>
+<script src="https://cdn.podlove.org/web-player/embed.js"></script>
+<script>
+    podlovePlayer('#player', {
+        title: '{{title}}',
+        subtitle: '27.09.2019',
+        summary: '',
+        publicationDate: '2016-02-11T03:13:55+00:00',
+        theme: {
+            main: '#000819',
+            highlight: '#FCFFFF'
+        },
+        poster: 'https://is2-ssl.mzstatic.com/image/thumb/Podcasts113/v4/04/ed/59/04ed5916-11a1-de6f-7c8e-2b9a310c835e/mza_8798462657402886312.jpg/804x0w.jpg',
+        show: {
+            title: 'Mosaik Church',
+            summary: '',
+            url: 'https://mosaik-church.de'
+        },
+        duration: '00:{{audio get="size_bytes" divide="635400" ceil="true"}}:00',
+        audio: [{
+            url: '{{if environment === `production`}}https://chtbl.com/track/81345/{{/if}}{{audio | get:permalink}}',
+            mimeType: 'audio/mpeg',
+            size: {{ audio | get:size_bytes }},
+            title: 'Audio MP3'
+        }],
+        visibleComponents: [
+            'tabShare',
+            'tabFiles',
+            'tabAudio',
+            'showTitle',
+            'episodeTitle',
+            'subtitle',
+            'progressbar',
+            'controlSteppers',
+        ],
+        contributors: [
+            {{ relate:speaker }}{
+            name: '{{title}}',
+            avatar: '{{image}}',
+            group: { id: '1', slug: 'ke', title: 'Prediger' },
+            comment: null
+            },{{ /relate:speaker }}
+        ],
+    });
+</script>

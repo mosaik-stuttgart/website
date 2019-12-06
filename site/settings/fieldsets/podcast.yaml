@@ -1,0 +1,66 @@
+title: Podcast
+create_title: 'Neuer Podcast'
+sections:
+  main:
+    display: Main
+    fields:
+      title:
+        display: Titel
+        type: text
+        width: 66
+        localizable: true
+      slug:
+        display: Slug
+        type: text
+        width: 33
+      date:
+        allow_blank: false
+        allow_time: false
+        require_time: false
+        earliest_date: 'January 1, 1900'
+        type: date
+        width: 33
+        display: Datum
+      speaker:
+        max_items: 2
+        label: '{{ title }}'
+        taxonomy: speaker
+        mode: tags
+        type: taxonomy
+        display: Sprecher
+        width: 33
+      type:
+        options:
+          message: Predigt
+          academy: Academy
+        type: select
+        width: 33
+        display: Typ
+        default: message
+      audio:
+        container: podcast
+        folder: /
+        restrict: true
+        max_files: 1
+        mode: list
+        type: assets
+        width: 33
+        display: Audio
+      tags:
+        label: '{{ title }}'
+        taxonomy: tags
+        mode: panes
+        type: taxonomy
+        width: 33
+        display: Themen
+      sermon_series:
+        max_items: 1
+        mode: tags
+        label: '{{ title }}'
+        taxonomy: sermon_series
+        type: taxonomy
+        display: Predigtserie
+        width: 33
+        show_when:
+          type: message
+taxonomies: false

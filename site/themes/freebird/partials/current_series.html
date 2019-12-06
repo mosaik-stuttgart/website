@@ -1,0 +1,31 @@
+<section class="mt-2">
+    <div class="-mx-2 sm:-mx-6 md:-mx-10">
+      {{taxonomy:sermon_series :is="current_series"}}
+        <img class="w-full rounded-sm" src="{{image}}" alt="Aktuelle Predigtreihe">
+      {{/taxonomy:sermon_series}}
+    </div>
+    
+    {{collection:podcasts :taxonomy='current_series' as="item" show_unpublished="true" }}
+        <ul class="max-w-lg mx-auto pt-1 md:pt-3">
+            {{item reverse="true" }}
+                {{ if published }}
+                <li class="rounded-sm border border-gray-500 my-2 hover:bg-gray-200 hover:border-gray-500 hover:text-black">
+                    <a href="{{ url }}" style="text-decoration: none" class="flex px-4 py-3 align-center">
+                {{ else }}
+                <li class="flex px-4 py-3 rounded-sm border border-gray-300 my-2">
+                {{/if}}
+                    <div class="mr-4">
+                        <span class="text-xl font-bold leading-none">{{date format="d"}}</span> <br>
+                        <span class="text-xs leading-none uppercase -mt-1 block">{{ date format="M"}}</span>
+                    </div>
+                    <span class="text-lg leading-tight inline-flex items-center min-h-full no-underline">{{title}}</span>
+                    {{ if published }}<div class="ml-auto h-full w-8 pl-1">
+                            <svg class="stroke-current" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                    </div>
+                    </a>{{/if}}
+                </li>
+            {{/item}}
+        </ul>
+        
+    {{/collection:podcasts}}
+</section>

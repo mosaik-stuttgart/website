@@ -1,0 +1,34 @@
+open_graph_image_width: 1200
+open_graph_image_height: 1200
+sitemap_enabled: true
+sitemap_url: sitemap.xml
+sitemap_cache_length: 60
+defaults:
+  title: '@seo:title'
+  site_name: 'Mosaik Stuttgart'
+  site_name_position: after
+  site_name_separator: '|'
+  description: '@seo:content'
+  image: '@seo:header_image'
+  priority: 0.5
+  change_frequency: weekly
+humans:
+  enabled: true
+  content: |
+    /* TEAM */
+    
+    Creator: {{ site_name }}
+    URL: {{ site_url }}
+    Description: {{ description }}
+    
+    /* THANKS */
+    
+    Statamic: https://statamic.com
+    Tailwind: https://tailwindcss.com
+    Silas: https://silas.la
+    
+    /* SITE */
+    
+    Standards: HTML5, CSS3
+    Components: Statamic 2, Laravel, PHP, JavaScript
+    

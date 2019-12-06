@@ -1,0 +1,47 @@
+title: 'Main Assets'
+path: assets
+url: /assets
+assets:
+  images/header.jpg:
+    title: 'Welcome Home'
+    alt: 'Hier ist dein Zuhause'
+    focus: 81-30
+  dreamteam.jpg:
+    title: Dreamteams
+    alt: Dreamteams
+  homezones-1562411070.jpg:
+    title: Homezones
+    alt: Homezones
+    focus: 24-30
+  gottesdienst.jpg:
+    title: Gottesdienst
+    alt: 'Freikirche Gottesdienst'
+    focus: 70-43
+  images/next-steps.jpg:
+    alt: 'Next Steps'
+    focus: 40-64
+  images/anfahrt.jpg:
+    title: Anfahrt
+    alt: Anfahrt
+    focus: 50-68
+  images/21days.jpg:
+    focus: 35-60
+  images/spenden.jpg:
+    focus: 41-61
+  images/homezones.jpg:
+    alt: Kleingruppen
+    focus: 55-29
+  images/kontakt.jpg:
+    focus: 29-12
+  images/acedemy2.jpg:
+    title: 'Mosaik Academy'
+    alt: 'Mosaik Academy'
+  images/sermons.jpg:
+    title: Predigten
+    focus: 52-17
+  homezones2.jpg:
+    title: 'Homezones Portrait'
+    focus: 0-41
+  fruhgebet.jpg:
+    title: Frühgebet
+    alt: Frühgebet

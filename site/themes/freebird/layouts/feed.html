@@ -1,0 +1,61 @@
+{{xml_header}}<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
+<channel>
+    <title>{{ podcast:name | cdata }}</title>
+    <description>{{ podcast:description | cdata }}></description>
+    <link>{{ podcast:url }}</link>
+    <image>
+        <url>{{ podcast:url }}{{ podcast:image }}</url>
+        <title>{{ podcast:name }}</title>
+        <link>{{ podcast:url }}</link>
+    </image>
+    <!--generator></generator-->
+    <lastBuildDate>{{last_modified format="r"}}</lastBuildDate>
+    <atom:link href="{{ podcast:url }}/podcast/feed" rel="self" type="application/rss+xml"/>
+    <author><![CDATA[Mosaik Church Stuttgart]]></author>
+    <copyright><![CDATA[Mosaik Church Stuttgart]]></copyright>
+    <language><![CDATA[de]]></language>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <itunes:author>Mosaik Church Stuttgart</itunes:author>
+    <itunes:summary>{{podcast:description}}</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+        <itunes:name>Mosaik Church Stuttgart</itunes:name>
+        <itunes:email>{{ podcast:email }}</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:category text="Religion &amp; Spirituality"/>
+    <itunes:image href="{{ podcast:image }}"/>
+    <itunes:keywords>{{ podcast:keywords }}</itunes:keywords>
+    <googleplay:author>Mosaik Church Stuttgart</googleplay:author>
+    <googleplay:image href="{{ podcast:image }}"/>
+    <googleplay:summary>{{ podcast:description }}</googleplay:summary>
+    <googleplay:explicit>No</googleplay:explicit>
+
+    {{collection:podcasts as="episode"}}
+    {{episode scope="tag"}}
+    <item>
+        <title>{{ title | cdata}}></title>
+        <description>{{ description | cdata }}></description>
+        <link>{{permalink}}</link>
+        <guid isPermaLink="false">{{id}}</guid>
+        <dc:creator><![CDATA[Mosaik Church Stuttgart]]></dc:creator>
+        <pubDate>{{ date format="D, d M o 13:00:00 GMT"}}</pubDate>
+        <enclosure url="{{if environment === `production`}}https://chtbl.com/track/81345/{{/if}}{{audio | get:permalink}}" length="{{audio | get:size_bytes}}" type="audio/mpeg"/>
+        <itunes:summary>{{description}}</itunes:summary>
+        <!--itunes:subtitle></itunes:subtitle-->
+        <itunes:explicit>No</itunes:explicit>
+        <itunes:duration>{{audio get="size_bytes" divide="10590" ceil="true"}}</itunes:duration>
+        <itunes:image href="{{podcast:image}}"/>
+        <!-- <itunes:episode></itunes:episode> -->
+        <itunes:episodeType>full</itunes:episodeType>
+        <content:encoded>{{ shownotes | cdata }}</content:encoded>
+        {{ relate:speaker }}
+        <atom:contributor>
+            <atom:name>{{title}}</atom:name>
+        </atom:contributor>
+        {{ /relate:speaker }}
+    </item>
+    {{/episode}}
+    {{/collection:podcasts}}
+</channel>
+</rss>

@@ -1,0 +1,6 @@
+/* Custom Control Panel styles... */
+.outside {
+    background: url("/site/themes/freebird/img/notredame.jpg");
+    background-position: top center;
+    background-size: cover;
+}
