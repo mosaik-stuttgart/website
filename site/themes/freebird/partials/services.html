@@ -4,7 +4,7 @@
     {{foreach:services}}
         <div class="mr-8 my-2">
             <time datetime="{{key | safe_truncate:5}}" class="w-28 inline-block font-bold text-xl">{{key}}</time> <br class="sm:hidden">
-            <span class="font-semibold text-gray-700 text-lg sm:-ml-2 inline-block py-1">{{value}}</span>
+            <span class="font-medium text-gray-700 text-lg sm:-ml-2 inline-block py-1">{{value}}</span>
         </div>
     {{/foreach:services}}
     </div>

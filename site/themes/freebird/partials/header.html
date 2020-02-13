@@ -3,10 +3,10 @@
     <h1 class="font-serif font-bold text-5xl sm:text-6xl lg:text-7xl text-white text-shadow-sm hyphens-auto leading-none">{{page:title | upper}}</h1>
     <div>
         {{ if {parent} !== "/" }}
-            <div class="mt-4 md:mt-2 font-sans text-base text-white text-shadow w-5/6 mx-auto font-semibold md:font-medium leading-tight">- {{parent:title}} -</div>  
+            <div class="mt-4 md:mt-2 font-sans text-base text-white text-shadow w-5/6 mx-auto font-medium md:font-normal leading-tight">- {{parent:title}} -</div>  
         {{/if}}
         {{ if custom_subtitle }}
-            <div class="mt-4 md:mt-2 font-sans text-base text-white text-shadow w-5/6 mx-auto font-semibold md:font-medium leading-tight">- {{custom_subtitle}} -</div> 
+            <div class="mt-4 md:mt-2 font-sans text-base text-white text-shadow w-5/6 mx-auto font-medium md:font-normal leading-tight">- {{custom_subtitle}} -</div> 
         {{ /if}}
     </div>  
 </div>
