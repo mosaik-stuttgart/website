@@ -1,4 +1,4 @@
-let defaultConfig = require('tailwindcss/defaultConfig')
+//let defaultConfig = require('tailwindcss/defaultConfig')
 
 module.exports = {
   theme: {
@@ -25,10 +25,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Trueno',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
+        'Basier Circle',
         'Roboto',
         '"Helvetica Neue"',
         'Arial',
@@ -41,7 +38,6 @@ module.exports = {
       ],
       serif: [
         'Playfair Display',
-        'Georgia',
         'Cambria',
         '"Times New Roman"',
         'Times',

@@ -1,9 +1,23 @@
+<style>
+    body {margin: 0}
+    .h-14 {height:3.5rem}
+    .w-full {width: 100%}
+    @media (min-width: 768px) {
+        .md\:h-16 {height: 4rem}
+        .md\:w-auto {width: auto;}
+        .md\:w-3\/5 {width: 60%}
+        .md\:ml-3 {margin-left: .75rem;}
+    }
+    .bg-black {background-color: black;}
+    
+    nav, main, header, footer, section {opacity: 0;}
+</style>
 <div id="topbar" class="h-14 md:h-16 bg-black fixed w-full flex flex-col md:flex-row justify-between z-50 shadow">
 <div class="flex justify-between w-full md:w-auto items-center fixed md:relative">
-    <a href="/" class="text-white">
+    <a href="/" class="text-white" aria-label="Home">
         {{ theme:output src="img/logo.svg" }}
     </a>
-	<span id="menu_toggle" tabindex="1" class="text-gray-300 focus:text-gray-100 hover:text-gray-100 hover:pointer-cursor font-semibold text-md px-5 md:hidden md:mr-2 pt-2 pb-1 select-none">MENÜ</span>
+	<span id="menu_toggle" class="text-gray-300 focus:text-gray-100 hover:text-gray-100 hover:pointer-cursor font-semibold text-md px-5 md:hidden md:mr-2 pt-2 pb-1 select-none">MENÜ</span>
 </div>
 <nav id="navigation" class="bg-black hidden md:flex flex-col justify-between md:flex-row flex-grow md:flex-grow-0 lg:mr-8 overflow-y-auto subpixel-antialiased">
 	<ul class="primaryList md:flex text-gray-200 mt-4 md:mt-0 font-serif font-bold text-2xl md:text-base md:font-sans md:font-light">
@@ -42,7 +56,7 @@
         {{ /nav }}
 	</ul>
 	<div class="px-3 py-3 mt-3 mb-1 flex text-6xl md:hidden">
-        <a href="/news" aria-label="Mosaik News" class="p-3 mr-3 fill-current text-gray-300 rounded-full" style="background: linear-gradient(180deg, rgba(20, 19, 85, 0.9), rgba(16, 14, 63, 0.9)), url('/site/themes/freebird/img/abstract_lines_thumb.gif'); background-size: cover; background-position-y: top; filter: brightness(2.3) grayscale(0.66)">
+        <a href="/news" aria-label="Mosaik News" class="p-3 mr-3 fill-current text-gray-300 rounded-full" style="background: linear-gradient(180deg, rgba(20, 19, 85, 0.9), rgba(16, 14, 63, 0.9)); background-size: cover; background-position-y: top; filter: brightness(2.3) grayscale(0.66)">
             <svg class="shadow" width="28px" height="28px" alt="News" viewBox="0 0 20 20"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#news"></use></svg>
         </a>
         {{social_media}}

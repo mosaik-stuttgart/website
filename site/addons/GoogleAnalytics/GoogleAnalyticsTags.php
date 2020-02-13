@@ -88,7 +88,7 @@ class GoogleAnalyticsTags extends Tags {
    *
    * @return string
    */
-  public function tracking_id() {
+  public function trackingId() {
     $tracking_id = str_replace(' ', '', $this->getConfig('tracking_id', ''), $value);
 
     if (!empty($tracking_id)) {

@@ -7,8 +7,13 @@
     <meta name="language" content="de">
     <meta name="content-language" content="de">
     <meta name="theme-color" content="#000000">
-    <link rel="stylesheet" href="{{ theme:css src='tailwind'}}" />
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet"> 
+    <link rel="preload" href="{{ theme:css src='tailwind'}}" as="style">
+    <link rel="stylesheet" href="{{ theme:css src='tailwind'}}">
+    <link rel="preload" href="/site/themes/freebird/fonts/playfair-display-v20-latin-600.woff2" as="font">
+    <link rel="preload" href="/site/themes/freebird/fonts/playfair-display-v20-latin-800.woff2" as="font">
+    <link rel="preload" href="/site/themes/freebird/fonts/basiercircle-regular-webfont.woff2?v=1.0.woff2" as="font">
+    <link rel="preload" href="/site/themes/freebird/fonts/basiercircle-medium-webfont.woff2?v=1.0.woff2" as="font">
+    <link rel="preload" href="/site/themes/freebird/fonts/basiercircle-semibold-webfont.woff2?v=1.0.woff2" as="font">
     {{ seo_pro:meta }}
   </head>
 
@@ -29,6 +34,5 @@
     </svg>
   <script src="{{ theme:js }}"></script>
   {{ partial src="components/GoogleAnalytics" }}
-  {{ mousetrap:js }}
   </body>
 </html>

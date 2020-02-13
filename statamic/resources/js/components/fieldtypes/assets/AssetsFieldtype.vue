@@ -243,7 +243,7 @@ export default {
          * True if a single asset.
          */
         soloAsset() {
-            return this.maxFiles === 1;
+            return this.assets[0].is_previewable && this.maxFiles === 1;
         },
 
         /**

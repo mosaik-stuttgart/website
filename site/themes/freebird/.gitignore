@@ -3,3 +3,4 @@ node_modules
 npm-debug.log
 css/tailwind.css
 js/freebird.js
+.yarn.lock
