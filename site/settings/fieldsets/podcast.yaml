@@ -64,3 +64,4 @@ sections:
         show_when:
           type: message
 taxonomies: false
+hide: true

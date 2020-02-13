@@ -16,7 +16,7 @@ rich_content:
     target_page: aa8ad754-8ff5-463a-9a3d-d141c34de9df
   -
     type: text
-    text: '<p><br></p><p>{{partial:current_series}}</p>'
+    text: '<p><br></p><p>{{partial:current_series current_series="nachfolge"}}</p>'
 header_image: /assets/gottesdienst.jpg
 title: Gottesdienst
 fieldset: services

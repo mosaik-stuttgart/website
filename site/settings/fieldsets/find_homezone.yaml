@@ -80,3 +80,4 @@ sections:
         display: 'Google Analytics'
 taxonomies: false
 title: Homezonefinder
+hide: true
