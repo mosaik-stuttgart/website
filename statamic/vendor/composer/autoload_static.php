@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b
+class ComposerStaticInitb6c49246a84e99fb2600505d01c9d9f7
 {
     public static $files = array (
         '95a22d2145ae40de20dc7ea7be07a610' => __DIR__ . '/../..' . '/bootstrap/helpers.php',
@@ -82,12 +82,11 @@ class ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b
             'Psr\\Cache\\' => 10,
             'Predis\\' => 7,
             'PhpParser\\' => 10,
-            'ParseCsv\\extensions\\' => 20,
-            'ParseCsv\\' => 9,
         ),
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Michelf\\' => 8,
         ),
         'L' => 
         array (
@@ -282,17 +281,13 @@ class ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'ParseCsv\\extensions\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src/extensions',
-        ),
-        'ParseCsv\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src',
-        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Michelf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/michelf/php-markdown/Michelf',
         ),
         'League\\OAuth1\\' => 
         array (
@@ -424,8 +419,7 @@ class ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b
         array (
             'Michelf' => 
             array (
-                0 => __DIR__ . '/..' . '/michelf/php-markdown',
-                1 => __DIR__ . '/..' . '/michelf/php-smartypants',
+                0 => __DIR__ . '/..' . '/michelf/php-smartypants',
             ),
         ),
         'J' => 
@@ -2127,12 +2121,6 @@ class ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b
         'Netcarver\\Textile\\DataBag' => __DIR__ . '/..' . '/netcarver/textile/src/Netcarver/Textile/DataBag.php',
         'Netcarver\\Textile\\Parser' => __DIR__ . '/..' . '/netcarver/textile/src/Netcarver/Textile/Parser.php',
         'Netcarver\\Textile\\Tag' => __DIR__ . '/..' . '/netcarver/textile/src/Netcarver/Textile/Tag.php',
-        'ParseCsv\\Csv' => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src/Csv.php',
-        'ParseCsv\\enums\\AbstractEnum' => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src/enums/AbstractEnum.php',
-        'ParseCsv\\enums\\DatatypeEnum' => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src/enums/DatatypeEnum.php',
-        'ParseCsv\\enums\\FileProcessingModeEnum' => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src/enums/FileProcessingModeEnum.php',
-        'ParseCsv\\enums\\SortEnum' => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src/enums/SortEnum.php',
-        'ParseCsv\\extensions\\DatatypeTrait' => __DIR__ . '/..' . '/parsecsv/php-parsecsv/src/extensions/DatatypeTrait.php',
         'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
         'PhpParser\\Autoloader' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Autoloader.php',
         'PhpParser\\Builder' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder.php',
@@ -2818,9 +2806,6 @@ class ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b
         'Statamic\\Addons\\Collection\\CollectionTags' => __DIR__ . '/../..' . '/bundles/Collection/CollectionTags.php',
         'Statamic\\Addons\\Collection\\CollectionWidget' => __DIR__ . '/../..' . '/bundles/Collection/CollectionWidget.php',
         'Statamic\\Addons\\Collections\\CollectionsFieldtype' => __DIR__ . '/../..' . '/bundles/Collections/CollectionsFieldtype.php',
-        'Statamic\\Addons\\DataImporter\\DataImporterController' => __DIR__ . '/../..' . '/../site/addons/DataImporter/DataImporterController.php',
-        'Statamic\\Addons\\DataImporter\\DataImporterFieldtype' => __DIR__ . '/../..' . '/../site/addons/DataImporter/DataImporterFieldtype.php',
-        'Statamic\\Addons\\DataImporter\\DataImporterListener' => __DIR__ . '/../..' . '/../site/addons/DataImporter/DataImporterListener.php',
         'Statamic\\Addons\\Date\\DateFieldtype' => __DIR__ . '/../..' . '/bundles/Date/DateFieldtype.php',
         'Statamic\\Addons\\Dump\\DumpTags' => __DIR__ . '/../..' . '/bundles/Dump/DumpTags.php',
         'Statamic\\Addons\\Entries\\EntriesTags' => __DIR__ . '/../..' . '/bundles/Entries/EntriesTags.php',
@@ -3020,6 +3005,7 @@ class ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b
         'Statamic\\Config\\Globals' => __DIR__ . '/../..' . '/core/Config/Globals.php',
         'Statamic\\Config\\Roles' => __DIR__ . '/../..' . '/core/Config/Roles.php',
         'Statamic\\Config\\Settings' => __DIR__ . '/../..' . '/core/Config/Settings.php',
+        'Statamic\\Console\\Application' => __DIR__ . '/../..' . '/core/Console/Application.php',
         'Statamic\\Console\\Commands\\AbstractCommand' => __DIR__ . '/../..' . '/core/Console/Commands/AbstractCommand.php',
         'Statamic\\Console\\Commands\\Assets\\AssetsFindCommand' => __DIR__ . '/../..' . '/core/Console/Commands/Assets/AssetsFindCommand.php',
         'Statamic\\Console\\Commands\\Assets\\AssetsGeneratePresetsCommand' => __DIR__ . '/../..' . '/core/Console/Commands/Assets/AssetsGeneratePresetsCommand.php',
@@ -4108,11 +4094,11 @@ class ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit5390dda57ffa7bbe1cedd8c746ccc40b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb6c49246a84e99fb2600505d01c9d9f7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb6c49246a84e99fb2600505d01c9d9f7::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitb6c49246a84e99fb2600505d01c9d9f7::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitb6c49246a84e99fb2600505d01c9d9f7::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitb6c49246a84e99fb2600505d01c9d9f7::$classMap;
 
         }, null, ClassLoader::class);
     }
