@@ -2,3 +2,11 @@ title: Podcast
 fieldset: podcast
 template: episode
 order: date
+columns:
+    -
+      value: title
+      link: true
+    - date
+    - audio
+    - speaker
+    - sermon_series

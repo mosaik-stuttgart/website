@@ -1,10 +1,7 @@
 ---
 primary_card: |
   <h2>Komm vorbei!</h2><p>Wir feiern jeden Sonntag Gottesdienst im Herzen von Stuttgart-Süd. 
-  Dazu gehören inspirierende LiveMusik, mitreißende Messages und starke gemeinsame Zeiten. Du bist herzlich eingeladen dabei zu sein, um mit uns zu feiern!</p>
-show_services: true
-pa_text: 'mehr Infos'
-pa_target: a92323c9-9033-4013-a5af-5f754218a74f
+  Dazu gehören inspirierende LiveMusik, mitreißende Messages und starke gemeinsame Zeiten. Du bist herzlich eingeladen dabei zu sein, um mit uns zu feiern!</p><p>{{ foreach:services }}                    {{ if index !="1" }}|&nbsp; {{ /if }}                    <strong>{{key}}</strong>&nbsp; {{ /foreach:services }}&nbsp;</p><p><a href="/besuche-uns/">mehr Infos</a></p>
 steps:
   -
     type: step
@@ -52,7 +49,9 @@ subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart Süd.'
 seo:
   title: 'Mosaik Church - Deine Kirche in Stuttgart'
   description: 'Deine Freikirche im Herzen von Stuttgart-Süd. Eine leidenschaftliche & menschenorientierte Gemeinde mit vielen jungen Erwachsenen, voller Liebe für Jesus!'
-  priority: '0'
+show_services: true
+pa_text: 'mehr Infos'
+pa_target: a92323c9-9033-4013-a5af-5f754218a74f
 primary_action_text: 'mehr Infos'
 card: |
   ## Komm vorbei
