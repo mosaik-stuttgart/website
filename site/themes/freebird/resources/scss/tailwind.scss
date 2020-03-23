@@ -23,6 +23,7 @@ body {background-color: white}
     background-position: 80% 30%;
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: 1000px;
 }
 #hero.h-screen {height: 90vh}
 .rounded-px {border-radius: 1px}
@@ -168,13 +169,22 @@ main {
 }
 
 .bg-t-gray {
-    background: rgba(0, 0, 0, .095)
+    background: rgba(0, 0, 0, .095);
 }
 .hover\:bg-t-gray:hover {
     background: rgba(0,0,0,.13)
 }
+.font-sans {
+    letter-spacing: -0.01em;
+}
 strong { 
 	@apply font-semibold; 
+}
+.primary_card a {
+    @apply mb-2 mt-2 font-semibold inline-block leading-relaxed px-2 rounded-sm bg-t-gray;
+    &:hover {
+        background: rgba(0,0,0,.13);
+    }
 }
 .bard {
     h1, h2, h3, h4 {
@@ -191,6 +201,10 @@ strong {
     }
     a:not(.button) {
         @apply underline text-gray-800
-    }
+		}
+		ul:not(.mx-auto) {
+			list-style-type: disc;
+			margin-left: 1.25rem;
+		}
 }
 @tailwind utilities;

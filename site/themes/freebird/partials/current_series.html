@@ -6,7 +6,7 @@
     </div>
     
     {{collection:podcasts taxonomy="sermon_series/{current_series}" as="item" show_unpublished="true" }}
-        <ul class="max-w-lg mx-auto pt-1 md:pt-3">
+        <ul class="max-w-lg mx-auto pt-1 md:pt-3 list-none">
             {{item reverse="true" }}
                 {{ if published }}
                 <li class="rounded-sm border border-gray-500 my-2 hover:bg-gray-200 hover:border-gray-500 hover:text-black">
@@ -15,7 +15,7 @@
                 <li class="flex px-4 py-3 rounded-sm border border-gray-300 my-2">
                 {{/if}}
                     <div class="mr-4">
-                        <span class="text-xl font-bold leading-none">{{date format="d"}}</span> <br>
+                        <span class="text-xl font-bold font-mono leading-none">{{date format="d"}}</span> <br>
                         <span class="text-xs leading-none uppercase -mt-1 block">{{ date format="M"}}</span>
                     </div>
                     <span class="text-lg leading-tight inline-flex items-center min-h-full no-underline">{{title}}</span>

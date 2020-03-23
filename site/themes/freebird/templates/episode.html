@@ -62,7 +62,7 @@
         audio: [{
             url: '{{if environment === `production`}}https://chtbl.com/track/81345/{{/if}}{{audio | get:permalink}}',
             mimeType: 'audio/mpeg',
-            size: {{ audio | get:size_bytes }},
+            size: 0{{ audio | get:size_bytes }},
             title: 'Audio MP3'
         }],
         visibleComponents: [

@@ -58,4 +58,16 @@ sections:
                 display: Bild
                 width: 66
                 max_files: 1
+        buttons:
+          - h2
+          - h3
+          - bold
+          - italic
+          - underline
+          - unorderedlist
+          - orderedlist
+          - removeformat
+          - quote
+          - anchor
+          - assets
 taxonomies: true

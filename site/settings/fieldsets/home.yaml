@@ -23,21 +23,7 @@ sections:
         restrict_assets: false
         type: bard
         display: Karte
-      show_services:
-        type: toggle
-        instructions: Globals/Allgemein
-        display: 'Zeige Gottesdienstzeiten'
-        width: 33
-      pa_text:
-        type: text
-        width: 25
-        display: 'Primary Action'
-        default: 'mehr Infos'
-      pa_target:
-        max_items: 1
-        type: pages
-        width: 33
-        display: Zielseite
+        width: 75
       steps:
         type: replicator
         display: 'Unsere Vision'

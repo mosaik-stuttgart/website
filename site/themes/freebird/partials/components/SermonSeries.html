@@ -2,14 +2,16 @@
   <style>
     main {background-color:#f7f6f8 !important;}
   </style>
-  <div class="flex max-w-2xl flex-wrap w-full mx-auto">
+  <div class="max-w-2xl flex-wrap w-full mx-auto">
   {{item}}
-     
-     <div class="my-3 sm:mx-3 h-36 md:w-64 shadow rounded bg-white overflow-hidden">
+     <ul style="list-style-type: none;">
+       <li class="text-4xl font-semibold"><a href="/media/serie/{{slug}}">{{title}}</a></li>
+     </ul>
+     {{# <div class="my-3 sm:mx-3 h-36 md:w-64 shadow rounded bg-white overflow-hidden">
       <a href="/media/serie/{{slug}}" style="text-decoration: none !important;">
-      <img class="w-full h-full object-cover bg-gray-300" src="{{if image}}{{image}}{{else}}https://mosaik-stuttgart.net/fileadmin/_processed_/4/1/csm_Folie__Leben_in_Fuelle_5fdbc930f8.jpg{{/if}}" alt="{{title}}" title="{{title}}">
+      <img class="w-full h-full object-cover bg-gray-300" src="{{if image}}{{image}}{{else}}https://mosaik-stuttgart.net/fileadmin/_processed_/4/1/csm_Folie__Leben_in_Fuelle_5fdbc930f8.jpg{{/if}}" alt="{{title}}" title="{{title}}"> 
     </a>
-    </div>
+    </div> #}}
     
   {{/item}}
   </div>
