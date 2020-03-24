@@ -26,6 +26,7 @@ mix
             path.join(__dirname, 'js/**.js'),
             path.join(__dirname, 'img/**.svg'),
         ],
+        whitelist: ['strong'],
         extensions: ['html', 'js', 'php', 'vue', 'svg'],
   })
   .browserSync({

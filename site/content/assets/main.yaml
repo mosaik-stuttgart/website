@@ -62,3 +62,6 @@ assets:
     title: Gewächshauspflanzen
     alt: Gewächshauspflanzen
     focus: 47-53
+  images/wohnung.jpg:
+    title: Wohnung
+    focus: 50-71
