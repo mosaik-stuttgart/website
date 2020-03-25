@@ -7,3 +7,5 @@ local/storage/*
 local/temp/*
 installer.php
 _resources/
+yarn.lock
+package.lock
