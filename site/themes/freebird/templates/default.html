@@ -8,7 +8,7 @@
             {{ if link | length > 0 }}
                 {{ partial src='button' :text='text' :link='link' :external='external_link'}}
             {{ else }}
-                {{ partial src='button' :text='text' :link='target_page'}}
+                {{ partial src='button' :text='text' :link="target_page" }}
             {{ /if }}
         {{ elseif type == 'html'}}
             {{html}}

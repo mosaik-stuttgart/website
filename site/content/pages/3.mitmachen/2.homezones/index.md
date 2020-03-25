@@ -11,13 +11,13 @@ rich_content:
     target_blank: false
   -
     type: text
-    text: '<p><br></p><h2>Eine Kleingruppe leiten</h2><p>Um eine Kleingruppe zu leiten musst du nicht perfekt sein. Du darfst anderen dienen, indem du einen Ort schaffst, an dem sie Beziehungen knüpfen können. Eine Gruppe zu starten ist nicht schwer. Wähle ein Thema oder eine Aktivität, die dich interessiert, eine Zeit und einen Ort, um sie mit anderen zu teilen. Wir glauben, dass Menschenleben Semester für Semester verändert werden, indem jeder seine nächsten Schritte mit Jesus geht. Als Kleingruppenleiter darfst du in diesem Prozess eine wichtige Rolle spielen! Komm einfach zu unserem Homezoneleiter Training und erfahre mehr!</p><p><br></p><h3>Termine für das Homezoneleiter Training</h3><p><strong>Hier helfen wir dir eine Kleingruppe erfolgreich zu leiten.</strong></p><p>15.9. (So) nach dem zweiten Gottesdienst&nbsp;<br>22.9. (So) nach dem zweiten Gottesdienst</p>'
+    text: '<p><br></p><h2>Eine Kleingruppe leiten</h2><p>Um eine Kleingruppe zu leiten musst du nicht perfekt sein. Du darfst anderen dienen, indem du einen Ort schaffst, an dem sie Beziehungen knüpfen können. Eine Gruppe zu starten ist nicht schwer. Wähle ein Thema oder eine Aktivität, die dich interessiert, eine Zeit und einen Ort, um sie mit anderen zu teilen. Wir glauben, dass Menschenleben Semester für Semester verändert werden, indem jeder seine nächsten Schritte mit Jesus geht. Als Kleingruppenleiter darfst du in diesem Prozess eine wichtige Rolle spielen! Komm einfach zu unserem Homezoneleiter Training und erfahre mehr!</p>'
   -
     type: button
     text: 'Homezone anmelden'
     external_link: true
-    link: /de
-    target_blank: false
+    link: 'https://forms.gle/TQpQTwHwMfcjJUi4A'
+    target_blank: true
   -
     type: text
     text: '<p><br></p><h3>Mögliche Themen für Homezones</h3><p>Jede Homezone sieht anders aus, je nach den Interessen und Leidenschaften der Teilnehmer. Ob Joggen, Bowling oder Bibelstudium, mach aus dem, was du jetzt bereits gerne tust, eine Homezone!</p><p><br></p><h3>Ressourcen</h3><p>Suchst du nach Inhalten, die du mit deiner Kleingruppe behandeln kannst? Wir bieten dir&nbsp;vorgefertigte Ressourcen an und empfehlen gute Bücher, durch die du mit deinen Teilnehmern ins Gespräch kommen kannst.</p><p><strong>Empfohlene</strong><strong>&nbsp;Bücher</strong><br>Hier findest du eine Liste mit guten Büchern zu verschiedenen Themen. Diese kannst du in deiner Kleingruppe verwenden.<br>{{ partial src=''button'' type="pdf" text=''Bücherliste'' link=''/assets/buchempfehlung_mosaik.pdf''}}</p><p><strong>Bibelstudium</strong><br>Wenn du ein Buch der Bibel gemeinsam mit deiner Gruppe studieren willst, haben wir hier einige Tipps für dich.<br>{{ partial src=''button'' type="pdf" text=''Bibelstudium in einer Kleingruppe'' link=''/assets/bibelstudium_in_einer_kleingruppe.pdf''}}</p><p><strong>Hauskreismagazin</strong><br>Das <a href="https://www.hauskreismagazin.net/" target="_blank">Hauskreismagazin</a> ist auf 10 Wochen ausgelegt und behandelt verschiedenste Themen, die durch Fragen und Backgroundinfos beleuchtet werden.</p>'

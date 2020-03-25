@@ -1,4 +1,4 @@
-current_series: sermon_series/leben-in-fuelle
+current_series: sermon_series/mosaik-im-wohnzimmer
 rich_content:
   -
     type: text
@@ -16,7 +16,7 @@ rich_content:
     target_page: aa8ad754-8ff5-463a-9a3d-d141c34de9df
   -
     type: text
-    text: '<p><br></p><p><br></p><h3><strong>Aktuelle Predigtreihe</strong></h3><p>{{partial:current_series current_series="nachfolge"}}<br></p><p><br></p>'
+    text: '<p><br></p><p><br></p><h3><strong>Aktuelle Predigtreihe</strong></h3><p>{{partial:current_series current_series="mosaik-im-wohnzimmer"}}<br></p><p><br></p>'
 header_image: /assets/gottesdienst.jpg
 title: Gottesdienst
 fieldset: services
