@@ -65,7 +65,7 @@ homezones:
   -
     type: homezone
     title: 'Deine Crew'
-    full: false
+    full: true
     target_group: 'Junge Erwachsene'
     topic: 'Wo mischen wir uns ein?'
     location: 'In Stuttgart, um Stuttgart und um Stuttgart herum'
