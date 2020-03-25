@@ -58,6 +58,12 @@ sections:
                 display: Bild
                 width: 66
                 max_files: 1
+          html:
+            display: HTML
+            fields:
+              html:
+                type: textarea
+                display: HTML
         buttons:
           - h2
           - h3

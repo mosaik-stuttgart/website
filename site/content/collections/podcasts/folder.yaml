@@ -7,6 +7,4 @@ columns:
       value: title
       link: true
     - date
-    - audio
-    - speaker
     - sermon_series

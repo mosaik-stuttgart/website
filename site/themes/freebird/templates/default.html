@@ -1,5 +1,5 @@
 {{partial:header}}
-<main class="bg-white pt-6 md:pt-12">
+<main class="bg-white pt-6 md:pt-10">
 <div class="bard px-4 max-w-2xl mx-auto pb-24">
     {{ rich_content }} 
         {{ if type == 'text'}}
@@ -10,6 +10,8 @@
             {{ else }}
                 {{ partial src='button' :text='text' :link='target_page'}}
             {{ /if }}
+        {{ elseif type == 'html'}}
+            {{html}}
         {{ elseif type == 'image'}}
             <picture class="my-2 md:my-4 w-full block bg-gray-200">
                 <source type="image/webp" srcset="{{ glide :src='image' w='1024' q='80' fm='webp' }} 1024w, {{ glide :src='image' w='512' q='80' fm='webp' }} 512w" sizes="100%"/>

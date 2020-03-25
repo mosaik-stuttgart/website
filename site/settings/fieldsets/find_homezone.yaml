@@ -33,11 +33,11 @@ sections:
                 replicator_preview: false
               weekday:
                 options:
-                  monday: Montag
-                  tuesday: Dienstag
-                  wednesday: Mittwoch
-                  thursday: Donnerstag
-                  friday: Freitag
+                  Montag: Montag
+                  Dienstag: Dienstag
+                  Mittwoch: Mittwoch
+                  Donnerstag: Donnerstag
+                  Freitag: Freitag
                 type: select
                 width: 33
                 display: Wochentag

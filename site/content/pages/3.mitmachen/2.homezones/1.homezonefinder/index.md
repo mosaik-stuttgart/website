@@ -2,207 +2,196 @@ homezones:
   -
     type: homezone
     title: 'Mosaik Kickers'
-    topic: 'Inspirierende Persönlichkeiten'
-    target_group: Fußballbegeisterte
-    location: 'Fussballhalle Kornwestheim'
+    target_group: 'Alle Fußballbegeisterte, auch ohne Messi-Skills'
+    location: Kornwestheim/Ludwigsburg
     weekday: Montag
     time: '19:00'
     biweekly: true
     tags:
+      - Fußball
+      - Message
       - Gemeinschaft
-      - Fun
-    contact_person: 'Simon Wittrock, Etienne Graf'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=458#/'
+    contact_person: 'Etienne Graf, Simon Wittrock'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/458'
     full: false
   -
     type: homezone
-    title: PRESENT
-    topic: 'Leben teilen, Gemeinschaft haben, Gottes Gegenwart suchen'
-    target_group: 'Jeder ist willkommen gerne auch Pärchen'
-    location: 'Unterschiedlich (wir wohnen in Möhringen können aber gern rotieren)'
-    weekday: Montag
+    title: 'All you can meet'
+    full: true
+    target_group: 'jung, dynamisch, gutaussehend - also DU! ;)'
+    topic: 'Die 12 Follower und Jesus'
+    location: 'Wohnzimmer und Dachterrassen in Stuttgart'
+    weekday: Dienstag
     time: '19:00'
-    biweekly: true
+    biweekly: false
+    tags:
+      - Tiefe
+      - Aktionen
+      - 'richtig gutes Essen'
+    contact_person: 'Jana Baumann, Ramona Kiesewalter, Silas Kettner'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/430'
+  -
+    type: homezone
+    title: 'Challenge Accepted!'
+    topic: 'Herausfordernder Lebensstil'
+    target_group: Alle
+    location: 'Wohnzimmer in und um Stuttgart'
+    weekday: Dienstag
+    time: '19:00'
+    biweekly: false
     tags:
       - Essen
-      - Alltag
-      - Tiefe
-    contact_person: 'Debora und Fabian Knoos'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=455'
+      - Nachfolge
+      - 'Alltag teilen'
+    contact_person: 'Simon Garrecht, Antonia Eschenbacher'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/492'
     full: false
+  -
+    type: homezone
+    title: BroZone
+    full: false
+    target_group: Männer
+    topic: 'Du bist ein Mann Gottes!'
+    location: 'Dort wo das Abenteuer auf uns wartet'
+    weekday: Dienstag
+    time: '19:00'
+    biweekly: false
+    tags:
+      - Aktiv
+      - Brutal
+      - Charakter
+    contact_person: 'Klemens Boltenhagen, Josias Göhner'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/498'
+  -
+    type: homezone
+    title: 'Deine Crew'
+    full: false
+    target_group: 'Junge Erwachsene'
+    topic: 'Wo mischen wir uns ein?'
+    location: 'In Stuttgart, um Stuttgart und um Stuttgart herum'
+    weekday: Dienstag
+    time: '19:00'
+    biweekly: false
+    tags:
+      - Freundschaft
+      - Action
+      - Tiefgang
+    contact_person: 'David Hermann, Christina Maiwald, Silas Krause'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/507'
+  -
+    type: homezone
+    title: 'deep talk'
+    full: true
+    target_group: 'Jede*r der die Bereitschaft mitbringt auf "deep talk"'
+    topic: 'Weisheit der Bibel'
+    location: 'Römerstraße 10, Stuttgart'
+    weekday: Dienstag
+    time: '19:00'
+    biweekly: false
+    tags:
+      - Austausch
+      - Gemeinschaft
+      - 'persönliches Wachstum'
+    contact_person: 'Markus und Diana Krampitz'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/509'
   -
     type: homezone
     title: 'Moms & Kids'
-    topic: 'Freiheit erleben'
-    target_group: 'Mamas mit Kids'
-    location: 'Stuttgart (wechselnd)'
-    weekday: Dienstag
-    time: '10:00'
-    biweekly: true
+    topic: 'Happy Life'
+    target_group: Mamas
+    location: 'In deinem Wohnzimmer ;)'
+    weekday: Mittwoch
+    time: '20:00'
+    biweekly: false
     tags:
-      - 'Small Talk'
-      - Frühstück
-      - 'Leben teilen'
+      - 'Alltag teilen'
+      - 'Freundschaft leben'
+      - 'Geistlich wachsen'
     contact_person: 'Sonja Lempenauer'
     full: false
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=427'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/427'
   -
     type: homezone
-    title: 'Thank God it''s Tuesday'
-    full: false
-    target_group: 'Junge Erwachsene, Du!'
-    topic: 'Glauben leben im Alltag'
-    location: wechselnd
-    weekday: Dienstag
-    time: '19:00'
-    biweekly: false
-    tags:
-      - Essen
-      - Alltag
-      - Tiefe
-    contact_person: 'Marie Bahr, Stefan Bührle'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=442'
-  -
-    type: homezone
-    title: Alltagshelden
-    full: false
-    target_group: 'Junge Erwachsene (Studenten, 20er, 30er)'
-    topic: 'Helden in der Bibel'
-    location: wechselnd
-    weekday: Mittwoch
-    time: '19:00'
-    biweekly: false
-    tags:
-      - Austausch
-      - Essen
-      - Aktionen
-    contact_person: 'David Hermann, Elli Recknagel'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=436'
-  -
-    type: homezone
-    title: Sofaecke
+    title: 'Unlock: The Haverim Project'
     full: true
-    target_group: '20er, 30er'
-    topic: 'Vergessene Helden der Bibel'
-    location: 'Stuttgart Nord'
+    target_group: Alle
+    topic: 'Gemeinsam die Bibel entdecken'
+    location: Unterschiedlich
     weekday: Mittwoch
     time: '19:00'
     biweekly: false
     tags:
-      - Spaß
-      - Austausch
-      - Aktionen
-      - Wachsen
-    contact_person: 'Sonja und Simon Lempenauer'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=433'
+      - Bibelliebe
+      - Gemeinschaft
+      - 'Gutes Essen'
+    contact_person: 'Antje Faltis, Nathalie Müller, Christian Schöppe'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/445'
   -
     type: homezone
-    title: 'Mosaik Boulderer / Kletterer'
+    title: Deeper
     full: false
-    target_group: 'Alle, die gerne klettern oder bouldern'
-    location: 'DAV Kletter- und Boulderzentrum Stuttgart'
-    weekday: Mittwoch
-    time: '19:00'
-    biweekly: true
-    tags:
-      - Bouldern
-      - Klettern
-      - Einladen
-    contact_person: 'Hans Feder, Fabian Knoos'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=448'
-  -
-    type: homezone
-    title: 'all you can meet'
-    full: false
-    target_group: 'jung, dynamisch, gutaussehend - also DU! ;)'
-    topic: 'Abraham, Isaak & Jakob - unsere Glaubensväter'
-    location: 'Wohnzimmer und Dachterrassen in Stuttgart'
+    target_group: 'Jeder der Bock hat sich mit grundlegenden Glaubensfragen zu beschäftigen'
+    topic: 'Glaube besser kennenlernen'
+    location: 'Stuttgart West'
     weekday: Mittwoch
     time: '19:00'
     biweekly: false
     tags:
-      - Tiefe
-      - Aktion
-      - 'richtig gutes Essen'
-    contact_person: 'Jana Baumann, Ramona Kiesewalter, Klemens Boltenhagen'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=430'
+      - Glaubensfragen
+      - Essen
+      - Hangout
+    contact_person: 'Simon Garrecht, Katharina Wagner'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/495'
   -
     type: homezone
-    title: 'Nord Zone'
+    title: Nord-Zone
     full: false
-    target_group: 'Mitte 20er bis Mitte 30er'
-    topic: 'Leben mit Vision'
-    location: wechselnd
+    target_group: 'Aus dem Norden und darüber hinaus'
+    topic: 'Gemeinschaft, Essen, gute Gespräche'
+    location: 'Kreis Ludwigsburg und Stuttgarter Norden'
     weekday: Mittwoch
     time: '19:00'
     biweekly: false
     tags:
-      - Berufung
-      - Vision
-      - Tiefgang
-    contact_person: 'Senta Wittrock, Magdalenda Käser'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=439'
+      - Gemeinschaft
+      - Essen
+      - 'Gute Gespräche'
+    contact_person: 'Senta Wittrock, Elia Weberruss'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/439'
   -
     type: homezone
-    title: '0711'
-    full: true
-    target_group: 'Junge Erwachsene (20er, 30er)'
-    topic: 'Christsein im Alltag - wachsen im Glauben'
-    location: 'Stuttgart Süd'
+    title: Friendzone
+    full: false
+    target_group: 'Junge Erwachsene'
+    topic: 'Identity - was es heißt Christ zu sein'
+    location: Unterschiedlich
     weekday: Mittwoch
     time: '19:00'
     biweekly: false
     tags:
-      - 'Glauben leben'
-      - 'Alltag teilen'
-      - Gemeinschaftsaktionen
-    contact_person: 'Simon Garrecht, Antonia Eschenbacher, Elisa Köhler'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=454'
+      - Abhängen
+      - 'Deep Talk'
+      - Essen
+    contact_person: 'Silas Kettner'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/501'
   -
     type: homezone
-    title: 'Unlock - The Haverim Project'
+    title: Prayerzone
     full: false
-    target_group: alle
-    topic: 'Nach der Haverim-Methode die Bibel studieren'
-    location: 'Wohnzimmer in und um Stuttgart'
-    weekday: Mittwoch
+    target_group: 'Du, genau du! - Alle'
+    topic: 'Gebet verändert mehr als nur Situationen. Es verändert dich.'
+    location: 'Mosaik Church'
+    weekday: Freitag
     time: '19:00'
-    biweekly: false
-    tags:
-      - 'Gemeinsam Bibel entdecken'
-    contact_person: 'Antje Faltig, Jonas Brocksieper'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=445'
-  -
-    type: homezone
-    title: 'Wake up'
-    full: false
-    target_group: alle
-    location: 'Stuttgart Süd'
-    weekday: Donnerstag
-    time: '06:30'
     biweekly: false
     tags:
       - Gebet
-      - Frühstück
-      - Gemeinschaft
-    contact_person: 'Christian Schöppe, Simon Lempenauer'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=451'
-  -
-    type: homezone
-    title: 'Born to be wild'
-    full: false
-    target_group: 'Männer 20er und 30er'
-    location: 'Stuttgart und Umgebung'
-    weekday: Donnerstag
-    time: '19:00'
-    biweekly: true
-    tags:
-      - Männer
-      - Aktion
-      - 'Real Talk'
-    contact_person: 'Simon Lempenauer'
-    churchtoolslink: 'https://mosaik-church.church.tools/?q=externmapview&g_id=425'
-title: Homezonefinder
+      - Tiefgang
+      - Vision
+      - Hangout
+    contact_person: 'Amiel Sivarajah, Sarah Eichhorn, Yala Sivarajah'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/504'
+title: 'Homezone finden'
 fieldset: find_homezone
 template: find-homezone
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
