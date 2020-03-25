@@ -42,3 +42,6 @@ redactor:
 yaml_parser: symfony
 send_powered_by_header: true
 ensure_unique_ids: true
+license_key: 418279c0-97e0-46ea-b08c-383b3ceeeb79
+csrf_exclude: {  }
+php_max_memory_limit: null

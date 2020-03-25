@@ -1,0 +1,5 @@
+environments:
+  - production
+git_push: true
+git_username: mosaikchurch
+git_email: admin@mosaik.email
