@@ -6,7 +6,8 @@ rich_content:
     type: button
     text: 'Jetzt anmelden'
     external_link: false
-    target_page: faa47d88-a7dc-45d9-9f1d-d46deafeed43
+    target_page: b4818062-4e78-4b28-b651-24eda6bfcc8f
+    target_blank: false
 header_image: /assets/images/next-steps.jpg
 title: 'Next Steps'
 fieldset: default
