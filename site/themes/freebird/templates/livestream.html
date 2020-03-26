@@ -1,12 +1,11 @@
-{{partial:header}}
-<main class="bg-white pt-6 md:pt-10">
+<main class="text-gray-100 pt-10 md:pt-16">
 <div class="bard px-4 max-w-2xl mx-auto pb-24">
     {{ rich_content }} 
         {{ if type == 'text'}}
             {{text | markdown}}
         {{ elseif type == 'button' }}
             {{ if link | length > 0 }}
-                {{ partial src='button' :text='text' :link='link' :external='target_blank'}}
+                {{ partial src='button' :text='text' :link='link' :external='external_link'}}
             {{ else }}
                 {{ partial src='button' :text='text' :link="target_page" }}
             {{ /if }}
@@ -24,3 +23,9 @@
     {{ /rich_content}}
 </div>
 </main>
+<script src="/site/themes/freebird/node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
+<style>
+    body { background-color: #121119fc; }
+    p em a { color: #63b3ed !important; }
+    h2 { margin-bottom: 0.25rem; }
+</style>

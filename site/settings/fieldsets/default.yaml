@@ -1,5 +1,8 @@
 title: Default
 taxonomies: false
+template: 
+  type: hidden
+  default: default
 sections:
   main:
     display: Main

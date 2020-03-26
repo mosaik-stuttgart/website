@@ -69,6 +69,7 @@ module.exports = {
     },
   },
   variants: {
-    cursor: ['responsive', 'hover', 'focus']
+    cursor: ['responsive', 'hover', 'focus'],
+    backgroundColor: ['responsive', 'hover', 'focus', 'active']
   }
 }

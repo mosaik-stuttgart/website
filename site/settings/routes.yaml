@@ -11,6 +11,11 @@ routes:
   /podcast/feed:
     layout: feed
     content_type: atom
+  /live:
+    template: livestream
+    load: /besuche-uns/live
+  /besuche-uns/gottesdienst:
+    redirect: /live
 collections:
   podcasts: '/media/{slug}'
 taxonomies:
