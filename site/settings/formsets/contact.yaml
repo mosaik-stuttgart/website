@@ -2,7 +2,7 @@ title: Kontakt
 fields:
   name:
     display: Name
-    validate: 'required'
+    validate: required
   email:
     display: 'E-Mail Adresse'
     validate: required|email
@@ -16,3 +16,8 @@ metrics:
   -
     type: total
     label: Gesamt
+email:
+  -
+    to: simonlempenauer@me.com
+    reply_to: '{{email}}'
+    subject: 'Nachricht über das Website-Formular'

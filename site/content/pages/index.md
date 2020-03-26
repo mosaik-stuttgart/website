@@ -1,7 +1,5 @@
 ---
-primary_card: |
-  <h2>Komm vorbei!</h2><p>Wir feiern jeden Sonntag Gottesdienst im Herzen von Stuttgart-Süd. 
-  Dazu gehören inspirierende LiveMusik, mitreißende Messages und starke gemeinsame Zeiten. Du bist herzlich eingeladen dabei zu sein, um mit uns zu feiern!</p><p>{{ foreach:services }}                    {{ if index !="1" }}|&nbsp; {{ /if }}                    <strong>{{key}}</strong>&nbsp; {{ /foreach:services }}&nbsp;</p><p><a href="/besuche-uns/">mehr Infos</a></p>
+primary_card: '<h2>Wichtige Info!</h2><p>Aufgrund der aktuellen Situation finden zurzeit keine Gottesdienste in der Römerstraße statt. Stattdessen bringen wir den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.<br><a href="/live/">Zum Livestream</a></p><p>Viele weitere Infos und Bible Studies teilen wir momentan über Instagram.<br><a href="https://instagram.com/mosaik_church" target="_blank">Mosaik Church auf Instagram</a><br><br></p><p>Wenn du momentan aufgrund von COVID-19 in einer schwierigen Situation steckst und Hilfe brauchst, schreib uns einfach eine E-Mail. Wir werden sehen, wie wir dir helfen können.<br><a href="/kontakt/">Nachricht schreiben</a></p>'
 steps:
   -
     type: step

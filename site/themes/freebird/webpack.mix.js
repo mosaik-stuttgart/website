@@ -18,6 +18,7 @@ mix
   .purgeCss({
     enabled: true,
         globs: [
+          '../../content/**/*',
             path.join(__dirname, 'layouts/*.html'),
             path.join(__dirname, 'templates/*.html'),
             path.join(__dirname, 'templates/**/*.html'),
@@ -27,7 +28,7 @@ mix
             path.join(__dirname, 'img/**.svg'),
         ],
         whitelist: ['strong'],
-        extensions: ['html', 'js', 'php', 'vue', 'svg'],
+        extensions: ['html', 'js', 'php', 'yaml', 'svg', 'md'],
   })
   .browserSync({
     proxy: 'mosaik.test',

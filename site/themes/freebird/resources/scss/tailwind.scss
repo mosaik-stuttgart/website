@@ -188,7 +188,7 @@ strong {
 }
 .bard {
     h1, h2, h3, h4 {
-			@apply leading-tight
+			@apply leading-tight;
 		}
     h2 {
         @apply font-semibold text-3xl
@@ -199,12 +199,18 @@ strong {
     p {
         @apply py-2
     }
-    a:not(.button) {
+    a:not(.button):not(.no-underline) {
         @apply underline text-gray-800
-		}
-		ul:not(.mx-auto) {
-			list-style-type: disc;
-			margin-left: 1.25rem;
-		}
+    }
+    ul:not(.mx-auto) {
+        list-style-type: disc;
+        margin-left: 1.25rem;
+    }
+    ol {
+        list-style-type: decimal;
+        padding-left: 1rem;
+    }
 }
+
+@import 'thirdpary';
 @tailwind utilities;
