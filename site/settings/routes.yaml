@@ -10,7 +10,7 @@ routes:
   /reset-password: auth/password-reset
   /podcast/feed:
     layout: feed
-    content_type: rss
+    content_type: application/rss+xml
   /live:
     template: livestream
     load: /besuche-uns/live
