@@ -2,6 +2,7 @@ const mix = require('laravel-mix')
 require('laravel-mix-purgecss')
 
 mix
+  .setPublicPath('./')
   .js('resources/js/freebird.js', 'js')
   .sass('resources/scss/tailwind.scss', 'css')
   .options({
@@ -30,6 +31,7 @@ mix
         whitelist: ['strong'],
         extensions: ['html', 'js', 'php', 'yaml', 'svg', 'md'],
   })
+  .version()
   .browserSync({
     proxy: 'mosaik.test',
     files: ['./**/*', '../../content/**/*'],
