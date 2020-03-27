@@ -10,3 +10,4 @@ columns:
     link: true
   - slug
   - count
+seo: false

@@ -47,6 +47,7 @@ subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart Süd.'
 seo:
   title: 'Mosaik Church - Deine Kirche in Stuttgart'
   description: 'Deine Freikirche im Herzen von Stuttgart-Süd. Eine leidenschaftliche & menschenorientierte Gemeinde mit vielen jungen Erwachsenen, voller Liebe für Jesus!'
+  image: /assets/gottesdienst.jpg
   site_name: false
 show_services: true
 pa_text: 'mehr Infos'
