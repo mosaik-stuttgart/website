@@ -42,18 +42,16 @@
         <pubDate>{{ date format="D, d M o 13:00:00 GMT"}}</pubDate>
         <enclosure url="https://chtbl.com/track/81345/{{audio | get:permalink}}" length="{{audio | get:size_bytes}}" type="audio/mpeg"/>
         <itunes:summary>{{description}}</itunes:summary>
-        <!--itunes:subtitle></itunes:subtitle-->
         <itunes:explicit>No</itunes:explicit>
         <itunes:duration>{{audio get="size_bytes" divide="10590" ceil="true"}}</itunes:duration>
         <itunes:image href="{{ podcast:url }}{{podcast:image}}"/>
-        <!-- <itunes:episode></itunes:episode> -->
         <itunes:episodeType>full</itunes:episodeType>
         <content:encoded>{{ shownotes | cdata }}</content:encoded>
-        {{ relate:speaker }}
+        {{# relate:speaker }}
         <atom:contributor>
             <atom:name>{{title}}</atom:name>
         </atom:contributor>
-        {{ /relate:speaker }}
+        {{ /relate:speaker #}}
     </item>
     {{/episode}}
     {{/collection:podcasts}}
