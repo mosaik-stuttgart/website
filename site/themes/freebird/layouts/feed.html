@@ -1,7 +1,7 @@
 {{xml_header}}<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0">
 <channel>
     <title>{{ podcast:name | cdata }}</title>
-    <description>{{ podcast:description | cdata }}></description>
+    <description>{{ podcast:description | cdata }}</description>
     <link>{{ podcast:url }}</link>
     <image>
         <url>{{ podcast:url }}{{ podcast:image }}</url>
@@ -24,10 +24,10 @@
     </itunes:owner>
     <itunes:explicit>No</itunes:explicit>
     <itunes:category text="Religion &amp; Spirituality"/>
-    <itunes:image href="{{ podcast:image }}"/>
+    <itunes:image href="{{ podcast:url }}{{ podcast:image }}"/>
     <itunes:keywords>{{ podcast:keywords }}</itunes:keywords>
     <googleplay:author>Mosaik Church Stuttgart</googleplay:author>
-    <googleplay:image href="{{ podcast:image }}"/>
+    <googleplay:image href="{{ podcast:url }}{{ podcast:image }}"/>
     <googleplay:summary>{{ podcast:description }}</googleplay:summary>
     <googleplay:explicit>No</googleplay:explicit>
 
@@ -45,7 +45,7 @@
         <!--itunes:subtitle></itunes:subtitle-->
         <itunes:explicit>No</itunes:explicit>
         <itunes:duration>{{audio get="size_bytes" divide="10590" ceil="true"}}</itunes:duration>
-        <itunes:image href="{{podcast:image}}"/>
+        <itunes:image href="{{ podcast:url }}{{podcast:image}}"/>
         <!-- <itunes:episode></itunes:episode> -->
         <itunes:episodeType>full</itunes:episodeType>
         <content:encoded>{{ shownotes | cdata }}</content:encoded>

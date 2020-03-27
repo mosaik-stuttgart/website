@@ -10,8 +10,9 @@ defaults:
   site_name_separator: '|'
   description: '@seo:content'
   image: '@seo:header_image'
-  priority: 0.5
+  priority: '1.0'
   change_frequency: weekly
+  google_verification: l4zxyB5NNjo8krQQup0fo1zorrBCEzS45oQpU9vq0L4
 humans:
   enabled: true
   content: |

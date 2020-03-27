@@ -98,8 +98,5 @@ sections:
       subtitle:
         type: text
         display: Tagline
-      analytics:
-        type: google_analytics
-        display: Analytics
 taxonomies: false
 title: Home

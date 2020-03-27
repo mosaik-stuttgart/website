@@ -6,7 +6,7 @@ rich_content:
       <div class="-mx-1 sm:-mx-2 md:-mx-4 pb-6 md:pb-2 "><lite-youtube videoid="qhVwziZgPFU" not-onclick="window.open('https://www.youtube.com/watch?v=qhVwziZgPFU&rel=0', '_blank')" class="mt-8 md:mt-10 md:mb-8" rel="0"></lite-youtube></div>
   -
     type: text
-    text: '<h2>Livestream startet am Sonntag um 11 Uhr</h2><p>Aufgrund der aktuellen Situation bieten wir Sonntags keinen Gottesdienst in der Römerstraße an, sondern bringen den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.</p><p><em>Du kannst die Mosaik Church aktuell nur über PayPal oder Überweisung unterstützen. Nähere Infos dazu findest du&nbsp;<a href="/geben">hier.</a></em></p><p>Wir haben auch eine Playlist vorbereitet, damit du nach dem Livestream mit uns zusammen weiter beten und Gott groß machen kannst.</p>'
+    text: '<h2>Livestream startet am Sonntag um 11 Uhr</h2><p>Aufgrund der aktuellen Situation bieten wir Sonntags keinen Gottesdienst in der Römerstraße an, sondern bringen den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.</p><p><em>Du kannst die Mosaik Church aktuell nur über PayPal oder Überweisung unterstützen. Nähere Infos dazu findest du&nbsp;<a href="/geben">hier</a>.</em></p><p>Wir haben auch eine Playlist vorbereitet, damit du nach dem Livestream mit uns zusammen weiter beten und Gott groß machen kannst.</p>'
   -
     type: html
     html: |
@@ -48,6 +48,7 @@ rich_content:
   -
     type: text
     text: '<p><br>Hier ein paar Vorschläge und Ideen, wie du diesen Tag erleben könntest:<br></p><ol><li>Du schnappst dir deine Bibel und setzt dich entspannt mit einem Kaffee vor den Bildschirm.</li><li>Ihr tut euch als WG oder im kleinen Kreis zusammen und hängt eine starke Gebets- und Lobpreiszeit an den Gottesdienst hinten dran.</li><li>Ihr nutzt die Zeit als Ehepaar um euch im Anschluss an die Predigt auszutauschen und zusammen zu beten.</li><li>Du motivierst Freunde, die vom Glauben noch nicht so viel wissen, sich einfach auch vor ihren Bildschirm zu setzen und dabei zu sein.</li></ol>'
+header_image: /assets/images/mosaik_im_wohnzimmer.jpg
 seo:
   title: 'Online Gottesdienst - Livestream'
 title: Gottesdienst

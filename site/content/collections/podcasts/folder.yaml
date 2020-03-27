@@ -3,8 +3,13 @@ fieldset: podcast
 template: episode
 order: date
 columns:
-    -
-      value: title
-      link: true
-    - date
-    - sermon_series
+  -
+    value: title
+    link: true
+  - date
+  - sermon_series
+seo:
+  sitemap: true
+  show_future: true
+  show_past: true
+  priority: '0.8'

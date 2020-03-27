@@ -3,6 +3,9 @@ rich_content:
     type: text
     text: '<p>{{partial:contact_form}}<br></p>'
 header_image: /assets/images/kontakt.jpg
+seo:
+  robots: false
+  sitemap: false
 title: Kontakt
 formset: default
 fieldset: default
