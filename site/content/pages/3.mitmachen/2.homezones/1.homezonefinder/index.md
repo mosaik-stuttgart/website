@@ -145,7 +145,7 @@ homezones:
   -
     type: homezone
     title: Nord-Zone
-    full: false
+    full: true
     target_group: 'Aus dem Norden und darüber hinaus'
     topic: 'Gemeinschaft, Essen, gute Gespräche'
     location: 'Kreis Ludwigsburg und Stuttgarter Norden'
