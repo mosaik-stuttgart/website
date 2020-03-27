@@ -18,11 +18,9 @@
     "instant.page": "^3.0.0",
     "laravel-mix": "^4.0.15",
     "laravel-mix-purgecss": "^4.2.0",
-    "less": "^3.9.0",
-    "less-loader": "^4.1.0",
     "lite-youtube-embed": "^0.0.0",
     "sass": "^1.22.1",
-    "sass-loader": "7.*",
+    "sass-loader": "8.*",
     "tailwindcss": "^1.2.0",
     "vue-template-compiler": "^2.6.10"
   }

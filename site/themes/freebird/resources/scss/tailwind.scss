@@ -175,7 +175,7 @@ main {
     background: rgba(0,0,0,.13)
 }
 .font-sans {
-    letter-spacing: -0.01em;
+    letter-spacing: -0.0085em;
 }
 strong { 
 	@apply font-semibold; 
@@ -209,8 +209,11 @@ strong {
     ol {
         list-style-type: decimal;
         padding-left: 1rem;
+        li {
+            margin-bottom: 0.5rem;
+        }
     }
 }
 
-@import 'thirdpary';
+@import 'thirdparty';
 @tailwind utilities;
