@@ -18,6 +18,12 @@ routes:
     redirect: /live
   /mitmachen/homezones/homezone-finden.html:
     redirect: /mitmachen/homezones/homezonefinder
+  /medien/predigten.html:
+    redirect: /media/predigten
+  /homezones.html:
+    redirect: /mitmachen/homezones
+  /mitmachen/sommerbibelschule.html:
+    redirect: /mitmachen/sommerbibelschule
 collections:
   podcasts: '/media/{slug}'
 taxonomies:
