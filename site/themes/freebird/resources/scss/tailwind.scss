@@ -176,6 +176,7 @@ main {
 }
 .font-sans {
     letter-spacing: -0.0085em;
+    p { letter-spacing: -0.01em;}
 }
 strong { 
 	@apply font-semibold; 

@@ -17,7 +17,7 @@ homezones:
   -
     type: homezone
     title: 'All you can meet'
-    full: true
+    full: false
     target_group: 'jung, dynamisch, gutaussehend - also DU! ;)'
     topic: 'Die 12 Follower und Jesus'
     location: 'Wohnzimmer und Dachterrassen in Stuttgart'
@@ -65,7 +65,7 @@ homezones:
   -
     type: homezone
     title: 'Deine Crew'
-    full: true
+    full: false
     target_group: 'Junge Erwachsene'
     topic: 'Wo mischen wir uns ein?'
     location: 'In Stuttgart, um Stuttgart und um Stuttgart herum'
@@ -113,7 +113,7 @@ homezones:
   -
     type: homezone
     title: 'Unlock: The Haverim Project'
-    full: true
+    full: false
     target_group: Alle
     topic: 'Gemeinsam die Bibel entdecken'
     location: Unterschiedlich

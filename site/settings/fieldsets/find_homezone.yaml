@@ -74,10 +74,7 @@ sections:
         display: Homezones
   sidebar:
     display: Meta
-    fields:
-      google_analytics:
-        type: google_analytics
-        display: 'Google Analytics'
+    fields: {  }
 taxonomies: false
 title: Homezonefinder
 hide: true
