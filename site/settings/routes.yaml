@@ -16,6 +16,8 @@ routes:
     load: /besuche-uns/live
   /besuche-uns/gottesdienst:
     redirect: /live
+  /mitmachen/homezones/homezone-finden.html:
+    redirect: /mitmachen/homezones/homezonefinder
 collections:
   podcasts: '/media/{slug}'
 taxonomies:
