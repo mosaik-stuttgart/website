@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 330 330" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" xmlns="http://www.w3.org/2000/svg">
+<svg id="favicon" viewBox="0 0 330 330" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" xmlns="http://www.w3.org/2000/svg">
   <style>
     path { fill: black;}
     @media (prefers-color-scheme: dark) {
       path { fill: white;}
     }
-    {{if environment == 'dev'}} path {fill: darkcyan} {{/if}}
   </style>
   <path d="M 304.072 270.616 C 305.786 270.616 307.433 268.809 307.086 267.161 L 259.743 56.361 C 259.205 53.98 256.476 53.22 254.891 54.805 L 43.588 265.713 C 41.84 267.541 42.983 270.578 45.605 270.616 L 304.072 270.616 Z M 156.937 140.348 C 157.887 139.398 158.077 137.527 156.841 136.289 L 75.614 54.902 C 74.061 53.348 71.177 53.474 70.542 56.645 L 22.685 267.126 C 21.986 270.17 25.696 271.691 27.626 269.752 L 156.937 140.348 Z"  fill-rule="nonzero" style=""/>
 </svg>
