@@ -5,6 +5,7 @@ bower_components/
 local/cache/*
 local/storage/*
 local/temp/*
+site/storage/forms/*
 installer.php
 _resources/
 yarn.lock
