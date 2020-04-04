@@ -8,7 +8,7 @@
         <title>{{ podcast:name }}</title>
         <link>{{ podcast:url }}</link>
     </image>
-    <!--generator></generator-->
+
     <lastBuildDate>{{last_modified format="r"}}</lastBuildDate>
     <atom:link href="{{ podcast:url }}/podcast/feed" rel="self" type="application/rss+xml"/>
     <author><![CDATA[Mosaik Church Stuttgart]]></author>
@@ -31,8 +31,7 @@
     <googleplay:summary>{{ podcast:description }}</googleplay:summary>
     <googleplay:explicit>No</googleplay:explicit>
 
-    {{collection:podcasts as="episode"}}
-    {{episode scope="tag"}}
+    {{collection:podcasts}}
     <item>
         <title>{{ title | cdata}}</title>
         <description>{{ description | cdata }}</description>
@@ -48,7 +47,6 @@
         <itunes:episodeType>full</itunes:episodeType>
         <content:encoded>{{ shownotes | cdata }}</content:encoded>
     </item>
-    {{/episode}}
     {{/collection:podcasts}}
 </channel>
 </rss>
