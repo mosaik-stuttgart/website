@@ -1,5 +1,4 @@
 routes:
-  /blog/tags: blog/taxonomies
   /login:
     redirect: /cp
   /users: user/index
