@@ -3,7 +3,7 @@ rich_content:
     type: html
     html: |
       <style>lite-youtube { background-image: url('/assets/images/mosaik_im_wohnzimmer.jpg') !important } </style>
-      <div class="-mx-1 sm:-mx-2 md:-mx-4 pb-6 md:pb-2 "><lite-youtube videoid="kxfp7b7yUU0" onclick="window.open('https://www.youtube.com/watch?v=kxfp7b7yUU0&rel=0', '_blank')" class="mt-8 md:mt-10 md:mb-8" rel="0"></lite-youtube></div>
+      <div class="-mx-1 sm:-mx-2 md:-mx-4 pb-6 md:pb-2 "><lite-youtube videoid="Kpewij5Vj1w" onclick="window.open('https://www.youtube.com/watch?v=Kpewij5Vj1w&rel=0', '_blank')" class="mt-8 md:mt-10 md:mb-8" rel="0"></lite-youtube></div>
   -
     type: text
     text: '<h2>Livestream startet am Sonntag um 11 Uhr</h2><p>Aufgrund der aktuellen Situation bieten wir Sonntags keinen Gottesdienst in der Römerstraße an, sondern bringen den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.</p><p><em>Du kannst die Mosaik Church aktuell nur über PayPal oder Überweisung unterstützen. Nähere Infos dazu findest du&nbsp;<a href="/geben">hier</a>.</em></p><p>Wir haben auch eine Playlist vorbereitet, damit du nach dem Livestream mit uns zusammen weiter beten und Gott groß machen kannst.</p>'
