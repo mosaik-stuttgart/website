@@ -1,13 +1,21 @@
 rich_content:
   -
     type: text
-    text: '<p>Next Steps soll dir dabei helfen, deine nächsten Schritte zu gehen - im Glauben zu wachsen, deine Bestimmung zu entdecken und ein unverzichtbarer Baustein in unserem Mosaik zu werden. <br>Next Steps findet sonntags immer direkt nach den Gottesdiensten statt. Es dauert jeweils eine Stunde und startet am ersten Sonntag im Monat. Insgesamt gibt es vier Einheiten. Du kannst bei jeder Einheit einsteigen.</p>'
+    text: '<p>Next Steps soll dir dabei helfen, deine nächsten Schritte zu gehen - im Glauben zu wachsen, deine Bestimmung zu entdecken und ein unverzichtbarer Baustein in unserem Mosaik zu werden. <br>Next Steps findet sonntags immer direkt nach den Gottesdiensten statt. Es dauert jeweils eine Stunde und startet am ersten Sonntag im Monat. Insgesamt gibt es vier Einheiten. Du kannst bei jeder Einheit einsteigen.<br></p><p><strong>Jeden Sonntag um 18:00 Uhr<br><br></strong></p>'
   -
     type: button
     text: 'Jetzt anmelden'
     external_link: false
     target_page: b4818062-4e78-4b28-b651-24eda6bfcc8f
     target_blank: false
+  -
+    type: button
+    text: 'Zum Zoom-Meeting'
+    target_blank: true
+    link: 'https://us04web.zoom.us/j/623070881?pwd=NWlrcGtxd3l2OGVzbnE1OWhYR2VuUT09'
+  -
+    type: text
+    text: '<p><em>Das Passwort für Zoom ist "Kurs"</em></p>'
 header_image: /assets/images/next-steps.jpg
 title: 'Next Steps'
 fieldset: default
