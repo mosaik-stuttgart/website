@@ -9,7 +9,7 @@ sections:
         spellcheck: true
         allow_source: true
         allow_internal_links: true
-        link_noopener: false
+        link_noopener: true
         link_noreferrer: false
         target_blank: false
         semantic_elements: true
