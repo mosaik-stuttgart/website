@@ -1,5 +1,5 @@
 ---
-primary_card: '<h2>Wichtige Info!</h2><p>Aufgrund der aktuellen Situation finden zurzeit keine Gottesdienste in der Römerstraße statt. Stattdessen bringen wir den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.<br><a href="/live/">Zum Livestream</a></p><p>Viele weitere Infos und Bible Studies teilen wir momentan über Instagram.<br><a href="https://instagram.com/mosaik_church" target="_blank">Mosaik Church auf Instagram</a><br><br></p><p>Wenn du momentan aufgrund von COVID-19 in einer schwierigen Situation steckst und Hilfe brauchst, schreib uns einfach eine E-Mail. Wir werden sehen, wie wir dir helfen können.<br><a href="/kontakt/">Nachricht schreiben</a></p>'
+primary_card: '<h2>Wichtige Info!</h2><p>Aufgrund der aktuellen Situation finden zurzeit keine Gottesdienste in der Römerstraße statt. Stattdessen bringen wir den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.<br><a href="/live/">Zum Livestream</a></p><p>Viele weitere Infos und Bible Studies teilen wir momentan über Instagram.<br><a href="https://instagram.com/mosaik_church" rel="noopener" target="_blank">Mosaik Church auf Instagram</a><br><br></p><p>Wenn du momentan aufgrund von COVID-19 in einer schwierigen Situation steckst und Hilfe brauchst, schreib uns einfach eine E-Mail. Wir werden sehen, wie wir dir helfen können.<br><a href="/kontakt/">Nachricht schreiben</a></p>'
 steps:
   -
     type: step
@@ -47,8 +47,8 @@ subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart Süd.'
 seo:
   title: 'Mosaik Church - Deine Kirche in Stuttgart'
   description: 'Deine Freikirche im Herzen von Stuttgart-Süd. Eine leidenschaftliche & menschenorientierte Gemeinde mit vielen jungen Erwachsenen, voller Liebe für Jesus!'
-  image: /assets/gottesdienst.jpg
   site_name: false
+  image: /assets/gottesdienst.jpg
 show_services: true
 pa_text: 'mehr Infos'
 pa_target: a92323c9-9033-4013-a5af-5f754218a74f
