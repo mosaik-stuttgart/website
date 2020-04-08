@@ -102,6 +102,7 @@ main {
   }
   /* #topbar.open {min-height: 100vh} */
   .hasChildren ul li:last-of-type{margin-bottom: 0.25rem}
+  .secondaryList.text-gray-500 { color: #ccd2da; }
 }
 .tv_link{background:linear-gradient(180deg, transparent 64%, #7887e180 65%, #7887e180 83%, transparent 84%);color:#010101;padding:3px 0px 2px 3px;position:relative;left:-4px;text-decoration:none}.tv_link:hover{background:linear-gradient(180deg, transparent 64%, #97a7eb 65%, #97a7eb 83%, transparent 84%);text-decoration:none;color:#010101}.tv_link i{font-size:.8em;text-shadow:0 0}
 @media screen and (min-width: 768px){
@@ -174,10 +175,7 @@ main {
 .hover\:bg-t-gray:hover {
     background: rgba(0,0,0,.13)
 }
-.font-sans {
-    letter-spacing: -0.0085em;
-    p { letter-spacing: -0.01em;}
-}
+
 strong { 
 	@apply font-semibold; 
 }
