@@ -25,7 +25,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Basier Circle',
+        '-apple-system',
         'Roboto',
         '"Helvetica Neue"',
         'Arial',
