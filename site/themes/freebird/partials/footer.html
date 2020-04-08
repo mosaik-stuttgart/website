@@ -3,12 +3,12 @@
 		<div class="flex flex-col flex-wrap justify-between max-w-3xl mx-auto px-4 items-start sm:flex-row">
 			<img class="mt-1 w-24 mb-12" src="{{ footer:logo }}" alt="Logo"/>
 			<div class="mb-12">
-				<h3 class="text-xl font-bold pb-2"><a href="../besuche-uns/anfahrt.html">Adresse</a></h3>
-				<address class="font-light text-base not-italic">
+				<h3 class="text-xl font-bold pb-2"><a href="../besuche-uns/anfahrt">Adresse</a></h3>
+				<address class="text-gray-400 text-base not-italic">
 					{{ global:address | markdown }}
 				</address>
 				{{ map_link  }}                        
-				<a class="mt-1 border-b-2 border-gray-800 inline-block" href="{{google_maps}}">Google Maps <svg width="13px" height="13px" class="fill-current ml-1 inline"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#extern" ></use></svg></a>
+				<a class="mt-2 border-b-2 border-gray-800 inline-block" href="{{google_maps}}">Google Maps <svg width="13px" height="13px" class="fill-current ml-1 inline"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#extern" ></use></svg></a>
 				{{ /map_link }}
 			</div>
 			<div>
@@ -18,7 +18,7 @@
 					<a href="{{link}}" target="_blank" rel="noopener" aria-label="{{name}}" class="mr-3 hover:text-white fill-current"><svg width="24px" height="24px" viewBox="0 0 26 26" alt="{{name}}"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{icon}}"></use></svg></a>
                     {{/social_media}}
 				</p>
-				<p class="font-light">
+				<p class="text-gray-400">
 					<a class="border-b-2 border-gray-800 inline-block mb-2" href="/impressum">Impressum</a><br>
 					<a class="border-b-2 border-gray-800 inline-block" href="/datenschutz">Datenschutz</a>
 				</p>
