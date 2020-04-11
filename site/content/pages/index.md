@@ -10,7 +10,7 @@ steps:
       <p>Wir träumen von einer Kirche, in der Menschen <strong>Gott kennen</strong> und in intensiver Beziehung zu ihm stehen!
       </p>
     subtitel: Gottesdienst
-    bild: /assets/gottesdienst.jpg
+    bild: /assets/images/gottesdienst.jpg
     ziel: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
   -
     type: step
@@ -22,10 +22,10 @@ steps:
       <p>Wir träumen von einer Kirche, in der Menschen ihre Einzigartigkeit erkennen und echte <strong>Freiheit erleben</strong>.
       </p>
     ziel: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
-    bild: /assets/homezones-1562411070.jpg
+    bild: /assets/images/homezones-1562411070.jpg
   -
     type: step
-    bild: /assets/dreamteam.jpg
+    bild: /assets/images/dreamteams.jpg
     titel: 'Potenzial entfalten'
     subtitel: Dreamteams
     linktext: 'Next Steps'
@@ -35,7 +35,7 @@ steps:
       </p>
   -
     type: step
-    bild: /assets/jesus.jpg
+    bild: /assets/images/jesus.jpg
     titel: 'Jesus wider&shy;spiegeln'
     subtitel: 'Im Alltag'
     text: |
@@ -48,7 +48,6 @@ seo:
   title: 'Mosaik Church - Deine Kirche in Stuttgart'
   description: 'Deine Freikirche im Herzen von Stuttgart-Süd. Eine leidenschaftliche & menschenorientierte Gemeinde mit vielen jungen Erwachsenen, voller Liebe für Jesus!'
   site_name: false
-  image: /assets/gottesdienst.jpg
 show_services: true
 pa_text: 'mehr Infos'
 pa_target: a92323c9-9033-4013-a5af-5f754218a74f

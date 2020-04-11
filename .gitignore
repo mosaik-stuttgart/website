@@ -5,6 +5,7 @@ bower_components/
 local/cache/*
 local/storage/*
 local/temp/*
+assets/containers/
 site/storage/forms/*
 installer.php
 _resources/
