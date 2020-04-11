@@ -8,6 +8,10 @@ fields:
     validate: required|email
   message:
     display: Nachricht
+    validate: string
+  subject:
+    display: Betreff
+    validate: string
 columns:
   - name
   - email
@@ -18,6 +22,7 @@ metrics:
     label: Gesamt
 email:
   -
-    to: simonlempenauer@me.com
+    to: '{env:MAIL_ADDRESS}'
     reply_to: '{{email}}'
-    subject: 'Nachricht über das Website-Formular'
+    subject: '{{if subject}}{{subject}}{{else}}Nachricht über das Website-Formular{{/if}}'
+    template: contact

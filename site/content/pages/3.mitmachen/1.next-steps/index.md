@@ -6,8 +6,8 @@ rich_content:
     type: button
     text: 'Jetzt anmelden'
     external_link: false
-    target_page: b4818062-4e78-4b28-b651-24eda6bfcc8f
     target_blank: false
+    link: '/kontakt?ref=next-steps'
   -
     type: button
     text: 'Zum Zoom-Meeting'
