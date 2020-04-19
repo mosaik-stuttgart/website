@@ -65,3 +65,5 @@ assets:
   images/wohnung.jpg:
     title: Wohnung
     focus: 50-71
+  images/gottesdienst.jpg:
+    alt: 'Gottesdienst Freikirche'
