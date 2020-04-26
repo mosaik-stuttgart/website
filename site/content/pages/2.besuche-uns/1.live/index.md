@@ -12,7 +12,7 @@ rich_content:
     html: '<a href="" target="_blank" class="flex no-underline text-blue-100 mt-2 md:mt-0 w-auto p-2 border border-blue-600 flex rounded items-center flex-shrink hover:bg-blue-900 active:opacity-75 active:bg-blue-800"> <div class="leading-tight text-xs"> <div class="font-bold tracking-wide">Zoom-Hangout</div> <span>um 12:30 Uhr</span> </div></a>'
   -
     type: text
-    text: '<p>Wir haben auch eine Playlist vorbereitet, damit du nach dem Livestream mit uns zusammen weiter beten und Gott groß machen kannst.</p>'
+    text: '<p><br></p><p>Wir haben auch eine Playlist vorbereitet, damit du nach dem Livestream mit uns zusammen weiter beten und Gott groß machen kannst.</p>'
   -
     type: html
     html: |
