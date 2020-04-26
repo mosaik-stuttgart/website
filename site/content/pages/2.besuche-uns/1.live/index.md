@@ -9,7 +9,7 @@ rich_content:
     text: '<h2>Livestream startet am Sonntag um 11 Uhr</h2><p>Aufgrund der aktuellen Situation bieten wir Sonntags keinen Gottesdienst in der Römerstraße an, sondern bringen den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern. Um 17 Uhr gibt es eine Wiederholung.</p><p><em>Du kannst die Mosaik Church aktuell nur über PayPal oder Überweisung unterstützen. Nähere Infos dazu findest du&nbsp;<a href="/geben">hier</a>.</em></p>'
   -
     type: html
-    html: '<a href="https://mosaik.link/worship/youtube" target="_blank" class="no-underline text-blue-100 mt-2 md:mt-0 w-auto p-2 border border-blue-600 flex rounded items-center flex-shrink hover:bg-blue-900 active:opacity-75 active:bg-blue-800">  <div class="leading-tight text-xs"> <div class="font-bold tracking-wide">Zoom-Hangout</div> <span>um 12:30 Uhr</span> </div>'
+    html: '<a href="https://mosaik.link/worship/youtube" target="_blank" class="no-underline text-blue-100 mt-2 md:mt-0 w-auto p-2 border border-blue-600 flex rounded items-center flex-shrink hover:bg-blue-900 active:opacity-75 active:bg-blue-800"> <div class="leading-tight text-xs"> <div class="font-bold tracking-wide">Zoom-Hangout</div> <span>um 12:30 Uhr</span> </div></a>'
   -
     type: text
     text: '<p>Wir haben auch eine Playlist vorbereitet, damit du nach dem Livestream mit uns zusammen weiter beten und Gott groß machen kannst.</p>'
