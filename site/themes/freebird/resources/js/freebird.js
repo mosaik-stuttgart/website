@@ -2,6 +2,7 @@
  * Custom Javascript
  */
 import "instant.page"
+import "alpinejs"
 
 document.getElementById("menu_toggle").addEventListener('mousedown', (e)=>{
     e.preventDefault();

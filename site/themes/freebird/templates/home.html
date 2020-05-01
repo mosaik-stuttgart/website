@@ -1,6 +1,9 @@
-<header id="hero" class="h-screen w-full bg-gray-800 bg-cover text-center flex flex-col pt-12 relative z-0"
+<header x-data="{loaded: false}" x-init="()=>loaded = true" id="hero" class="h-screen w-full bg-gray-800 bg-cover text-center flex flex-col pt-12 relative z-0"
     style="background-image: url({{header_image}});">
-    <div class="my-auto" id="hero-sub">
+    <div class="my-auto" id="hero-sub" x-show="loaded" x-cloak
+    x-transition:enter="transition ease-in-out duration-500"
+    x-transition:enter-start="opacity-0 transform translate-y-10"
+    x-transition:enter-end="opacity-1 transform translate-y-0">
     <div class="font-serif font-semibold text-6xl sm:text-7xl lg:text-8xl text-white text-shadow-sm leading-none">{{welcome_home}}</div>
     <div>
         <!-- <hr class="border-b pt-4 border-gray-100 w-24 my-4"> -->
@@ -11,7 +14,7 @@
 </header>
 
 <section class="bg-white relative z-10 -mb-16 h-36 flex flex-col justify-center" >
-    <div class="primary_card w-11/12 mx-auto bg-purple-100 rounded-px p-4 md:p-6 md:py-5 shadow-brand max-w-3xl" style="transform: translateY(-4rem)">
+      <div class="primary_card w-11/12 mx-auto bg-purple-100 rounded-px p-4 md:p-6 md:py-5 shadow-brand max-w-3xl transform -translate-y-16">
         {{primary_card}}
         <style> 
           .primary_card a:after {
@@ -21,7 +24,7 @@
             transform: translateY(2px);
           }
         </style>
-    </div>
+      </div>
 </section>
 <main>
 
