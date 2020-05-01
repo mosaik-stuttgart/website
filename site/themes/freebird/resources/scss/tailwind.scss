@@ -213,6 +213,6 @@ strong {
         }
     }
 }
-
+[x-cloak] { display: none; }
 @import 'thirdparty';
 @tailwind utilities;

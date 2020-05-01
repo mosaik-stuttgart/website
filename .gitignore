@@ -11,3 +11,4 @@ installer.php
 _resources/
 yarn.lock
 package.lock
+package-lock.json

@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@podlove/web-player": "^5.0.1-beta.5",
+    "alpinejs": "^2.3.1",
     "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.0.1",
     "cross-env": "^5.2.0",
@@ -21,7 +22,7 @@
     "lite-youtube-embed": "^0.0.0",
     "sass": "^1.22.1",
     "sass-loader": "7.*",
-    "tailwindcss": "^1.2.0",
+    "tailwindcss": "^1.4.1",
     "vue-template-compiler": "^2.6.10"
   }
 }
