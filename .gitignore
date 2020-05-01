@@ -12,3 +12,4 @@ _resources/
 yarn.lock
 package.lock
 package-lock.json
+mix-manifest.json
