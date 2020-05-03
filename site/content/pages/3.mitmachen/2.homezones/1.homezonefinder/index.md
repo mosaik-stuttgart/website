@@ -191,6 +191,8 @@ homezones:
       - Hangout
     contact_person: 'Amiel Sivarajah, Sarah Eichhorn, Yala Sivarajah'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/504'
+seo:
+  description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
 fieldset: find_homezone
 template: find-homezone
