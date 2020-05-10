@@ -12,7 +12,7 @@ rich_content:
     type: button
     text: 'Zum Zoom-Meeting'
     target_blank: true
-    link: 'https://us02web.zoom.us/j/82526981152'
+    link: 'https://us02web.zoom.us/j/89293882212'
   -
     type: text
     text: '<p><em>Das Passwort für Zoom ist "Kurs"</em></p>'
