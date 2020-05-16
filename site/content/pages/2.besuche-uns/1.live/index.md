@@ -2,7 +2,7 @@ rich_content:
   -
     type: html
     html: |
-      <style>lite-youtube { background-image: url('/assets/images/mosaik_im_wohnzimmer.jpg') !important } </style>
+      <style>lite-youtube { background-image: url('/assets/images/auferstehung.jpg') !important } </style>
       <div class="-mx-1 sm:-mx-2 md:-mx-4 pb-6 md:pb-2 "><lite-youtube videoid="{env:YOUTUBE_LINK}" onclick="if ('{env:EXTERNAL}' === 'yes') window.open('https://www.youtube.com/watch?v={env:YOUTUBE_LINK}&rel=0', '_blank')" class="mt-8 md:mt-10 md:mb-8" rel="0"></lite-youtube></div>
   -
     type: text
