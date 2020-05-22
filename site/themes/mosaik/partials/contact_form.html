@@ -1,0 +1,35 @@
+{{ form:set is="contact" }}
+<div class="flex flex-col mx-auto space-y-5 hyphens-auto">
+    {{ if {form:success} }}
+        {{ form:submission }}
+        <div class="px-2 py-1 my-1 text-green-100 bg-green-700">
+            Vielen Dank für deine Nachricht, {{ name }}!
+            Wir melden uns in Kürze bei dir.
+        </div>
+        {{ /form:submission }}
+    {{ else }}
+    {{ form:create }}
+        <div class="max-w-xl space-y-6 text-gray-700 uppercase tracking-wide font-bold">
+        <div>
+            <label class="text-xs" for="name">Name</label>
+            <input class="block mt-1 mb-2 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-sm appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="name" type="text" value="{{old:name}}">
+        </div>
+        <div>
+            <label class="text-xs" for="email">E-Mail</label>
+            <input class="block mt-1 mb-2 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-sm appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="email" type="email" value="{{old:email}}">
+            {{if get:ref}}
+            <input class="hidden" type="text" name="subject" value="{{if get:ref==='next-steps'}}Anmeldung zu Next Steps{{/if}}">
+            {{/if}}
+        </div>
+        <input type="text" name="snaretrap" class="hidden">
+        <div>
+            <label class="text-xs" for="message">Nachricht</label>
+            <textarea rows="8" class="block my-1 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-sm appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="message" value="{{old:message}}"></textarea>
+        </div>
+        <button type="submit" class="w-24 py-2 font-semibold text-blue-100 bg-blue-900 rounded-sm shadow hover:cursor-pointer hover:shadow-md hover:bg-blue-800 focus:outline-none focus:bg-blue-800"> Senden </button>
+        </div>
+    {{ /form:create }}
+    {{ /if }}
+</div>
+{{ /form:set }}
+
