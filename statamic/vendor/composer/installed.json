@@ -813,7 +813,8 @@
                 "name": "Jakub Onderka",
                 "email": "jakub.onderka@gmail.com"
             }
-        ]
+        ],
+        "abandoned": "php-parallel-lint/php-console-color"
     },
     {
         "name": "jakub-onderka/php-console-highlighter",
@@ -859,7 +860,8 @@
                 "email": "acci@acci.cz",
                 "homepage": "http://www.acci.cz/"
             }
-        ]
+        ],
+        "abandoned": "php-parallel-lint/php-console-highlighter"
     },
     {
         "name": "jeremeamia/superclosure",
@@ -919,12 +921,13 @@
             "serializable",
             "serialize",
             "tokenizer"
-        ]
+        ],
+        "abandoned": "opis/closure"
     },
     {
         "name": "jrc9designstudio/statamic-google-analytics-v2",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "dev-feature/simplify-theme",
+        "version_normalized": "dev-feature/simplify-theme",
         "dist": {
             "type": "path",
             "url": "../site/addons/GoogleAnalytics",

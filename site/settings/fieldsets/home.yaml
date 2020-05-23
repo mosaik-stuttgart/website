@@ -23,7 +23,6 @@ sections:
         restrict_assets: false
         type: bard
         display: Karte
-        width: 75
       steps:
         type: replicator
         display: 'Unsere Vision'

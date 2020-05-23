@@ -1,6 +1,4 @@
 routes:
-  /login:
-    redirect: /cp
   /users: user/index
   '/users/{username}': user/profile
   /account: user/account
@@ -13,17 +11,16 @@ routes:
   /live:
     template: livestream
     load: /besuche-uns/live
-  /besuche-uns/gottesdienst:
-    redirect: /live
-  /mitmachen/homezones/homezone-finden.html:
-    redirect: /mitmachen/homezones/homezonefinder
-  /medien/predigten.html:
-    redirect: /media/predigten
-  /homezones.html:
-    redirect: /mitmachen/homezones
-  /mitmachen/sommerbibelschule.html:
-    redirect: /mitmachen/sommerbibelschule
 collections:
   podcasts: '/media/{slug}'
 taxonomies:
   sermon_series: '/media/serie/{slug}'
+redirect:
+  /login: /cp
+  /besuche-uns/gottesdienst: /live
+  /mitmachen/homezones/homezone-finden.html: /mitmachen/homezones/homezonefinder
+  /homezones.html: /mitmachen/homezones
+  /medien/predigten.html: /media/predigten
+  /mitmachen/sommerbibelschule.html: /mitmachen/sommerbibelschule
+  /medien/predigten/detail/sermon/gesunde-sexualitaet.html: /media/gesunde-sexualitaet
+  '/medien/*': /
