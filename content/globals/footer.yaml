@@ -1,0 +1,14 @@
+title: Footer
+id: 5130ba5b-8536-42fa-a59f-5a930b52c517
+blueprint: footer
+data:
+  address: |
+    Mosaik Church Stuttgart
+    Römerstraße 10
+    70178 Stuttgart
+  google_maps_link: 'https://goo.gl/maps/7D2mGVBakt12'
+  social:
+    instagram: 'https://instagram.com/mosaik_church.de'
+    facebook: 'https://facebook.com/MosaikStuttgart/'
+  logo: /assets/images/logo_full.svg
+  hide: true

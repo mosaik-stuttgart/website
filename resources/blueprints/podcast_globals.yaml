@@ -1,0 +1,37 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          type: text
+          display: Name
+      -
+        handle: email
+        field:
+          type: text
+          display: E-Mail
+          validate: email
+      -
+        handle: url
+        field:
+          type: text
+          display: Url
+          validate: url
+      -
+        handle: description
+        field:
+          type: textarea
+          display: Kurzbeschreibung
+      -
+        handle: image
+        field:
+          type: assets
+          container: main
+          folder: /
+          restrict: false
+          display: Cover
+          max_files: 1
+taxonomies: true
+title: 'Podcast Globals'

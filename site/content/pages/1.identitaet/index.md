@@ -1,8 +1,0 @@
-rich_content:
-  -
-    type: text
-    text: '<h2>Unsere Vision</h2><p>Wir träumen von einer Kirche, ...</p><ul><li>in der Menschen&nbsp;<strong>Gott kennen</strong>&nbsp;und in intensiver Beziehung zu ihm stehen!</li><li>in der Menschen ihre Einzigartigkeit erkennen und echte&nbsp;<strong>Freiheit erleben</strong>!</li><li>in der Menschen ihr&nbsp;<strong>Potenzial entfalten</strong>, um gemeinsam an etwas Gewaltigem zu bauen!</li><li>die&nbsp;<strong>Jesus widerspiegelt</strong>&nbsp;und seine Liebe bis in die Mitte der Gesellschaft trägt!</li></ul><p><br></p><h2>Unsere Werte</h2><p><strong>Voller Leidenschaft</strong><br>Wir sind begeistert von Jesus und wollen unser Bestes für ihn geben.</p><p><strong>Am Puls der Zeit</strong><br>Wir wollen unseren Glauben in zeitgemäßer Art und Weise leben und weitergeben.</p><p><strong>Liebe zum Detail</strong><br>Das was wir tun zeichnet sich durch ein Auge fürs Detail un Exzellenz aus.</p><p><strong>Eine Familie</strong><br>Wertschätzung und Großzügigkeit prägen unser Miteinander.</p><p><strong>Jeder ist willkommen</strong><br>Wir begegnen jedem Menschen herzlich und offen.</p><p><br></p><h2><strong>Unser Leitungsteam</strong></h2><p><strong>Simon Lempenauer</strong><br>Pastor</p><p><strong>Simon Garrecht</strong><br>Co-Pastor, Next Steps, Kleingruppen</p><p><strong>Silas Kettner</strong><br>Co-Pastor, Lobpreis</p><p><strong>Steve Bührle<br></strong>Gebäude und Heimwerker</p><p><strong>Markus Krampitz</strong><br>Technik</p><p><strong>Jana Baumann</strong><br>Medien</p><p><strong>Samuel Seidel</strong><br>Finanzen</p>'
-header_image: /assets/images/82386384_3055824794450591_5131911806146576384_o.jpg
-title: Identität
-fieldset: default
-id: 513fe025-5b6d-475b-bc9c-c84cee7ff17a

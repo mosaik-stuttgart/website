@@ -1,0 +1,309 @@
+title: 'Kitchen Sink'
+taxonomies: true
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: story
+        field:
+          type: bard
+          display: 'The Bard'
+          sets:
+            quote:
+              fields:
+                -
+                  handle: text
+                  field:
+                    type: text
+                -
+                  handle: cite
+                  field:
+                    type: text
+            image:
+              fields:
+                -
+                  handle: image
+                  field:
+                    type: assets
+                    container: main
+                    folder: img
+                    max_files: 1
+                -
+                  handle: alignment
+                  field:
+                    type: select
+                    default: left
+                    options:
+                      left: Left
+                      center: Center
+                      right: Right
+      -
+        handle: text
+        field:
+          type: text
+          instructions: 'The most basic text entry available.'
+      -
+        handle: textarea
+        field:
+          type: textarea
+          instructions: 'Multi-line text.'
+      -
+        handle: integer
+        field:
+          type: integer
+          instructions: 'Like the text field, but only accepts integers.'
+      -
+        handle: hidden
+        field:
+          type: hidden
+          instructions: |
+            You'd only see this if you're looking at the fieldset.
+            Setting a default value is a good way to have a value automatically added to the content.
+          default: 'This is hidden!'
+      -
+        handle: toggle
+        field:
+          type: toggle
+          instructions: 'Saves `true` to the content if toggled on.'
+      -
+        handle: select
+        field:
+          type: select
+          instructions: 'A single selection field.'
+          options:
+            one: First
+            two: Second
+      -
+        handle: radio
+        field:
+          type: radio
+          instructions: 'Single selection field, useful for displaying all options at a glance.'
+          width: 66
+          options:
+            one: First
+            two: Second
+      -
+        handle: radio_inline
+        field:
+          type: radio
+          display: 'Inline Radios'
+          instructions: 'Radios again, but displayed inline.'
+          inline: true
+          width: 33
+          options:
+            one: First
+            two: Second
+      -
+        handle: checkboxes
+        field:
+          type: checkboxes
+          instructions: 'Multiple selection field.'
+          options:
+            one: First
+            two: Second
+      -
+        handle: markdown
+        field:
+          type: markdown
+          cheatsheet: true
+          instructions: 'A Markdown authoring experience with keyboard shortcuts and syntax highlighting.'
+      -
+        handle: redactor
+        field:
+          type: bard
+          instructions: 'The standard WYSIWYG. Write how you want it to be displayed, but saves as HTML.'
+          save_html: true
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - html
+            - quote
+            - codeblock
+            - h1
+            - h2
+            - h3
+            - h4
+            - h5
+            - h6
+            - anchor
+      -
+        handle: yaml
+        field:
+          type: yaml
+          instructions: 'A nice syntax highlighted YAML input. Great for developers.'
+      -
+        handle: array
+        field:
+          type: array
+          instructions: 'Create an on-the-fly array with control over both keys and values.'
+      -
+        handle: array_keyed
+        field:
+          type: array
+          display: 'Array with pre-defined keys'
+          instructions: 'Keys can be pre-defined to restrict only value entry.'
+          keys:
+            one: one
+            two: two
+      -
+        handle: list
+        field:
+          type: list
+          instructions: 'A basic reorderable list (array) field.'
+      -
+        handle: taggable
+        field:
+          type: tags
+          display: Tags
+          instructions: 'A familiar tagging UI for creating a simple list of values.'
+      -
+        handle: date
+        field:
+          type: date
+          instructions: 'Date selection with optional time.'
+          allow_blank: true
+      -
+        handle: time
+        field:
+          type: time
+          instructions: 'Just time selection.'
+      -
+        handle: table
+        field:
+          type: table
+          instructions: 'Create an on-the-fly table with variable amounts of rows and columns.'
+      -
+        handle: assets
+        field:
+          type: assets
+          container: main
+          max_files: 5
+          instructions: 'Choose existing assets and upload new ones.'
+      -
+        handle: video
+        field:
+          type: video
+      -
+        handle: suggest
+        field:
+          type: select
+          instructions: 'Pre-defined selections that are refined as you type. Optionally allow new values to be entered.'
+          options:
+            one: First
+            two: Second
+      -
+        handle: collection
+        field:
+          type: entries
+          instructions: 'A list of entries from one or more collections.'
+          collections:
+            - blog
+      -
+        handle: taxonomy
+        field:
+          type: taxonomy
+          instructions: 'A list of terms from one or more taxonomies.'
+          taxonomy: tags
+      -
+        handle: pages
+        field:
+          type: entries
+          instructions: 'A list of pages. A parent page may be specified to narrow down selections.'
+          collections:
+            - pages
+      -
+        handle: users
+        field:
+          type: users
+          instructions: 'A list of users.'
+      -
+        handle: collections
+        field:
+          type: collections
+          instructions: 'A list of collections.'
+      -
+        handle: fieldset
+        field:
+          type: fieldset
+          instructions: 'A list of fieldsets.'
+      -
+        handle: form
+        field:
+          type: form
+          instructions: 'A list of forms (formsets).'
+      -
+        handle: template
+        field:
+          type: template
+          instructions: 'A list of theme templates.'
+      -
+        handle: theme
+        field:
+          type: theme
+          instructions: 'A list of themes.'
+      -
+        handle: grid
+        field:
+          type: grid
+          instructions: 'A repeatable and reorderable container of fields.'
+          fields:
+            -
+              handle: actor
+              field:
+                type: text
+            -
+              handle: character
+              field:
+                type: select
+                options:
+                  'Luke Skywalker': 'Luke Skywalker'
+                  'Han Solo': 'Han Solo'
+      -
+        handle: replicator
+        field:
+          type: replicator
+          instructions: 'A repeatable and reorderable container of _multiple sets_ of fields. Perfect for long-form or art directed content.'
+          sets:
+            text:
+              display: Text
+              fields:
+                -
+                  handle: markdown
+                  field:
+                    type: markdown
+                    cheatsheet: true
+                    instructions: 'A Markdown authoring experience with keyboard shortcuts and syntax highlighting.'
+            image:
+              display: Image
+              fields:
+                -
+                  handle: image
+                  field:
+                    type: assets
+                    container: main
+                    max_files: 1
+                -
+                  handle: caption
+                  field:
+                    type: text
+            quote:
+              display: 'Pull quote'
+              fields:
+                -
+                  handle: text
+                  field:
+                    type: text
+                -
+                  handle: cite
+                  field:
+                    type: text
+                -
+                  handle: pull
+                  field:
+                    type: radio
+                    options:
+                      left: 'Left Align'
+                      right: 'Right Align'

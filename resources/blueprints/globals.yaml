@@ -1,0 +1,69 @@
+title: Globals
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: site_name
+        field:
+          type: text
+          display: 'Webseiten Name'
+          localizable: true
+      -
+        handle: address
+        field:
+          type: textarea
+          width: 50
+          display: Adresse
+          instructions: 'Am Ende jeder Zeile zwei Leerzeichen hinzufügen, damit der Zeilenumbruch erkannt wird.'
+      -
+        handle: map_link
+        field:
+          type: array
+          keys:
+            google_maps: 'Google Maps'
+            apple_maps: 'Apple Maps'
+            open_source: 'Other Service'
+          width: 50
+          display: 'Link zur Karte'
+      -
+        handle: services
+        field:
+          type: array
+          instructions: 'Uhrzeit, Hinweis'
+          width: 50
+          display: Gottesdienstzeiten
+      -
+        handle: social_media
+        field:
+          type: replicator
+          display: 'Social Media'
+          sets:
+            platform:
+              display: Platform
+              fields:
+                -
+                  handle: name
+                  field:
+                    type: text
+                    width: 33
+                    display: Name
+                -
+                  handle: icon
+                  field:
+                    type: select
+                    options:
+                      instagram: instagram
+                      facebook: facebook
+                      youtube: youtube
+                    width: 33
+                    display: Icon
+                -
+                  handle: link
+                  field:
+                    type: text
+                    width: 33
+                    display: Link
+          width: 50
+          instructions: 'Werden im Footer und der mobilen Navigation angezeigt'
+taxonomies: false

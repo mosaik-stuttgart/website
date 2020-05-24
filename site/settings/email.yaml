@@ -1,8 +1,0 @@
-driver: smtp
-from_email: admin@mosaik.email
-from_name: 'Mosaik Church Website'
-host: lisa.mxrouting.net
-port: '587'
-encryption: tls
-username: admin@mosaik.email
-password: '{env:MAIL_PASSWORD}'

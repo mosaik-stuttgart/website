@@ -1,0 +1,30 @@
+title: Sonntag
+taxonomies: false
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: current_series
+        field:
+          type: taxonomy
+          max_items: 1
+          mode: panes
+          label: '{{ title }}'
+          taxonomy: sermon_series
+          display: 'Aktuelle Predigtserie'
+      -
+        import: bard
+  sidebar:
+    display: Seiteninfos
+    fields:
+      -
+        handle: header_image
+        field:
+          type: assets
+          container: main
+          folder: /images
+          restrict: false
+          max_files: 1
+          display: Hintergrundbild
+          mode: grid

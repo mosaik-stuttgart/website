@@ -1,0 +1,140 @@
+title: Home
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: primary_card
+        field:
+          type: bard
+          buttons:
+            - h2
+            - bold
+            - italic
+            - removeformat
+            - anchor
+          style: sans
+          spellcheck: true
+          allow_source: true
+          allow_internal_links: true
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          semantic_elements: true
+          container: main
+          folder: /
+          restrict_assets: false
+          display: Karte
+      -
+        handle: steps
+        field:
+          type: replicator
+          display: 'Unsere Vision'
+          sets:
+            step:
+              display: Step
+              fields:
+                -
+                  handle: bild
+                  field:
+                    type: assets
+                    container: main
+                    folder: images
+                    restrict: false
+                    max_files: 1
+                    mode: list
+                    display: Bild
+                    replicator_preview: true
+                    listable: hidden
+                    allow_uploads: true
+                -
+                  handle: titel
+                  field:
+                    type: text
+                    display: Überschrift
+                    width: 25
+                -
+                  handle: subtitel
+                  field:
+                    type: text
+                    display: Bereich
+                    width: 25
+                -
+                  handle: linktext
+                  field:
+                    type: text
+                    display: Linktext
+                    width: 25
+                -
+                  handle: ziel
+                  field:
+                    type: entries
+                    max_items: 1
+                    mode: panes
+                    display: Ziel
+                    replicator_preview: false
+                    width: 25
+                    collections:
+                      - pages
+                -
+                  handle: text
+                  field:
+                    type: bard
+                    display: Text
+                    replicator_preview: false
+                    save_html: true
+                    buttons:
+                      - bold
+                      - italic
+          listable: hidden
+      -
+        handle: content
+        field:
+          type: bard
+          style: sans
+          spellcheck: true
+          allow_source: true
+          allow_internal_links: true
+          link_noopener: true
+          link_noreferrer: false
+          target_blank: false
+          semantic_elements: true
+          container: main
+          folder: /
+          restrict_assets: false
+          classes: bard
+          display: Inhalt
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+  sidebar:
+    display: Seiteninfos
+    fields:
+      -
+        handle: header_image
+        field:
+          type: assets
+          container: main
+          folder: /images
+          restrict: false
+          max_files: 1
+          display: Hintergrundbild
+          mode: grid
+      -
+        handle: welcome_home
+        field:
+          type: text
+          display: Titel
+          localizable: true
+      -
+        handle: subtitle
+        field:
+          type: text
+          display: Tagline

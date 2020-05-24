@@ -1,0 +1,81 @@
+title: Podcast
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          display: Titel
+          width: 66
+          localizable: true
+      -
+        handle: slug
+        field:
+          type: text
+          display: Slug
+          width: 33
+      -
+        handle: date
+        field:
+          type: date
+          allow_blank: false
+          allow_time: false
+          require_time: false
+          earliest_date: 'January 1, 1900'
+          width: 33
+          display: Datum
+      -
+        handle: speaker
+        field:
+          type: taxonomy
+          max_items: 2
+          label: '{{ title }}'
+          taxonomy: speaker
+          mode: tags
+          display: Sprecher
+          width: 33
+      -
+        handle: type
+        field:
+          type: select
+          options:
+            message: Predigt
+            academy: Academy
+          width: 33
+          display: Typ
+          default: message
+      -
+        handle: audio
+        field:
+          type: assets
+          container: podcast
+          folder: /
+          restrict: true
+          max_files: 1
+          mode: list
+          width: 33
+          display: Audio
+      -
+        handle: tags
+        field:
+          type: taxonomy
+          label: '{{ title }}'
+          taxonomy: tags
+          mode: panes
+          width: 33
+          display: Themen
+      -
+        handle: sermon_series
+        field:
+          type: taxonomy
+          max_items: 1
+          mode: tags
+          label: '{{ title }}'
+          taxonomy: sermon_series
+          display: Predigtserie
+          width: 33
+          show_when:
+            type: message
+taxonomies: false

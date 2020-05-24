@@ -14,6 +14,7 @@ package.lock
 package-lock.json
 mix-manifest.json
 
+.php_cs.cache
 /public/hot
 /public/storage
 /public/vendor/statamic

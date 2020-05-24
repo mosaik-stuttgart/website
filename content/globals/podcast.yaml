@@ -1,0 +1,10 @@
+title: Podcast
+id: a50b029a-5dec-4638-8048-2c54f0b47aa6
+blueprint: podcast_globals
+data:
+  image: /assets/images/podcast_cover.jpg
+  email: admin+podcast@mosaik.email
+  name: 'Mosaik Church'
+  url: 'https://mosaik-stuttgart.net'
+  description: 'Du hast eine Predigt verpasst oder willst einfach mal reinhören? Dann hast du hier die Möglichkeit dazu.'
+  keywords: 'Predigten, Stuttgart, Mosaik, Church, Ecclesia, Gemeinde, Freikirche, Kirche, Bibel, Inspiration'
