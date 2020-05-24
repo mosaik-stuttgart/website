@@ -1,7 +1,7 @@
 rich_content:
   -
     type: text
-    text: '<p>{{partial:contact_form}}<br></p>'
+    text: '<p>Schreib uns eine E-Mail an {{obfuscate}}info@mosaik.email{{/obfuscate}} oder nutze das Kontaktformular:</p><p>{{partial:contact_form}}<br></p>'
 header_image: /assets/images/kontakt.jpg
 seo:
   robots: false

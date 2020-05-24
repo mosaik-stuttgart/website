@@ -1,0 +1,26 @@
+{{partial:hero}}
+<main class="bg-white pt-4 md:pt-8">
+<div class="bard px-4 max-w-2xl mx-auto pb-24">
+    {{ rich_content }} 
+        {{ if type == 'text'}}
+            {{text | markdown}}
+        {{ elseif type == 'button' }}
+            {{ if link | length > 0 }}
+                {{ partial src='button' :text='text' :link='link' :external='target_blank'}}
+            {{ else }}
+                {{ partial src='button' :text='text' :link="target_page" }}
+            {{ /if }}
+        {{ elseif type == 'html'}}
+            {{html}}
+        {{ elseif type == 'image'}}
+            <picture class="my-2 md:my-4 w-full block bg-gray-200">
+                <source type="image/webp" srcset="{{ glide :src='image' w='1024' q='80' fm='webp' }} 1024w, {{ glide :src='image' w='512' q='80' fm='webp' }} 512w" sizes="100%"/>
+                <source type="image/jpg" srcset="{{ glide :src='image' w='1024' q='80' }} 1024w, {{ glide :src='image' w='512' q='80' }} 512w" sizes="100%"/>
+                <img loading="lazy" src="{{ glide :src='image' w='595' q='80'}}" class="w-full" alt="{{image | get:alt}}"/>
+            </picture>  
+        {{ /if}}
+        
+
+    {{ /rich_content}}
+</div>
+</main>

@@ -1,0 +1,29 @@
+{{ collection:podcasts paginate="true" as="episode" limit="10" }} 
+  {{ if no_results }}<p>Keine Predigten gefunden.</p> {{ /if }}
+  <div class="space-y-2">
+  {{ episode scope="tag" }} 
+  <div class="rounded-sm border border-gray-500 hover:bg-gray-200 hover:border-gray-500 hover:text-black max-w-xl mx-auto">
+    <a href="{{ url }}" style="text-decoration: none" class="flex px-4 py-3 align-center">
+      <div class="mr-4">
+          <span class="text-xl font-bold font-mono leading-snug">{{date format="d"}}</span> <br>
+          <span class="text-xs leading-none uppercase -mt-1 block">{{ date format="M"}}</span>
+      </div>
+      <div class="no-underline">
+        <span class="text-lg font-semibold leading-tight">{{title}}</span> <br>
+        <span class="text-gray-700 -mt-1">{{relate:speaker}}{{title}} {{/relate:speaker}}</span>
+      </div>
+      <div class="ml-auto h-full w-8 pl-1">
+              <svg class="stroke-current" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+      </div>
+      </a>
+    </div>
+  {{ /episode }}
+  </div>
+  {{ paginate }}
+  <div class="max-w-xl mx-auto mt-8 flex justify-between">
+    <a href="{{ prev_page }}" class="bg-gray-300 rounded-sm p-2 leading-none"><svg class="text-gray-900 stroke-current h-4 inline p-0 -mt-1 leading-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" alt="Zurück"><path d="M15 18l-6-6 6-6"/></svg></a>
+    <span class="leading-loose font-semibold">Seite {{ current_page }} von {{ total_pages }}</span>
+    <a href="{{ next_page }}" class="bg-gray-300 rounded-sm p-2 leading-none"><svg class="text-gray-900  stroke-current h-4 inline p-0 -mt-1 leading-none" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" alt="Vorwärts"><path d="M9 18l6-6-6-6"/></svg></a>
+  </div>
+  {{ /paginate }}
+{{ /collection:podcasts }}

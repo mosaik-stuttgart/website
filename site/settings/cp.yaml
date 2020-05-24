@@ -11,15 +11,10 @@ widgets:
     collection: podcasts
     limit: 5
   -
-    type: collection
-    collection: blog
-    limit: 5
-  -
     type: form
     form: contact
     limit: 5
     title: Kontaktformular
-    width: full
     fields:
       - name
       - email
