@@ -13,3 +13,9 @@ yarn.lock
 package.lock
 package-lock.json
 mix-manifest.json
+
+/public/hot
+/public/storage
+/public/vendor/statamic
+/storage/*.key
+/vendor
