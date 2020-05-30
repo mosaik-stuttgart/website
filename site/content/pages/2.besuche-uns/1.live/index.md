@@ -6,7 +6,7 @@ rich_content:
       <div class="-mx-1 sm:-mx-2 md:-mx-4 pb-6 md:pb-2 "><lite-youtube videoid="{env:YOUTUBE_LINK}" onclick="if ('{env:EXTERNAL}' === 'yes') window.open('https://www.youtube.com/watch?v={env:YOUTUBE_LINK}&rel=0', '_blank')" class="mt-8 md:mt-10 md:mb-8" rel="0"></lite-youtube></div>
   -
     type: text
-    text: '<h2>Livestream startet am Sonntag um 11 Uhr</h2><p>Aufgrund der aktuellen Situation bieten wir Sonntags keinen Gottesdienst in der Römerstraße an, sondern bringen den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern. Um 17 Uhr gibt es eine Wiederholung.</p><p><em>Du kannst die Mosaik Church aktuell nur über PayPal oder Überweisung unterstützen. Nähere Infos dazu findest du&nbsp;<a href="/geben">hier</a>.<br></em></p>'
+    text: '<h2>Livestream startet am Sonntag um 11 Uhr</h2><p>Aufgrund der aktuellen Situation bieten wir Sonntags keinen Gottesdienst in der Römerstraße an, sondern bringen den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.</p><p><em>Du kannst die Mosaik Church aktuell nur über PayPal oder Überweisung unterstützen. Nähere Infos dazu findest du&nbsp;<a href="/geben">hier</a>.<br></em></p>'
   -
     type: html
     html: '<!--div class="flex mt-3"><a href="https://us02web.zoom.us/j/86589863862" target="_blank" class="no-underline text-blue-100 mt-2 md:mt-0 w-auto p-2 border border-blue-600 flex rounded items-center flex-shrink hover:bg-blue-900 active:opacity-75 active:bg-blue-800"> <div class="leading-tight text-xs"> <div class="font-bold tracking-wide">Zoom-Hangout</div> <span>um 12:30 Uhr</span> </div></a></div-->'
