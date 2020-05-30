@@ -1,4 +1,4 @@
-<main class="text-gray-100 pt-10 md:pt-16">
+<main class="text-gray-100">
 <div class="bard px-4 max-w-2xl mx-auto pb-24">
     {{ rich_content }} 
         {{ if type == 'text'}}
@@ -24,8 +24,19 @@
 </div>
 </main>
 <script src="/site/themes/mosaik/node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.gstatic.com/s/rakkas/v7/Qw3cZQlNHiblL3jPkdFOG-AMCg.woff2" as="font">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
 <style>
-    body { background-color: #121119fc; }
+    body { background-color: #151202; }
     p em a { color: #63b3ed !important; }
-    h2 { margin-bottom: 0.25rem; }
+    .bard h2 { 
+        margin-bottom: 0.25rem; 
+        font-family: 'Rakkas', sans-serif; 
+        font-size: 2.25rem;
+        font-weight: 500;
+        color: #f9b648; 
+        letter-spacing: normal;
+    }
+    
 </style>
