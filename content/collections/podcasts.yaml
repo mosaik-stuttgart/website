@@ -2,15 +2,17 @@ title: Podcast
 template: episode
 blueprints:
   - podcast
-route: '/media/{slug}'
 taxonomies:
   - speaker
   - tags
+  - sermon_series
+revisions: false
+route: '/media/{slug}'
 date: true
+sort_dir: desc
 date_behavior:
   past: public
   future: unlisted
-sort_dir: desc
 inject:
   columns:
     -

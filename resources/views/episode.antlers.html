@@ -12,11 +12,11 @@
         {{if sermon_series}}
         <h4 class="mt-8 text-gray-800 pt-1">
             <span class="uppercase font-semibold">Predigtserie: </span>
-            <span class="font-thin text-gray-800">{{sermon_series}}{{title}}{{/sermon_series}}</span>
+            <span class="font-light text-gray-800">{{sermon_series}}{{title}}{{/sermon_series}}</span>
         </h4>
         
         <div class="flex">
-                {{collection:podcasts taxonomy='sermon_series/{{sermon_series}}{{slug}}{{/sermon_series}}' as="item" title:isnt="{{title}}"}}
+                {{collection from="podcasts" taxonomy='sermon_series/grosszuegigkeit' as="item"}}
                 <ul>
                     {{item}}
                         <li class="rounded-sm border border-gray-500 my-2 hover:bg-gray-200 hover:border-gray-500 hover:text-black">
@@ -34,7 +34,7 @@
                     {{/item}}
                 </ul>
                 
-            {{/collection:podcasts}}
+            {{/collection}}
         </div>
         {{/if}}
    </div>
@@ -57,14 +57,14 @@
             title: 'Mosaik Church',
             summary: '',
             url: 'https://mosaik-stuttgart.net'
-        },
+        }, {{if audio}}
         duration: '00:{{audio get="size_bytes" divide="635400" ceil="true"}}:00',
         audio: [{
             url: '{{if environment === `production`}}https://chtbl.com/track/81345/{{/if}}{{audio | get:permalink}}',
             mimeType: 'audio/mpeg',
             size: 0{{ audio | get:size_bytes }},
             title: 'Audio MP3'
-        }],
+        }], {{/if}}
         visibleComponents: [
             'tabShare',
             'tabFiles',

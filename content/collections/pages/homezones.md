@@ -97,27 +97,33 @@ rich_content:
     type: paragraph
     content:
       -
-        type: text
+        type: hard_break
         marks:
           -
             type: bold
-        text: Empfohlene
       -
         type: text
         marks:
           -
             type: bold
-        text: "\_Bücher"
+        text: "Empfohlene\_Bücher"
       -
         type: hard_break
       -
         type: text
         text: 'Hier findest du eine Liste mit guten Büchern zu verschiedenen Themen. Diese kannst du in deiner Kleingruppe verwenden.'
+  -
+    type: set
+    attrs:
+      values:
+        type: datei
+        file: buchempfehlungen_mosaik.pdf
+        title: Bücherliste
+  -
+    type: paragraph
+    content:
       -
         type: hard_break
-      -
-        type: text
-        text: '{{ partial src=''button'' type="pdf" text=''Bücherliste'' url=''/assets/buchempfehlungen_mosaik.pdf''}}'
   -
     type: paragraph
     content:
@@ -132,11 +138,18 @@ rich_content:
       -
         type: text
         text: 'Wenn du ein Buch der Bibel gemeinsam mit deiner Gruppe studieren willst, haben wir hier einige Tipps für dich.'
+  -
+    type: set
+    attrs:
+      values:
+        type: datei
+        file: hilfestellung_homezone.pdf
+        title: 'Hilfestellung für den Input'
+  -
+    type: paragraph
+    content:
       -
         type: hard_break
-      -
-        type: text
-        text: '{{ partial src=''button'' type="pdf" text=''Hilfestellung für den Input'' url=''/assets/hilfestellung_homezone.pdf''}}'
   -
     type: paragraph
     content:
@@ -169,7 +182,7 @@ title: Homezones
 slug: homezones
 blueprint: default
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1590325505
+updated_at: 1590354849
 id: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
 ---
 <h2>Kleingruppen existieren für dich</h2><p>Kleingruppen haben vor allem ein Ziel: Menschen zusammenzubringen. Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen.&nbsp;Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.</p><p><a href="/mitmachen/homezones/homezonefinder">Homezone finden</a></p><p><br></p><h2>Eine Kleingruppe leiten</h2><p>Um eine Kleingruppe zu leiten musst du nicht perfekt sein. Du darfst anderen dienen, indem du einen Ort schaffst, an dem sie Beziehungen knüpfen können. Eine Gruppe zu starten ist nicht schwer. Wähle ein Thema oder eine Aktivität, die dich interessiert, eine Zeit und einen Ort, um sie mit anderen zu teilen. Wir glauben, dass Menschenleben Semester für Semester verändert werden, indem jeder seine nächsten Schritte mit Jesus geht. Als Kleingruppenleiter darfst du in diesem Prozess eine wichtige Rolle spielen! Komm einfach zu unserem Homezoneleiter Training und erfahre mehr!</p><p><br></p><h3>Termine für das Homezoneleiter Training</h3><p><strong>Hier helfen wir dir eine Kleingruppe erfolgreich zu leiten.</strong></p><p>15.9. (So) nach dem zweiten Gottesdienst&nbsp;<br>22.9. (So) nach dem zweiten Gottesdienst</p><p><a href="/mitmachen/homezones/homezonefinder">Homezone anmelden</a></p><p><br></p><h3>Mögliche Themen für Homezones</h3><p>Jede Homezone sieht anders aus, je nach den Interessen und Leidenschaften der Teilnehmer. Ob Joggen, Bowling oder Bibelstudium, mach aus dem, was du jetzt bereits gerne tust, eine Homezone!</p><p><br></p><h3>Ressourcen</h3><p>Suchst du nach Inhalten, die du mit deiner Kleingruppe behandeln kannst? Wir bieten dir&nbsp;vorgefertigte Ressourcen an und empfehlen gute Bücher, durch die du mit deinen Teilnehmern ins Gespräch kommen kannst.</p><p><strong><a href="https://mosaik-stuttgart.net/fileadmin/media/sermons/2018/Buchempfehlung_fuer_Semester_18.pdf">Empfohlene Bücher</a></strong>&nbsp;<br>Hier findest du eine Liste mit guten Büchern zu verschiedenen Themen. Diese kannst du in deiner Kleingruppe verwenden. Eine Anleitung und Tipps dazu gibt es hier: Anleitung zum Studium eines Buches</p><p><strong><a href="https://mosaik-stuttgart.net/fileadmin/content/documents/Bibelstudium_in_einer_Kleingruppe.pdf">Bibelstudium</a></strong><br>Wenn du ein Buch der Bibel gemeinsam mit deiner Gruppe studieren willst, haben wir hier einige Tipps für dich.</p><p><strong><a href="http://www.hauskreismagazin.net/" target="_blank">Hauskreismagazin</a></strong>&nbsp;<br>Das Hauskreismagazin ist auf 10 Wochen ausgelegt und behandelt verschiedenste Themen, die durch Fragen und Backgroundinfos beleuchtet werden.</p>

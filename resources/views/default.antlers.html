@@ -10,9 +10,11 @@
             {{ else }}
                 {{ partial src='button' :text='text' :link="target_page" }}
             {{ /if }}
+        {{ elseif type == 'datei' }}
+            {{partial src='file' :text="title" :file="file"}}
         {{ elseif type == 'html'}}
             {{html}}
-        {{ elseif type == 'image'}}
+        {{ elseif type == 'bild'}}
             <picture class="my-2 md:my-4 w-full block bg-gray-200">
                 <source type="image/webp" srcset="{{ glide :src='image' w='1024' q='80' fm='webp' }} 1024w, {{ glide :src='image' w='512' q='80' fm='webp' }} 512w" sizes="100%"/>
                 <source type="image/jpg" srcset="{{ glide :src='image' w='1024' q='80' }} 1024w, {{ glide :src='image' w='512' q='80' }} 512w" sizes="100%"/>

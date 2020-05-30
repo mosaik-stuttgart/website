@@ -44,38 +44,21 @@ sections:
                     max_files: 1
                     mode: list
                     display: Bild
-                    replicator_preview: true
                     listable: hidden
+                    replicator_preview: false
                     allow_uploads: true
                 -
                   handle: titel
                   field:
                     type: text
                     display: Überschrift
-                    width: 25
+                    width: 50
                 -
                   handle: subtitel
                   field:
                     type: text
                     display: Bereich
-                    width: 25
-                -
-                  handle: linktext
-                  field:
-                    type: text
-                    display: Linktext
-                    width: 25
-                -
-                  handle: ziel
-                  field:
-                    type: entries
-                    max_items: 1
-                    mode: panes
-                    display: Ziel
-                    replicator_preview: false
-                    width: 25
-                    collections:
-                      - pages
+                    width: 50
                 -
                   handle: text
                   field:
@@ -86,6 +69,24 @@ sections:
                     buttons:
                       - bold
                       - italic
+                -
+                  handle: linktext
+                  field:
+                    type: text
+                    display: Linktext
+                    width: 50
+                -
+                  handle: cta
+                  field:
+                    type: entries
+                    max_items: 1
+                    mode: panes
+                    display: Ziel
+                    replicator_preview: false
+                    width: 50
+                    collections:
+                      - pages
+                    listable: hidden
           listable: hidden
       -
         handle: content

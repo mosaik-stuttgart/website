@@ -39,10 +39,12 @@
         <guid isPermaLink="false">{{id}}</guid>
         <dc:creator><![CDATA[Mosaik Church Stuttgart]]></dc:creator>
         <pubDate>{{ date format="D, d M o 13:00:00 GMT"}}</pubDate>
+        {{ if audio }}
         <enclosure url="https://chtbl.com/track/81345/{{audio | get:permalink}}" length="{{audio | get:size_bytes}}" type="audio/mpeg"/>
+        <itunes:duration>{{audio get="size_bytes" divide="10590" ceil="true"}}</itunes:duration> 
+        {{/if}}
         <itunes:summary>{{description}}</itunes:summary>
         <itunes:explicit>No</itunes:explicit>
-        <itunes:duration>{{audio get="size_bytes" divide="10590" ceil="true"}}</itunes:duration>
         <itunes:image href="{{ podcast:url }}{{podcast:image}}"/>
         <itunes:episodeType>full</itunes:episodeType>
         <content:encoded>{{ shownotes | cdata }}</content:encoded>

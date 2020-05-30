@@ -1,3 +1,4 @@
+title: Footer
 sections:
   main:
     display: Main
@@ -10,10 +11,12 @@ sections:
           folder: images
           restrict: true
           max_files: 1
-          mode: list
+          mode: grid
           instructions: 'Bild muss ein SVG sein!'
           width: 25
           display: Logo
+          listable: hidden
+          allow_uploads: true
       -
         handle: links
         field:
@@ -31,5 +34,3 @@ sections:
           cheatsheet: false
           restrict_assets: false
           display: 'Footer Scripts'
-taxonomies: false
-title: Footer

@@ -24,7 +24,7 @@ Route::statamic('account', 'user.account');
 Route::statamic('register', 'auth.register');
 Route::statamic('forgot-password', 'auth.password-forgot');
 Route::statamic('reset-password', 'auth.password-reset');
-Route::statamic('podcast/feed', '', [
+Route::statamic('podcast/feed', 'podcast', [
     'layout' => 'feed',
     'content_type' => 'application/rss+xml',
 ]);

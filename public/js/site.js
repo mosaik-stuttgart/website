@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/silas/websites/statamic-v3/resources/js/site.js */"./resources/js/site.js");
-module.exports = __webpack_require__(/*! /Users/silas/websites/statamic-v3/resources/css/tailwind.css */"./resources/css/tailwind.css");
+__webpack_require__(/*! /Users/silas/websites/mosaik/resources/js/site.js */"./resources/js/site.js");
+module.exports = __webpack_require__(/*! /Users/silas/websites/mosaik/resources/css/tailwind.css */"./resources/css/tailwind.css");
 
 
 /***/ })

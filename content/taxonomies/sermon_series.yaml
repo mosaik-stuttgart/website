@@ -1,5 +1,3 @@
 title: Predigtserien
-template: sermon_series
 blueprints:
   - sermon_series
-route: '/media/serie/{slug}'

@@ -73,6 +73,7 @@ steps:
     bild: images/gottesdienst.jpg
     ziel: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
     enabled: true
+    page: null
   -
     type: step
     titel: 'Freiheit erleben'
@@ -83,6 +84,7 @@ steps:
     ziel: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
     bild: images/homezones-1562411070.jpg
     enabled: true
+    page: null
   -
     type: step
     bild: images/dreamteams.jpg
@@ -92,6 +94,7 @@ steps:
     ziel: 1c507839-092f-452c-aabe-7eaf1fc95998
     text: '<p>Wir tr&auml;umen von einer Kirche, in der Menschen ihr <strong>Potenzial entfalten</strong>, um gemeinsam an etwas Gewaltigem zu bauen!</p>'
     enabled: true
+    page: null
   -
     type: step
     bild: images/jesus.jpg
@@ -101,6 +104,7 @@ steps:
     linktext: null
     ziel: null
     enabled: true
+    page: null
 header_image: images/header.jpg
 welcome_home: 'Welcome Home'
 subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart Süd.'
@@ -123,7 +127,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1590321281
+updated_at: 1590352400
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
