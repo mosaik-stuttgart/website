@@ -1,1 +1,2 @@
-// This is all you.
+import "instant.page"
+import "alpinejs"

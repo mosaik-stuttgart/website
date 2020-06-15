@@ -8,7 +8,7 @@ Description: Ein Mosaik steht für viele gebrochene Steine, die für sich allein
 
 Statamic: https://statamic.com
 Tailwind: https://tailwindcss.com
-Silas: https://silas.la
+Silas: https://silas.digital
 
 /* SITE */
 

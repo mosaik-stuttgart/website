@@ -13,7 +13,22 @@
     <link rel="preload" href="/site/themes/mosaik/fonts/playfair-display-v20-latin-600.woff2" as="font" crossorigin>
     <link rel="preload" href="/site/themes/mosaik/fonts/playfair-display-v20-latin-700.woff2" as="font" crossorigin>
     <link rel="preload" href="/site/themes/mosaik/fonts/playfair-display-v20-latin-800.woff2" as="font" crossorigin>
-    {{ seo_pro:meta }}
+    <title>{{seo.title ?? title}}</title>
+    <meta name="description" content="Deine Freikirche im Herzen von Stuttgart-Süd. Eine leidenschaftliche &amp; menschenorientierte Gemeinde mit vielen jungen Erwachsenen, voller Liebe für Jesus!">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mosaik Church - Deine Kirche in Stuttgart">
+    <meta property="og:description" content="Deine Freikirche im Herzen von Stuttgart-Süd. Eine leidenschaftliche &amp; menschenorientierte Gemeinde mit vielen jungen Erwachsenen, voller Liebe für Jesus!">
+    <meta property="og:url" content="https://mosaik-stuttgart.net/">
+    <meta property="og:locale" content="de">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Mosaik Church - Deine Kirche in Stuttgart">
+    <meta name="twitter:description" content="Deine Freikirche im Herzen von Stuttgart-Süd. Eine leidenschaftliche &amp; menschenorientierte Gemeinde mit vielen jungen Erwachsenen, voller Liebe für Jesus!">
+    <meta property="og:image" content="{{header_image}}">
+    <meta name="twitter:image" content="{{header_image}}">
+    <link href="https://mosaik-stuttgart.net/" rel="home">
+    <link type="text/plain" rel="author" href="https://mosaik-stuttgart.net/humans.txt">
+    <meta name="google-site-verification" content="l4zxyB5NNjo8krQQup0fo1zorrBCEzS45oQpU9vq0L4">
+    {{# seo_pro:meta #}}
     <style>
       body {margin: 0} 
       {{# nav, main, footer, section {opacity: 0;} #}}

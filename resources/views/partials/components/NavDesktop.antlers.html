@@ -3,14 +3,14 @@
 <div class="fixed z-50 bg-black  w-full shadow px-4">
     <div class="flex justify-between items-center h-16 max-w-6xl mx-auto">
     <a href="/" class="text-white" aria-label="Home">
-        {{ theme:output src="img/logo.svg" }}
+        {{ svg src="logo.svg" }}
     </a>
     
     {{# #navigation #}}
     <nav class="flex flex-col justify-between flex-grow-0 h-full overflow-y-auto tracking-loose">
         <ul class="flex text-md text-gray-200 font-medium space-x-2 h-full">
 
-            {{ nav from="/" max_depth="2" include_home="true" is_hidden:isnt="true"}}
+            {{ nav:navigation max_depth="2" include_home="true"}}
                 
                 {{# liPrimary #}}
                 <li class="group px-3 border-b-4 border-black {{ if is_current || is_parent }}border-gray-300 text-white{{ /if }}{{ if url == '/' }} hidden md:block {{ /if }} hover:border-gray-400 hover:text-gray-200">
@@ -47,7 +47,7 @@
                         </ul>
                     {{ /if }}
                 </li> {{ /if }}#}}
-            {{ /nav }}
+            {{ /nav:navigation }}
         </ul>
     </nav>
 </div>

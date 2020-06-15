@@ -12,14 +12,14 @@
 <div x-data="{ open: false }" :class="{'h-full bg-black-blur': open}" class="fixed z-50 flex flex-col justify-between w-full h-14 text-gray-300 bg-black" >
     <div class="fixed flex items-center justify-between w-full shadow overflow-hidden">
         <a href="/" class="text-white" aria-label="Home">
-            {{ theme:output src="img/logo.svg" }}
+            {{ svg src="logo.svg" }}
         </a>
         <span @click="open = !open; document.body.classList.toggle('overflow-hidden')" class="px-5 py-1 pb-1 font-medium select-none focus:text-gray-100 hover:pointer-cursor text-md" x-text="open ? 'SCHLIESSEN' : 'MENÜ'"></span>
     </div>
 
     <nav x-show="open" class="flex flex-col justify-between flex-grow mt-12 overflow-y-auto font-serif text-2xl font-bold">
         <ul class="mt-6 border-b border-gray-900 divide-y divide-gray-900">
-          {{ nav from="/" max_depth="2" include_home="true" is_hidden:isnt="true"}}
+          {{ nav:navigation max_depth="2" include_home="true" }}
             <li x-data="{ dropdown: false}">
                 <div class="flex items-center justify-between p-3">
                     <a href="{{ url }}" class="px-1 leading-normal {{ if is_current || is_parent }}highlighter{{ /if }}" >{{title}}</a> 
@@ -37,7 +37,7 @@
                     </ul>
                 {{ /if }}
             </li>
-          {{ /nav }}
+          {{ /nav:navigation }}
         </ul>
         {{# social icons #}}
         <div class="flex p-3 mt-3 mb-1 space-x-1 text-6xl">
