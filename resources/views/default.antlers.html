@@ -5,11 +5,7 @@
         {{ if type == 'text'}}
             {{text | markdown}}
         {{ elseif type == 'button' }}
-            {{ if link | length > 0 }}
-                {{ partial src='button' :text='text' :link='link' :external='target_blank'}}
-            {{ else }}
-                {{ partial src='button' :text='text' :link="target_page" }}
-            {{ /if }}
+                {{ partial src='button' :text='text' :url="url" }}
         {{ elseif type == 'datei' }}
             {{partial src='file' :text="title" :file="file"}}
         {{ elseif type == 'html'}}

@@ -75,18 +75,15 @@ sections:
                     type: text
                     display: Linktext
                     width: 50
+                    listable: hidden
+                    input_type: text
                 -
                   handle: cta
                   field:
-                    type: entries
-                    max_items: 1
-                    mode: panes
-                    display: Ziel
-                    replicator_preview: false
-                    width: 50
-                    collections:
-                      - pages
+                    type: link
+                    localizable: false
                     listable: hidden
+                    display: Ziel
           listable: hidden
       -
         handle: content

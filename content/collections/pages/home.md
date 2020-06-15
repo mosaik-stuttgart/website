@@ -67,24 +67,24 @@ steps:
     type: step
     titel: 'Gott kennen'
     linktext: 'Predigten anhören'
-    link: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
     text: '<p>Wir tr&auml;umen von einer Kirche, in der Menschen <strong>Gott kennen</strong> und in intensiver Beziehung zu ihm stehen!</p>'
     subtitel: Gottesdienst
     bild: images/gottesdienst.jpg
     ziel: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
     enabled: true
     page: null
+    cta: 'entry::ed8bf94f-f4a2-4099-a34d-9eb1077a8438'
   -
     type: step
     titel: 'Freiheit erleben'
     subtitel: Homezones
     linktext: 'Homezone finden'
-    link: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
     text: '<p>Wir tr&auml;umen von einer Kirche, in der Menschen ihre Einzigartigkeit erkennen und echte <strong>Freiheit erleben</strong>.</p>'
     ziel: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
     bild: images/homezones-1562411070.jpg
     enabled: true
     page: null
+    cta: 'entry::cf1f52b8-f2ab-4c29-ac42-a775be5b764a'
   -
     type: step
     bild: images/dreamteams.jpg
@@ -95,6 +95,7 @@ steps:
     text: '<p>Wir tr&auml;umen von einer Kirche, in der Menschen ihr <strong>Potenzial entfalten</strong>, um gemeinsam an etwas Gewaltigem zu bauen!</p>'
     enabled: true
     page: null
+    cta: 'entry::faa47d88-a7dc-45d9-9f1d-d46deafeed43'
   -
     type: step
     bild: images/jesus.jpg
@@ -105,6 +106,7 @@ steps:
     ziel: null
     enabled: true
     page: null
+    cta: null
 header_image: images/header.jpg
 welcome_home: 'Welcome Home'
 subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart Süd.'
@@ -127,7 +129,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1590352400
+updated_at: 1592255865
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
