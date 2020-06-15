@@ -4,11 +4,8 @@ rich_content:
     type: set
     attrs:
       values:
-        type: html
-        html: |
-          <style>lite-youtube { background-image: url('/assets/main/images/auferstehung.jpg') !important } </style>
-          <div class="-mx-1 sm:-mx-2 md:-mx-4 pb-6 md:pb-2 "><lite-youtube videoid="{env:YOUTUBE_LINK}" onclick="if ('{env:EXTERNAL}' === 'yes') window.open('https://www.youtube.com/watch?v={env:YOUTUBE_LINK}&rel=0', '_blank')" class="mt-8 md:mt-10 md:mb-8" rel="0"></lite-youtube></div>
-          
+        type: video
+        video: 'https://www.youtube.com/watch?v=blYb2rHLxLE'
   -
     type: heading
     attrs:
@@ -167,12 +164,6 @@ rich_content:
   -
     type: paragraph
   -
-    type: set
-    attrs:
-      values:
-        type: video
-        video: 'https://www.youtube.com/watch?v=s9F5fhJQo34'
-  -
     type: paragraph
 header_image: images/mosaik_im_wohnzimmer.jpg
 seo:
@@ -182,6 +173,6 @@ template: livestream
 slug: live
 blueprint: default
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1590653653
+updated_at: 1592258094
 id: 4b638da5-09ed-4bbf-9cd6-f6ef814d8721
 ---

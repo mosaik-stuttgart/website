@@ -2072,8 +2072,114 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var instant_page__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(instant_page__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js");
 /* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(alpinejs__WEBPACK_IMPORTED_MODULE_1__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
+
+function _construct(Parent, args, Class) { if (_isNativeReflectConstruct()) { _construct = Reflect.construct; } else { _construct = function _construct(Parent, args, Class) { var a = [null]; a.push.apply(a, args); var Constructor = Function.bind.apply(Parent, a); var instance = new Constructor(); if (Class) _setPrototypeOf(instance, Class.prototype); return instance; }; } return _construct.apply(null, arguments); }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _isNativeFunction(fn) { return Function.toString.call(fn).indexOf("[native code]") !== -1; }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 
+
+
+var LiteYTEmbed = /*#__PURE__*/function (_HTMLElement) {
+  _inherits(LiteYTEmbed, _HTMLElement);
+
+  var _super = _createSuper(LiteYTEmbed);
+
+  function LiteYTEmbed() {
+    var _this;
+
+    _classCallCheck(this, LiteYTEmbed);
+
+    _this = _super.call(this);
+    _this.videoId = encodeURIComponent(_this.getAttribute('videoid'));
+    _this.rel = encodeURIComponent(_this.getAttribute('rel'));
+    _this.posterUrl = "https://i.ytimg.com/vi/".concat(_this.videoId, "/hqdefault.jpg");
+    LiteYTEmbed.addPrefetch('preload', _this.posterUrl, 'image');
+    return _this;
+  }
+
+  _createClass(LiteYTEmbed, [{
+    key: "connectedCallback",
+    value: function connectedCallback() {
+      var _this2 = this;
+
+      this.style.backgroundImage = "url(\"".concat(this.posterUrl, "\")");
+      var playBtn = document.createElement('div');
+      playBtn.classList.add('lty-playbtn');
+      this.append(playBtn);
+      this.addEventListener('pointerover', LiteYTEmbed.warmConnections, {
+        once: true
+      });
+      this.addEventListener('click', function (e) {
+        return _this2.addIframe();
+      });
+    }
+  }, {
+    key: "addIframe",
+    value: function addIframe() {
+      var videoUrlWithQuery = "".concat(this.videoId, "?autoplay=1");
+
+      if (this.rel && this.rel !== 'null') {
+        videoUrlWithQuery += "&rel=".concat(this.rel);
+      }
+
+      var iframeHTML = "\n<iframe width=\"560\" height=\"315\" frameborder=\"0\"\n  allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen\n  src=\"https://www.youtube.com/embed/".concat(videoUrlWithQuery, "\"\n></iframe>");
+      this.insertAdjacentHTML('beforeend', iframeHTML);
+      this.classList.add('lyt-activated');
+    }
+  }], [{
+    key: "addPrefetch",
+    value: function addPrefetch(kind, url, as) {
+      var linkElem = document.createElement('link');
+      linkElem.rel = kind;
+      linkElem.href = url;
+
+      if (as) {
+        linkElem.as = as;
+      }
+
+      linkElem.crossorigin = true;
+      document.head.append(linkElem);
+    }
+  }, {
+    key: "warmConnections",
+    value: function warmConnections() {
+      if (LiteYTEmbed.preconnected) return;
+      LiteYTEmbed.addPrefetch('preconnect', 'https://www.youtube.com');
+      LiteYTEmbed.addPrefetch('preconnect', 'https://www.google.com');
+      LiteYTEmbed.addPrefetch('preconnect', 'https://googleads.g.doubleclick.net');
+      LiteYTEmbed.addPrefetch('preconnect', 'https://static.doubleclick.net');
+      LiteYTEmbed.preconnected = true;
+    }
+  }]);
+
+  return LiteYTEmbed;
+}( /*#__PURE__*/_wrapNativeSuper(HTMLElement));
+
+customElements.define('lite-youtube', LiteYTEmbed);
 
 /***/ }),
 

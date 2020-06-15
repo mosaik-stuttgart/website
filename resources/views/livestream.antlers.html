@@ -1,4 +1,4 @@
-<main class="text-gray-100 pt-10 md:pt-16">
+<main class="text-gray-100">
 <div class="bard px-4 max-w-2xl mx-auto pb-24">
     {{ rich_content }} 
         {{ if type == 'text'}}
@@ -11,6 +11,11 @@
             {{ /if }}
         {{ elseif type == 'html'}}
             {{html}}
+        {{ elseif type == 'video' }}
+            
+            <div class="-mx-1 sm:-mx-2 md:-mx-4 pb-6 md:pb-2 ">
+                <lite-youtube videoid="{{ video | substr:-11 }}" class="mt-8 md:mt-10 md:mb-8" rel="0"></lite-youtube>
+            </div>
         {{ elseif type == 'image'}}
             <picture class="my-2 md:my-4 w-full block bg-gray-200">
                 <source type="image/webp" srcset="{{ glide :src='image' w='1024' q='80' fm='webp' }} 1024w, {{ glide :src='image' w='512' q='80' fm='webp' }} 512w" sizes="100%"/>
@@ -23,7 +28,6 @@
     {{ /rich_content}}
 </div>
 </main>
-<script src="/site/themes/mosaik/node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
 <style>
     body { background-color: #121119fc; }
     p em a { color: #63b3ed !important; }
