@@ -5,6 +5,7 @@ class LiteYTEmbed extends HTMLElement {
     constructor() {
         super();
         this.videoId = encodeURIComponent(this.getAttribute('videoid'));
+        this.embeddable = false;
         this.rel = encodeURIComponent(this.getAttribute('rel'));
         this.posterUrl = `https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg`;
         LiteYTEmbed.addPrefetch('preload', this.posterUrl, 'image');
@@ -12,12 +13,18 @@ class LiteYTEmbed extends HTMLElement {
 
     connectedCallback() {
         this.style.backgroundImage = `url("${this.posterUrl}")`;
-
+        fetch(`https://www.googleapis.com/youtube/v3/videos?id=${this.videoId}&part=status&key=${process.env.MIX_YOUTUBE_API_KEY}`)
+            .then(res => res.json())
+            .then(res => {
+                this.embeddable = res.items[0].status.embeddable
+            })
         const playBtn = document.createElement('div');
         playBtn.classList.add('lty-playbtn');
         this.append(playBtn);
         this.addEventListener('pointerover', LiteYTEmbed.warmConnections, {once: true});
-        this.addEventListener('click', e => this.addIframe());
+        this.addEventListener('click', e => {
+            this.embeddable ? this.addIframe() : window.open(`https://www.youtube.com/watch?v=${this.videoId}`)
+        });
     }
 
     static addPrefetch(kind, url, as) {

@@ -19,7 +19,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Aufgrund der aktuellen Situation bieten wir Sonntags keinen Gottesdienst in der Römerstraße an, sondern bringen den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern. Um 17 Uhr gibt es eine Wiederholung.'
+        text: 'Aufgrund der aktuellen Situation bieten wir Sonntags keinen Gottesdienst in der Römerstraße an, sondern bringen den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.'
   -
     type: paragraph
     content:
@@ -173,6 +173,6 @@ template: livestream
 slug: live
 blueprint: default
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592258094
+updated_at: 1592258230
 id: 4b638da5-09ed-4bbf-9cd6-f6ef814d8721
 ---
