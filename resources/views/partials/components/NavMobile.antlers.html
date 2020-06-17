@@ -14,7 +14,7 @@
         <a href="/" class="text-white" aria-label="Home">
             {{ svg src="logo.svg" }}
         </a>
-        <span @click="open = !open; document.body.classList.toggle('overflow-hidden')" class="px-5 py-1 pb-1 font-medium select-none focus:text-gray-100 hover:pointer-cursor text-md" x-text="open ? 'SCHLIESSEN' : 'MENÜ'"></span>
+        <span @click="open = !open; document.body.classList.toggle('overflow-hidden')" class="px-5 py-1 pb-1 font-medium select-none focus:text-gray-100 hover:pointer-cursor text-md" x-text="open ? 'SCHLIESSEN' : 'MENÜ'">MENÜ</span>
     </div>
 
     <nav x-show="open" class="flex flex-col justify-between flex-grow mt-12 overflow-y-auto font-serif text-2xl font-bold">

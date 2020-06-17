@@ -18,12 +18,14 @@ primary_card:
         type: hard_break
       -
         type: text
-        text: 'Zum Livestream'
         marks:
           -
             type: link
             attrs:
               href: /live/
+              target: null
+              rel: null
+        text: 'Zum Livestream'
   -
     type: paragraph
     content:
@@ -34,34 +36,14 @@ primary_card:
         type: hard_break
       -
         type: text
-        text: 'Mosaik Church auf Instagram'
         marks:
           -
             type: link
             attrs:
+              href: 'https://instagram.com/mosaik_church'
               target: _blank
               rel: noopener
-              href: 'https://instagram.com/mosaik_church'
-      -
-        type: hard_break
-      -
-        type: hard_break
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Wenn du momentan aufgrund von COVID-19 in einer schwierigen Situation steckst und Hilfe brauchst, schreib uns einfach eine E-Mail. Wir werden sehen, wie wir dir helfen können.'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Nachricht schreiben'
-        marks:
-          -
-            type: link
-            attrs:
-              href: /kontakt/
+        text: 'Mosaik Church auf Instagram'
 steps:
   -
     type: step
@@ -129,7 +111,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592255865
+updated_at: 1592415227
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
