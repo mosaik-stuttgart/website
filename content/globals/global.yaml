@@ -25,3 +25,9 @@ data:
       icon: facebook
       link: 'https://facebook.com/MosaikStuttgart'
       enabled: true
+    -
+      name: Youtube
+      icon: youtube
+      link: 'https://www.youtube.com/channel/UCUQI6VwkU8NYR-VfpLKmXDw'
+      type: platform
+      enabled: true

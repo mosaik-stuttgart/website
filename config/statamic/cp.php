@@ -38,7 +38,6 @@ return [
     */
 
     'widgets' => [
-        'getting_started',
         [
             'type' => 'collection',
             'collection' => 'podcasts',
