@@ -1,13 +1,11 @@
 title: Kontakt
-metrics:
-  -
-    type: total
-    label: Gesamt
+blueprint: contact_form
+honeypot: snaretrap
 email:
   -
     to: '{env:MAIL_ADDRESS}'
     reply_to: '{{email}}'
     subject: '{{if subject}}{{subject}}{{else}}Nachricht über das Website-Formular{{/if}}'
     template: contact
-honeypot: snaretrap
-blueprint: contact_form
+    html: email/plain
+    text: email/html
