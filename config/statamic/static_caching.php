@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'strategy' => null,
+    'strategy' => 'half',
 
     /*
     |--------------------------------------------------------------------------
@@ -53,7 +53,8 @@ return [
     */
 
     'exclude' => [
-        //
+        '/kontakt',
+        '/podcast/feed'
     ],
 
     /*
@@ -73,9 +74,7 @@ return [
 
         'class' => null,
 
-        'rules' => [
-            //
-        ],
+        'rules' => 'all',
 
     ],
 

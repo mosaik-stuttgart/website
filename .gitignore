@@ -16,6 +16,7 @@ mix-manifest.json
 
 .php_cs.cache
 /public/hot
+/public/static
 /public/js
 /public/storage
 /public/vendor/statamic
