@@ -1,22 +1,23 @@
-<main class="bg-white pt-6 md:pt-12">        
-<div class="mt-16 px-3 max-w-lg mx-auto pb-24">
-    <div id="player" class="shadow rounded-px overflow-hidden bg-black"></div>
+<main class="bg-white pt-4 md:pt-6">        
+<div class="px-3 max-w-2xl mx-auto">
+    <div id="player" class="shadow  rounded-px overflow-hidden" style="background: #003732; min-height: 298px"></div>
     <div class="mt-3 py-5 pl-1">
         <h4 class="uppercase text-gray-800 py-1 font-semibold">Sprecher</h4>
         <div class="flex">
-            {{ relate:speaker }}
-            {{if image }}<img class="h-10 w-10 rounded-full mr-3 object-cover" src="{{image}}" alt=""> {{/if}}
-            <div class="py-1 text-lg">{{title}}</div>
+            {{ relate:speaker}}
+            {{if image }}<img class="h-10 w-10 rounded-full mr-3 object-cover" src="{{glide:image w='80' h='80'}}" alt=""> {{/if}}
+            <div class="py-1 text-lg">{{title}}&nbsp;</div>
             {{ /relate:speaker }}
         </div>
         {{if sermon_series}}
+        {{sermon_series}}
         <h4 class="mt-8 text-gray-800 pt-1">
             <span class="uppercase font-semibold">Predigtserie: </span>
-            <span class="font-light text-gray-800">{{sermon_series}}{{title}}{{/sermon_series}}</span>
+            <span class="text-gray-700">{{title}}</span>
         </h4>
         
         <div class="flex">
-                {{collection from="podcasts" taxonomy='sermon_series/grosszuegigkeit' as="item"}}
+                {{collection from="podcasts" taxonomy:sermon_series="{slug}" as="item"}}
                 <ul>
                     {{item}}
                         <li class="rounded-sm border border-gray-500 my-2 hover:bg-gray-200 hover:border-gray-500 hover:text-black">
@@ -36,12 +37,13 @@
                 
             {{/collection}}
         </div>
+        {{/sermon_series}}
         {{/if}}
    </div>
    
 </div>
 </main>
-<script src="https://cdn.podlove.org/web-player/embed.js"></script>
+<script src="https://cdn.podlove.org/web-player/5.x/embed.js"></script>
 <script>
     podlovePlayer('#player', {
         title: '{{title}}',
@@ -52,7 +54,7 @@
             main: '#000819',
             highlight: '#FCFFFF'
         },
-        poster: 'https://is2-ssl.mzstatic.com/image/thumb/Podcasts113/v4/04/ed/59/04ed5916-11a1-de6f-7c8e-2b9a310c835e/mza_8798462657402886312.jpg/804x0w.jpg',
+        poster: '/assets/main/images/mosaik_podcast.jpg',
         show: {
             title: 'Mosaik Church',
             summary: '',
@@ -82,6 +84,68 @@
             group: { id: '1', slug: 'ke', title: 'Prediger' },
             comment: null
             },{{ /relate:speaker }}
-        ],
+        ]
+    }, {
+        version: 5,
+        "theme": {
+            tokens: {
+              brand: "#09DFCA",
+              brandDark: "#F9FCFD",
+              brandDarkest: "#B7F0E6",
+              brandLightest: "#121211",
+              shadeDark: "#807E7C",
+              shadeBase: "#807E7C99",
+              contrast: "#F5EEEE",
+              alt: "#254855"
+            }
+        },
+        share: {
+            channels: [
+              "facebook",
+              "whats-app",
+              "twitter",
+              "mail",
+              "link"
+            ],
+            //outlet: "/share.html",
+            sharePlaytime: true
+        },
+        "subscribe-button": {
+            feed: "https://mosaik-stuttgart.net/podcast/feed",
+            clients: [
+              {
+                id: "apple-podcasts",
+                service: "id1391563851" 
+              },
+              {
+                id: "google-podcasts",
+                service: "https://mosaik-stuttgart.net/podcast/feed"
+              },
+              {
+                id: "spotify",
+                service: "4RVf9pFuNMkSFvv13WJCh6",
+              },
+              {
+                id: "pocket-casts",
+                service: "https://mosaik-stuttgart.net/podcast/feed"
+              },
+              {
+                id: "antenna-pod",
+                service: "https://mosaik-stuttgart.net/podcast/feed"
+              },
+              {
+                id: "castro",
+                service: "cf641ff9-b454-42ee-a3f6-03850048b55d"
+              },
+              {
+                id: "overcast",
+                service: "https://mosaik-stuttgart.net/podcast/feed" // feed
+              },             
+              {
+                id: "rss",
+                service: "https://mosaik-stuttgart.net/podcast/feed"
+              }
+            ]
+          },
     });
 </script>

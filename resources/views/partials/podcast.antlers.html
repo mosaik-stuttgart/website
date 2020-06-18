@@ -1,6 +1,6 @@
 {{ collection:podcasts paginate="true" as="episode" limit="10" }} 
   {{ if no_results }}<p>Keine Predigten gefunden.</p> {{ /if }}
-  <div class="space-y-2">
+  <div class="space-y-2 pt-3 md:pt-0">
   {{ episode scope="tag" }} 
   <div class="rounded-sm border border-gray-500 hover:bg-gray-200 hover:border-gray-500 hover:text-black max-w-xl mx-auto">
     <a href="{{ url }}" style="text-decoration: none" class="flex px-4 py-3 align-center">

@@ -21,6 +21,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
+        "@podlove/web-player": "^5.1.7",
         "alpinejs": "^2.3.5",
         "instant.page": "^5.1.0"
     }
