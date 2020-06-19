@@ -1,0 +1,46 @@
+title: Predigtserien
+taxonomies: false
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          display: Titel
+          width: 50
+          localizable: true
+      -
+        handle: slug
+        field:
+          type: text
+          display: slug
+          width: 50
+      -
+        handle: image
+        field:
+          type: assets
+          container: main
+          folder: /images
+          restrict: false
+          max_files: 1
+          display: Bild
+          mode: grid
+      -
+        handle: content
+        field:
+          type: bard
+          style: sans
+          spellcheck: true
+          allow_source: true
+          allow_internal_links: true
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: true
+          semantic_elements: true
+          container: main
+          folder: /
+          restrict_assets: false
+          classes: bard
+          display: Beschreibung

@@ -1,0 +1,36 @@
+title: Footer
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: logo
+        field:
+          type: assets
+          container: main
+          folder: images
+          restrict: true
+          max_files: 1
+          mode: grid
+          instructions: 'Bild muss ein SVG sein!'
+          width: 25
+          display: Logo
+          listable: hidden
+          allow_uploads: true
+      -
+        handle: links
+        field:
+          type: entries
+          max_items: 3
+          mode: panes
+          width: 50
+          display: Links
+          collections:
+            - pages
+      -
+        handle: footer_scripts
+        field:
+          type: markdown
+          cheatsheet: false
+          restrict_assets: false
+          display: 'Footer Scripts'

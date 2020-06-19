@@ -1,0 +1,21 @@
+roles:
+  - admin
+super: true
+name: 'Silas Krause'
+username: silas
+id: 8b859feb-1ec6-464d-976a-9ab876f03455
+password_hash: $2y$10$ozz2tW4SQDmjhq5HQdrUs.ZWWc5mjpgRQ/HKNQcPLALfj4Ds5QITG
+preferences:
+  forms:
+    contact:
+      columns:
+        - datestamp
+        - name
+        - email
+  collections:
+    podcasts:
+      columns:
+        - title
+        - date
+        - speaker
+        - sermon_series

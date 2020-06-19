@@ -1,0 +1,151 @@
+<main class="bg-white pt-4 md:pt-6">        
+<div class="px-3 max-w-2xl mx-auto">
+    <div id="player" class="shadow  rounded-px overflow-hidden" style="background: #003732; min-height: 298px"></div>
+    <div class="mt-3 py-5 pl-1">
+        <h4 class="uppercase text-gray-800 py-1 font-semibold">Sprecher</h4>
+        <div class="flex">
+            {{ relate:speaker}}
+            {{if image }}<img class="h-10 w-10 rounded-full mr-3 object-cover" src="{{glide:image w='80' h='80'}}" alt=""> {{/if}}
+            <div class="py-1 text-lg">{{title}}&nbsp;</div>
+            {{ /relate:speaker }}
+        </div>
+        {{if sermon_series}}
+        {{sermon_series}}
+        <h4 class="mt-8 text-gray-800 pt-1">
+            <span class="uppercase font-semibold">Predigtserie: </span>
+            <span class="text-gray-700">{{title}}</span>
+        </h4>
+        
+        <div class="flex">
+                {{collection from="podcasts" taxonomy:sermon_series="{slug}" as="item"}}
+                <ul>
+                    {{item}}
+                        <li class="rounded-sm border border-gray-500 my-2 hover:bg-gray-200 hover:border-gray-500 hover:text-black">
+                            <a href="{{ url }}" style="text-decoration: none" class="flex px-4 py-3 align-center">
+                            <div class="mr-4">
+                                <span class="text-xl font-bold leading-none">{{date format="d"}}</span> <br>
+                                <span class="text-xs leading-none uppercase -mt-1 block">{{ date format="M"}}</span>
+                            </div>
+                            <span class="text-lg leading-tight inline-flex items-center min-h-full no-underline">{{title}}</span>
+                            <div class="ml-auto h-full w-8 pl-1">
+                                    <svg class="stroke-current" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="none" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                            </div>
+                            </a>
+                        </li>
+                    {{/item}}
+                </ul>
+                
+            {{/collection}}
+        </div>
+        {{/sermon_series}}
+        {{/if}}
+   </div>
+   
+</div>
+</main>
+<script src="https://cdn.podlove.org/web-player/5.x/embed.js"></script>
+<script>
+    podlovePlayer('#player', {
+        title: '{{title}}',
+        subtitle: '27.09.2019',
+        summary: '',
+        publicationDate: '2016-02-11T03:13:55+00:00',
+        theme: {
+            main: '#000819',
+            highlight: '#FCFFFF'
+        },
+        poster: '/assets/main/images/mosaik_podcast.jpg',
+        show: {
+            title: 'Mosaik Church',
+            summary: '',
+            url: 'https://mosaik-stuttgart.net'
+        }, {{if audio}}
+        duration: '00:{{audio get="size_bytes" divide="635400" ceil="true"}}:00',
+        audio: [{
+            url: '{{if environment === `production`}}https://chtbl.com/track/81345/{{/if}}{{audio | get:permalink}}',
+            mimeType: 'audio/mpeg',
+            size: 0{{ audio | get:size_bytes }},
+            title: 'Audio MP3'
+        }], {{/if}}
+        visibleComponents: [
+            'tabShare',
+            'tabFiles',
+            'tabAudio',
+            'showTitle',
+            'episodeTitle',
+            'subtitle',
+            'progressbar',
+            'controlSteppers',
+        ],
+        contributors: [
+            {{ relate:speaker }}{
+            name: '{{title}}',
+            avatar: '{{image}}',
+            group: { id: '1', slug: 'ke', title: 'Prediger' },
+            comment: null
+            },{{ /relate:speaker }}
+        ]
+    }, {
+        version: 5,
+        "theme": {
+            tokens: {
+              brand: "#09DFCA",
+              brandDark: "#F9FCFD",
+              brandDarkest: "#B7F0E6",
+              brandLightest: "#121211",
+              shadeDark: "#807E7C",
+              shadeBase: "#807E7C99",
+              contrast: "#F5EEEE",
+              alt: "#254855"
+            }
+        },
+        share: {
+            channels: [
+              "facebook",
+              "whats-app",
+              "twitter",
+              "mail",
+              "link"
+            ],
+            //outlet: "/share.html",
+            sharePlaytime: true
+        },
+        "subscribe-button": {
+            feed: "https://mosaik-stuttgart.net/podcast/feed",
+            clients: [
+              {
+                id: "apple-podcasts",
+                service: "id1391563851" 
+              },
+              {
+                id: "google-podcasts",
+                service: "https://mosaik-stuttgart.net/podcast/feed"
+              },
+              {
+                id: "spotify",
+                service: "4RVf9pFuNMkSFvv13WJCh6",
+              },
+              {
+                id: "pocket-casts",
+                service: "https://mosaik-stuttgart.net/podcast/feed"
+              },
+              {
+                id: "antenna-pod",
+                service: "https://mosaik-stuttgart.net/podcast/feed"
+              },
+              {
+                id: "castro",
+                service: "cf641ff9-b454-42ee-a3f6-03850048b55d"
+              },
+              {
+                id: "overcast",
+                service: "https://mosaik-stuttgart.net/podcast/feed" // feed
+              },             
+              {
+                id: "rss",
+                service: "https://mosaik-stuttgart.net/podcast/feed"
+              }
+            ]
+          },
+    });
+</script>

@@ -1,9 +1,0 @@
-# Enable or disable the feature
-image_manipulation_cached: true
-
-# The folder containing the manipulated images.
-# If you're running above webroot, this might be something like public/img
-image_manipulation_cached_path: assets
-
-# The URL to the folder
-image_manipulation_route: assets

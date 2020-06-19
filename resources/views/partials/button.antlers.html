@@ -1,0 +1,4 @@
+<a class="button my-2 mr-2 px-5 py-1 leading-loose inline-block bg-gray-500 
+text-lg font-medium no-underline text-black rounded-px shadow-sm hover:cursor-pointer hover:bg-gray-400 
+focus:outline-none focus:bg-gray-600" 
+{{if url | starts_with:http}} target="_blank" href="{{url}}" {{else}} href="{{link :to='url'}}" {{/if}}>{{text}}</a>

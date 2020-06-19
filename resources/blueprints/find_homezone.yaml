@@ -1,0 +1,105 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: homezones
+        field:
+          type: replicator
+          sets:
+            homezone:
+              display: Homezone
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    width: 75
+                    display: Titel
+                -
+                  handle: full
+                  field:
+                    type: toggle
+                    width: 25
+                    display: Voll
+                    replicator_preview: false
+                -
+                  handle: target_group
+                  field:
+                    type: text
+                    display: Zielgruppe
+                    width: 75
+                    replicator_preview: false
+                -
+                  handle: topic
+                  field:
+                    type: text
+                    display: Thema
+                    width: 75
+                    replicator_preview: false
+                -
+                  handle: location
+                  field:
+                    type: text
+                    display: Ort
+                    width: 75
+                    replicator_preview: false
+                -
+                  handle: weekday
+                  field:
+                    type: select
+                    options:
+                      Montag: Montag
+                      Dienstag: Dienstag
+                      Mittwoch: Mittwoch
+                      Donnerstag: Donnerstag
+                      Freitag: Freitag
+                    width: 33
+                    display: Wochentag
+                -
+                  handle: time
+                  field:
+                    type: time
+                    width: 25
+                    display: Uhrzeit
+                    replicator_preview: false
+                -
+                  handle: biweekly
+                  field:
+                    type: toggle
+                    width: 25
+                    display: zweiwöchentlich
+                    replicator_preview: false
+                -
+                  handle: tags
+                  field:
+                    type: list
+                    width: 50
+                    display: Art
+                    replicator_preview: false
+                -
+                  handle: more_info
+                  field:
+                    type: textarea
+                    display: 'Weitere Infos'
+                    width: 50
+                    replicator_preview: false
+                -
+                  handle: contact_person
+                  field:
+                    type: text
+                    display: Ansprechpartner
+                    width: 66
+                -
+                  handle: churchtoolslink
+                  field:
+                    type: text
+                    display: Churchtoolslink
+                    width: 33
+                    replicator_preview: false
+          display: Homezones
+  sidebar:
+    display: Meta
+    fields: {  }
+taxonomies: false
+title: Homezonefinder

@@ -1,0 +1,20 @@
+title: Default
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        import: bard
+  sidebar:
+    display: Seiteninfos
+    fields:
+      -
+        handle: header_image
+        field:
+          type: assets
+          container: main
+          folder: /images
+          restrict: false
+          max_files: 1
+          display: Hintergrundbild
+          mode: grid

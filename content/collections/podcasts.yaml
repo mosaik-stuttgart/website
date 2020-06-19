@@ -1,0 +1,27 @@
+title: Podcast
+template: episode
+blueprints:
+  - podcast
+taxonomies:
+  - speaker
+  - tags
+  - sermon_series
+revisions: false
+route: '/media/{slug}'
+date: true
+sort_dir: desc
+date_behavior:
+  past: public
+  future: unlisted
+inject:
+  columns:
+    -
+      value: title
+      link: true
+    - date
+    - sermon_series
+  seo:
+    sitemap: true
+    show_future: true
+    show_past: true
+    priority: '0.8'

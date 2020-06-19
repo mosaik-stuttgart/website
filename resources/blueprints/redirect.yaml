@@ -1,0 +1,27 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          display: Titel
+          width: 66
+      -
+        handle: slug
+        field:
+          type: text
+          display: Slug
+          width: 33
+      -
+        handle: redirect
+        field:
+          type: text
+          display: Redirect
+          instructions: 'Welche Seite soll aufgerufen werden?'
+      -
+        handle: content
+        field:
+          type: hidden
+taxonomies: true

@@ -1,0 +1,92 @@
+title: Podcast
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          display: Titel
+          width: 66
+          localizable: true
+      -
+        handle: slug
+        field:
+          generate: true
+          type: slug
+          localizable: false
+          width: 33
+          listable: hidden
+          display: Slug
+      -
+        handle: audio
+        field:
+          type: assets
+          container: podcast
+          folder: /
+          restrict: true
+          max_files: 1
+          mode: list
+          width: 33
+          display: Audio
+      -
+        handle: date
+        field:
+          type: date
+          allow_blank: false
+          allow_time: false
+          require_time: false
+          earliest_date: 'January 1, 1900'
+          width: 33
+          display: Datum
+      -
+        handle: type
+        field:
+          type: select
+          options:
+            message: Predigt
+            academy: Academy
+          width: 33
+          display: Typ
+          default: message
+      -
+        handle: speaker
+        field:
+          type: taxonomy
+          max_items: 2
+          label: '{{ title }}'
+          taxonomy: speaker
+          mode: typeahead
+          display: Sprecher
+          width: 50
+          listable: hidden
+          taxonomies:
+            - speaker
+      -
+        handle: sermon_series
+        field:
+          type: taxonomy
+          max_items: 1
+          mode: select
+          label: '{{ title }}'
+          taxonomy: sermon_series
+          display: Predigtserie
+          width: 50
+          listable: hidden
+          taxonomies:
+            - sermon_series
+          if:
+            type: 'equals message'
+      -
+        handle: tags
+        field:
+          type: taxonomy
+          label: '{{ title }}'
+          taxonomy: tags
+          mode: default
+          width: 50
+          display: Themen
+          listable: hidden
+          taxonomies:
+            - tags

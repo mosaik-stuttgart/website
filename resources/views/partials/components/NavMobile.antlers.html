@@ -1,0 +1,51 @@
+<style>
+    .bg-black-blur { background-color: #000; }
+    @supports ((backdrop-filter: blur(0)) or (-webkit-backdrop-filter: blur(0))){
+        .bg-black-blur {
+            background-color: rgba(0,0,0,.77);
+            backdrop-filter: blur(10px) grayscale(50%) brightness(28%) contrast(80%);
+            -webkit-backdrop-filter: blur(10px) grayscale(50%) brightness(28%) contrast(80%);
+        }
+    }
+</style>
+<header class="h-14 md:hidden">
+<div x-data="{ open: false }" :class="{'h-full bg-black-blur': open}" class="fixed z-50 flex flex-col justify-between w-full h-14 text-gray-300 bg-black" >
+    <div class="fixed flex items-center justify-between w-full shadow overflow-hidden">
+        <a href="/" class="text-white" aria-label="Home">
+            {{ svg src="logo.svg" }}
+        </a>
+        <span @click="open = !open; document.body.classList.toggle('overflow-hidden')" class="px-5 py-1 pb-1 font-medium select-none focus:text-gray-100 hover:pointer-cursor text-md" x-text="open ? 'SCHLIESSEN' : 'MENÜ'">MENÜ</span>
+    </div>
+
+    <nav x-show="open" class="flex flex-col justify-between flex-grow mt-12 overflow-y-auto font-serif text-2xl font-bold">
+        <ul class="mt-6 border-b border-gray-900 divide-y divide-gray-900">
+          {{ nav:navigation max_depth="2" include_home="true" }}
+            <li x-data="{ dropdown: false}">
+                <div class="flex items-center justify-between p-3">
+                    <a href="{{ url }}" class="px-1 leading-normal {{ if is_current || is_parent }}highlighter{{ /if }}" >{{title}}</a> 
+                    {{if children}}
+                    <svg @click="dropdown = !dropdown" :class="{ '-scale-y-100': dropdown}" class="h-4 px-2 text-gray-500 transform origin-center duration-100 opacity-75" fill="currentColor" viewBox="0 0 945 750" version="1.1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#down"></use></svg>
+                    {{/if}}
+                </div>
+                {{ if children }}
+                    <ul x-show="dropdown" class="flex flex-col py-3 space-y-1 font-sans text-xl font-normal text-gray-400 bg-opacity-25 bg-warm-700">
+                    {{ children }}
+                    <li>
+                        <a class="px-4 py-1 block {{ if is_current }} font-medium {{ /if }}" href="{{ url }}">{{ title }}</a>
+                    </li>
+                    {{ /children}}
+                    </ul>
+                {{ /if }}
+            </li>
+          {{ /nav:navigation }}
+        </ul>
+        {{# social icons #}}
+        <div class="flex p-3 mt-3 mb-1 space-x-1 text-6xl">
+            {{social_media}}
+            <a href="{{link}}" rel="noopener" target="_blank" aria-label="{{name}}" class="p-2">
+                <svg fill="currentcolor" width="32px" height="32px" alt="{{name}}" viewBox="0 0 26 26"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{icon}}"></use></svg>
+            </a>         
+            {{/social_media}}
+    </nav>
+</div>
+</header>

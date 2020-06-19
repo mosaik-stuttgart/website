@@ -1,0 +1,7 @@
+title: Footer
+blueprint: footer
+data:
+  logo: images/logo_full.svg
+  links:
+    - 14311b16-232a-4ca1-9aa2-1633e7cc69e5
+    - 9106f615-3b20-4c22-a115-3ece17b51397

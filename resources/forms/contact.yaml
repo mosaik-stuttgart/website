@@ -1,0 +1,11 @@
+title: Kontakt
+blueprint: contact_form
+honeypot: snaretrap
+email:
+  -
+    to: '{env:MAIL_ADDRESS}'
+    reply_to: '{{email}}'
+    subject: '{{if subject}}{{subject}}{{else}}Nachricht über das Website-Formular{{/if}}'
+    template: contact
+    html: email/plain
+    text: email/html

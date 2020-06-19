@@ -1,0 +1,34 @@
+title: Sprecher
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: image
+        field:
+          type: assets
+          container: main
+          display: Bild
+          max_files: 1
+          restrict: false
+          folder: profile
+          mode: list
+      -
+        handle: title
+        field:
+          type: text
+          display: Name
+          width: 66
+          localizable: true
+      -
+        handle: slug
+        field:
+          type: text
+          display: Slug
+          width: 33
+      -
+        handle: role
+        field:
+          type: text
+          display: Rolle
+taxonomies: true

@@ -1,0 +1,50 @@
+title: Hauptmenü
+collections:
+  - pages
+root: true
+tree:
+  -
+    entry: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
+  -
+    entry: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
+  -
+    title: Online
+    url: /besuche-uns/live
+    children:
+      -
+        entry: 4b638da5-09ed-4bbf-9cd6-f6ef814d8721
+      -
+        entry: aa8ad754-8ff5-463a-9a3d-d141c34de9df
+  -
+    title: Mitmachen
+    url: /mitmachen/next-steps/
+    children:
+      -
+        entry: faa47d88-a7dc-45d9-9f1d-d46deafeed43
+      -
+        entry: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
+        children:
+          -
+            entry: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
+      -
+        entry: a2a99bfd-edd8-4ace-af21-917ad6de0ab4
+      -
+        entry: 30397444-2a13-497d-90e8-8a49a62378fe
+      -
+        entry: 9c824f20-8bb8-42c3-818d-d3bf80bf3451
+  -
+    title: Medien
+    url: /media/predigten
+    children:
+      -
+        entry: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
+      -
+        entry: 7a473a57-18fd-4ce6-993e-2878ef72d950
+      -
+        entry: 32c435e9-31ef-4677-aa24-53da80112fdf
+      -
+        entry: 2eb916da-997f-4988-8464-323ab295e089
+  -
+    entry: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
+  -
+    entry: b4818062-4e78-4b28-b651-24eda6bfcc8f
