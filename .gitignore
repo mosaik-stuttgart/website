@@ -6,7 +6,7 @@ local/cache/*
 local/storage/*
 local/temp/*
 assets/containers/
-site/storage/forms/*
+/storage/forms/*
 installer.php
 _resources/
 yarn.lock
