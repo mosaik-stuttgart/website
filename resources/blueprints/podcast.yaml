@@ -13,39 +13,12 @@ sections:
       -
         handle: slug
         field:
-          type: text
+          generate: true
+          type: slug
+          localizable: false
+          width: 33
+          listable: hidden
           display: Slug
-          width: 33
-      -
-        handle: date
-        field:
-          type: date
-          allow_blank: false
-          allow_time: false
-          require_time: false
-          earliest_date: 'January 1, 1900'
-          width: 33
-          display: Datum
-      -
-        handle: speaker
-        field:
-          type: taxonomy
-          max_items: 2
-          label: '{{ title }}'
-          taxonomy: speaker
-          mode: tags
-          display: Sprecher
-          width: 33
-      -
-        handle: type
-        field:
-          type: select
-          options:
-            message: Predigt
-            academy: Academy
-          width: 33
-          display: Typ
-          default: message
       -
         handle: audio
         field:
@@ -58,24 +31,62 @@ sections:
           width: 33
           display: Audio
       -
-        handle: tags
+        handle: date
+        field:
+          type: date
+          allow_blank: false
+          allow_time: false
+          require_time: false
+          earliest_date: 'January 1, 1900'
+          width: 33
+          display: Datum
+      -
+        handle: type
+        field:
+          type: select
+          options:
+            message: Predigt
+            academy: Academy
+          width: 33
+          display: Typ
+          default: message
+      -
+        handle: speaker
         field:
           type: taxonomy
+          max_items: 2
           label: '{{ title }}'
-          taxonomy: tags
-          mode: panes
-          width: 33
-          display: Themen
+          taxonomy: speaker
+          mode: typeahead
+          display: Sprecher
+          width: 50
+          listable: hidden
+          taxonomies:
+            - speaker
       -
         handle: sermon_series
         field:
           type: taxonomy
           max_items: 1
-          mode: tags
+          mode: select
           label: '{{ title }}'
           taxonomy: sermon_series
           display: Predigtserie
-          width: 33
-          show_when:
-            type: message
-taxonomies: false
+          width: 50
+          listable: hidden
+          taxonomies:
+            - sermon_series
+          if:
+            type: 'equals message'
+      -
+        handle: tags
+        field:
+          type: taxonomy
+          label: '{{ title }}'
+          taxonomy: tags
+          mode: default
+          width: 50
+          display: Themen
+          listable: hidden
+          taxonomies:
+            - tags
