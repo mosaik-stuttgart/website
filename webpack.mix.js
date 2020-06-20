@@ -22,7 +22,18 @@ mix.postCss('resources/css/tailwind.css', 'public/css', [
 
 if (mix.inProduction()) {
    mix.version();
-   mix.purgeCss({ enabled: true });
+   mix.purgeCss({ 
+       extend: {
+        content: [
+            "app/**/*.php",
+            "resources/**/*.html",
+            "resources/**/*.js",
+            "resources/**/*.php",
+            "content/**/*.md"
+        ],
+       },
+       enabled: true 
+    });
 }
 
 /*
