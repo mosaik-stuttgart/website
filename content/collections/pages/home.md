@@ -13,7 +13,7 @@ primary_card:
     content:
       -
         type: text
-        text: 'Aufgrund der aktuellen Situation finden zurzeit keine Gottesdienste in der Römerstraße statt. Stattdessen bringen wir den Gottesdienst in dein Wohnzimmer. Um 11 Uhr wollen wir gemeinsam per Livestream feiern.'
+        text: 'Aufgrund der Hygieneschutzmaßnahmen können wir aktuell keinen Gottesdienst in der Römerstraße veranstalten. In Zukunft werden wir einige Open-Air-Gottesdienste anbieten, du kannst allerdings weiterhin den Gottesdienst in deinem Wohnzimmer verfolgen. '
       -
         type: hard_break
       -
@@ -111,7 +111,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592415227
+updated_at: 1592829231
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -

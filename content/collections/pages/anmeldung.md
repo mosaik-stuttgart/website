@@ -2,7 +2,7 @@
 title: Anmeldung
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592694118
+updated_at: 1592725133
 template: plain
 blueprint: default
 rich_content:
@@ -19,13 +19,13 @@ rich_content:
     content:
       -
         type: text
-        text: 'Am 28.06.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstadt.'
+        text: 'Am 28.06.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstatt.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir wer zusammen sitzen kann.'
+        text: 'Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.'
   -
     type: set
     attrs:

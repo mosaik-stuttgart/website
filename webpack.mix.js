@@ -22,18 +22,11 @@ mix.postCss('resources/css/tailwind.css', 'public/css', [
 
 if (mix.inProduction()) {
    mix.version();
-   mix.purgeCss({ 
-       extend: {
-        content: [
-            "app/**/*.php",
-            "resources/**/*.html",
-            "resources/**/*.js",
-            "resources/**/*.php",
-            "content/**/*.md"
-        ],
-       },
-       enabled: true 
-    });
+   /*mix.purgeCss({
+	enabled: true,
+  folders: ['./resources', './app', './content'],
+  extensions: ['.twig', 'twig', 'html', 'md']
+    });*/
 }
 
 /*
