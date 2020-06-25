@@ -1,4 +1,7 @@
-name: Laravel
+name: PHPUnit Tests
+env: 
+  APP_ENV: testing
+  APP_DEBUG: true
 on:
   push:
     branches: 
@@ -14,16 +17,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Copy .env
-      run: php -r "file_exists('.env') || copy('.env.test', '.env');"
-    - name: Install Dependencies
+    - name: Install composer dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
     - name: Generate key
-      run: php artisan key:generate && php artisan config:cache && cat .env
+      run: touch .env && php artisan key:generate && php artisan config:cache
+    - name: Install NPM packages
+      run: npm install && npm run prod
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
-    - name: Install packages
-      run: npm install && npm run prod
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       run: vendor/bin/phpunit
     - name: Show logs
