@@ -6,7 +6,6 @@ on:
   push:
     branches: 
         - master
-        - feature/testing
   pull_request:
     branches: [ master ]
 
@@ -30,5 +29,3 @@ jobs:
       run: chmod -R 777 storage bootstrap/cache
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       run: vendor/bin/phpunit
-    - name: Show logs
-      run: cat storage/logs/laravel.log
