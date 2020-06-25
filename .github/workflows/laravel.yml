@@ -20,7 +20,10 @@ jobs:
     - name: Install composer dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
     - name: Generate key
-      run: touch .env && php artisan key:generate && php artisan config:cache
+      run: |
+        touch .env && echo "APP_KEY=" >> .env
+        php artisan key:generate 
+        php artisan config:cache
     - name: Install NPM packages
       run: npm install && npm run prod
     - name: Directory Permissions
