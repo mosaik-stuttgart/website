@@ -15,6 +15,7 @@ package-lock.json
 mix-manifest.json
 
 .php_cs.cache
+.phpunit.result.cache
 /public/hot
 /public/static
 /public/js
