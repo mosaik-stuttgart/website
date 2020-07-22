@@ -50,7 +50,7 @@ rich_content:
         text: 'Zum Zoom-Meeting'
         target_blank: true
         link: 'https://us02web.zoom.us/j/81964398234?pwd=T0gvczJpVWg3djRhZWNjaGp2OFlvUT09'
-        url: 'https://us02web.zoom.us/j/89046499852'
+        url: 'https://us02web.zoom.us/j/8371803144'
   -
     type: paragraph
     content:
@@ -65,6 +65,6 @@ title: 'Next Steps'
 slug: next-steps
 blueprint: default
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592252906
+updated_at: 1593350716
 id: faa47d88-a7dc-45d9-9f1d-d46deafeed43
 ---

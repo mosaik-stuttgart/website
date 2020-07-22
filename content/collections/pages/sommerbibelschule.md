@@ -91,6 +91,7 @@ title: Sommerbibelschule
 slug: sommerbibelschule
 blueprint: default
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592256131
+updated_at: 1594976137
 id: 30397444-2a13-497d-90e8-8a49a62378fe
+published: false
 ---

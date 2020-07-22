@@ -9,9 +9,9 @@ preferences:
   forms:
     contact:
       columns:
-        - datestamp
         - name
         - email
+        - datestamp
   collections:
     podcasts:
       columns:

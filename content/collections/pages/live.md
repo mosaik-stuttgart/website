@@ -5,7 +5,7 @@ rich_content:
     attrs:
       values:
         type: video
-        video: 'https://www.youtube.com/watch?v=nDCUE-ue-F8'
+        video: 'https://www.youtube.com/watch?v=KX6Yzex1X_E'
   -
     type: heading
     attrs:
@@ -17,9 +17,10 @@ rich_content:
   -
     type: set
     attrs:
+      enabled: false
       values:
         type: html
-        html: '<div class="flex my-6 md:my-8"><a href="https://mosaik-church.church.tools/publicgroup/521?hash=9WN6VKqudkToc3wOYJCakbkpWn9fFUPO#" target="_blank" class="w-auto no-underline text-teal-100 mt-2 md:mt-0 p-2 border-2 border-teal-600 flex rounded-sm items-center flex-shrink bg-teal-800 bg-opacity-25 hover:bg-teal-900 active:opacity-75 active:bg-teal-800"> <div class="leading-tight mb-1 content-start"> <div class="font-bold tracking-wide mb-2">Anmeldung zum Open-Air-Gottesdienst am 28.06. um 10 Uhr</div> <span>Melde dich und deine Familie zum Gottesdienst an. Wenn du mit deiner WG kommst, meldet euch bitte einzeln an und schreibe in das Kommentarfeld, zu welchem Haushalt du gehörst.</span> </div><svg class="flex-shrink-0 self-start text-teal-100 opacity-75" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="arcs"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg></a></div>'
+        html: '<div class="flex my-6 md:my-8"><a href="https://mosaik-church.church.tools/publicgroup/522#/" target="_blank" class="w-auto no-underline text-teal-100 mt-2 md:mt-0 p-2 border-2 border-teal-600 flex rounded-sm items-center flex-shrink bg-teal-800 bg-opacity-25 hover:bg-teal-900 active:opacity-75 active:bg-teal-800"> <div class="leading-tight mb-1 content-start"> <div class="font-bold tracking-wide mb-2">Anmeldung zum Open-Air-Gottesdienst am 5. Juli um 10 Uhr</div> <div>Melde dich und deine Familie zum Gottesdienst an. Wenn du mit deiner WG kommst, meldet euch bitte einzeln an und schreibe in das Kommentarfeld, zu welchem Haushalt du gehörst. <br><span class="text-red-600 mt-1 block">Auch wenn du dich schon für letzten Sonntag angemeldet hast, musst du dich nochmal neu anmelden!</span></div> </div><svg class="flex-shrink-0 self-start text-teal-100 opacity-75" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="arcs"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg></a></div>'
   -
     type: paragraph
     content:
@@ -183,6 +184,6 @@ template: livestream
 slug: live
 blueprint: default
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592829289
+updated_at: 1595183873
 id: 4b638da5-09ed-4bbf-9cd6-f6ef814d8721
 ---

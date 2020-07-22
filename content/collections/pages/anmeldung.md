@@ -2,7 +2,7 @@
 title: Anmeldung
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592725133
+updated_at: 1593612545
 template: plain
 blueprint: default
 rich_content:
@@ -19,7 +19,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Am 28.06.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstatt.'
+        text: 'Am 05.07.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstatt.'
   -
     type: paragraph
     content:
@@ -30,9 +30,17 @@ rich_content:
     type: set
     attrs:
       values:
+        type: html
+        html: '<span class="text-red-700 mt-1 block">Wenn du dich schon für letzten Sonntag angemeldet hast, musst du dich nochmal neu anmelden!</span>'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
         type: button
         text: Anmelden
-        url: 'https://mosaik-church.church.tools/publicgroup/521?hash=9WN6VKqudkToc3wOYJCakbkpWn9fFUPO#'
+        url: 'https://mosaik-church.church.tools/publicgroup/522#/'
   -
     type: paragraph
 id: 3380e087-425e-418c-8d28-7e19bec7c1d0
