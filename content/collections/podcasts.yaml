@@ -1,7 +1,5 @@
 title: Podcast
 template: episode
-blueprints:
-  - podcast
 taxonomies:
   - speaker
   - tags

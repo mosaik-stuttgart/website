@@ -1,11 +1,11 @@
 title: Allgemein
-blueprint: globals
 data:
   site_name: 'Mosaik Church'
   address: |
     Mosaik Church Stuttgart  
     Römerstraße 10  
     70178 Stuttgart
+    
   map_link:
     google_maps: 'https://goo.gl/maps/7D2mGVBakt12'
     apple_maps: 'http://maps.apple.com/?address=Mosaik+Church+Stuttgart&t=m'
