@@ -11,7 +11,8 @@ sections:
           max_items: 1
           mode: panes
           label: '{{ title }}'
-          taxonomy: sermon_series
+          taxonomies: 
+            - sermon_series
           display: 'Aktuelle Predigtserie'
       -
         import: bard
