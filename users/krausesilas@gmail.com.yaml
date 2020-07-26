@@ -1,4 +1,7 @@
 name: Silas
 super: true
+avatar: profile/silas.jpg
+roles:
+  - admin
 id: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
 password_hash: $2y$10$NAbA8CrvBvIo14piYFIrI.0azul9M2tMzbEKC2iFQYYhxoe6vgpwW
