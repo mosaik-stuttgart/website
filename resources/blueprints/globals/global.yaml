@@ -45,7 +45,7 @@ sections:
                   handle: name
                   field:
                     type: text
-                    width: 33
+                    width: 25
                     display: Name
                 -
                   handle: icon
@@ -55,12 +55,13 @@ sections:
                       instagram: instagram
                       facebook: facebook
                       youtube: youtube
-                    width: 33
+                    width: 25
                     display: Icon
                 -
                   handle: link
                   field:
                     type: text
-                    width: 33
+                    width: 50
                     display: Link
           instructions: 'Werden im Footer und der mobilen Navigation angezeigt'
+          listable: hidden
