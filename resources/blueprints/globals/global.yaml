@@ -22,8 +22,7 @@ sections:
           keys:
             google_maps: 'Google Maps'
             apple_maps: 'Apple Maps'
-            open_source: 'Other Service'
-          width: 50
+          width: 66
           display: 'Link zur Karte'
       -
         handle: services
