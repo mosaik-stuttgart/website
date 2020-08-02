@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3c12223478f0aaf5e06121d83bfec2a",
+    "content-hash": "69c6a2f1e778df22e844e32f93c14e01",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3355,16 +3355,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.0-beta.40",
+            "version": "v3.0.0-beta.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "a49d23321e293132fbd6db7dffdd7fb42f8ed850"
+                "reference": "22399b49a1c47b5170d946431e091a33f3b9ac63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/a49d23321e293132fbd6db7dffdd7fb42f8ed850",
-                "reference": "a49d23321e293132fbd6db7dffdd7fb42f8ed850",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/22399b49a1c47b5170d946431e091a33f3b9ac63",
+                "reference": "22399b49a1c47b5170d946431e091a33f3b9ac63",
                 "shasum": ""
             },
             "require": {
@@ -3426,7 +3426,7 @@
                 "laravel",
                 "statamic"
             ],
-            "time": "2020-07-24T22:28:47+00:00"
+            "time": "2020-07-31T15:07:55+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -6728,7 +6728,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mustangostang/spyc.git",
+                "url": "https://github.com/mustangostang/spyc.git",
                 "reference": "daf9fa4ef675519386b4f556c9d5ab5f9c14055a"
             },
             "dist": {
@@ -8466,7 +8466,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "statamic/cms": 10,
         "statamic/migrator": 20
     },
     "prefer-stable": true,
@@ -8474,5 +8473,6 @@
     "platform": {
         "php": "^7.2.5"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
