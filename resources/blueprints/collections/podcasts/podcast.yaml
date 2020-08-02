@@ -7,15 +7,17 @@ sections:
         handle: title
         field:
           type: text
+          required: true
           display: Titel
           width: 66
           localizable: true
       -
         handle: slug
         field:
-          generate: true
           type: slug
+          required: true
           localizable: false
+          generate: true
           width: 33
           listable: hidden
           display: Slug
@@ -34,6 +36,7 @@ sections:
         handle: date
         field:
           type: date
+          required: true
           allow_blank: false
           allow_time: false
           require_time: false
@@ -54,39 +57,23 @@ sections:
         handle: speaker
         field:
           type: taxonomy
+          taxonomy: speaker
+          display: Sprecher
+          mode: typeahead
           max_items: 2
           label: '{{ title }}'
-          taxonomy: speaker
-          mode: typeahead
-          display: Sprecher
           width: 50
           listable: hidden
-          taxonomies:
-            - speaker
       -
         handle: sermon_series
         field:
           type: taxonomy
-          max_items: 1
-          mode: select
-          label: '{{ title }}'
           taxonomy: sermon_series
           display: Predigtserie
+          mode: select
+          max_items: 1
+          label: '{{ title }}'
           width: 50
           listable: hidden
-          taxonomies:
-            - sermon_series
           if:
             type: 'equals message'
-      -
-        handle: tags
-        field:
-          type: taxonomy
-          label: '{{ title }}'
-          taxonomy: tags
-          mode: default
-          width: 50
-          display: Themen
-          listable: hidden
-          taxonomies:
-            - tags

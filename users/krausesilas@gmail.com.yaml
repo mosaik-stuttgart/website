@@ -1,11 +1,17 @@
+name: Silas
+super: true
+avatar: profile/silas.jpg
 roles:
   - admin
-super: true
-name: 'Silas Krause'
-username: silas
-id: 8b859feb-1ec6-464d-976a-9ab876f03455
-password_hash: $2y$10$ozz2tW4SQDmjhq5HQdrUs.ZWWc5mjpgRQ/HKNQcPLALfj4Ds5QITG
+id: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+password_hash: $2y$10$NAbA8CrvBvIo14piYFIrI.0azul9M2tMzbEKC2iFQYYhxoe6vgpwW
 preferences:
+  taxonomies:
+    speaker:
+      columns:
+        - image
+        - title
+        - slug
   forms:
     contact:
       columns:

@@ -1,6 +1,5 @@
 title: Podcast
 id: a50b029a-5dec-4638-8048-2c54f0b47aa6
-blueprint: podcast_globals
 data:
   image: /assets/main/images/podcast_cover.jpg
   email: admin+podcast@mosaik.email

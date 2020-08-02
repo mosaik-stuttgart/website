@@ -110,6 +110,7 @@ fields:
         - underline
         - strikethrough
       save_html: false
+      antlers: true
       toolbar_mode: fixed
       link_noopener: false
       link_noreferrer: false

@@ -10,5 +10,3 @@ columns:
   - slug
   - count
 seo: false
-blueprints:
-  - speaker
