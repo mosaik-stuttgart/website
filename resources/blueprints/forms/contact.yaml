@@ -13,7 +13,7 @@ fields:
       display: 'E-Mail Adresse'
       validate: required|email
   -
-    handle: message
+    handle: text_message
     field:
       type: text
       display: Nachricht

@@ -12,3 +12,9 @@ preferences:
         - image
         - title
         - slug
+  forms:
+    contact:
+      columns:
+        - datestamp
+        - name
+        - email
