@@ -18,6 +18,7 @@ fields:
       type: text
       display: Nachricht
       validate: string
+      automatic_line_breaks: true
   -
     handle: subject
     field:
