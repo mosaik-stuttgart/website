@@ -1,5 +1,5 @@
 title: Kontakt
-honeypot: snaretrap
+honeypot: snaretra
 email:
   -
     to: '{env:MAIL_ADDRESS}'
