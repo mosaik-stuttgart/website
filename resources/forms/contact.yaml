@@ -6,5 +6,5 @@ email:
     reply_to: '{{email}}'
     subject: '{{if subject}}{{subject}}{{else}}Nachricht über das Website-Formular{{/if}}'
     template: contact
-    html: email/plain
-    text: email/html
+    html: email/html
+    text: email/plain
