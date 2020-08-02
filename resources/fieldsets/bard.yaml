@@ -2,6 +2,7 @@ title: Bard
 fields:
   -
     handle: rich_content
+    antlers: true
     field:
       sets:
         button:
