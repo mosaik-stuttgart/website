@@ -22,7 +22,7 @@ primary_card:
           -
             type: link
             attrs:
-              href: /live/
+              href: /live
               target: null
               rel: null
         text: 'Zum Livestream'
@@ -111,7 +111,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592829231
+updated_at: 1596350277
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -

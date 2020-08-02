@@ -18,3 +18,10 @@ preferences:
         - datestamp
         - name
         - email
+  collections:
+    podcasts:
+      columns:
+        - title
+        - date
+        - speaker
+        - sermon_series
