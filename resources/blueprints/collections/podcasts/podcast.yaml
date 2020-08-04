@@ -30,7 +30,7 @@ sections:
           restrict: true
           max_files: 1
           mode: list
-          width: 33
+          width: 66
           display: Audio
       -
         handle: date
@@ -43,6 +43,16 @@ sections:
           earliest_date: 'January 1, 1900'
           width: 33
           display: Datum
+      -
+        handle: type
+        field:
+          type: select
+          options:
+            message: Predigt
+            academy: Academy
+          width: 33
+          display: Typ
+          default: message
       -
         handle: speaker
         field:
@@ -70,15 +80,6 @@ sections:
   sidebar:
     display: Sidebar
     fields:
-      -
-        handle: type
-        field:
-          type: select
-          options:
-            message: Predigt
-            academy: Academy
-          display: Typ
-          default: message
       -
         handle: tags
         field:
