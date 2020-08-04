@@ -44,16 +44,6 @@ sections:
           width: 33
           display: Datum
       -
-        handle: type
-        field:
-          type: select
-          options:
-            message: Predigt
-            academy: Academy
-          width: 33
-          display: Typ
-          default: message
-      -
         handle: speaker
         field:
           type: taxonomy
@@ -77,3 +67,22 @@ sections:
           listable: hidden
           if:
             type: 'equals message'
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: type
+        field:
+          type: select
+          options:
+            message: Predigt
+            academy: Academy
+          display: Typ
+          default: message
+      -
+        handle: tags
+        field:
+          type: taxonomy
+          taxonomy: tags
+          display: Themen
+          mode: select
