@@ -54,18 +54,11 @@ rich_content:
         url: 'https://us02web.zoom.us/j/8371803144'
   -
     type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'Das Passwort für Zoom ist "Kurs"'
 header_image: images/next-steps.jpg
 title: 'Next Steps'
 slug: next-steps
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1596565638
+updated_at: 1596565656
 id: faa47d88-a7dc-45d9-9f1d-d46deafeed43
 ---
