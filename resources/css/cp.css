@@ -1,1 +1,7 @@
 /* This is all you. */
+.outside {
+    background: linear-gradient(45deg,#4d2ef5df,#43caf3df,#28f5c4df) !important;
+}
+.outside .logo svg path {
+    fill: rgba(0,0,0,.33);
+}

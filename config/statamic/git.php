@@ -60,8 +60,8 @@ return [
     'use_authenticated' => true,
 
     'user' => [
-        'name' => env('STATAMIC_GIT_USER_NAME', 'Spock'),
-        'email' => env('STATAMIC_GIT_USER_EMAIL', 'spock@example.com'),
+        'name' => env('STATAMIC_GIT_USER_NAME', 'mosaikchurch'),
+        'email' => env('STATAMIC_GIT_USER_EMAIL', 'admin@mosaik.email'),
     ],
 
     /*
@@ -99,7 +99,7 @@ return [
 
     'commands' => [
         'git add {{ paths }}',
-        'git -c "user.name={{ name }}" -c "user.email={{ email }}" commit -m "{{ message }}"',
+        'git -c "user.name={{ name }}" -c "user.email={{ email }}" commit -m "[CP - {{name}}] {{ message }}"',
     ],
 
     /*
@@ -127,8 +127,8 @@ return [
     */
 
     'ignored_events' => [
-        // \Statamic\Events\UserSaved::class,
-        // \Statamic\Events\UserDeleted::class,
+        \Statamic\Events\UserSaved::class,
+        \Statamic\Events\UserDeleted::class,
     ],
 
 ];
