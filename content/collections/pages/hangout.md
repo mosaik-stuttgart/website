@@ -11,7 +11,7 @@ rich_content:
         type: hard_break
       -
         type: text
-        text: 'Um den Überblick zu bewahren und die Teilnehmerbeschränkung einzuhalten, ist es wichtig, dass du dich anmeldest. Wir werden alles in 2 Gruppen aufteilen, um die Anzahl klein zu halten. Nähere Infos zum Ort erhältst du per Mail. '
+        text: 'Um den Überblick zu bewahren und die Teilnehmerbeschränkung einzuhalten, ist es wichtig, dass du dich anmeldest. Wir werden alle in 2 Gruppen aufteilen, um die Anzahl klein zu halten. Nähere Infos zum Ort erhältst du per Mail. '
   -
     type: paragraph
   -
@@ -25,7 +25,7 @@ rich_content:
     type: paragraph
 header_image: images/pexels-elle-hughes.jpg
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1596805040
-id: 5efabc5a-4348-4743-8847-9d7de23750ce
+updated_at: 1596805194
 blueprint: default
+id: 5efabc5a-4348-4743-8847-9d7de23750ce
 ---
