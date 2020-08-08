@@ -5,3 +5,6 @@
 .outside .logo svg path {
     fill: rgba(0,0,0,.33);
 }
+@media (max-width: 767px) {
+    .popover {display: none}
+}
