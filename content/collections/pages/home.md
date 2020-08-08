@@ -26,6 +26,19 @@ primary_card:
               target: null
               rel: null
         text: 'Zum Livestream'
+      -
+        type: text
+        text: ' '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /hangout
+              target: null
+              rel: null
+        text: 'Zur Hangout-Anmeldung'
   -
     type: paragraph
     content:
@@ -110,8 +123,8 @@ title: Home
 template: home
 slug: home
 blueprint: home
-updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1596350277
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1596913083
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
