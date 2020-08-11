@@ -28,7 +28,7 @@ primary_card:
         text: 'Zum Livestream'
       -
         type: text
-        text: ' '
+        text: '    '
       -
         type: text
         marks:
@@ -124,7 +124,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1596913083
+updated_at: 1597156770
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
