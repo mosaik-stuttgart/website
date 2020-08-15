@@ -5,7 +5,7 @@ rich_content:
     attrs:
       values:
         type: video
-        video: 'https://www.youtube.com/watch?v=uF0wUeUJHhk'
+        video: 'https://www.youtube.com/watch?v=rN9KKT2PYew'
   -
     type: heading
     attrs:
@@ -184,6 +184,6 @@ template: livestream
 slug: live
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1596836074
+updated_at: 1597518936
 id: 4b638da5-09ed-4bbf-9cd6-f6ef814d8721
 ---
