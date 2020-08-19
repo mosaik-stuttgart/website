@@ -17,7 +17,7 @@ homezones:
     full: false
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/427'
     more_info: null
-    enabled: true
+    enabled: false
   -
     title: 'Jung Brutal Gutaussehend'
     full: false
@@ -34,6 +34,21 @@ homezones:
     contact_person: 'Josias Göhner & Miriam Morlock'
     churchtoolslink: null
     type: homezone
+    enabled: false
+  -
+    title: null
+    full: false
+    target_group: null
+    topic: null
+    location: null
+    weekday: null
+    time: null
+    biweekly: false
+    tags: null
+    more_info: null
+    contact_person: null
+    churchtoolslink: null
+    type: homezone
     enabled: true
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
@@ -42,6 +57,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1597828092
+updated_at: 1597828257
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
+published: false
 ---
