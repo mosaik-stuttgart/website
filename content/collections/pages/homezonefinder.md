@@ -113,6 +113,24 @@ homezones:
     churchtoolslink: null
     type: homezone
     enabled: false
+  -
+    title: 'meet and read'
+    full: false
+    target_group: 'Jeder der sein Bibelwissen vertiefen möchte.'
+    topic: 'Der Jakobusbrief'
+    location: 'Bei uns in Gerlingen. Gerne aber auch bei dir zu Hause.'
+    weekday: Mittwoch
+    time: '19:00'
+    biweekly: false
+    tags:
+      - 'Gottes Wort'
+      - Gemeinschaft
+      - Essen
+    more_info: 'Wir wollen gemeinsam im Glauben wachsen, Gott erleben und unser Bibelverständnis im Austausch erweitern.'
+    contact_person: 'Miriam & Levi Dörflinger'
+    churchtoolslink: null
+    type: homezone
+    enabled: false
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -120,7 +138,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1597829502
+updated_at: 1597829671
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
