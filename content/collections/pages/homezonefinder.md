@@ -1,35 +1,5 @@
+---
 homezones:
-  -
-    type: homezone
-    title: 'Mosaik Kickers'
-    target_group: 'Alle Fußballbegeisterte, auch ohne Messi-Skills'
-    location: Kornwestheim/Ludwigsburg
-    weekday: Montag
-    time: '19:00'
-    biweekly: true
-    tags:
-      - Fußball
-      - Message
-      - Gemeinschaft
-    contact_person: 'Etienne Graf, Simon Wittrock'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/458'
-    full: false
-  -
-    type: homezone
-    title: 'All you can meet'
-    full: false
-    target_group: 'jung, dynamisch, gutaussehend - also DU! ;)'
-    topic: 'Die 12 Follower und Jesus'
-    location: 'Wohnzimmer und Dachterrassen in Stuttgart'
-    weekday: Dienstag
-    time: '19:00'
-    biweekly: false
-    tags:
-      - Tiefe
-      - Aktionen
-      - 'richtig gutes Essen'
-    contact_person: 'Jana Baumann, Ramona Kiesewalter, Silas Kettner'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/430'
   -
     type: homezone
     title: 'Challenge Accepted!'
@@ -46,6 +16,8 @@ homezones:
     contact_person: 'Simon Garrecht, Antonia Eschenbacher'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/492'
     full: false
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: BroZone
@@ -62,6 +34,8 @@ homezones:
       - Charakter
     contact_person: 'Klemens Boltenhagen, Josias Göhner'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/498'
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: 'Deine Crew'
@@ -78,6 +52,8 @@ homezones:
       - Tiefgang
     contact_person: 'David Hermann, Christina Maiwald, Silas Krause'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/507'
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: 'deep talk'
@@ -94,6 +70,8 @@ homezones:
       - 'persönliches Wachstum'
     contact_person: 'Markus und Diana Krampitz'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/509'
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: 'Moms & Kids'
@@ -110,6 +88,8 @@ homezones:
     contact_person: 'Sonja Lempenauer'
     full: false
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/427'
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: 'Unlock: The Haverim Project'
@@ -126,6 +106,8 @@ homezones:
       - 'Gutes Essen'
     contact_person: 'Antje Faltis, Nathalie Müller, Christian Schöppe'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/445'
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: Deeper
@@ -142,6 +124,8 @@ homezones:
       - Hangout
     contact_person: 'Simon Garrecht, Katharina Wagner'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/495'
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: Nord-Zone
@@ -158,6 +142,8 @@ homezones:
       - 'Gute Gespräche'
     contact_person: 'Senta Wittrock, Elia Weberruss'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/439'
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: Friendzone
@@ -174,6 +160,8 @@ homezones:
       - Essen
     contact_person: 'Silas Kettner'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/501'
+    more_info: null
+    enabled: true
   -
     type: homezone
     title: Prayerzone
@@ -191,10 +179,30 @@ homezones:
       - Hangout
     contact_person: 'Amiel Sivarajah, Sarah Eichhorn, Yala Sivarajah'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/504'
+    more_info: null
+    enabled: true
+  -
+    title: null
+    full: false
+    target_group: null
+    topic: null
+    location: null
+    weekday: null
+    time: null
+    biweekly: false
+    tags: null
+    more_info: null
+    contact_person: null
+    churchtoolslink: null
+    type: homezone
+    enabled: true
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
 template: find-homezone
-id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 slug: homezonefinder
 blueprint: find_homezone
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1597826156
+id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
+---
