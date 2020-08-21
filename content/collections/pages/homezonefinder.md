@@ -131,6 +131,69 @@ homezones:
     churchtoolslink: null
     type: homezone
     enabled: false
+  -
+    title: VIP-Lounge
+    full: false
+    target_group: 'Junge Erwachsene (20-29 Jahre)'
+    topic: 'Bible Buddies'
+    location: 'In Stuttgarts Wohnzimmern und wo wir Lust haben'
+    weekday: Mittwoch
+    time: '19:00'
+    biweekly: false
+    tags:
+      - Spaß
+      - Tiefgang
+      - 'Alltag teilen'
+    more_info: |
+      Kennst du das, wenn andere etwas von sich erzählen und du dir denkst: Bei mir ist es genauso? Dann bist du in dieser Homezone genau richtig. Wir wollen nicht nur voneinander lernen, sondern auch von den verschiedensten Charakteren der Bibel. Welche Person der Bibel inspiriert dich? 
+      Finde es heraus und lass uns daran teilhaben. Dazu kommen nice Aktionen und natürlich auch Essen - wir freuen uns auf eine starke Zeit, um als Gruppe zusammenzuwachsen und Alltag zu teilen.
+    contact_person: 'Katharina Wagner, Felix Reisgys'
+    churchtoolslink: null
+    type: homezone
+    enabled: false
+  -
+    title: 'Meet & Greet'
+    full: false
+    target_group: 'jung, dynamisch, gutaussehend, also du ;)'
+    topic: 'The people around Jesus'
+    location: 'Stuttgarter Westen und Umgebung'
+    weekday: Mittwoch
+    time: '19:15'
+    biweekly: false
+    tags:
+      - 'Quality Time'
+      - 'Deep Talk'
+      - 'Richtig gutes Essen'
+    more_info: |
+      Wir haben Lust auf richtig gutes Essen, eine nice Zeit mit dir, Spaß, Aktionen und Alltag & Glaube zu teilen.
+      Du auch? Dann meld dich an!
+      Gemeinsam wollen wir uns die Minden, denen Jesus in der Bibel begegnet, anschauen und von ihnen lernen.
+      
+      Wir freuen uns auf dich.
+    contact_person: 'Jana Baumann'
+    churchtoolslink: null
+    type: homezone
+    enabled: false
+  -
+    title: Nordzone
+    full: false
+    target_group: 'Personen aus dem Kreis Ludwigsburg und dem regionalen Norden Stuttgarts'
+    topic: 'Was sagt die Bibel über das Thema Freude?'
+    location: 'Unterschiedliche Wohnungen im Kreis Ludwigsburg'
+    weekday: Mittwoch
+    time: '19:00'
+    biweekly: false
+    tags:
+      - 'Geistliches Wachstum'
+      - Gemeinschaft
+      - Gebet
+    more_info: |
+      "God is most glorified in uns when we are most satisfied in Him." (John Piper)
+      In Zeiten von Corona wollen wir und als Homezone dem Thema Freude widmen und uns mithilfe eines Bibelleseplans gemeinsam anschauen, was die Bibel zu diesem Thema zu sagen hat. Daneben wollen wir uns Zeit für Gemeinschaft, Gebet und gemeinsames Essen nehmen :)
+    contact_person: 'Elia Weberruss, Simon Wittwock'
+    churchtoolslink: null
+    type: homezone
+    enabled: false
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -138,7 +201,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1597829671
+updated_at: 1597996695
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
