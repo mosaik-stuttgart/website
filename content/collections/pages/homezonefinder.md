@@ -239,7 +239,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598030295
+updated_at: 1598031995
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
