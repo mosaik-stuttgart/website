@@ -194,6 +194,26 @@ homezones:
     churchtoolslink: null
     type: homezone
     enabled: false
+  -
+    title: 'Young & Free'
+    full: false
+    target_group: 18-22
+    topic: 'Glauben erleben'
+    location: 'Stuttgart West'
+    weekday: Dienstag
+    time: '19:00'
+    biweekly: false
+    tags:
+      - 'Gott begegnen'
+      - 'Leben teilen'
+      - 'Glauben im Alltag'
+    more_info: |
+      Zusammen wollen wir coole Zeiten erleben, Fun haben und unser Leben miteinander teilen. 
+      Wir möchten unseren Glauben erleben, indem wir darüber sprechen wie wir Gott begegnen, in unserer Beziehung zu Jesus wachsen und unseren Glauben im Alltag, auch außerhalb eines Church-Gebäudes leben können.
+    contact_person: 'Simon Garrecht, Linda Kruck'
+    churchtoolslink: null
+    type: homezone
+    enabled: false
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -201,7 +221,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1597998009
+updated_at: 1598006158
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
