@@ -34,7 +34,7 @@ homezones:
       Wir wollen eine gute und entspannte Zeit haben, gemeinsam lachen, uns austauschen, das Leben teilen, bei gutem Essen oder auch mal unterwegs..
       Wir werden uns mit der Frage beschäftigen: Wer ist Jesus?
     contact_person: 'Josias Göhner & Miriam Morlock'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/532'
     type: homezone
     enabled: false
   -
@@ -52,7 +52,7 @@ homezones:
       - 'Gott kennenlernen'
     more_info: 'Ein Glaubensgrundkurs für alle, die Fragen an Gott und die Welt haben und Jesus erleben wollen! Jeah!'
     contact_person: 'Ramona Kieswalter & David Hermann'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/535'
     type: homezone
     enabled: false
   -
@@ -70,7 +70,7 @@ homezones:
       - Tiefgang
     more_info: 'Wir wollen anhand des Johannesevangeliums das Wesen und Wirken von Jesus studieren um ihn besser kennen zu lernen und so in unserer Beziehung zu ihm weiter zu wachsen.'
     contact_person: 'Silas Kettner, Mirjam Bendisch'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/538'
     type: homezone
     enabled: false
   -
@@ -92,7 +92,7 @@ homezones:
       Willst du dich als Christ nicht im Kreis drehen, sondern herausfordern lassen Schritte auf deinem Weg mit Jesus zu gehen? Wir schauen uns Punkte an, in denen Gott uns motiviert aktiv zu werden und nicht in unserer Komfortzone zu verharren.
       Wenn du Lust hast auf ehrliche Gespräche, im Vertrauen auf Jesus zu wachsen und auf jede Menge Spaß, freuen wir uns auf eine geniale Zeit mit dir in unserer Homezone.
     contact_person: 'Silas Krause, Elisa Köhler'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/541'
     type: homezone
     enabled: false
   -
@@ -110,7 +110,7 @@ homezones:
       - Gemeinschaft
     more_info: null
     contact_person: 'Etienne Graf'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/458'
     type: homezone
     enabled: false
   -
@@ -128,7 +128,7 @@ homezones:
       - Essen
     more_info: 'Wir wollen gemeinsam im Glauben wachsen, Gott erleben und unser Bibelverständnis im Austausch erweitern.'
     contact_person: 'Miriam & Levi Dörflinger'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/544'
     type: homezone
     enabled: false
   -
@@ -148,7 +148,7 @@ homezones:
       Kennst du das, wenn andere etwas von sich erzählen und du dir denkst: Bei mir ist es genauso? Dann bist du in dieser Homezone genau richtig. Wir wollen nicht nur voneinander lernen, sondern auch von den verschiedensten Charakteren der Bibel. Welche Person der Bibel inspiriert dich? 
       Finde es heraus und lass uns daran teilhaben. Dazu kommen nice Aktionen und natürlich auch Essen - wir freuen uns auf eine starke Zeit, um als Gruppe zusammenzuwachsen und Alltag zu teilen.
     contact_person: 'Katharina Wagner, Felix Reisgys'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/547'
     type: homezone
     enabled: false
   -
@@ -171,7 +171,7 @@ homezones:
       
       Wir freuen uns auf dich.
     contact_person: 'Jana Baumann'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/550'
     type: homezone
     enabled: false
   -
@@ -191,7 +191,7 @@ homezones:
       "God is most glorified in uns when we are most satisfied in Him." (John Piper)
       In Zeiten von Corona wollen wir und als Homezone dem Thema Freude widmen und uns mithilfe eines Bibelleseplans gemeinsam anschauen, was die Bibel zu diesem Thema zu sagen hat. Daneben wollen wir uns Zeit für Gemeinschaft, Gebet und gemeinsames Essen nehmen :)
     contact_person: 'Elia Weberruss, Simon Wittwock'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/439'
     type: homezone
     enabled: false
   -
@@ -211,7 +211,7 @@ homezones:
       Zusammen wollen wir coole Zeiten erleben, Fun haben und unser Leben miteinander teilen. 
       Wir möchten unseren Glauben erleben, indem wir darüber sprechen wie wir Gott begegnen, in unserer Beziehung zu Jesus wachsen und unseren Glauben im Alltag, auch außerhalb eines Church-Gebäudes leben können.
     contact_person: 'Simon Garrecht, Linda Kruck'
-    churchtoolslink: null
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/553'
     type: homezone
     enabled: false
 seo:
@@ -221,7 +221,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598006158
+updated_at: 1598006525
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
