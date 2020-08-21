@@ -214,6 +214,24 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/553'
     type: homezone
     enabled: false
+  -
+    title: 'Deep Talk 2.0'
+    full: false
+    target_group: 'jede*r im Alter von 22-38 Jahren, muss Hunde mögen ;D'
+    topic: 'Serendipity Bibel: Die Bergpredigt - Leben mit eigenem Stil'
+    location: Unterschiedlich
+    weekday: Dienstag
+    time: '19:30'
+    biweekly: false
+    tags:
+      - 'Tiefe Gespräche'
+      - 'Gutes Veschper'
+      - 'Mega Aktionen'
+    more_info: 'Wir wollen anhand eines Kleingruppenbuches die Bergpredigt durchnehmen. Dabei darf das gemeinschaftliche Essen nicht fehlen. Außerdem ist es geplant alle vier Wochen eine Aktion zu starten, bei der wir was grandioses unternehmen wollen.'
+    contact_person: 'Markus Krampitz'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/557'
+    type: homezone
+    enabled: false
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -221,7 +239,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598006525
+updated_at: 1598030295
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
