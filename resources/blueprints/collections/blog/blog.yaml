@@ -1,0 +1,41 @@
+title: Blog
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+      -
+        import: bard
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+      -
+        handle: tags
+        field:
+          type: taxonomy
+          taxonomy: tags
+          display: Themen
+          mode: select
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - blog
+          max_items: 1
+          listable: false
