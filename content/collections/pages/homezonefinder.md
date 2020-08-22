@@ -232,6 +232,26 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/557'
     type: homezone
     enabled: false
+  -
+    title: 'Lifestyle Jüngerschaft'
+    full: false
+    target_group: Jeder
+    topic: 'Lifestyle Jüngerschaft'
+    location: 'Stuttgart Südwest'
+    weekday: Montag
+    time: '19:00'
+    biweekly: false
+    tags:
+      - Gemeinschaft
+      - Tiefgang
+      - Essen
+    more_info: |
+      ""Lege das Fundament deines Lebens."
+      Anhand des oben genannten Andachtsbuches wollen wir uns damit beschäftigen, was Jüngerschaft bedeutet  und wie wir im Alltag unser Christsein leben können. Wir freuen uns auf dich!! Gerne unternehmen wir auch mal was als Gruppe :)
+    contact_person: 'Fabian + Debora Knoos'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/559'
+    type: homezone
+    enabled: false
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -239,7 +259,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598031995
+updated_at: 1598106347
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
