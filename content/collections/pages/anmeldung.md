@@ -2,7 +2,7 @@
 title: Open-Air-Gottesdienst
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598089870
+updated_at: 1598089974
 template: plain
 blueprint: default
 rich_content:
@@ -29,6 +29,7 @@ rich_content:
   -
     type: set
     attrs:
+      enabled: false
       values:
         type: html
         html: '<span class="text-red-700 mt-1 block">Wenn du dich schon für letzten Sonntag angemeldet hast, musst du dich nochmal neu anmelden!</span>'
