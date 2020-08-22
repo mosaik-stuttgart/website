@@ -2,7 +2,7 @@
 title: Open-Air-Gottesdienst
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598090003
+updated_at: 1598117915
 template: plain
 blueprint: default
 rich_content:
@@ -29,7 +29,6 @@ rich_content:
   -
     type: set
     attrs:
-      enabled: false
       values:
         type: html
         html: '<span class="text-red-700 mt-1 block">Wenn du dich schon für letzten Sonntag angemeldet hast, musst du dich nochmal neu anmelden!</span>'
@@ -41,7 +40,7 @@ rich_content:
       values:
         type: button
         text: Anmelden
-        url: 'https://mosaik-church.church.tools/publicgroup/527#/'
+        url: 'https://mosaik-church.church.tools/publicgroup/522#/'
   -
     type: paragraph
 id: 3380e087-425e-418c-8d28-7e19bec7c1d0
