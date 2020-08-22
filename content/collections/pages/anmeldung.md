@@ -2,7 +2,7 @@
 title: Open-Air-Gottesdienst
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598089974
+updated_at: 1598090003
 template: plain
 blueprint: default
 rich_content:
@@ -19,7 +19,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Am 02.08.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstatt.'
+        text: 'Am 30.08.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstatt.'
   -
     type: paragraph
     content:
