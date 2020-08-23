@@ -224,9 +224,9 @@ homezones:
       - 'Deep Talk'
       - 'Richtig gutes Essen'
     more_info: |
-      Wir haben Lust auf richtig gutes Essen, eine nice Zeit mit dir, Spaß, Aktionen und Alltag & Glaube zu teilen.
+      Wir haben Lust auf richtig gutes Essen, eine nice Zeit mit dir, Spaß, Aktionen und Alltag & Glaube zu teilen. <br>
       Du auch? Dann meld dich an!
-      Gemeinsam wollen wir uns die Minden, denen Jesus in der Bibel begegnet, anschauen und von ihnen lernen.
+      Gemeinsam wollen wir uns die Menschen, denen Jesus in der Bibel begegnet, anschauen und von ihnen lernen. <br>
       
       Wir freuen uns auf dich.
     contact_person: 'Jana Baumann, Jannik Schwitzgebel'
@@ -280,6 +280,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598180287
+updated_at: 1598180997
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
