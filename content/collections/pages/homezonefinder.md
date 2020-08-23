@@ -36,7 +36,7 @@ homezones:
     contact_person: 'Josias Göhner & Miriam Morlock'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/532'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'Alpha Kurs'
     full: false
@@ -54,7 +54,7 @@ homezones:
     contact_person: 'Ramona Kieswalter & David Hermann'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/535'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: Jesus@home
     full: false
@@ -72,7 +72,7 @@ homezones:
     contact_person: 'Silas Kettner, Mirjam Bendisch'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/538'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: Feierabend
     full: false
@@ -94,7 +94,7 @@ homezones:
     contact_person: 'Silas Krause, Elisa Köhler'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/541'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'Mosaik Kickers'
     full: false
@@ -112,7 +112,7 @@ homezones:
     contact_person: 'Etienne Graf'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/458'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'meet and read'
     full: false
@@ -130,7 +130,7 @@ homezones:
     contact_person: 'Miriam & Levi Dörflinger'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/544'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: VIP-Lounge
     full: false
@@ -150,7 +150,7 @@ homezones:
     contact_person: 'Katharina Wagner, Felix Reisgys'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/547'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'Meet & Greet'
     full: false
@@ -173,7 +173,7 @@ homezones:
     contact_person: 'Jana Baumann'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/550'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: Nordzone
     full: false
@@ -193,7 +193,7 @@ homezones:
     contact_person: 'Elia Weberruss, Simon Wittwock'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/439'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'Young & Free'
     full: false
@@ -213,7 +213,7 @@ homezones:
     contact_person: 'Simon Garrecht, Linda Kruck'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/553'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'Deep Talk 2.0'
     full: false
@@ -231,7 +231,7 @@ homezones:
     contact_person: 'Markus Krampitz'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/557'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'Lifestyle Jüngerschaft'
     full: false
@@ -252,7 +252,7 @@ homezones:
     contact_person: 'Fabian + Debora Knoos'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/559'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'Let´s talk about...'
     full: false
@@ -272,7 +272,7 @@ homezones:
     contact_person: 'Antje Faltis, Nathalie Müller'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/562'
     type: homezone
-    enabled: false
+    enabled: true
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -280,7 +280,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598165263
+updated_at: 1598165307
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
