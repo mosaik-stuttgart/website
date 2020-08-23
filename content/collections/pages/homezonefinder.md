@@ -246,10 +246,31 @@ homezones:
       - Tiefgang
       - Essen
     more_info: |
-      ""Lege das Fundament deines Lebens."
-      Anhand des oben genannten Andachtsbuches wollen wir uns damit beschäftigen, was Jüngerschaft bedeutet  und wie wir im Alltag unser Christsein leben können. Wir freuen uns auf dich!! Gerne unternehmen wir auch mal was als Gruppe :)
+      "Lege das Fundament deines Lebens."
+      Anhand des oben genannten Andachtsbuches wollen wir uns damit beschäftigen, was Jüngerschaft bedeutet  und wie wir im Alltag unser Christsein leben können. 
+      Wir wollen im 2- wöchentlichen Abstand einen Input haben und in den ungeraden Wochen etwas zusammen unternehmen. (Vom Spieleabend-Radtour & Co) Wir freuen uns auf dich :)"
     contact_person: 'Fabian + Debora Knoos'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/559'
+    type: homezone
+    enabled: false
+  -
+    title: 'Let´s talk about...'
+    full: false
+    target_group: 'Alle, die gerne kommunizieren'
+    topic: 'Die Bibel'
+    location: 'Dein Wohnzimmer'
+    weekday: Mittwoch
+    time: '19:00'
+    biweekly: false
+    tags:
+      - Food
+      - Faith
+      - Friendship
+    more_info: |
+      Und über was wir reden, das bestimmst du. 
+      In den Abend starten wir mit vielfältiger Cuisine und tauschen uns über unseren Alltag aus. Unser Fokus liegt auf der ganz persönlichen Beziehung mit Jesus und gemeinsam sprechen wir über die Themen, die uns begeistern und herausfordern. Anhand vom Wort Gottes wollen wir seinen Anspruch an unser Leben herausfinden, und mit seinem Wort Ermutigung, Weisung und Rat finden. Hier wirst du nicht konsumieren, sondern darfst kommunizieren. Wir freuen uns auf dich! "
+    contact_person: 'Antje Faltis, Nathalie Müller'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/562'
     type: homezone
     enabled: false
 seo:
@@ -259,7 +280,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598106347
+updated_at: 1598165207
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
