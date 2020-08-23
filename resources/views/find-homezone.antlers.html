@@ -54,7 +54,7 @@
         <p class="mt-5">
             <button @click="expand = !expand" class="focus:outline-none leading-loose tracking-wide font-semibold text-sm text-gray-800 uppercase"
                 x-text="expand ? 'Beschreibung' : 'Beschreibung anzeigen'" 
-                :class="{'text-indigo-900 border-indigo-800 border-b border-dashed mb-3': expand === false}"
+                :class="{'text-indigo-900 border-indigo-800 border-b border-dashed mb-3 leading-normal': expand === false}"
             >
             </button> 
             <span x-show="expand" class="leading-snug mb-4 block">{{more_info}}</span> 
