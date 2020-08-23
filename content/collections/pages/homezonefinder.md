@@ -17,7 +17,7 @@ homezones:
     full: false
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/427'
     more_info: null
-    enabled: false
+    enabled: true
   -
     title: 'Jung Brutal Gutaussehend'
     full: false
@@ -280,7 +280,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598165207
+updated_at: 1598165263
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
