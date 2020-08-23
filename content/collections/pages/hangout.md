@@ -25,7 +25,7 @@ rich_content:
     type: paragraph
 header_image: images/pexels-elle-hughes.jpg
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1596893327
+updated_at: 1598170130
 blueprint: default
 id: 5efabc5a-4348-4743-8847-9d7de23750ce
 ---
