@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65a92ad3e760c14b28705a1248c1dbfa",
+    "content-hash": "314d9c8f05c69e30c2110806025da53e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3355,16 +3355,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.0-beta.42",
+            "version": "v3.0.0-beta.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "22399b49a1c47b5170d946431e091a33f3b9ac63"
+                "reference": "aa8892f1a3b98ebc770febd1b5bd362f33e636b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/22399b49a1c47b5170d946431e091a33f3b9ac63",
-                "reference": "22399b49a1c47b5170d946431e091a33f3b9ac63",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/aa8892f1a3b98ebc770febd1b5bd362f33e636b9",
+                "reference": "aa8892f1a3b98ebc770febd1b5bd362f33e636b9",
                 "shasum": ""
             },
             "require": {
@@ -3426,7 +3426,7 @@
                 "laravel",
                 "statamic"
             ],
-            "time": "2020-07-31T15:07:55+00:00"
+            "time": "2020-08-18T17:11:48+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -8093,5 +8093,6 @@
     "platform": {
         "php": "^7.2.5"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

@@ -46,19 +46,18 @@ sections:
       -
         handle: speaker
         field:
-          type: taxonomy
-          taxonomy: speaker
+          type: terms
           display: Sprecher
           mode: typeahead
           max_items: 2
           label: '{{ title }}'
           width: 50
           listable: hidden
+          taxonomies: speaker
       -
         handle: sermon_series
         field:
-          type: taxonomy
-          taxonomy: sermon_series
+          type: terms
           display: Predigtserie
           mode: select
           max_items: 1
@@ -67,6 +66,7 @@ sections:
           listable: hidden
           if:
             type: 'equals message'
+          taxonomies: sermon_series
   sidebar:
     display: Sidebar
     fields:
@@ -82,7 +82,7 @@ sections:
       -
         handle: tags
         field:
-          type: taxonomy
-          taxonomy: tags
+          type: terms
           display: Themen
           mode: select
+          taxonomies: tags
