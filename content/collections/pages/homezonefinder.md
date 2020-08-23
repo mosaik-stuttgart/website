@@ -1,22 +1,61 @@
 ---
 homezones:
   -
-    type: homezone
-    title: 'Moms & Kids'
-    topic: 'Happy Life'
-    target_group: Mamas
-    location: 'In deinem Wohnzimmer ;)'
-    weekday: Mittwoch
-    time: '20:00'
+    title: 'Lifestyle Jüngerschaft'
+    full: false
+    target_group: Jeder
+    topic: 'Lifestyle Jüngerschaft'
+    location: 'Stuttgart Südwest'
+    weekday: Montag
+    time: '19:00'
     biweekly: false
     tags:
-      - 'Alltag teilen'
-      - 'Freundschaft leben'
-      - 'Geistlich wachsen'
-    contact_person: 'Sonja Lempenauer'
+      - Gemeinschaft
+      - Tiefgang
+      - Essen
+    more_info: |
+      "Lege das Fundament deines Lebens."
+      Anhand des oben genannten Andachtsbuches wollen wir uns damit beschäftigen, was Jüngerschaft bedeutet  und wie wir im Alltag unser Christsein leben können. 
+      Wir wollen im 2- wöchentlichen Abstand einen Input haben und in den ungeraden Wochen etwas zusammen unternehmen. (Vom Spieleabend-Radtour & Co) Wir freuen uns auf dich :)"
+    contact_person: 'Fabian + Debora Knoos'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/559'
+    type: homezone
+    enabled: true
+  -
+    title: 'Mosaik Kickers'
     full: false
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/427'
+    target_group: 'Für Kugelstoßen und Ballschubser aller Art'
+    topic: null
+    location: 'Kornwestheim - Soccerhalle'
+    weekday: Montag
+    time: '19:30'
+    biweekly: true
+    tags:
+      - Input
+      - Kicken
+      - Gemeinschaft
     more_info: null
+    contact_person: 'Etienne Graf'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/458'
+    type: homezone
+    enabled: true
+  -
+    title: Jesus@home
+    full: false
+    target_group: 20-30er
+    topic: 'Jesus kennen - eine Reise durch das Johannesevangelium'
+    location: 'Unterschiedlich (jeder ist mal Gastgeber)'
+    weekday: Dienstag
+    time: '19:00'
+    biweekly: false
+    tags:
+      - Gemeinschaft
+      - Essen
+      - Tiefgang
+    more_info: 'Wir wollen anhand des Johannesevangeliums das Wesen und Wirken von Jesus studieren um ihn besser kennen zu lernen und so in unserer Beziehung zu ihm weiter zu wachsen.'
+    contact_person: 'Silas Kettner, Mirjam Bendisch'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/538'
+    type: homezone
     enabled: true
   -
     title: 'Jung Brutal Gutaussehend'
@@ -38,6 +77,62 @@ homezones:
     type: homezone
     enabled: true
   -
+    title: 'Deep Talk 2.0'
+    full: false
+    target_group: 'jede*r im Alter von 22-38 Jahren, muss Hunde mögen ;D'
+    topic: 'Serendipity Bibel: Die Bergpredigt - Leben mit eigenem Stil'
+    location: Unterschiedlich
+    weekday: Dienstag
+    time: '19:30'
+    biweekly: false
+    tags:
+      - 'Tiefe Gespräche'
+      - 'Gutes Veschper'
+      - 'Mega Aktionen'
+    more_info: 'Wir wollen anhand eines Kleingruppenbuches die Bergpredigt durchnehmen. Dabei darf das gemeinschaftliche Essen nicht fehlen. Außerdem ist es geplant alle vier Wochen eine Aktion zu starten, bei der wir was grandioses unternehmen wollen.'
+    contact_person: 'Markus Krampitz'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/557'
+    type: homezone
+    enabled: true
+  -
+    title: 'Young & Free'
+    full: false
+    target_group: 18-22
+    topic: 'Glauben erleben'
+    location: 'Stuttgart West'
+    weekday: Dienstag
+    time: '19:00'
+    biweekly: false
+    tags:
+      - 'Gott begegnen'
+      - 'Leben teilen'
+      - 'Glauben im Alltag'
+    more_info: |
+      Zusammen wollen wir coole Zeiten erleben, Fun haben und unser Leben miteinander teilen. 
+      Wir möchten unseren Glauben erleben, indem wir darüber sprechen wie wir Gott begegnen, in unserer Beziehung zu Jesus wachsen und unseren Glauben im Alltag, auch außerhalb eines Church-Gebäudes leben können.
+    contact_person: 'Simon Garrecht, Linda Kruck'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/553'
+    type: homezone
+    enabled: true
+  -
+    type: homezone
+    title: 'Moms & Kids'
+    topic: 'Happy Life'
+    target_group: Mamas
+    location: 'In deinem Wohnzimmer ;)'
+    weekday: Mittwoch
+    time: '20:00'
+    biweekly: false
+    tags:
+      - 'Alltag teilen'
+      - 'Freundschaft leben'
+      - 'Geistlich wachsen'
+    contact_person: 'Sonja Lempenauer'
+    full: false
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/427'
+    more_info: null
+    enabled: true
+  -
     title: 'Alpha Kurs'
     full: false
     target_group: 'Jeder ist herzlich willkommen!'
@@ -53,24 +148,6 @@ homezones:
     more_info: 'Ein Glaubensgrundkurs für alle, die Fragen an Gott und die Welt haben und Jesus erleben wollen! Jeah!'
     contact_person: 'Ramona Kieswalter & David Hermann'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/535'
-    type: homezone
-    enabled: true
-  -
-    title: Jesus@home
-    full: false
-    target_group: 20-30er
-    topic: 'Jesus kennen - eine Reise durch das Johannesevangelium'
-    location: 'Unterschiedlich (jeder ist mal Gastgeber)'
-    weekday: Dienstag
-    time: '19:00'
-    biweekly: false
-    tags:
-      - Gemeinschaft
-      - Essen
-      - Tiefgang
-    more_info: 'Wir wollen anhand des Johannesevangeliums das Wesen und Wirken von Jesus studieren um ihn besser kennen zu lernen und so in unserer Beziehung zu ihm weiter zu wachsen.'
-    contact_person: 'Silas Kettner, Mirjam Bendisch'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/538'
     type: homezone
     enabled: true
   -
@@ -93,24 +170,6 @@ homezones:
       Wenn du Lust hast auf ehrliche Gespräche, im Vertrauen auf Jesus zu wachsen und auf jede Menge Spaß, freuen wir uns auf eine geniale Zeit mit dir in unserer Homezone.
     contact_person: 'Silas Krause, Elisa Köhler'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/541'
-    type: homezone
-    enabled: true
-  -
-    title: 'Mosaik Kickers'
-    full: false
-    target_group: 'Für Kugelstoßen und Ballschubser aller Art'
-    topic: null
-    location: 'Kornwestheim - Soccerhalle'
-    weekday: Montag
-    time: '19:30'
-    biweekly: true
-    tags:
-      - Input
-      - Kicken
-      - Gemeinschaft
-    more_info: null
-    contact_person: 'Etienne Graf'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/458'
     type: homezone
     enabled: true
   -
@@ -195,65 +254,6 @@ homezones:
     type: homezone
     enabled: true
   -
-    title: 'Young & Free'
-    full: false
-    target_group: 18-22
-    topic: 'Glauben erleben'
-    location: 'Stuttgart West'
-    weekday: Dienstag
-    time: '19:00'
-    biweekly: false
-    tags:
-      - 'Gott begegnen'
-      - 'Leben teilen'
-      - 'Glauben im Alltag'
-    more_info: |
-      Zusammen wollen wir coole Zeiten erleben, Fun haben und unser Leben miteinander teilen. 
-      Wir möchten unseren Glauben erleben, indem wir darüber sprechen wie wir Gott begegnen, in unserer Beziehung zu Jesus wachsen und unseren Glauben im Alltag, auch außerhalb eines Church-Gebäudes leben können.
-    contact_person: 'Simon Garrecht, Linda Kruck'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/553'
-    type: homezone
-    enabled: true
-  -
-    title: 'Deep Talk 2.0'
-    full: false
-    target_group: 'jede*r im Alter von 22-38 Jahren, muss Hunde mögen ;D'
-    topic: 'Serendipity Bibel: Die Bergpredigt - Leben mit eigenem Stil'
-    location: Unterschiedlich
-    weekday: Dienstag
-    time: '19:30'
-    biweekly: false
-    tags:
-      - 'Tiefe Gespräche'
-      - 'Gutes Veschper'
-      - 'Mega Aktionen'
-    more_info: 'Wir wollen anhand eines Kleingruppenbuches die Bergpredigt durchnehmen. Dabei darf das gemeinschaftliche Essen nicht fehlen. Außerdem ist es geplant alle vier Wochen eine Aktion zu starten, bei der wir was grandioses unternehmen wollen.'
-    contact_person: 'Markus Krampitz'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/557'
-    type: homezone
-    enabled: true
-  -
-    title: 'Lifestyle Jüngerschaft'
-    full: false
-    target_group: Jeder
-    topic: 'Lifestyle Jüngerschaft'
-    location: 'Stuttgart Südwest'
-    weekday: Montag
-    time: '19:00'
-    biweekly: false
-    tags:
-      - Gemeinschaft
-      - Tiefgang
-      - Essen
-    more_info: |
-      "Lege das Fundament deines Lebens."
-      Anhand des oben genannten Andachtsbuches wollen wir uns damit beschäftigen, was Jüngerschaft bedeutet  und wie wir im Alltag unser Christsein leben können. 
-      Wir wollen im 2- wöchentlichen Abstand einen Input haben und in den ungeraden Wochen etwas zusammen unternehmen. (Vom Spieleabend-Radtour & Co) Wir freuen uns auf dich :)"
-    contact_person: 'Fabian + Debora Knoos'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/559'
-    type: homezone
-    enabled: true
-  -
     title: 'Let´s talk about...'
     full: false
     target_group: 'Alle, die gerne kommunizieren'
@@ -280,7 +280,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598165307
+updated_at: 1598165442
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
