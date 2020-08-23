@@ -2,7 +2,7 @@
 homezones:
   -
     title: 'Lifestyle Jüngerschaft'
-    full: true
+    full: false
     target_group: Jeder
     topic: 'Lifestyle Jüngerschaft'
     location: 'Stuttgart Südwest'
@@ -280,7 +280,7 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598166582
+updated_at: 1598166589
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 published: false
 ---
