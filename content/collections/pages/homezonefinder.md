@@ -164,9 +164,9 @@ homezones:
       - 'Geistlich wachsen'
       - 'Leben in Fülle'
     more_info: |
-      Wir möchten uns gegenseitig ermutigen, Glaubensschritte zu gehen und beim gemeinsamen Essen und gelegentlichen Aktionen Freundschaft leben.
+      Wir möchten uns gegenseitig ermutigen, Glaubensschritte zu gehen und beim gemeinsamen Essen und gelegentlichen Aktionen Freundschaft leben.  <br><br>
       
-      Willst du dich als Christ nicht im Kreis drehen, sondern herausfordern lassen Schritte auf deinem Weg mit Jesus zu gehen? Wir schauen uns Punkte an, in denen Gott uns motiviert aktiv zu werden und nicht in unserer Komfortzone zu verharren.
+      Willst du dich als Christ nicht im Kreis drehen, sondern herausfordern lassen Schritte auf deinem Weg mit Jesus zu gehen? Wir schauen uns Punkte an, in denen Gott uns motiviert aktiv zu werden und nicht in unserer Komfortzone zu verharren. <br>
       Wenn du Lust hast auf ehrliche Gespräche, im Vertrauen auf Jesus zu wachsen und auf jede Menge Spaß, freuen wir uns auf eine geniale Zeit mit dir in unserer Homezone.
     contact_person: 'Silas Krause, Elisa Köhler'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/541'
@@ -280,7 +280,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598166589
+updated_at: 1598129570
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
-published: false
 ---
