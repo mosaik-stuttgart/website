@@ -155,7 +155,7 @@ homezones:
     full: false
     target_group: 'Junge Erwachsene'
     topic: 'Glaubensschritte gehen'
-    location: 'In Wohnzimmern und an anderen Locations in Stuttgart (West)'
+    location: 'In Wohnzimmern und an anderen Locations in Stuttgart'
     weekday: Mittwoch
     time: '19:00'
     biweekly: false
@@ -229,7 +229,7 @@ homezones:
       Gemeinsam wollen wir uns die Minden, denen Jesus in der Bibel begegnet, anschauen und von ihnen lernen.
       
       Wir freuen uns auf dich.
-    contact_person: 'Jana Baumann'
+    contact_person: 'Jana Baumann, Jannik Schwitzgebel'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/550'
     type: homezone
     enabled: true
@@ -280,6 +280,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598129570
+updated_at: 1598180287
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
