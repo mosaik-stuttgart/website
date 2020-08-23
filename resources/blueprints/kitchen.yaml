@@ -60,6 +60,7 @@ sections:
           instructions: |
             You'd only see this if you're looking at the fieldset.
             Setting a default value is a good way to have a value automatically added to the content.
+            
           default: 'This is hidden!'
       -
         handle: toggle
@@ -156,7 +157,7 @@ sections:
       -
         handle: taggable
         field:
-          type: tags
+          type: taggable
           display: Tags
           instructions: 'A familiar tagging UI for creating a simple list of values.'
       -
@@ -204,9 +205,9 @@ sections:
       -
         handle: taxonomy
         field:
-          type: taxonomy
+          type: terms
           instructions: 'A list of terms from one or more taxonomies.'
-          taxonomy: tags
+          taxonomies: tags
       -
         handle: pages
         field:
