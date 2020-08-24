@@ -135,7 +135,7 @@ homezones:
       Zudem treffen wir uns ab und an tagsüber mit unseren Kids und erkunden die Stuttgarter Spielplätze.
     enabled: true
   -
-    title: 'Alpha Kurs'
+    title: 'Start Up'
     full: false
     target_group: 'Jeder ist herzlich willkommen!'
     topic: 'Alpha Kurs'
@@ -282,6 +282,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598298939
+updated_at: 1598299031
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
