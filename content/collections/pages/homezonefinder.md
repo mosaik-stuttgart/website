@@ -130,7 +130,9 @@ homezones:
     contact_person: 'Sonja Lempenauer'
     full: false
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/427'
-    more_info: null
+    more_info: |
+      Gemeinsam wollen wir Leben teilen und uns über Themen austauschen, die uns begeistern und herausfordern. Wir wollen geistlich wachsen und eine richtig gute Zeit zusammen haben!
+      Zudem treffen wir uns ab und an tagsüber mit unseren Kids und erkunden die Stuttgarter Spielplätze.
     enabled: true
   -
     title: 'Alpha Kurs'
@@ -279,7 +281,7 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598180997
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1598298939
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
