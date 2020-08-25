@@ -24,7 +24,7 @@ homezones:
   -
     title: 'Mosaik Kickers'
     full: false
-    target_group: 'Für Kugelstoßen und Ballschubser aller Art'
+    target_group: 'Für Kugelstoßer und Ballschubser aller Art'
     topic: null
     location: 'Kornwestheim - Soccerhalle'
     weekday: Montag
@@ -282,6 +282,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598299031
+updated_at: 1598385635
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
