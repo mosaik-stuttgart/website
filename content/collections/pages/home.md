@@ -7,7 +7,7 @@ primary_card:
     content:
       -
         type: text
-        text: 'Wichtige Info!'
+        text: 'Neu hier?'
   -
     type: paragraph
     content:
@@ -18,7 +18,7 @@ primary_card:
         type: hard_break
       -
         type: text
-        text: 'Aktuelle Infos findest du auf Instagram.'
+        text: 'Aktuelle Infos findest du auf Instagram und melde dich auf jeden Fall zu einer unserer Homezones an.'
       -
         type: hard_break
       -
@@ -101,7 +101,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598394011
+updated_at: 1598395185
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
