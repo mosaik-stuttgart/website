@@ -18,6 +18,11 @@ primary_card:
         type: hard_break
       -
         type: text
+        text: 'Aktuelle Infos findest du auf Instagram.'
+      -
+        type: hard_break
+      -
+        type: text
         marks:
           -
             type: link
@@ -29,36 +34,6 @@ primary_card:
       -
         type: text
         text: '    '
-      -
-        type: hard_break
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: /besuche-uns/anmeldung
-              target: null
-              rel: null
-        text: 'Zur Gottesdienst-Anmeldung'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Viele weitere Infos und Bible Studies teilen wir momentan über Instagram.'
-      -
-        type: hard_break
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://instagram.com/mosaik_church'
-              target: _blank
-              rel: noopener
-        text: 'Mosaik Church auf Instagram'
 steps:
   -
     type: step
@@ -126,7 +101,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598349424
+updated_at: 1598394011
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
