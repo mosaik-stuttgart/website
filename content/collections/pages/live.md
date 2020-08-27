@@ -178,11 +178,11 @@ rich_content:
 header_image: images/mosaik_im_wohnzimmer.jpg
 seo:
   title: 'Online Gottesdienst - Livestream'
-title: Gottesdienst
+title: Online-Gottesdienst
 template: livestream
 slug: live
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598117849
+updated_at: 1598523398
 id: 4b638da5-09ed-4bbf-9cd6-f6ef814d8721
 ---
