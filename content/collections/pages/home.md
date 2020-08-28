@@ -7,13 +7,27 @@ primary_card:
     content:
       -
         type: text
-        text: 'Wichtige Info!'
+        text: 'Neu hier?'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Aufgrund der Hygieneschutzmaßnahmen können wir aktuell keinen Gottesdienst in der Römerstraße veranstalten. In Zukunft werden wir einige Open-Air-Gottesdienste anbieten, du kannst allerdings weiterhin den Gottesdienst in deinem Wohnzimmer verfolgen. '
+        text: 'Aufgrund der Hygieneschutzmaßnahmen können wir aktuell keinen Gottesdienst in unserer gewohnten Location veranstalten. In Zukunft werden wir einige Open-Air-Gottesdienste und Hangouts anbieten, du kannst allerdings weiterhin den Gottesdienst in deinem Wohnzimmer verfolgen. '
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Aktuelle Infos findest du auf Instagram '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: (@mosaik_church)
+      -
+        type: text
+        text: ' und melde dich auf jeden Fall zu einer unserer Homezones an.'
       -
         type: hard_break
       -
@@ -26,24 +40,9 @@ primary_card:
               target: null
               rel: null
         text: 'Zum Livestream'
-  -
-    type: paragraph
-    content:
       -
         type: text
-        text: 'Viele weitere Infos und Bible Studies teilen wir momentan über Instagram.'
-      -
-        type: hard_break
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://instagram.com/mosaik_church'
-              target: _blank
-              rel: noopener
-        text: 'Mosaik Church auf Instagram'
+        text: '    '
 steps:
   -
     type: step
@@ -110,8 +109,8 @@ title: Home
 template: home
 slug: home
 blueprint: home
-updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1596350277
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1598523740
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -

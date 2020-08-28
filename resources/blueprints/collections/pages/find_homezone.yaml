@@ -1,7 +1,13 @@
+title: Homezonefinder
 sections:
   main:
     display: Main
     fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
       -
         handle: homezones
         field:
@@ -81,9 +87,10 @@ sections:
                   handle: more_info
                   field:
                     type: textarea
-                    display: 'Weitere Infos'
+                    display: Beschreibung
                     width: 50
                     replicator_preview: false
+                    listable: hidden
                 -
                   handle: contact_person
                   field:
@@ -98,8 +105,21 @@ sections:
                     width: 33
                     replicator_preview: false
           display: Homezones
+          listable: hidden
   sidebar:
     display: Meta
-    fields: {  }
-taxonomies: false
-title: Homezonefinder
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
