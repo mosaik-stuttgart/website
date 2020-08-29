@@ -46,6 +46,7 @@ editor:
     - 'publish podcasts entries'
     - 'reorder podcasts entries'
     - 'configure navs'
+    - 'view navigation nav'
     - 'edit footer globals'
     - 'edit global globals'
     - 'view sermon_series terms'
