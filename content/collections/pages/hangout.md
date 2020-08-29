@@ -6,7 +6,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Am Sonntag veranstalten wir ab 14:00 Uhr einen Hangout.'
+        text: 'Am Sonntag veranstalten wir ab 13:30 Uhr einen Hangout.'
       -
         type: hard_break
       -
@@ -20,12 +20,12 @@ rich_content:
       values:
         type: button
         text: Anmelden
-        url: 'https://mosaik-church.church.tools/publicgroup/529#/'
+        url: 'https://mosaik-church.church.tools/publicgroup/564'
   -
     type: paragraph
 header_image: images/pexels-elle-hughes.jpg
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598170203
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1598721264
 blueprint: default
 id: 5efabc5a-4348-4743-8847-9d7de23750ce
 ---
