@@ -1,0 +1,124 @@
+title: Bard
+fields:
+  -
+    handle: content
+    field:
+      sets:
+        button:
+          display: Button
+          fields:
+            -
+              handle: text
+              field:
+                input_type: text
+                type: text
+                localizable: false
+                listable: hidden
+                display: Text
+            -
+              handle: url
+              field:
+                type: link
+                replicator_preview: false
+                localizable: false
+                listable: hidden
+                display: URL
+        bild:
+          display: Bild
+          type: image
+          fields:
+            -
+              handle: image
+              field:
+                mode: grid
+                container: main
+                restrict: false
+                allow_uploads: true
+                max_files: 1
+                type: assets
+                localizable: false
+                listable: hidden
+                display: Bild
+                folder: images
+        html:
+          display: HTML
+          fields:
+            -
+              handle: html
+              field:
+                theme: material
+                mode: htmlmixed
+                indent_type: tabs
+                indent_size: 4
+                key_map: default
+                line_numbers: true
+                line_wrapping: true
+                type: code
+                localizable: false
+                listable: hidden
+                display: Code
+        datei:
+          display: Datei
+          type: file
+          fields:
+            -
+              handle: file
+              field:
+                mode: list
+                container: main
+                restrict: false
+                allow_uploads: true
+                max_files: 1
+                type: assets
+                localizable: false
+                listable: hidden
+                display: Datei
+                width: 66
+            -
+              handle: title
+              field:
+                placeholder: 'Name des Dokuments'
+                input_type: text
+                type: text
+                localizable: false
+                listable: hidden
+                display: Titel
+                width: 33
+        video:
+          display: Video
+          fields:
+            -
+              handle: video
+              field:
+                type: video
+                localizable: false
+                listable: hidden
+                display: Video
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - h1
+        - underline
+        - strikethrough
+      save_html: false
+      antlers: true
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      type: bard
+      localizable: false
+      listable: hidden
+      display: Inhalt

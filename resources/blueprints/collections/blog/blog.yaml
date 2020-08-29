@@ -9,7 +9,16 @@ sections:
           type: text
           required: true
       -
-        import: bard
+        handle: description
+        field:
+          character_limit: '170'
+          type: textarea
+          instructions: 'Wird auf der Übersichtsseite als Vorschau angezeigt'
+          localizable: false
+          listable: hidden
+          display: Zusammenfassung
+      -
+        import: editor
   sidebar:
     display: Sidebar
     fields:
@@ -25,12 +34,35 @@ sections:
           type: date
           required: true
       -
+        handle: cover_image
+        field:
+          mode: grid
+          container: main
+          restrict: true
+          allow_uploads: true
+          max_files: 1
+          type: assets
+          localizable: false
+          listable: hidden
+          display: Titelbild
+      -
         handle: tags
         field:
-          type: taxonomy
-          taxonomy: tags
+          type: terms
+          taxonomies: tags
           display: Themen
           mode: select
+      -
+        handle: author
+        field:
+          max_items: 2
+          mode: typeahead
+          taxonomies:
+            - speaker
+          type: terms
+          localizable: false
+          listable: hidden
+          display: Author
       -
         handle: parent
         field:

@@ -1,0 +1,331 @@
+---
+title: 'Ich glaube nicht an Gott, weil...'
+description: 'Im Namen Gottes wurde viel Unrecht verursacht. Wie soll jemand an die Existenz eines Gottes glauben können, wenn dieser scheinbar der Grund für all dieses Unrecht ist?'
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1598711922
+id: 48bd087e-98c7-4d05-9eb3-51ac2e36f185
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Seit Jahren sind die Zeitungen voll von Berichten über Priester die Kinder und Jugendliche sexuell missbraucht haben. Die Traumata und seelischen Verletzungen, welche die betroffenen Kinder dabei mitgenommen haben, kann man sich dabei nicht mal ausmalen. Millionen Menschen sind auf der Flucht, weil andere im Namen Gottes sie aus ihrem Zuhause vertrieben oder das Leben dort für sie unerträglich gemacht haben. Werfen wir einen Blick in die Geschichtsbücher, so finden wir dort grausame Geschichten von Religionskriegen, Unterdrückung Andersgläubiger und religiös motivierter Menschenrechtsverletzungen.'
+  -
+    type: blockquote
+    content:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Wer kann es angesichts all dessen nicht verstehen, wenn Menschen den Glauben an Gott verlieren? Wie soll jemand an die Existenz eines Gottes glauben können, der scheinbar der Grund ist für all dieses Unrecht?'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Wer einen Blick in die Vergangenheit wirft oder auch in die Gegenwart blickt, stößt auf viele Verbrechen die im Namen von Religionen begangen wurden und werden. Für viele ist das ein Grund nicht an Gott zu glauben, weil sie zu der Überzeugung gelangt sind, dass Religionen zwangsläufig zu all dem führen. Was kann man darauf erwidern?'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Zunächst mal muss differenziert werden. Auch wenn sehr oft pauschal von „Religion“ als einer einheitlichen Sache gesprochen wird, ist offenkundig dass nicht jede Religion das selbe Gewaltpotenzial hat. Als Christ kann man nur aus der Perspektive eines Christen sprechen und muss sich nicht den Schuh für alles anziehen, was im Namen Gottes an Unrecht begangen wurde.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Dass Religionen in sich selbst immer nur friedfertig sind und lediglich von einigen Fanatikern falsch verstanden werden, trifft bei genauerem Hinschauen nicht wirklich zu (was ist denn z.b. mit Religionen in denen den Göttern Menschenopfer gebracht werden?). Als Christ muss man deswegen nicht das Bedürfnis haben als Verteidiger aller Religionen aufzutreten. Trotzdem sollte man erklären können warum man den christlichen Glauben für friedlich hält und warum all das im Namen Gottes (auch im Namen des christlichen Gottes) begangene Unrecht, kein Grund ist, nicht mehr an seine Existenz zu glauben.'
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Hier einmal einige Gedanken dazu:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '1. Im Namen Gottes begangenes Unrecht sagt nichts über seine Existenz aus.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'So tragisch vieles ist, was Menschen sich gegenseitig im Namen Gottes angetan haben ist - es berührt die Frage ob Gott nun existiert oder nicht, überhaupt nicht.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Gottes Existenz hängt ja nicht davon ab, ob diejenigen die an ihn glauben alles sympathische Menschen sind oder nicht. Wenn das so wäre könnte Gott ja nur dann existieren, wenn diejenigen, die an ihn glauben, sich immer korrekt verhalten. Bei genauerem Hinschauen ist das ein ziemlich schwaches Argument. Das ganze einmal umgedreht: Kein überzeugter Atheist würde es als Argument durchgehen lassen, wenn ihm ein Gläubiger sagen würde, dass es ein Beweis für die Existenz Gottes sei, dass es so viele unsympathische oder sogar bösartige Atheisten gibt.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Natürlich ist es ein großer Bonus, wenn die Vertreter einer bestimmten Weltanschauung sich durch gute Taten und einen angenehmen Charakter auszeichnen. Dadurch ist man direkt viel offener, sich mit ihren Ansichten auseinanderzusetzen. Ob das aber so ist oder nicht, sagt letztlich nichts darüber aus ob deren Weltanschauung stimmt oder nicht. Die nettesten Menschen können Unrecht und die unsympathischsten können Recht haben. Darum ist am Ende nur das entscheidend: Welche Indizien sprechen für die Existenz Gottes und welche dagegen?'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '2. Böses wurde schon von Vertretern jeder Weltanschauung (auch nichtreligiösen) begangen'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Würde man die Wahrheit einer Weltanschauung davon abhängig machen, ob deren Vertreter immer alles richtig machen, dürfte man vermutlich von überhaupt nichts überzeugt sein.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Denn nicht nur im Namen von Religionen haben Menschen einander Unrecht und Leid zugefügt.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Durch kommunistische Regime wurden im 20. Jahrhundert viele Millionen Menschen unterdrückt, ausgehungert, erschossen, gefoltert und verstümmelt. Es waren atheistische Regime nicht radikale Gottesstaaten die dem 20. Jahrhundert den Beinamen „Das Jahrhundert der Gewalt“ gegeben haben. Vermutlich gibt es keine einzige politische Strömung, Religion oder Weltanschauung in deren Namen nicht andere unterdrückt, benachteiligt oder im schlimmsten Fall sogar verfolgt und getötet wurden. Welcher Atheist würde aber jetzt deswegen zu dem Ergebnis kommen, dass der Atheismus falsch liegt und deshalb Gott existieren muss, weil im Namen des Atheismus so viel Unrecht begangen wurde?'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '3. Jesus Christus ist unser ultimatives Vorbild'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Wer immer in der Argumentation gegen den christlichen Glauben zu den größtenteils aus dem Zusammenhang gerissenen alttestamentlichen Bibelstellen greift, auf die man so im Netz stößt, wenn dargelegt werden soll, dass die Bibel sehr wohl zur Gewalt aufrufe, muss sich eines bewusst machen:'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Für Christen gelten als ultimatives Vorbild das Leben und die Lehren von Jesus Christus. Und Jesu Leben ist so ziemlich das beste, das ein Mensch je gelebt hat. Seine Botschaft beinhaltete die bedingungslose Liebe zu unseren Mitmenschen, sogar unseren Feinden. Auf Gewalt sollen wir wir nicht mit Gegengewalt reagieren und sogar wenn Menschen uns Böses antun, sollen wir ihnen Gutes wünschen. Jesus verbrachte Zeit mit denen die in seiner Gesellschaft als ausgestoßen galten und verweigerte sich dagegen ein politischer Führer zu werden und damit Glauben und weltliche Macht auf eine ungesunde Weise miteinander zu vermischen.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Ein aufrichtiger Jesus-nachfolgender Christ kann also von der Bibel her gar nicht zu dem Ergebnis kommen, es sei in Ordnung Andersgläubige zu unterdrücken oder Kriege im Namen Gottes zu führen.'
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: '“Das Gegenmittel gegen christliche Gewalt ist nicht weniger vom christlichen Glauben, sondern, in einem qualifizierten Sinn, mehr christlicher Glaube” Miroslav Volf'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '4. Die Frage nach der Inspiration von bösen Handlungen'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Der christliche Glaube wurde und wird für vieles Böse das Menschen tun missbraucht, das ist gar keine Frage.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Aber
+      -
+        type: text
+        text: ': Entscheidend ist nicht, was Menschen, die sich Christen nennen, tun, sondern ob Sie ihr Handeln von der Bibel abgeleitet haben.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Das allermeiste von dem Bösen das Menschen im Namen des christlichen Gottes tun, resultiert nicht aus einem Bibelstudium, das sie zu ihren Taten angetrieben hat. Klar, das ist erst mal nur eine These, die nicht empirisch belegbar ist. Aber man kann natürlich nur dann Gott für in seinem Namen begangenes Unrecht verantwortlich machen, wenn das Beschäftigen mit seinem Wort - der Bibel - die Menschen dazu inspirieren, oder anleiten würde. Kein Priester dieser Welt hat Kinder missbraucht, weil er in der Bibel entsprechende Verse dazu gefunden hatte und es als einen Auftrag Gottes verstand, das zu tun. So tragisch und schockierend diese Fälle sind, sie können nicht darauf zurückgeführt werden, dass die Missbrauchstäter von Gott zu ihren Taten inspiriert wurden.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Selbst die oft genannten Kreuzzüge waren keine fromme christliche Bewegung, die durch gemeinsames Bibelstudium massenweise zur Erkenntnis gekommen wäre, man müsse jetzt in Palästina einfallen um dort andere abzuschlachten. Die vor den Toren Europas stehenden und sich stetig ausbreitenden islamischen Gruppen, verletzter religiös-nationaler Stolz wegen dem wenige Jahrhunderte zuvor durch Araber eroberten „Heiligen Land“, die Hoffnung auf ein besseres Leben und große Beute, sowie das blinde Folgen von Anweisungen der Kirchenführer, trieb die Menschen dazu an in die Kreuzzüge zu ziehen.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Oft vermischen sich Religion und Patriotismus zu einer Art „religiösem Nationalismus“ der sogar in religiös begründetem Rassismus enden kann, aber nicht einem studieren der biblischen Texte entspringt. Ein gutes Beispiel dafür ist der „Ku-Klux-Clan“ welcher Mitte des 19. Jahrhunderts in den Südstaaten der USA entstanden und für grausame Morde an der schwarzen US-Bevölkerung verantwortlich ist. Der Ku-Klux-Clan versteht sich selbst als protestantische Organisation, wird aber vor allem angetrieben von einer nationalistischen Gesinnung, die sich mit einer Vorstellung von der „Überlegenheit der weißen Rasse“ verbindet.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Nur weil Menschen etwas im Namen des Christentums machen, heißt es nicht, dass die Bibel selbst die Quelle ihrer Inspiration für ihre Handlung ist. Es ist eine Sache im Namen einer Religion Böses zu tun und eine ganz andere ob die Religion selbst die Inspiration für das eigene Handeln ist. Das ist wichtig, denn wir können Gott nur dann für böse Dinge, die in seinem Namen getan werden, verantwortlich machen, wenn auch wirklich Gott der Befehlsgebende dahinter war.'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '5. Christsein zeigt sich an christlichen Taten'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die Bibel macht überhaupt keinen Hehl daraus, dass Menschen kommen werden, die in Jesu Namen unterwegs sind, aber nicht wirklich zu ihm gehören. Jesus sagte einmal über solche Menschen:'
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Deshalb sage ich: An ihren Früchten werdet ihr sie erkennen. Nicht jeder, der zu mir sagt: ›Herr, Herr!‹, wird ins Himmelreich kommen, sondern nur der, der den Willen meines Vaters im Himmel tut. Viele werden an jenem Tag zu mir sagen: ›Herr, Herr! Haben wir nicht in deinem Namen prophetisch geredet, in deinem Namen Dämonen ausgetrieben und in deinem Namen viele Wunder getan?‹ Dann werde ich zu ihnen sagen: ›Ich habe euch nie gekannt. Geht weg von mir, ihr mit eurem gesetzlosen Treiben! Matthäus 7,20-23 (NGÜ)'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Jesus distanziert sich von Menschen die behaupten für ihn unterwegs zu sein, aber komplett entgegengesetzt zu seinen Gesetzen leben. Entscheidend ist bei dem Maßstab den Gott an unser Christ-Sein ansetzt wie wir hier sehen nicht, ob jemand auf einem Blatt Papier ankreuzt, dass er Teil einer christlichen Konfession oder Kirche ist; nicht mal ob, wer rein äußerlich das, was er tut, mit seinem christlichen Glauben begründet. Für Gott zählt alleine ob wir eine persönliche Beziehung zu ihm haben - ob wir ihn kennen. Obwohl die Leute von denen Jesus hier spricht in der Außenperspektive als überzeugte Christen wahrgenommen werden, sagt er über Sie er kenne sie nicht. Jesus selbst möchte sich also nicht den Schuh anziehen für jeden Mist, den Menschen in seinem Namen machen. Dementsprechend muss man das auch nicht als Christ.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Merkmal ob man wirklich zu ihm gehört, sind laut Jesus die „Früchte“ die man bringt, also die Taten die man tut, das Leben das man führt. Um zu sagen, dass eine Frucht zu einem bestimmten Baum gehört, ist logischerweise die Voraussetzung, dass auf dem Baum überhaupt die entsprechende Obstsorte wächst. Jesus hat Früchte der Liebe gebracht, wenn Menschen also Früchte der Gewalt bringen zeigen Sie dass sie nicht zu diesem Baum, also nicht zu diesem Gott gehören.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Viel wichtiger als die Frage ob Gott etwas mit dem Unrecht welches in seinem Namen begangen wird, zu tun hat, ist die Frage: Was denkt Gott über all das Unrecht? Wenn schon uns all das Unrecht in dieser Welt manchmal so wütend machen kann, wie viel mehr geht es dann Gott so? Vor allem dann, wenn es auch noch ihm zugeschrieben wird?'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die Bibel beschreibt Gott als liebenden Vater, der unsere Leiden sieht und unsere Schmerzen mitfühlt. Auch ohne eine Erklärung, dass wir eine Erklärung für alles Leid in dieser Welt haben, dürfen wir dennoch wissen und erleben, dass Gott derjenige ist, an den wir uns wenden können und der uns neue Kraft und Hoffnung gibt.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Literatur:'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Geisler, Norman / Turek, Frank (2004): I Don´t Have Enough Faith to Be an Atheist. Wheaton: Good News Publishers.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Sierszyn, Armin (1997): 2000 Jahre Kirchengeschichte. Bd. 2 Das Mittelalter. Neuhausen-Stuttgart: Hänssler.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Milger, Peter (2000): Die Kreuzzüge. Kriege im Namen Gottes. München: C. Bertelsmann.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Zacharias, Ravi (2006): The Real Face of Atheism. Sixth printing. Grand Rapids: Baker Books.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Weblinks (Stand 10.07.2019):'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: underline
+          -
+            type: link
+            attrs:
+              href: 'https://www.deutschlandfunk.de/ku-klux-klan-mit-brennenden-kreuzen-fuer-ein-weisses-und.886.de.html?dram:article_id=285160'
+              target: null
+              rel: null
+        text: 'https://www.deutschlandfunk.de/ku-klux-klan-mit-brennenden-kreuzen-fuer-ein-weisses-und.886.de.html?dram:article_id=285160'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: underline
+          -
+            type: link
+            attrs:
+              href: 'https://www.welt.de/geschichte/article157084955/Maos-Schwimmstunde-kostete-100-Millionen-Opfer.html'
+              target: null
+              rel: null
+        text: 'https://www.welt.de/geschichte/article157084955/Maos-Schwimmstunde-kostete-100-Millionen-Opfer.html'
+---
