@@ -37,6 +37,9 @@ tree:
     url: /media/predigten
     children:
       -
+        title: Booklet
+        url: /assets/main/7-Tage-des-Gebets---Begleitheft.pdf
+      -
         entry: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
       -
         entry: 7a473a57-18fd-4ce6-993e-2878ef72d950
