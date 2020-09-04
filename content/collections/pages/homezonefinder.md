@@ -78,7 +78,7 @@ homezones:
     enabled: true
   -
     title: 'Deep Talk 2.0'
-    full: false
+    full: true
     target_group: 'jede*r im Alter von 22-38 Jahren, muss Hunde mögen ;D'
     topic: 'Serendipity Bibel: Die Bergpredigt - Leben mit eigenem Stil'
     location: Unterschiedlich
@@ -282,6 +282,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598385635
+updated_at: 1599214915
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
