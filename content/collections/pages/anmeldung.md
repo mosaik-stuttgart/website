@@ -2,7 +2,7 @@
 title: Open-Air-Gottesdienst
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1599325989
+updated_at: 1599326264
 template: plain
 blueprint: default
 rich_content:
@@ -38,5 +38,4 @@ rich_content:
   -
     type: paragraph
 id: 3380e087-425e-418c-8d28-7e19bec7c1d0
-published: false
 ---
