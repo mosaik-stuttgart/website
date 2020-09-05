@@ -1,8 +1,8 @@
 ---
 title: Open-Air-Gottesdienst
 parent: a92323c9-9033-4013-a5af-5f754218a74f
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598721300
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1599325989
 template: plain
 blueprint: default
 rich_content:
@@ -19,7 +19,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Am 30.08.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstatt.'
+        text: 'Am 13.09.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstatt.'
   -
     type: paragraph
     content:
@@ -34,7 +34,7 @@ rich_content:
       values:
         type: button
         text: Anmelden
-        url: 'https://mosaik-church.church.tools/publicgroup/522#/'
+        url: 'https://mosaik-church.church.tools/publicgroup/566#/'
   -
     type: paragraph
 id: 3380e087-425e-418c-8d28-7e19bec7c1d0
