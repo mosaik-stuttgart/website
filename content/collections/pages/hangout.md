@@ -20,12 +20,12 @@ rich_content:
       values:
         type: button
         text: Anmelden
-        url: 'https://mosaik-church.church.tools/publicgroup/564'
+        url: 'https://mosaik-church.church.tools/publicgroup/569'
   -
     type: paragraph
 header_image: images/pexels-elle-hughes.jpg
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598721264
+updated_at: 1599380273
 blueprint: default
 id: 5efabc5a-4348-4743-8847-9d7de23750ce
 ---
