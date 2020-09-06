@@ -41,7 +41,7 @@ homezones:
     enabled: true
   -
     title: Jesus@home
-    full: false
+    full: true
     target_group: 20-30er
     topic: 'Jesus kennen - eine Reise durch das Johannesevangelium'
     location: 'Unterschiedlich (jeder ist mal Gastgeber)'
@@ -282,6 +282,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1599214915
+updated_at: 1599385448
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
