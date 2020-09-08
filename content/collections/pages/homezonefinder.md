@@ -58,7 +58,7 @@ homezones:
     type: homezone
     enabled: true
   -
-    title: 'Jung Brutal Gutaussehend'
+    title: 'Jung, brutal gutaussehend'
     full: false
     target_group: 'Junge Erwachsene'
     topic: 'Wer ist Jesus?'
@@ -70,7 +70,7 @@ homezones:
       - Jung
       - Lebendig
     more_info: |
-      Wir wollen eine gute und entspannte Zeit haben, gemeinsam lachen, uns austauschen, das Leben teilen, bei gutem Essen oder auch mal unterwegs..
+      Wir wollen eine gute und entspannte Zeit haben, gemeinsam lachen, uns austauschen, das Leben teilen, bei gutem Essen oder auch mal unterwegs.
       Wir werden uns mit der Frage beschäftigen: Wer ist Jesus?
     contact_person: 'Josias Göhner & Miriam Morlock'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/532'
@@ -281,7 +281,7 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1599385448
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1599567399
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
