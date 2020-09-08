@@ -69,6 +69,7 @@ homezones:
     tags:
       - Jung
       - Lebendig
+      - 'Gut drauf'
     more_info: |
       Wir wollen eine gute und entspannte Zeit haben, gemeinsam lachen, uns austauschen, das Leben teilen, bei gutem Essen oder auch mal unterwegs.
       Wir werden uns mit der Frage beschäftigen: Wer ist Jesus?
@@ -282,6 +283,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1599567399
+updated_at: 1599573065
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
