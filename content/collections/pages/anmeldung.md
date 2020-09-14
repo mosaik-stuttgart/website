@@ -1,8 +1,8 @@
 ---
-title: Open-Air-Gottesdienst
+title: 'Gottesdienst im Hotel'
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1599326264
+updated_at: 1600090935
 template: plain
 blueprint: default
 rich_content:
@@ -19,7 +19,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Am 13.09.2020 feiern wir um 10 Uhr einen Open-Air-Gottesdienst in Bad Cannstatt.'
+        text: 'Am 20.09.2020 feiern wir um 10:30 Uhr den ersten Gottesdienst in unserer neuen Location, der alten Reithalle im Maritim Hotel.'
   -
     type: paragraph
     content:
@@ -34,7 +34,7 @@ rich_content:
       values:
         type: button
         text: Anmelden
-        url: 'https://mosaik-church.church.tools/publicgroup/566#/'
+        url: 'https://mosaik-church.church.tools/publicgroup/572#/'
   -
     type: paragraph
 id: 3380e087-425e-418c-8d28-7e19bec7c1d0
