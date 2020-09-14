@@ -9,7 +9,7 @@ tree:
     entry: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
   -
     title: Sonntag
-    url: /besuche-uns/live
+    url: /besuche-uns
     children:
       -
         entry: 4b638da5-09ed-4bbf-9cd6-f6ef814d8721
@@ -17,7 +17,7 @@ tree:
         entry: aa8ad754-8ff5-463a-9a3d-d141c34de9df
   -
     title: Mitmachen
-    url: /mitmachen/next-steps/
+    url: /mitmachen
     children:
       -
         entry: faa47d88-a7dc-45d9-9f1d-d46deafeed43
