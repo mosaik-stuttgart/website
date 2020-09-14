@@ -32,7 +32,7 @@ tree:
         entry: 9c824f20-8bb8-42c3-818d-d3bf80bf3451
   -
     title: Medien
-    url: /media/predigten
+    url: /media
     children:
       -
         entry: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
