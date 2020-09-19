@@ -8,6 +8,21 @@ module.exports = {
 	  './content/**/*.md'
   ],
   theme: {
+    typography: {
+      default: {
+        css: {
+          lineHeight: '1.5',
+          color: false,
+          fontWeight: false,
+          a: {
+            color: false,
+            '&:hover': {
+              color: false,
+            },
+          },
+        },
+      },
+    },
     extend: {
       colors: {
         black: '#010001'
@@ -60,5 +75,8 @@ module.exports = {
     backgroundColor: ['responsive', 'hover', 'focus', 'active'],
     outline: ['focus'],
     display: ['responsive', 'hover', 'group-hover']
-  }
+  },
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }

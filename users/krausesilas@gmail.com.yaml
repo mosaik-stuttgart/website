@@ -25,3 +25,5 @@ preferences:
         - date
         - speaker
         - sermon_series
+    pages:
+      after_save: continue_editing

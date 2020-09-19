@@ -24,15 +24,13 @@ Route::statamic('account', 'user.account');
 Route::statamic('register', 'auth.register');
 Route::statamic('forgot-password', 'auth.password-forgot');
 Route::statamic('reset-password', 'auth.password-reset');
-Route::statamic('live', 'livestream', [
-    'load' => '/besuche-uns/live',
-]);
 
 Route::permanentRedirect('login', 'cp');
-Route::permanentRedirect('besuche-uns/gottesdienst', 'live');
-Route::permanentRedirect('mitmachen/homezones/homezone-finden.html', 'mitmachen/homezones/homezonefinder');
-Route::permanentRedirect('homezones.html', 'mitmachen/homezones');
-Route::permanentRedirect('medien/predigten.html', 'media/predigten');
-Route::permanentRedirect('mitmachen/sommerbibelschule.html', 'mitmachen/sommerbibelschule');
-Route::permanentRedirect('medien/predigten/detail/sermon/gesunde-sexualitaet.html', 'media/gesunde-sexualitaet');
+Route::permanentRedirect('live', '/besuche-uns/gottesdienst');
+Route::permanentRedirect('besuche-uns/anmeldung', '/besuche-uns/gottesdienst#anmeldung');
+Route::permanentRedirect('mitmachen/homezones/homezone-finden.html', '/mitmachen/homezones/homezonefinder');
+Route::permanentRedirect('homezones.html', '/mitmachen/homezones');
+Route::permanentRedirect('medien/predigten.html', '/media/predigten');
+Route::permanentRedirect('mitmachen/sommerbibelschule.html', '/mitmachen/sommerbibelschule');
+Route::permanentRedirect('medien/predigten/detail/sermon/gesunde-sexualitaet.html', '/media/gesunde-sexualitaet');
 Route::permanentRedirect('medien/*', '/');
