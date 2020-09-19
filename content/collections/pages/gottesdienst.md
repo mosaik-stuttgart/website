@@ -1,72 +1,157 @@
 ---
-current_series:
-  - sermon_series/mosaik-im-wohnzimmer
 rich_content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: '{{partial:services}}'
-  -
-    type: set
-    attrs:
-      values:
-        type: button
-        text: Anfahrt
-        external_link: false
-        target_page: 4cc7c9b2-6eed-4b55-bea1-79b7cbadcf42
-        target_blank: false
-        url: null
-  -
-    type: set
-    attrs:
-      values:
-        type: button
-        text: 'Häufige Fragen'
-        target_blank: false
-        target_page: aa8ad754-8ff5-463a-9a3d-d141c34de9df
-        url: null
-  -
-    type: paragraph
-    content:
-      -
-        type: hard_break
-  -
-    type: paragraph
-    content:
-      -
-        type: hard_break
-  -
-    type: heading
-    attrs:
-      level: '3'
-    content:
+        text: "Aktuell wechseln wir sonntags unregelmäßig zwischen dem Maritim Hotel und einem Online-Gottesdienst. Los geht's jeweils um\_"
       -
         type: text
-        text: 'Aktuelle Predigtreihe'
         marks:
           -
             type: bold
-  -
-    type: paragraph
-    content:
+        text: '10:30 Uhr'
       -
         type: text
-        text: '{{partial:current_series current_series="mosaik-im-wohnzimmer"}}'
+        text: .
       -
         type: hard_break
+      -
+        type: text
+        text: '{{partial:services}}'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: html
+        html: |
+          <div
+                id="anmeldung"
+                class="banner mt-8 md:mt-12 p-3 bg-blue-400 bg-opacity-25 rounded text-indigo-900 relative"
+              >
+                <div class="opacity-50">
+                  <h3 style="margin:0 0 4px 0;" class="font-bold mb-1 text-lg">Anmeldung</h3>
+                  <p>
+                    Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder
+                    angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das
+                    Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer
+                    zusammensitzen kann.
+                    <br />
+                    Um die Anmeldung abszuschließen, musst du den Bestätigungslink in der
+                    E-Mail aufrufen.
+                  </p>
+          
+                  <button disabled
+                    class="button px-5 py-2 inline-block bg-blue-500 bg-opacity-50 text-lg font-medium no-underline text-black rounded-sm shadow-sm hover:cursor-not-allowed hover:bg-blue-300 focus:outline-none focus:bg-gray-600"
+                    target="_blank"
+                    href="https://mosaik-church.church.tools/publicgroup/572#/"
+                  >
+                    Anmelden
+                  </button>
+                </div>
+              </div>
+          <style>
+              .banner::before {
+                content: "Anmeldung geschlossen";
+                font-weight: 700;
+                background: #e53e46;
+                position: absolute;
+                color: rgb(247, 229, 229);
+                top: 10px;
+                left: -4px;
+                padding: 3px 12px;
+                z-index: 1;
+              }
+              .banner::after {
+                content: "";
+                position: absolute;
+                top: 40px;
+                left: -4px;
+                border-right: 4px solid #c53030;
+                border-bottom: 4px solid transparent;
+              }
+            </style>
+          
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: hard_break
+      -
+        type: text
+        text: Termine
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '20.09. Kirche im Hotel'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '27.09. Online-Gottesdienst'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '04.10. Kirche im Hotel'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '11.10. Kirche im Hotel'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '18.10. Online-Gottesdienst'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '25.10. Online-Gottesdienst'
   -
     type: paragraph
     content:
       -
         type: hard_break
-title: 'Gottesdienst (Vor Corona)'
-template: default
+title: Gottesdienst
+template: plain
 slug: gottesdienst
-blueprint: services
-updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592169628
+blueprint: default
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1600473164
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
-published: false
 ---

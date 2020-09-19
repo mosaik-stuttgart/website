@@ -1,5 +1,9 @@
 nav, main, footer, section {opacity: 1 !important;}
 html { scroll-behavior: smooth; } 
+#anmeldung { 
+    scroll-margin-top: 100px;
+    scroll-snap-margin-top: 100px; 
+}
 body { @apply bg-white font-hairline }
 main {position: relative;}
 p:empty { display: none; }

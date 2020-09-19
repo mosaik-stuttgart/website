@@ -12,9 +12,10 @@ tree:
     url: /besuche-uns
     children:
       -
-        entry: 3380e087-425e-418c-8d28-7e19bec7c1d0
+        entry: c6f67036-26e8-452c-8798-6b5bf5967cfb
       -
-        entry: 4b638da5-09ed-4bbf-9cd6-f6ef814d8721
+        title: Anmeldung
+        url: '/besuche-uns/gottesdienst#anmeldung'
       -
         entry: aa8ad754-8ff5-463a-9a3d-d141c34de9df
   -
