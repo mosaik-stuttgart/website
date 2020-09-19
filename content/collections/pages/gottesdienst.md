@@ -144,14 +144,21 @@ rich_content:
                 text: '25.10. Online-Gottesdienst'
   -
     type: paragraph
-    content:
-      -
-        type: hard_break
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: bild
+        image: images/blessed_life.jpg
+  -
+    type: paragraph
 title: Gottesdienst
 template: plain
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1600473164
+updated_at: 1600502217
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
