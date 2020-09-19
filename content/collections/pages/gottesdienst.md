@@ -144,6 +144,9 @@ rich_content:
                 text: '25.10. Online-Gottesdienst'
   -
     type: paragraph
+    content:
+      -
+        type: hard_break
   -
     type: heading
     attrs:
@@ -168,6 +171,6 @@ template: plain
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1600502494
+updated_at: 1600502510
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
