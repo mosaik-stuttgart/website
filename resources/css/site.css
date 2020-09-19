@@ -95,6 +95,9 @@ p:empty { display: none; }
 strong { 
 	@apply font-bold; 
 }
+.prose li>p {
+    margin:0 !important;
+}
 @responsive {
     .text-shadow-sm {
       text-shadow: 0 0px 6px rgba(0,0,0,0.18);
