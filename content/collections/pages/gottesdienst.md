@@ -15,73 +15,69 @@ rich_content:
       -
         type: text
         text: .
-      -
-        type: hard_break
-      -
-        type: text
-        text: '{{partial:services}}'
   -
     type: paragraph
+    content:
+      -
+        type: text
+        text: ' '
   -
     type: set
     attrs:
       values:
         type: html
         html: |
-          <div
-                id="anmeldung"
-                class="banner mt-8 md:mt-12 p-3 bg-blue-400 bg-opacity-25 rounded text-indigo-900 relative"
-              >
-                <div class="opacity-50">
-                  <h3 style="margin:0 0 4px 0;" class="font-bold mb-1 text-lg">Anmeldung</h3>
-                  <p>
-                    Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder
-                    angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das
-                    Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer
-                    zusammensitzen kann.
-                    <br />
-                    Um die Anmeldung abszuschließen, musst du den Bestätigungslink in der
-                    E-Mail aufrufen.
-                  </p>
-          
-                  <button disabled
-                    class="button px-5 py-2 inline-block bg-blue-500 bg-opacity-50 text-lg font-medium no-underline text-black rounded-sm shadow-sm hover:cursor-not-allowed hover:bg-blue-300 focus:outline-none focus:bg-gray-600"
-                    target="_blank"
-                    href="https://mosaik-church.church.tools/publicgroup/572#/"
-                  >
-                    Anmelden
-                  </button>
-                </div>
+          <div class="grid mt-8 md:mt-14 sm:grid-cols-2 gap-6 sm:gap-12 md:-mx-12">
+              <div>
+                <h3 class="text-xl font-bold inline-flex items-center">
+                  <img style="margin: 0 0.5rem 0 0" src="/assets/main/images/maritim-logo.svg" alt="Maritim Hotels Logo">
+                  Maritim Hotel
+                </h3>
+                <p>
+                  Die normalen Gottesdienste feiern wir in der alten Reithalle des
+                  Maritim Hotels. <br>
+                  Falls du nicht kommen kannst, kannst du dir auch den Livestream auf <a href="https://instagram.com/mosaik_church" class="text-indigo-600">Instagram</a>
+                  anschauen.
+                </p>
               </div>
-          <style>
-              .banner::before {
-                content: "Anmeldung geschlossen";
-                font-weight: 700;
-                background: #e53e46;
-                position: absolute;
-                color: rgb(247, 229, 229);
-                top: 10px;
-                left: -4px;
-                padding: 3px 12px;
-                z-index: 1;
-              }
-              .banner::after {
-                content: "";
-                position: absolute;
-                top: 40px;
-                left: -4px;
-                border-right: 4px solid #c53030;
-                border-bottom: 4px solid transparent;
-              }
-            </style>
+              <div>
+                <h3 class="text-xl font-bold inline-flex items-center">
+                  <img style="margin: 0 0.5rem 0 0" src="/assets/main/images/youtube-logo.svg" alt="Youtube Logo">
+                  Online-Gottesdienst
+                </h3>
+                <p>
+                  An den anderen Sonntagen kannst du von deinem Sofa aus am Gottesdienst
+                  teilnehmen. Abonniere am besten unseren <a href="https://www.youtube.com/channel/UCUQI6VwkU8NYR-VfpLKmXDw?sub_confirmation=1" class="text-red-600">Youtube-Channel</a>.
+                </p>
+              </div>
+            </div>
           
+  -
+    type: paragraph
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: cta_card
+        text: |
+          ### Anmeldung
+          Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.
+          
+        button_text: Anmelden
+        disabled: true
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/572#/'
+  -
+    type: paragraph
+    content:
+      -
+        type: hard_break
   -
     type: heading
     attrs:
       level: 2
     content:
-      -
-        type: hard_break
       -
         type: text
         text: Termine
@@ -144,33 +140,17 @@ rich_content:
                 text: '25.10. Online-Gottesdienst'
   -
     type: paragraph
-    content:
-      -
-        type: hard_break
   -
-    type: heading
-    attrs:
-      level: 3
+    type: paragraph
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-        text: 'Aktuelle Predigtserie'
-  -
-    type: set
-    attrs:
-      values:
-        type: bild
-        image: images/blessed-life.jpg
-  -
-    type: paragraph
+        text: '{{partial:location}}'
 title: Gottesdienst
 template: plain
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1600504598
+updated_at: 1600510804
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---

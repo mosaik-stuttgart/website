@@ -46,10 +46,10 @@ fields:
                 theme: material
                 mode: htmlmixed
                 indent_type: tabs
-                indent_size: 4
+                indent_size: 2
                 key_map: default
                 line_numbers: true
-                line_wrapping: true
+                line_wrapping: false
                 type: code
                 listable: hidden
                 display: Code
@@ -87,6 +87,44 @@ fields:
                 type: video
                 listable: hidden
                 display: Video
+        cta_card:
+          display: 'CTA Card'
+          fields:
+            -
+              handle: text
+              field:
+                restrict: false
+                automatic_line_breaks: true
+                automatic_links: false
+                escape_markup: false
+                smartypants: false
+                display: Text
+                type: markdown
+                listable: hidden
+            -
+              handle: button_text
+              field:
+                input_type: text
+                display: 'Button Text'
+                type: text
+                width: 75
+                listable: hidden
+                validate:
+                  - required
+            -
+              handle: disabled
+              field:
+                display: Geschlossen
+                type: toggle
+                width: 25
+                listable: hidden
+            -
+              handle: cta_link
+              field:
+                input_type: text
+                display: URL
+                type: text
+                listable: hidden
       buttons:
         - h2
         - h3
