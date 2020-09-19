@@ -12,13 +12,13 @@ tree:
     url: /besuche-uns
     children:
       -
+        title: Gottesdienst
+        url: '/besuche-uns/gottesdienst?cache=new'
+      -
         title: Anmeldung
         url: '/besuche-uns/gottesdienst?cache=new#anmeldung'
       -
         entry: aa8ad754-8ff5-463a-9a3d-d141c34de9df
-      -
-        title: Gottesdienst
-        url: '/besuche-uns/gottesdienst?cache=new'
   -
     title: Mitmachen
     url: /mitmachen
