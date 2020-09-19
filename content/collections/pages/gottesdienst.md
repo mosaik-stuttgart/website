@@ -146,6 +146,13 @@ rich_content:
     type: paragraph
   -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Aktuelle Predigtserie'
   -
     type: set
     attrs:
@@ -159,6 +166,6 @@ template: plain
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1600502217
+updated_at: 1600502294
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
