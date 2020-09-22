@@ -27,9 +27,9 @@ rich_content:
       values:
         type: html
         html: |
-          <div class="grid mt-8 md:mt-14 sm:grid-cols-2 gap-6 sm:gap-12 md:-mx-12">
+          <div class="grid mt-10 md:mt-16 mb-4 sm:grid-cols-2 gap-6 sm:gap-12 md:-mx-12">
               <div>
-                <h3 class="text-xl font-bold inline-flex items-center">
+                <h3 class="text-xl font-extrabold font-serif tracking-wide inline-flex items-center">
                   <img style="margin: 0 0.5rem 0 0" src="/assets/main/images/maritim-logo.svg" alt="Maritim Hotels Logo">
                   Maritim Hotel
                 </h3>
@@ -41,7 +41,7 @@ rich_content:
                 </p>
               </div>
               <div>
-                <h3 class="text-xl font-bold inline-flex items-center">
+                <h3 class="text-xl font-extrabold font-serif tracking-wide inline-flex items-center">
                   <img style="margin: 0 0.5rem 0 0" src="/assets/main/images/youtube-logo.svg" alt="Youtube Logo">
                   Online-Gottesdienst
                 </h3>
@@ -151,6 +151,6 @@ template: plain
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1600510804
+updated_at: 1600771047
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
