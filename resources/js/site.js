@@ -12,9 +12,11 @@ function liveStreamStatus() {
             fetch(`${API_URL}&channelId=${channelId}&eventType=live&type=video&key=${process.env.MIX_YOUTUBE_API_KEY}`)
                 .then(res => res.json())
                 .then(res => {
-                    const videoId = res.items[0].id.videoId
-                    this.live = res.items.length > 0
-                    this.video = `https://youtube.com/watch?v=${videoId}`
+                    if (res.items.length > 0) {
+                        const videoId = res.items[0].id.videoId
+                        this.live = res.items.length > 0
+                        this.video = `https://youtube.com/watch?v=${videoId}`
+                    }
                 })
         }
     }
