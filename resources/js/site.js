@@ -1,6 +1,26 @@
 import "instant.page"
 import "alpinejs"
 
+function liveStreamStatus() {
+    const API_URL = 'https://www.googleapis.com/youtube/v3/search?part=snippet'
+    const channelId = 'UCUQI6VwkU8NYR-VfpLKmXDw'
+
+    return {
+        live: false,
+        video: '',
+        fetchStatus() {
+            fetch(`${API_URL}&channelId=${channelId}&eventType=live&type=video&key=${process.env.MIX_YOUTUBE_API_KEY}`)
+                .then(res => res.json())
+                .then(res => {
+                    const videoId = res.items[0].id.videoId
+                    this.live = res.items.length > 0
+                    this.video = `https://youtube.com/watch?v=${videoId}`
+                })
+        }
+    }
+}
+window.liveStreamStatus = liveStreamStatus
+
 class LiteYTEmbed extends HTMLElement {
     constructor() {
         super();

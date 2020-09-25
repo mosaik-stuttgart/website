@@ -1,3 +1,25 @@
+<div x-cloak x-data="liveStreamStatus()" x-init="fetchStatus()" >
+<a x-show="live" target="_blank" rel="noopener noreferrer" x-bind:href="video" class="hover:pointer w-full block text-sm p-2 bg-red-700 text-white font-medium text-center relative z-10" style="--bg-opacity: 0.9">
+  <span class="inline-flex items-center w-36 space-x-2">
+    <svg xmlns="http://www.w3.org/2000/svg" class="inline animate-pulse" width="12" height="12" viewBox="0 0 24 24" fill="#FFFFFF"><circle cx="12" cy="12" r="10"></circle></svg> 
+    <span  class="border-b border-red-400">Wir sind live</span>
+</a>
+</div>
+<style>
+  .animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1.08);
+    }
+    50% {
+      opacity: .5;
+      transform: scale(1);
+    }
+  }
+</style>
 <section x-data="{loaded: false}" x-init="()=>loaded = true" x-ref="hero" x-on:scroll.window.passive="parallax($refs)"
     class="-mt-14 w-full bg-gray-800 bg-no-repeat bg-cover text-center flex flex-col pt-12 relative z-0"
     style="height: 90vh; background-image: url({{header_image}}); background-position: 80% 30%;">
@@ -81,6 +103,14 @@
       hero.style.transform = `translate3D(0,${scrollTop / 8}px,0)`;
       refs.heroText.style.transform = `translate3D(0,${scrollTop / 6}px,0)`;
   }
+  function liveStreamStatus() {
+    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCUQI6VwkU8NYR-VfpLKmXDw&eventType=upcoming&type=video&key=AIzaSyB2Kg2bqYI_wUtdmZ6QJ4xtu89yM8RlviM`)
+            .then(res => res.json())
+           .then(res => {
+              console.log(`We are live! `+(res.items.length > 0));
+               console.log(`videoId: `+res.items[0].id.videoId)          
+    })
+  } 
 </script>
 <!--FAQ SCHEMA-->
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wieso feiern wir Gottesdienst?","acceptedAnswer":{"@type":"Answer","text":"Gottesdienst feiern bedeutet für uns Gott zu begegnen, seine verändernde Kraft zu erfahren und ihn dafür zu ehren sowie zu feiern, dass er uns auf verschiedene Weise seine Liebe zu uns gezeigt hat."}},{"@type":"Question","name":"Was erwartet mich in einem Gottesdienst?","acceptedAnswer":{"@type":"Answer","text":"Der Gottesdienst am Sonntag dauert ca. 70 Minuten.\nDu darfst dich auf eine besucherorientierte und freundliche Atmosphäre freuen. Unser Gottesdienst beginnt mit zeitgemäßer, auf Gott ausgerichteter Musik und geht über in eine Predigt, die praktisch und relevant für dein Leben ist."}},{"@type":"Question","name":"Wie kann ich andere kennenlernen und Anschluss finden?","acceptedAnswer":{"@type":"Answer","text":"Da gibt es verschiedene Möglichkeiten. Über das Kontakteknüpfen an einem Sonntagsgottesdienst hinaus empfehlen wir dir als ersten Schritt, an \"Next Steps\" teilzunehmen, um die Church besser kennenzulernen. Außerdem sind wir in Kleingruppen - sogenannten Homezones - organisiert, die sich unter der Woche treffen. Hier kannst du Freundschaften knüpfen und aufbauen und mehr über das Leben und die Gemeinde erfahren. In all dem bekommst du die Möglichkeit, in deinem Glauben zu wachsen."}}]}</script>
