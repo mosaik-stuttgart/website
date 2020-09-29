@@ -5,7 +5,21 @@ rich_content:
     content:
       -
         type: text
-        text: 'Endlich ist es soweit, wir starten wieder mit Live Gottesdiensten! Alle zwei Wochen feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s immer um 10.30 Uhr. Melde dich am besten direkt an: '
+        text: 'Endlich ist es soweit, wir starten wieder mit Live Gottesdiensten! Alle zwei Wochen feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s immer um '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '10.30 Uhr'
+      -
+        type: text
+        text: '. '
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Melde dich am besten direkt an: '
   -
     type: paragraph
     content:
@@ -129,7 +143,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601374381
+updated_at: 1601374770
 header_image: images/1200px-Tagungsbestuhlung-1601369275.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
