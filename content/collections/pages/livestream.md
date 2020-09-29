@@ -2,8 +2,8 @@
 title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601372037
+updated_by: 0f048454-68b2-4d22-80ea-db0fda0ee8be
+updated_at: 1601373047
 blueprint: default
 rich_content:
   -
@@ -26,9 +26,6 @@ rich_content:
     type: paragraph
   -
     type: paragraph
-    content:
-      -
-        type: hard_break
   -
     type: heading
     attrs:
@@ -42,7 +39,30 @@ rich_content:
     content:
       -
         type: text
-        text: 'Lad ein paar Freunde ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Predigt.'
+        text: 'Lade ein paar Freunde ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Message. Außerdem wird es immer 2-3 knackige Fragen zur Predigt geben, über die ihr euch austauschen könnt und die du in deine Woche mitnehmen darfst. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Wenn du den Livestream in einer besonderen Atmosphäre erleben willst, laden wir dich herzlich in unsere Räumlichkeiten in der Römerstr. 10 (Stuttgart-Süd) ein. Dort warten gemütliche Sessel und Sofas, freundliche Menschen und ein schön hergerichtetes Umfeld auf dich. Ob du allein kommst oder mit deinen Freunden - wir freuen uns auf dich! '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die Anmeldung dazu findest du hier:'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        text: 'Gemeinsam Livestream schauen'
+        url: null
+  -
+    type: paragraph
   -
     type: paragraph
     content:
