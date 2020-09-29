@@ -5,7 +5,7 @@ rich_content:
     content:
       -
         type: text
-        text: "Aktuell wechseln wir sonntags unregelmäßig zwischen dem Maritim Hotel und einem Online-Gottesdienst. Los geht's jeweils um\_"
+        text: "Endlich ist es soweit, wir starten wieder mit Live Gottesdiensten! Alle zwei Wochen feiern wir im Maritim Hotel  Aktuell wechseln wir sonntags unregelmäßig zwischen dem Maritim Hotel und einem Online-Gottesdienst. Los geht's jeweils um\_"
       -
         type: text
         marks:
@@ -73,7 +73,6 @@ rich_content:
   -
     type: set
     attrs:
-      enabled: false
       values:
         type: cta_card
         text: |
@@ -167,7 +166,7 @@ title: Gottesdienst
 template: plain
 slug: gottesdienst
 blueprint: default
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601276585
+updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
+updated_at: 1601368931
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
