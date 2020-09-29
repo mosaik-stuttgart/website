@@ -9,7 +9,7 @@ tree:
     entry: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
   -
     title: Sonntag
-    url: /besuche-uns/
+    url: /besuche-uns
     children:
       -
         entry: c6f67036-26e8-452c-8798-6b5bf5967cfb
