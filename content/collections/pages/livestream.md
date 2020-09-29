@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601371350
+updated_at: 1601371437
 blueprint: default
 rich_content:
   -
@@ -36,6 +36,9 @@ rich_content:
       -
         type: text
         text: 'Unsere aktuelle Predigtreihe dreht sich um die jüdischen Feste des Volkes Israel. Gemeinsam wollen wir verstehen, welche Rolle sie damals spielten, wie sie gefeiert wurden, sich schlussendlich in Jesus erfüllen und welche Bedeutung sie dadurch auch noch für unser Leben haben.'
+  -
+    type: paragraph
+    content:
       -
         type: hard_break
   -
