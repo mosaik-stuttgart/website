@@ -13,37 +13,14 @@ rich_content:
         type: text
         text: ' '
   -
+    type: paragraph
+  -
     type: set
     attrs:
-      enabled: false
       values:
-        type: html
-        html: |
-          <div class="grid mt-8 md:mt-14 pt-1 pb-4 sm:grid-cols-2 gap-6 sm:gap-12 md:-mx-12">
-              <div>
-                <h3 class="text-xl font-bold md:font-serif inline-flex items-center">
-                  <img style="margin: 0 0.5rem 0 0" src="/assets/main/images/maritim-logo.svg" alt="Maritim Hotels Logo">
-                  Maritim Hotel
-                </h3>
-                <p>
-                  Die normalen Gottesdienste feiern wir in der alten Reithalle des
-                  Maritim Hotels. <br>
-                  Falls du nicht kommen kannst, kannst du dir auch den Livestream auf <a href="https://instagram.com/mosaik_church" class="text-indigo-600">Instagram</a>
-                  anschauen.
-                </p>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold md:font-serif inline-flex items-center">
-                  <img style="margin: 0 0.5rem 0 0" src="/assets/main/images/youtube-logo.svg" alt="Youtube Logo">
-                  Online-Gottesdienst
-                </h3>
-                <p>
-                  An den anderen Sonntagen kannst du von deinem Sofa aus am Gottesdienst
-                  teilnehmen. Abonniere am besten unseren <a href="https://www.youtube.com/channel/UCUQI6VwkU8NYR-VfpLKmXDw?sub_confirmation=1" class="text-red-600">Youtube-Channel</a>.
-                </p>
-              </div>
-            </div>
-          
+        type: button
+        text: Anmelden
+        url: 'https://mosaik-church.church.tools/publicgroup/576'
   -
     type: paragraph
   -
@@ -143,7 +120,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601371629
+updated_at: 1601374237
 header_image: images/1200px-Tagungsbestuhlung-1601369275.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
