@@ -129,6 +129,8 @@ rich_content:
   -
     type: paragraph
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 3
@@ -155,7 +157,7 @@ rich_content:
 header_image: images/pflanzen-die-jana-schoen-findet.jpg
 parent: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601373500
+updated_at: 1601373638
 blueprint: default
 id: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
 ---
