@@ -6,6 +6,12 @@ rich_content:
     content:
       -
         type: text
+        text: 'Du bist herzlich eingeladen dich uns anzuschließen und Menschen mit der lebenserneuernden Message von Jesus bekannt zu machen! Gottes Sehnsucht ist es, Menschen in ihre Bestimmung und in seine Gegenwart zu führen. Durch deine Großzügigkeit befähigst du uns diesem Ziel in Stuttgart und weit darüber hinaus immer näherzukommen. Wir verpflichten uns dazu, ein fruchtbarer Boden für deine Großzügigkeit zu sein.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
         text: 'Auf folgende Weise kannst du den Dienst und die Vision unserer Gemeinde unterstützen:'
       -
         type: hard_break
@@ -119,14 +125,21 @@ rich_content:
                     <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button">
                     <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
           </form>
+          
   -
     type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 3
     content:
       -
-        type: hard_break
-      -
         type: text
-        text: 'Du bist herzlich eingeladen dich uns anzuschließen und Menschen mit der lebenserneuernden Message von Jesus bekannt zu machen! Gottes Sehnsucht ist es, Menschen in ihre Bestimmung und in seine Gegenwart zu führen. Durch deine Großzügigkeit befähigst du uns diesem Ziel in Stuttgart und weit darüber hinaus immer näherzukommen. Wir verpflichten uns dazu, ein fruchtbarer Boden für deine Großzügigkeit zu sein.'
+        text: 'Bar im Gottesdienst'
+      -
+        type: hard_break
+  -
+    type: paragraph
   -
     type: paragraph
     content:
@@ -141,8 +154,8 @@ rich_content:
         text: 'Als gemeinnützige Körperschaft des öffentlichen Rechts sind wir berechtigt vom Finanzamt akzeptierte Spendenbescheinigungen auszustellen.'
 header_image: images/pflanzen-die-jana-schoen-findet.jpg
 parent: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
-updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592205134
-id: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1601373500
 blueprint: default
+id: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
 ---
