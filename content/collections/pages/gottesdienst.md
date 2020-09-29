@@ -24,6 +24,7 @@ rich_content:
   -
     type: set
     attrs:
+      enabled: false
       values:
         type: html
         html: |
@@ -59,6 +60,7 @@ rich_content:
   -
     type: set
     attrs:
+      enabled: false
       values:
         type: cta_card
         text: |
@@ -73,6 +75,7 @@ rich_content:
   -
     type: set
     attrs:
+      enabled: false
       values:
         type: cta_card
         text: |
@@ -163,10 +166,10 @@ rich_content:
         type: text
         text: '{{partial:location}}'
 title: Gottesdienst
-template: plain
+template: default
 slug: gottesdienst
 blueprint: default
-updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
-updated_at: 1601368931
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1601369200
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
