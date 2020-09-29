@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601371437
+updated_at: 1601371925
 blueprint: default
 rich_content:
   -
@@ -11,19 +11,13 @@ rich_content:
     content:
       -
         type: text
-        text: 'Eine Kirche - viele Wohnzimmer. Neben unseren Gottesdiensten im Maritim Hotel feiern wir alle zwei Wochen Kirche im Wohnzimmer. Lad ein paar Freunde ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Predigt.'
+        text: 'Eine Kirche - viele Wohnzimmer. Neben unseren Gottesdiensten im Maritim Hotel feiern wir alle zwei Wochen Kirche im Wohnzimmer mit einem genialen Special: Unsere Predigtreihe Celebrate. Diese speziell auf den Livestream zugeschnittene Predigtreihe dreht sich um die jüdischen Feste des Volkes Israel. Gemeinsam wollen wir verstehen, welche Rolle sie damals spielten, wie sie gefeiert wurden, sich schlussendlich in Jesus erfüllen und welche Bedeutung sie dadurch auch noch für unser Leben haben.'
       -
         type: hard_break
       -
         type: hard_break
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
       -
-        type: text
-        text: 'Aktuelle Predigtreihe'
+        type: hard_break
   -
     type: set
     attrs:
@@ -32,13 +26,14 @@ rich_content:
         image: images/Celebrate.jpg
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: 'Unsere aktuelle Predigtreihe dreht sich um die jüdischen Feste des Volkes Israel. Gemeinsam wollen wir verstehen, welche Rolle sie damals spielten, wie sie gefeiert wurden, sich schlussendlich in Jesus erfüllen und welche Bedeutung sie dadurch auch noch für unser Leben haben.'
   -
     type: paragraph
     content:
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Lad ein paar Freunde ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Predigt.'
       -
         type: hard_break
   -
