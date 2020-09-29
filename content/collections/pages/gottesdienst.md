@@ -62,22 +62,6 @@ rich_content:
         cta_link: 'https://mosaik-church.church.tools/publicgroup/576'
   -
     type: paragraph
-  -
-    type: set
-    attrs:
-      values:
-        type: cta_card
-        text: |
-          ### Better together
-          Wir empfehlen dir den Livestream zusammen mit deinen WG-Bewohnern, Nachbarn, Freunde oder Familie zu schauen. Falls du keine Möglichkeit hast, gibt es in der Mosaik Church (Römerstraße 10) ein paar Plätze, wo du mit anderen gemeinsam den Livestream anschauen kannst. Melde dich bitte vorher an. Die Plätze sind begrenzt.
-          
-        button_text: Anmelden
-        disabled: true
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/574'
-  -
-    type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: hard_break
@@ -159,7 +143,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601370216
+updated_at: 1601371629
 header_image: images/1200px-Tagungsbestuhlung-1601369275.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
