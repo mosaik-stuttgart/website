@@ -49,7 +49,7 @@ rich_content:
     content:
       -
         type: text
-        text: Termine
+        text: 'Termine im Hotel'
   -
     type: bullet_list
     content:
@@ -61,7 +61,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '20.09. Kirche im Hotel'
+                text: '04. Oktober'
       -
         type: list_item
         content:
@@ -70,7 +70,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '27.09. Online-Gottesdienst'
+                text: '11. Oktober'
       -
         type: list_item
         content:
@@ -79,7 +79,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '04.10. Kirche im Hotel'
+                text: '01. November'
       -
         type: list_item
         content:
@@ -88,7 +88,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '11.10. Kirche im Hotel'
+                text: '15. November'
       -
         type: list_item
         content:
@@ -97,7 +97,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '18.10. Online-Gottesdienst'
+                text: '29. November'
       -
         type: list_item
         content:
@@ -106,7 +106,16 @@ rich_content:
             content:
               -
                 type: text
-                text: '25.10. Online-Gottesdienst'
+                text: '13. Dezember'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '20. Dezember'
   -
     type: paragraph
   -
@@ -120,7 +129,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601374237
+updated_at: 1601374381
 header_image: images/1200px-Tagungsbestuhlung-1601369275.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
