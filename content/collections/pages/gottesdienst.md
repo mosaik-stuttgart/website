@@ -170,6 +170,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601369200
+updated_at: 1601369220
+header_image: images/1200px-Tagungsbestuhlung.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
