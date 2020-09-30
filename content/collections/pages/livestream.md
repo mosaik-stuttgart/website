@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
-updated_at: 1601447439
+updated_at: 1601447508
 blueprint: default
 rich_content:
   -
@@ -11,7 +11,16 @@ rich_content:
     content:
       -
         type: text
-        text: 'Eine Kirche - viele Wohnzimmer. Neben unseren Gottesdiensten im Maritim Hotel feiern wir alle zwei Wochen Kirche im Wohnzimmer mit einem genialen Special: Unsere Predigtreihe Celebrate. Diese speziell auf den Livestream zugeschnittene Predigtreihe dreht sich um die jüdischen Feste des Volkes Israel. Gemeinsam wollen wir verstehen, welche Rolle sie damals spielten, wie sie gefeiert wurden, sich schlussendlich in Jesus erfüllen und welche Bedeutung sie dadurch auch noch für unser Leben haben.'
+        marks:
+          -
+            type: bold
+        text: 'Eine Kirche - viele Wohnzimmer. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Neben unseren Gottesdiensten im Maritim Hotel feiern wir alle zwei Wochen Kirche im Wohnzimmer mit einem genialen Special: Unsere Predigtreihe Celebrate. Diese speziell auf den Livestream zugeschnittene Predigtreihe dreht sich um die jüdischen Feste des Volkes Israel. Gemeinsam wollen wir verstehen, welche Rolle sie damals spielten, wie sie gefeiert wurden, sich schlussendlich in Jesus erfüllen und welche Bedeutung sie dadurch auch noch für unser Leben haben.'
       -
         type: hard_break
       -
