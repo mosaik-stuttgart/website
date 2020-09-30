@@ -2,8 +2,8 @@
 title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
-updated_by: 0f048454-68b2-4d22-80ea-db0fda0ee8be
-updated_at: 1601373047
+updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
+updated_at: 1601447439
 blueprint: default
 rich_content:
   -
@@ -40,6 +40,14 @@ rich_content:
       -
         type: text
         text: 'Lade ein paar Freunde ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Message. Außerdem wird es immer 2-3 knackige Fragen zur Predigt geben, über die ihr euch austauschen könnt und die du in deine Woche mitnehmen darfst. '
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Livestreamübertragung in der Church'
   -
     type: paragraph
     content:
