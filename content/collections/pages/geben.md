@@ -15,6 +15,43 @@ rich_content:
         text: 'Auf folgende Weise kannst du den Dienst und die Vision unserer Gemeinde unterstützen:'
       -
         type: hard_break
+        marks:
+          -
+            type: bold
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Mit PayPal spenden'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Bitte beachte, dass bei einer Spende mit PayPal nicht der gesamte gespendete Betrag bei uns gutgeschrieben wird. PayPal erhebt für Spenden Gebühren von 1,2% + 0,35 €. Bestätigt werden kann nur der tatsächlich bei uns eingegangene Betrag.'
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: html
+        html: |
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="QXTEA2WR2T76J">
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button">
+                    <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+          </form>
+          
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -84,50 +121,6 @@ rich_content:
           -
             type: bold
         text: 'Bank: Volksbank Ulm'
-      -
-        type: hard_break
-        marks:
-          -
-            type: bold
-      -
-        type: hard_break
-        marks:
-          -
-            type: bold
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: 'Mit PayPal spenden'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'Bitte beachte, dass bei einer Spende mit PayPal nicht der gesamte gespendete Betrag bei uns gutgeschrieben wird. PayPal erhebt für Spenden Gebühren von 1,2% + 0,35 €. Bestätigt werden kann nur der tatsächlich bei uns eingegangene Betrag.'
-  -
-    type: paragraph
-  -
-    type: set
-    attrs:
-      values:
-        type: html
-        html: |
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="QXTEA2WR2T76J">
-                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button">
-                    <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-          </form>
-          
-  -
-    type: paragraph
   -
     type: paragraph
   -
@@ -142,8 +135,6 @@ rich_content:
         type: hard_break
   -
     type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: text
@@ -156,8 +147,8 @@ rich_content:
         text: 'Als gemeinnützige Körperschaft des öffentlichen Rechts sind wir berechtigt vom Finanzamt akzeptierte Spendenbescheinigungen auszustellen.'
 header_image: images/pflanzen-die-jana-schoen-findet.jpg
 parent: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601373638
+updated_by: 0f048454-68b2-4d22-80ea-db0fda0ee8be
+updated_at: 1601893499
 blueprint: default
 id: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
 ---
