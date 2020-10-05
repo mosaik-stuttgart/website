@@ -19,6 +19,8 @@ rich_content:
           -
             type: bold
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 3
@@ -50,6 +52,8 @@ rich_content:
                     <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
           </form>
           
+  -
+    type: paragraph
   -
     type: paragraph
   -
@@ -124,6 +128,8 @@ rich_content:
   -
     type: paragraph
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 3
@@ -148,7 +154,7 @@ rich_content:
 header_image: images/pflanzen-die-jana-schoen-findet.jpg
 parent: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 updated_by: 0f048454-68b2-4d22-80ea-db0fda0ee8be
-updated_at: 1601893499
+updated_at: 1601893553
 blueprint: default
 id: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
 ---
