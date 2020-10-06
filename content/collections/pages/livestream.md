@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1602024219
+updated_at: 1602026396
 blueprint: default
 rich_content:
   -
@@ -50,20 +50,6 @@ rich_content:
         type: text
         text: 'Lade ein paar Freunde ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Message. Außerdem wird es immer 2-3 knackige Fragen zur Predigt geben, über die ihr euch austauschen könnt und die du in deine Woche mitnehmen darfst. '
   -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: 'Celebration in der Church'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Wenn du den Livestream in einer besonderen Atmosphäre erleben willst, laden wir dich herzlich in unsere Räumlichkeiten in der Römerstr. 10 (Stuttgart-Süd) ein. Dort warten gemütliche Sessel und Sofas, freundliche Menschen und ein schön hergerichtetes Umfeld auf dich. Ob du allein kommst oder mit deinen Freunden - wir freuen uns auf dich! '
-  -
     type: paragraph
   -
     type: set
@@ -71,8 +57,9 @@ rich_content:
       values:
         type: cta_card
         text: |
-          ### Better together
-          Wir empfehlen dir den Livestream zusammen mit deinen WG-Bewohnern, Nachbarn, Freunde oder Familie zu schauen. Falls du keine Möglichkeit hast, gibt es in der Mosaik Church (Römerstraße 10) ein paar Plätze, wo du mit anderen gemeinsam den Livestream anschauen kannst. Melde dich bitte vorher an. Die Plätze sind begrenzt.
+          ### Celebration in der Church
+          
+          Wenn du den Livestream in einer besonderen Atmosphäre erleben willst, laden wir dich herzlich in unsere Räumlichkeiten in der Römerstraße 10 (Stuttgart-Süd) ein. Dort warten gemütliche Sessel und Sofas, freundliche Menschen und ein schön hergerichtetes Umfeld auf dich. Ob du allein kommst oder mit deinen Freunden - wir freuen uns auf dich! 
           
         button_text: Anmelden
         disabled: true
@@ -120,5 +107,6 @@ rich_content:
               -
                 type: text
                 text: '22. November'
+hero: false
 id: f6e58554-18d0-44bb-9b5a-162626aafb70
 ---
