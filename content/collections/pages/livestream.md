@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
-updated_at: 1601447670
+updated_at: 1601994144
 blueprint: default
 rich_content:
   -
@@ -105,15 +105,6 @@ rich_content:
               -
                 type: text
                 text: '18. Oktober'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '25. Oktober'
       -
         type: list_item
         content:
