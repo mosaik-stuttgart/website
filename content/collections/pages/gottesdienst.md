@@ -69,7 +69,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '04. Oktober'
+                text: '11. Oktober'
       -
         type: list_item
         content:
@@ -78,7 +78,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '11. Oktober'
+                text: '25. Oktober'
       -
         type: list_item
         content:
@@ -136,8 +136,8 @@ title: 'Kirche im Hotel'
 template: default
 slug: gottesdienst
 blueprint: default
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1601846884
+updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
+updated_at: 1601993876
 header_image: images/1200px-Tagungsbestuhlung-1601369275.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
