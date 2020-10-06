@@ -6,7 +6,7 @@ html { scroll-behavior: smooth; }
 }
 body { @apply bg-white font-hairline }
 main {position: relative;}
-p:empty { display: none; }
+/* p:empty { display: none; } */
 
 .rounded-px {border-radius: 1px}
 .shadow-brand { box-shadow: 0 1px 3px 0 rgba(56, 0, 102, 0.1), 0 1px 2px 0 rgba(56, 0, 102,.06); }

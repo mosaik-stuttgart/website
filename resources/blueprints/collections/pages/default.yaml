@@ -26,6 +26,14 @@ sections:
           display: Hintergrundbild
           mode: grid
       -
+        handle: hero
+        field:
+          display: 'Hero-Banner anzeigen'
+          type: toggle
+          icon: toggle
+          hide_when:
+            header_image: 'not empty'
+      -
         handle: slug
         field:
           type: slug

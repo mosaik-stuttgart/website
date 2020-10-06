@@ -2,7 +2,7 @@
   <div {{ if disabled }} class="opacity-50" {{endif}}>
     <div class="prose">
       {{markdown}}
-        {{text}}
+        {{slot}}
       {{markdown}}
       <style>.prose h3:first-of-type{margin-bottom:0}</style>
     </div> 
