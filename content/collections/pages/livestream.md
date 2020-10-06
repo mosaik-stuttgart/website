@@ -2,8 +2,8 @@
 title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
-updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
-updated_at: 1601994144
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1602024219
 blueprint: default
 rich_content:
   -
@@ -65,21 +65,18 @@ rich_content:
         text: 'Wenn du den Livestream in einer besonderen Atmosphäre erleben willst, laden wir dich herzlich in unsere Räumlichkeiten in der Römerstr. 10 (Stuttgart-Süd) ein. Dort warten gemütliche Sessel und Sofas, freundliche Menschen und ein schön hergerichtetes Umfeld auf dich. Ob du allein kommst oder mit deinen Freunden - wir freuen uns auf dich! '
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: 'Die Anmeldung dazu findest du hier:'
-  -
-    type: paragraph
   -
     type: set
     attrs:
       values:
-        type: button
-        text: 'Gemeinsam Livestream schauen'
-        url: null
-  -
-    type: paragraph
+        type: cta_card
+        text: |
+          ### Better together
+          Wir empfehlen dir den Livestream zusammen mit deinen WG-Bewohnern, Nachbarn, Freunde oder Familie zu schauen. Falls du keine Möglichkeit hast, gibt es in der Mosaik Church (Römerstraße 10) ein paar Plätze, wo du mit anderen gemeinsam den Livestream anschauen kannst. Melde dich bitte vorher an. Die Plätze sind begrenzt.
+          
+        button_text: Anmelden
+        disabled: true
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/574'
   -
     type: paragraph
     content:
