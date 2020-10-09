@@ -2,11 +2,19 @@
 title: Geben
 rich_content:
   -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Du bist herzlich eingeladen dich uns anzuschließen und Menschen mit der lebenserneuernden Message von Jesus bekannt zu machen! '
+  -
     type: paragraph
     content:
       -
         type: text
-        text: 'Du bist herzlich eingeladen dich uns anzuschließen und Menschen mit der lebenserneuernden Message von Jesus bekannt zu machen! Gottes Sehnsucht ist es, Menschen in ihre Bestimmung und in seine Gegenwart zu führen. Durch deine Großzügigkeit befähigst du uns diesem Ziel in Stuttgart und weit darüber hinaus immer näherzukommen. Wir verpflichten uns dazu, ein fruchtbarer Boden für deine Großzügigkeit zu sein.'
+        text: 'Gottes Sehnsucht ist es, Menschen in ihre Bestimmung und in seine Gegenwart zu führen. Durch deine Großzügigkeit befähigst du uns diesem Ziel in Stuttgart und weit darüber hinaus immer näherzukommen. Wir verpflichten uns dazu, ein fruchtbarer Boden für deine Großzügigkeit zu sein.'
   -
     type: paragraph
     content:
@@ -152,7 +160,7 @@ rich_content:
 header_image: images/pflanzen-die-jana-schoen-findet.jpg
 parent: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
-updated_at: 1602231606
+updated_at: 1602231744
 blueprint: default
 hero: false
 id: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
