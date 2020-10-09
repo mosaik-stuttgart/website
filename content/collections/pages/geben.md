@@ -30,15 +30,6 @@ rich_content:
         text: 'Mit PayPal spenden'
   -
     type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: 'Bitte beachte, dass bei einer Spende mit PayPal nicht der gesamte gespendete Betrag bei uns gutgeschrieben wird. PayPal erhebt für Spenden Gebühren von 1,2% + 0,35 €. Bestätigt werden kann nur der tatsächlich bei uns eingegangene Betrag.'
-  -
-    type: paragraph
   -
     type: set
     attrs:
@@ -54,6 +45,13 @@ rich_content:
           
   -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Bitte beachte, dass bei einer Spende mit PayPal nicht der gesamte gespendete Betrag bei uns gutgeschrieben wird. PayPal erhebt für Spenden Gebühren von 1,2% + 0,35 €. Bestätigt werden kann nur der tatsächlich bei uns eingegangene Betrag.'
   -
     type: paragraph
   -
@@ -153,8 +151,9 @@ rich_content:
         text: 'Als gemeinnützige Körperschaft des öffentlichen Rechts sind wir berechtigt vom Finanzamt akzeptierte Spendenbescheinigungen auszustellen.'
 header_image: images/pflanzen-die-jana-schoen-findet.jpg
 parent: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
-updated_by: 0f048454-68b2-4d22-80ea-db0fda0ee8be
-updated_at: 1601893553
+updated_by: 3dc86050-aa46-4bc9-8ea1-483551a22e13
+updated_at: 1602231606
 blueprint: default
+hero: false
 id: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
 ---
