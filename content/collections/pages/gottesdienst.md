@@ -55,15 +55,6 @@ rich_content:
             content:
               -
                 type: text
-                text: '11. Oktober'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
                 text: '25. Oktober'
       -
         type: list_item
@@ -143,7 +134,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1602499252
+updated_at: 1602526478
 hero: false
 header_image: images/1200px-Tagungsbestuhlung-1601369275.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
