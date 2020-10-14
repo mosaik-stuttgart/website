@@ -11,7 +11,7 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "nckg/laravel-minify-html": "^1.2",
-        "statamic/cms": "3.0.15"
+        "statamic/cms": "3.0.17"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
