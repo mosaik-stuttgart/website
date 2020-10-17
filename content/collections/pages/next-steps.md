@@ -45,7 +45,6 @@ rich_content:
   -
     type: set
     attrs:
-      enabled: false
       values:
         type: button
         text: 'Zum Zoom-Meeting'
@@ -59,7 +58,7 @@ title: 'Next Steps'
 slug: next-steps
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1602968434
+updated_at: 1602969759
 hero: false
 id: faa47d88-a7dc-45d9-9f1d-d46deafeed43
 ---
