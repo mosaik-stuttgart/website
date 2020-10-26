@@ -84,6 +84,7 @@ return [
         resource_path('forms'),
         resource_path('users'),
         storage_path('forms'),
+        public_path('assets'),
     ],
 
     /*
@@ -99,7 +100,7 @@ return [
 
     'commands' => [
         'git add {{ paths }}',
-        'git -c "user.name={{ name }}" -c "user.email={{ email }}" commit -m "[CP - {{name}}] {{ message }}"',
+        'git -c "user.name={{ name }}" -c "user.email={{ email }}" commit -m "[CP] {{ message }}"',
     ],
 
     /*

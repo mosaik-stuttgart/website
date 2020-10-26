@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94dc3b4e34fa9ad88c00f7a978af4de6",
+    "content-hash": "46ecbfe6d8eab5727c6f9b3656bf2752",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1898,6 +1898,56 @@
             "time": "2020-01-19T19:18:49+00:00"
         },
         {
+            "name": "michelf/php-smartypants",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-smartypants.git",
+                "reference": "47d17c90a4dfd0ccf1f87e25c65e6c8012415aad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-smartypants/zipball/47d17c90a4dfd0ccf1f87e25c65e6c8012415aad",
+                "reference": "47d17c90a4dfd0ccf1f87e25c65e6c8012415aad",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP SmartyPants",
+            "homepage": "https://michelf.ca/projects/php-smartypants/",
+            "keywords": [
+                "dashes",
+                "quotes",
+                "spaces",
+                "typographer",
+                "typography"
+            ],
+            "time": "2016-12-13T01:01:17+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "2.1.1",
             "source": {
@@ -3200,16 +3250,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.17",
+            "version": "v3.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "029db37715cdca46aed927e1ad541a7efb37ef16"
+                "reference": "f5a219595a9296ea433df61b8381dfc0d75f435d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/029db37715cdca46aed927e1ad541a7efb37ef16",
-                "reference": "029db37715cdca46aed927e1ad541a7efb37ef16",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/f5a219595a9296ea433df61b8381dfc0d75f435d",
+                "reference": "f5a219595a9296ea433df61b8381dfc0d75f435d",
                 "shasum": ""
             },
             "require": {
@@ -3221,6 +3271,7 @@
                 "league/commonmark": "^1.5",
                 "league/csv": "^9.0",
                 "league/glide": "^1.1",
+                "michelf/php-smartypants": "^1.8",
                 "pixelfear/composer-dist-plugin": "^0.1.0",
                 "spatie/blink": "^1.1.2",
                 "statamic/stringy": "^3.1",
@@ -3270,7 +3321,13 @@
                 "laravel",
                 "statamic"
             ],
-            "time": "2020-10-13T21:30:33+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/statamic",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-20T18:15:28+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -7883,5 +7940,6 @@
     "platform": {
         "php": "^7.2.5"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
