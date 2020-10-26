@@ -1,7 +1,7 @@
 ---
 title: 'Wie kann ich die Bibel lesen und anwenden?'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598709955
+updated_at: 1603276054
 author:
   - simon-lemp
 cover_image: rod-long-DRgrzQQsJDA-unsplash.jpg
@@ -19,7 +19,13 @@ content:
     content:
       -
         type: text
-        text: 'Damit kommen wir auch direkt zu zwei Hauptproblemen mit der Bibel: Sie wird zu selten gelesen und gerne falsch verstanden.'
+        text: 'Damit kommen wir auch direkt zu zwei Hauptproblemen mit der Bibel: '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Sie wird zu selten gelesen und gerne falsch verstanden.'
   -
     type: paragraph
     content:
@@ -31,7 +37,16 @@ content:
     content:
       -
         type: text
-        text: 'Wir wollen uns deshalb in der Folge vier häufig gestellten Fragen widmen, um die Bibel als Ganzes besser zu verstehen und sie für uns persönlich fruchtbar zu machen.'
+        text: 'Wir wollen uns deshalb in der Folge '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'vier häufig gestellten Fragen'
+      -
+        type: text
+        text: ' widmen, um die Bibel als Ganzes besser zu verstehen und sie für uns persönlich fruchtbar zu machen.'
   -
     type: heading
     attrs:
@@ -48,13 +63,53 @@ content:
     content:
       -
         type: text
-        text: 'Wie bei jedem Buch, muss man sich auch bei der Bibel fragen, was für eine Art Buch man hier eigentlich vor sich hat. Wer z.B. Herr der Ringe liest, weiß, dass er gerade einen fiktiven Roman in der Hand hält und kein Sachbuch über Biologie. Dementsprechend wichtig ist diese Frage auch in Bezug auf die Bibel. Hier fällt direkt auf, dass wir es bei der Bibel genau genommen nicht mit einem „Buch“ zu tun haben. Unser Begriff „Bibel“ geht auf das griechische Wort biblia (Plural) zurück und bedeutet „Bücher“ - wir haben es bei der Bibel also mit einer über Jahrhunderte entstandenen Bibliothek zu tun. Wer etwas vertraut mit biblischen Schriften ist, wird bereits festgestellt haben, dass die Bibel verschiedene Textarten enthält. So finden sich narrative Texte, Prophetien, Gedichte, Gebete, Briefe und am Ende eine Apokalypse - die eigentlich eine Art Mischform auf Brief, Prophetie und Apokalypse darstellt - in ihr. Wir haben es hier also zunächst einmal nicht mit einem Buch im klassischen Sinne zu tun, sondern mit unterschiedlichen Verfassern, Textarten und auch mit verschiedenen Zeitepochen und Kulturen. Deshalb ist es von hoher Bedeutung, den unterschiedlichen Textgattungen Rechnung zu tragen und das Buch der Psalmen nicht wie beispielsweise einen neutestamentlichen Brief zu behandeln.'
+        text: 'Wie bei jedem Buch, muss man sich auch bei der Bibel fragen, was für eine Art Buch man hier eigentlich vor sich hat. Wer z.B. Herr der Ringe liest, weiß, dass er gerade einen fiktiven Roman in der Hand hält und kein Sachbuch über Biologie. Dementsprechend wichtig ist diese Frage auch in Bezug auf die Bibel. Hier fällt direkt auf, dass wir es bei der Bibel genau genommen nicht mit einem „Buch“ zu tun haben. '
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Zusammensetzung der Bibel'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Dennoch glauben wir, dass, gemäß 2. Tim 3,16, am Schluss Gott als Autor hinter der Bibel steht und die Bibel dementsprechend sehr wohl auch als „Buch“ bezeichnet werden kann, dass - trotz aller Menschlichkeit - von ihm inspiriert und deshalb als zuverlässig und treu erachtet werden kann. Trotz verschiedener Schreiber und Textarten weist die Bibel eine eindeutige und klare rote Linie auf und will im Grunde zwei Hauptthemen behandeln:'
+        text: 'Unser Begriff „Bibel“ geht auf das griechische Wort biblia (Plural) zurück und bedeutet „Bücher“ - wir haben es bei der Bibel also mit einer über Jahrhunderte entstandenen Bibliothek zu tun. Wer etwas vertraut mit biblischen Schriften ist, wird bereits festgestellt haben, dass die Bibel verschiedene Textarten enthält. So finden sich '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'narrative Texte, Prophetien, Gedichte, Gebete, Briefe und am Ende eine Apokalypse'
+      -
+        type: text
+        text: ' - die eigentlich eine Art Mischform auf Brief, Prophetie und Apokalypse darstellt - in ihr. Wir haben es hier also zunächst einmal nicht mit einem Buch im klassischen Sinne zu tun, sondern mit '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'unterschiedlichen Verfassern, Textarten und auch mit verschiedenen Zeitepochen und Kulturen'
+      -
+        type: text
+        text: '. Deshalb ist es von hoher Bedeutung, den unterschiedlichen Textgattungen Rechnung zu tragen und das Buch der Psalmen nicht wie beispielsweise einen neutestamentlichen Brief zu behandeln.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Dennoch glauben wir, dass, gemäß 2. Tim 3,16, am Schluss Gott als Autor hinter der Bibel steht und die Bibel dementsprechend sehr wohl auch als „Buch“ bezeichnet werden kann, dass - trotz aller Menschlichkeit - von ihm inspiriert und deshalb als zuverlässig und treu erachtet werden kann. '
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Trotz verschiedener Schreiber und Textarten weist die Bibel eine eindeutige und klare rote Linie auf und will im Grunde zwei Hauptthemen behandeln:'
   -
     type: paragraph
     content:
@@ -111,7 +166,7 @@ content:
             marks:
               -
                 type: italic
-            text: "„Denn alles, was in der Schrift steht, ist von Gottes Geist eingegeben, und dementsprechend groß ist auch der Nutzen der Schrift: Sie\_"
+            text: "Denn alles, was in der Schrift steht, ist von Gottes Geist eingegeben, und dementsprechend groß ist auch der Nutzen der Schrift: Sie\_"
           -
             type: text
             marks:
@@ -167,7 +222,7 @@ content:
             marks:
               -
                 type: italic
-            text: '.“ -'
+            text: '. -'
           -
             type: text
             text: "\_2. Tim 3,16"
@@ -244,7 +299,7 @@ content:
             marks:
               -
                 type: italic
-            text: "„damit der Mensch Gottes\_"
+            text: "damit der Mensch Gottes\_"
           -
             type: text
             marks:
@@ -286,7 +341,7 @@ content:
             marks:
               -
                 type: italic
-            text: "\_ausgerüstet.“ -"
+            text: "\_ausgerüstet. -"
           -
             type: text
             text: "\_2. Tim 3,17"

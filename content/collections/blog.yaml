@@ -1,8 +1,9 @@
 title: Blog
-terms:
-  - tags
+template: default
+layout: layout
 revisions: false
+date: true
 sort_dir: asc
 date_behavior:
-  past: unlisted
-  future: private
+  past: public
+  future: unlisted

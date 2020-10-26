@@ -2,7 +2,7 @@
 title: 'Ich glaube nicht an Gott, weil...'
 description: 'Im Namen Gottes wurde viel Unrecht verursacht. Wie soll jemand an die Existenz eines Gottes glauben können, wenn dieser scheinbar der Grund für all dieses Unrecht ist?'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598711922
+updated_at: 1603276278
 id: 48bd087e-98c7-4d05-9eb3-51ac2e36f185
 content:
   -
