@@ -11,8 +11,8 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "nckg/laravel-minify-html": "^1.2",
-        "statamic/cms": "3.0.20"
-        "predis/predis": "^1.1",
+        "statamic/cms": "3.0.20",
+        "predis/predis": "^1.1"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
