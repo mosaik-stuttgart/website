@@ -42,6 +42,13 @@ return [
             'type' => 'collection',
             'collection' => 'podcasts',
             'limit' => 5,
+	    'width' => 50,
+        ],
+	[
+            'type' => 'collection',
+            'collection' => 'blog',
+            'limit' => 5,
+	    'width' => 50,
         ],
         [
             'type' => 'form',

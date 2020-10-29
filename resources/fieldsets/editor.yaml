@@ -1,4 +1,4 @@
-title: Bard
+title: Editor
 fields:
   -
     handle: content
@@ -12,7 +12,6 @@ fields:
               field:
                 input_type: text
                 type: text
-                localizable: false
                 listable: hidden
                 display: Text
             -
@@ -20,7 +19,6 @@ fields:
               field:
                 type: link
                 replicator_preview: false
-                localizable: false
                 listable: hidden
                 display: URL
         bild:
@@ -36,7 +34,6 @@ fields:
                 allow_uploads: true
                 max_files: 1
                 type: assets
-                localizable: false
                 listable: hidden
                 display: Bild
                 folder: images
@@ -54,7 +51,6 @@ fields:
                 line_numbers: true
                 line_wrapping: true
                 type: code
-                localizable: false
                 listable: hidden
                 display: Code
         datei:
@@ -70,7 +66,6 @@ fields:
                 allow_uploads: true
                 max_files: 1
                 type: assets
-                localizable: false
                 listable: hidden
                 display: Datei
                 width: 66
@@ -80,10 +75,30 @@ fields:
                 placeholder: 'Name des Dokuments'
                 input_type: text
                 type: text
-                localizable: false
                 listable: hidden
                 display: Titel
                 width: 33
+        aufzaehlung:
+          display: Aufzählung
+          fields:
+            -
+              handle: list
+              field:
+                sets:
+                  neues_set:
+                    display: 'Neues Set'
+                    fields:
+                      -
+                        handle: text
+                        field:
+                          display: Text
+                          type: textarea
+                          icon: textarea
+                          listable: hidden
+                display: Aufzählung
+                type: replicator
+                icon: replicator
+                listable: hidden
         video:
           display: Video
           fields:
@@ -91,9 +106,51 @@ fields:
               handle: video
               field:
                 type: video
-                localizable: false
                 listable: hidden
                 display: Video
+        bibelvers:
+          display: Bibelvers
+          fields:
+            -
+              handle: verse
+              field:
+                restrict: false
+                automatic_line_breaks: true
+                automatic_links: false
+                escape_markup: false
+                smartypants: true
+                display: Vers
+                type: markdown
+                icon: markdown
+                instructions: 'Anführungszeichen werden nicht benötigt'
+                listable: hidden
+            -
+              handle: source
+              field:
+                placeholder: 'Genesis 1,1'
+                input_type: text
+                display: Bibelstelle
+                type: text
+                icon: text
+                listable: hidden
+        zitat:
+          display: Zitat
+          fields:
+            -
+              handle: quote
+              field:
+                display: Text
+                type: textarea
+                icon: textarea
+                listable: hidden
+            -
+              handle: source
+              field:
+                input_type: text
+                display: 'Zitat von:'
+                type: text
+                icon: text
+                listable: hidden
       buttons:
         - h2
         - h3
@@ -106,19 +163,19 @@ fields:
         - anchor
         - image
         - table
-        - h1
         - underline
         - strikethrough
+        - superscript
       save_html: false
       antlers: true
       toolbar_mode: fixed
-      link_noopener: false
+      link_noopener: true
       link_noreferrer: false
-      target_blank: false
-      reading_time: false
+      target_blank: true
+      reading_time: true
       fullscreen: true
       allow_source: true
       type: bard
-      localizable: false
       listable: hidden
       display: Inhalt
+      always_show_set_button: true
