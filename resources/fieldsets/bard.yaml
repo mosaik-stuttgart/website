@@ -12,7 +12,6 @@ fields:
               field:
                 input_type: text
                 type: text
-                localizable: false
                 listable: hidden
                 display: Text
             -
@@ -20,7 +19,6 @@ fields:
               field:
                 type: link
                 replicator_preview: false
-                localizable: false
                 listable: hidden
                 display: URL
         bild:
@@ -36,7 +34,6 @@ fields:
                 allow_uploads: true
                 max_files: 1
                 type: assets
-                localizable: false
                 listable: hidden
                 display: Bild
                 folder: images
@@ -49,12 +46,11 @@ fields:
                 theme: material
                 mode: htmlmixed
                 indent_type: tabs
-                indent_size: 4
+                indent_size: 2
                 key_map: default
                 line_numbers: true
-                line_wrapping: true
+                line_wrapping: false
                 type: code
-                localizable: false
                 listable: hidden
                 display: Code
         datei:
@@ -70,7 +66,6 @@ fields:
                 allow_uploads: true
                 max_files: 1
                 type: assets
-                localizable: false
                 listable: hidden
                 display: Datei
                 width: 66
@@ -80,7 +75,6 @@ fields:
                 placeholder: 'Name des Dokuments'
                 input_type: text
                 type: text
-                localizable: false
                 listable: hidden
                 display: Titel
                 width: 33
@@ -91,9 +85,46 @@ fields:
               handle: video
               field:
                 type: video
-                localizable: false
                 listable: hidden
                 display: Video
+        cta_card:
+          display: 'CTA Card'
+          fields:
+            -
+              handle: text
+              field:
+                restrict: false
+                automatic_line_breaks: true
+                automatic_links: false
+                escape_markup: false
+                smartypants: false
+                display: Text
+                type: markdown
+                listable: hidden
+            -
+              handle: button_text
+              field:
+                input_type: text
+                display: 'Button Text'
+                type: text
+                width: 75
+                listable: hidden
+                validate:
+                  - required
+            -
+              handle: disabled
+              field:
+                display: Geschlossen
+                type: toggle
+                width: 25
+                listable: hidden
+            -
+              handle: cta_link
+              field:
+                input_type: text
+                display: URL
+                type: text
+                listable: hidden
       buttons:
         - h2
         - h3
@@ -119,6 +150,6 @@ fields:
       fullscreen: true
       allow_source: true
       type: bard
-      localizable: false
       listable: hidden
       display: Inhalt
+      always_show_set_button: false

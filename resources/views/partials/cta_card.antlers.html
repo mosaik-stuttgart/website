@@ -1,0 +1,47 @@
+<div id="anmeldung"  class="{{ if disabled }}banner{{endif}} mt-8 md:mt-12 p-3 bg-neutral-400 bg-opacity-25 rounded text-indigo-900 relative">
+  <div {{ if disabled }} class="opacity-50" {{endif}}>
+    <div class="prose">
+      {{markdown}}
+        {{slot}}
+      {{markdown}}
+      <style>.prose h3:first-of-type{margin-bottom:0}</style>
+    </div> 
+
+    {{ if disabled }}
+    <button disabled class="px-5 py-2 inline-block bg-blue-500 bg-opacity-50 text-lg font-medium no-underline text-black rounded-sm shadow-sm hover:cursor-not-allowed hover:bg-blue-300 focus:outline-none focus:bg-gray-600">
+        {{button_text}}
+    </button>
+    {{ else }}
+    <a class="px-5 py-2 inline-block bg-blue-500 bg-opacity-50 text-lg font-medium no-underline text-black rounded-sm shadow-sm hover:bg-blue-300 focus:outline-none focus:bg-gray-600"
+      target="_blank"
+      href="{{cta_link}}">
+      {{button_text}}
+    </a>
+    {{ endif }}
+  </div> 
+</div>
+<style>
+    .bg-neutral-400 {
+      background-color: rgba(99, 139, 187, var(--bg-opacity));
+    }
+    .bg-blue-500 { filter: saturate(0.6) }
+    .banner::before {
+      content: "Anmeldung geschlossen";
+      font-weight: 700;
+      background: #1A202C;
+      position: absolute;
+      color: #f7fafc;
+      top: 10px;
+      left: -4px;
+      padding: 3px 12px;
+      z-index: 1;
+    }
+    .banner::after {
+      content: "";
+      position: absolute;
+      top: 40px;
+      left: -4px;
+      border-right: 4px solid #1A202C;
+      border-bottom: 4px solid transparent;
+    }
+  </style>

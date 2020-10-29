@@ -1,28 +1,32 @@
-title: Kontakt
-fields:
-  -
-    handle: name
-    field:
-      type: text
-      display: Name
-      validate: required
-  -
-    handle: email
-    field:
-      type: text
-      display: 'E-Mail Adresse'
-      validate: required|email
-  -
-    handle: text_message
-    field:
-      type: text
-      display: Nachricht
-      validate: string
-      automatic_line_breaks: true
-  -
-    handle: subject
-    field:
-      type: text
-      display: Betreff
-      validate: string
-      listable: false
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: name
+        field:
+          type: text
+          display: Name
+          validate: required
+      -
+        handle: email
+        field:
+          type: text
+          display: 'E-Mail Adresse'
+          validate: required|email
+      -
+        handle: text_message
+        field:
+          display: Nachricht
+          type: textarea
+          icon: textarea
+          listable: hidden
+          validate:
+            - string
+      -
+        handle: subject
+        field:
+          type: text
+          display: Betreff
+          validate: string
+          listable: false

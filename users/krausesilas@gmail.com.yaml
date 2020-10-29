@@ -27,3 +27,5 @@ preferences:
         - sermon_series
     blog:
       after_save: continue_editing
+    pages:
+      after_save: continue_editing

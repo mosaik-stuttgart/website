@@ -2,7 +2,7 @@
 homezones:
   -
     title: 'Lifestyle Jüngerschaft'
-    full: false
+    full: true
     target_group: Jeder
     topic: 'Lifestyle Jüngerschaft'
     location: 'Stuttgart Südwest'
@@ -41,7 +41,7 @@ homezones:
     enabled: true
   -
     title: Jesus@home
-    full: false
+    full: true
     target_group: 20-30er
     topic: 'Jesus kennen - eine Reise durch das Johannesevangelium'
     location: 'Unterschiedlich (jeder ist mal Gastgeber)'
@@ -58,7 +58,7 @@ homezones:
     type: homezone
     enabled: true
   -
-    title: 'Jung Brutal Gutaussehend'
+    title: 'Jung, brutal gutaussehend'
     full: false
     target_group: 'Junge Erwachsene'
     topic: 'Wer ist Jesus?'
@@ -69,8 +69,9 @@ homezones:
     tags:
       - Jung
       - Lebendig
+      - 'Gut drauf'
     more_info: |
-      Wir wollen eine gute und entspannte Zeit haben, gemeinsam lachen, uns austauschen, das Leben teilen, bei gutem Essen oder auch mal unterwegs..
+      Wir wollen eine gute und entspannte Zeit haben, gemeinsam lachen, uns austauschen, das Leben teilen, bei gutem Essen oder auch mal unterwegs.
       Wir werden uns mit der Frage beschäftigen: Wer ist Jesus?
     contact_person: 'Josias Göhner & Miriam Morlock'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/532'
@@ -78,7 +79,7 @@ homezones:
     enabled: true
   -
     title: 'Deep Talk 2.0'
-    full: false
+    full: true
     target_group: 'jede*r im Alter von 22-38 Jahren, muss Hunde mögen ;D'
     topic: 'Serendipity Bibel: Die Bergpredigt - Leben mit eigenem Stil'
     location: Unterschiedlich
@@ -282,6 +283,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1598385635
+updated_at: 1600154477
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---

@@ -21,7 +21,7 @@ rich_content:
         marks:
           -
             type: bold
-        text: 'Jeden Sonntag um 18:00 Uhr'
+        text: 'Jeden Sonntag im Hotel, direkt nach dem Gottesdienst bzw. 13 Uhr online'
       -
         type: hard_break
         marks:
@@ -45,13 +45,12 @@ rich_content:
   -
     type: set
     attrs:
-      enabled: false
       values:
         type: button
         text: 'Zum Zoom-Meeting'
         target_blank: true
         link: 'https://us02web.zoom.us/j/81964398234?pwd=T0gvczJpVWg3djRhZWNjaGp2OFlvUT09'
-        url: 'https://us02web.zoom.us/j/8371803144'
+        url: 'https://us02web.zoom.us/j/83913332150'
   -
     type: paragraph
 header_image: images/next-steps.jpg
@@ -59,6 +58,7 @@ title: 'Next Steps'
 slug: next-steps
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1596565656
+updated_at: 1602969940
+hero: false
 id: faa47d88-a7dc-45d9-9f1d-d46deafeed43
 ---

@@ -1,11 +1,24 @@
-<div class="max-w-2xl mx-auto">
-    <h2 class="hidden text-2xl font-extrabold text-gray-800 uppercase tracking-wide">Gottesdienste</h2>
-    <div class="mt-1 leading-none flex flex-wrap">
-    {{foreach:services}}
-        <div class="mr-8 my-2">
-            <time datetime="{{key | safe_truncate:5}}" class="w-28 inline-block font-bold text-xl">{{key}}</time> <br class="sm:hidden">
-            <span class="font-medium text-gray-700 text-lg sm:-ml-2 inline-block py-1">{{value}}</span>
-        </div>
-    {{/foreach:services}}
+<div class="grid md:mt-2 sm:grid-cols-2 sm:gap-12 md:-mx-12">
+    <div>
+      <h3 class="text-xl font-bold inline-flex items-center">
+        <img style="margin: 0 0.5rem 0 0" src="/assets/main/images/maritim-logo.svg" alt="Maritim Hotels Logo">
+        Maritim Hotel
+      </h3>
+      <p>
+        Die normalen Gottesdienste feiern wir in der alten Reithalle des
+        Maritim Hotels. <br>
+        Falls du nicht kommen kannst, kannst du dir auch den Livestream auf <a href="https://instagram.com/mosaik_church" class="text-indigo-600">Instagram</a>
+        anschauen.
+      </p>
     </div>
-</div>
+    <div>
+      <h3 class="text-xl font-bold inline-flex items-center">
+        <img style="margin: 0 0.5rem 0 0" src="/assets/main/images/youtube-logo.svg" alt="Youtube Logo">
+        Online-Gottesdienst
+      </h3>
+      <p>
+        An den anderen Sonntagen kannst du von deinem Sofa aus am Gottesdienst
+        teilnehmen. Abonniere am besten unseren <a href="https://www.youtube.com/channel/UCUQI6VwkU8NYR-VfpLKmXDw?sub_confirmation=1" class="text-red-600">Youtube-Channel</a>.
+      </p>
+    </div>
+  </div>

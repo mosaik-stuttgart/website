@@ -13,7 +13,7 @@ primary_card:
     content:
       -
         type: text
-        text: 'Aufgrund der Hygieneschutzmaßnahmen können wir aktuell keinen Gottesdienst in unserer gewohnten Location veranstalten. In Zukunft werden wir einige Open-Air-Gottesdienste und Hangouts anbieten, du kannst allerdings weiterhin den Gottesdienst in deinem Wohnzimmer verfolgen. '
+        text: 'Wir feiern aktuell sonntags abwechselnd Gottesdienst im Maritim Hotel und online. Du bist herzlich eingeladen dabei zu sein, um mit uns zu feiern!'
       -
         type: hard_break
       -
@@ -36,13 +36,13 @@ primary_card:
           -
             type: link
             attrs:
-              href: /live
+              href: /besuche-uns/gottesdienst
               target: null
               rel: null
-        text: 'Zum Livestream'
+        text: 'mehr Infos'
       -
         type: text
-        text: '    '
+        text: '   '
 steps:
   -
     type: step
@@ -110,7 +110,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1598523740
+updated_at: 1603709009
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -

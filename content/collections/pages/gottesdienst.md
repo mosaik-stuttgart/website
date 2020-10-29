@@ -1,72 +1,132 @@
 ---
-current_series:
-  - sermon_series/mosaik-im-wohnzimmer
 rich_content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: '{{partial:services}}'
-  -
-    type: set
-    attrs:
-      values:
-        type: button
-        text: Anfahrt
-        external_link: false
-        target_page: 4cc7c9b2-6eed-4b55-bea1-79b7cbadcf42
-        target_blank: false
-        url: null
-  -
-    type: set
-    attrs:
-      values:
-        type: button
-        text: 'Häufige Fragen'
-        target_blank: false
-        target_page: aa8ad754-8ff5-463a-9a3d-d141c34de9df
-        url: null
-  -
-    type: paragraph
-    content:
-      -
-        type: hard_break
-  -
-    type: paragraph
-    content:
-      -
-        type: hard_break
-  -
-    type: heading
-    attrs:
-      level: '3'
-    content:
+        text: 'Endlich ist es soweit, wir starten wieder mit Live Gottesdiensten! Alle zwei Wochen feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s immer um '
       -
         type: text
-        text: 'Aktuelle Predigtreihe'
         marks:
           -
             type: bold
+        text: '10.30 Uhr'
+      -
+        type: text
+        text: '. '
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Melde dich am besten direkt an: '
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      values:
+        type: cta_card
+        text: |
+          ### Anmeldung
+          Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.
+          
+        button_text: Anmelden
+        disabled: false
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/582'
+  -
+    type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Termine im Hotel'
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '01. November'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '15. November'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '29. November'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '13. Dezember'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '20. Dezember'
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'An den anderen Sonntagen veranstalten wir einen Livestream. '
+      -
+        type: hard_break
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /besuche-uns/livestream
+              target: null
+              rel: null
+        text: 'mehr Infos'
   -
     type: paragraph
     content:
       -
         type: text
-        text: '{{partial:current_series current_series="mosaik-im-wohnzimmer"}}'
-      -
-        type: hard_break
-  -
-    type: paragraph
-    content:
-      -
-        type: hard_break
-title: 'Gottesdienst (Vor Corona)'
+        text: '{{partial:location}}'
+title: 'Kirche im Hotel'
 template: default
 slug: gottesdienst
-blueprint: services
-updated_by: 8b859feb-1ec6-464d-976a-9ab876f03455
-updated_at: 1592169628
+blueprint: default
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1603715549
+hero: false
+header_image: images/1200px-Tagungsbestuhlung-1601369275.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
-published: false
 ---

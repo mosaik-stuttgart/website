@@ -1,8 +1,12 @@
 nav, main, footer, section {opacity: 1 !important;}
 html { scroll-behavior: smooth; } 
+#anmeldung { 
+    scroll-margin-top: 100px;
+    scroll-snap-margin-top: 100px; 
+}
 body { @apply bg-white font-hairline }
 main {position: relative;}
-p:empty { display: none; }
+/* p:empty { display: none; } */
 
 .rounded-px {border-radius: 1px}
 .shadow-brand { box-shadow: 0 1px 3px 0 rgba(56, 0, 102, 0.1), 0 1px 2px 0 rgba(56, 0, 102,.06); }
@@ -90,6 +94,9 @@ p:empty { display: none; }
 }
 strong { 
 	@apply font-bold; 
+}
+.prose li>p {
+    margin:0 !important;
 }
 @responsive {
     .text-shadow-sm {
