@@ -38,7 +38,7 @@ rich_content:
             type: link
             attrs:
               href: 'https://us02web.zoom.us/j/82306955150?pwd=OC93OUJDUzBNM1E2WGZyOWx4dlp0dz09'
-              target: null
+              target: _blank
               rel: null
         text: 'https://us02web.zoom.us/j/82306955150?pwd=OC93OUJDUzBNM1E2WGZyOWx4dlp0dz09'
       -
@@ -59,7 +59,7 @@ rich_content:
             type: link
             attrs:
               href: 'https://www.instagram.com/ecclesia.kirchen/'
-              target: null
+              target: _blank
               rel: null
         text: 'https://www.instagram.com/ecclesia.kirchen/'
       -
@@ -117,7 +117,7 @@ rich_content:
               rel: null
         text: 'Homezone finden'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1604253615
+updated_at: 1604253870
 blueprint: default
 hero: true
 id: 9dbef045-7133-4f00-9538-ca37027adf91
