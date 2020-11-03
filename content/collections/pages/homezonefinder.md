@@ -276,6 +276,21 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/562'
     type: homezone
     enabled: true
+  -
+    title: 'Starter Homezone'
+    full: false
+    target_group: 'Jeder der neu in der Kirche ist :)'
+    topic: null
+    location: Stuttgart
+    weekday: Mittwoch
+    time: '19:30'
+    biweekly: false
+    tags: {  }
+    more_info: null
+    contact_person: 'Simon Garrecht'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/601'
+    type: homezone
+    enabled: true
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -283,6 +298,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1600154477
+updated_at: 1604393452
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
