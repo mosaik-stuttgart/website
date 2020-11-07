@@ -105,13 +105,14 @@
   }
   function liveStreamStatus() {
     const date = new Date();
-    const sunday = date.getDay() == 7
-    sunday && fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCUQI6VwkU8NYR-VfpLKmXDw&eventType=upcoming&type=video&key=AIzaSyB2Kg2bqYI_wUtdmZ6QJ4xtu89yM8RlviM`)
-            .then(res => res.json())
+    if (date.getDay() == 7) {
+      fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCUQI6VwkU8NYR-VfpLKmXDw&eventType=upcoming&type=video&key=AIzaSyB2Kg2bqYI_wUtdmZ6QJ4xtu89yM8RlviM`)
+           .then(res => res.json())
            .then(res => {
               console.log(`We are live! `+(res.items.length > 0));
-               console.log(`videoId: `+res.items[0].id.videoId)          
-    })
+              console.log(`videoId: `+res.items[0].id.videoId);          
+      })
+    }
   } 
 </script>
 <!--FAQ SCHEMA-->
