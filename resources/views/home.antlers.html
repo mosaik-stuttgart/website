@@ -104,7 +104,9 @@
       refs.heroText.style.transform = `translate3D(0,${scrollTop / 6}px,0)`;
   }
   function liveStreamStatus() {
-    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCUQI6VwkU8NYR-VfpLKmXDw&eventType=upcoming&type=video&key=AIzaSyB2Kg2bqYI_wUtdmZ6QJ4xtu89yM8RlviM`)
+    const date = new Date();
+    const sunday = date.getDay() == 7
+    sunday && fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCUQI6VwkU8NYR-VfpLKmXDw&eventType=upcoming&type=video&key=AIzaSyB2Kg2bqYI_wUtdmZ6QJ4xtu89yM8RlviM`)
             .then(res => res.json())
            .then(res => {
               console.log(`We are live! `+(res.items.length > 0));
