@@ -2,8 +2,8 @@
 title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1602528430
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1605259891
 blueprint: default
 rich_content:
   -
@@ -54,7 +54,16 @@ rich_content:
     content:
       -
         type: text
-        text: 'Den Livestream findest du auf unserem Youtube-Channel. Am besten abonnierst du unseren Kanal:'
+        text: 'Der Livestream beginnt um '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '10:30'
+      -
+        type: text
+        text: ' und ist auf unserem YouTube-Channel zu finden. Am besten abonnierst du unseren Kanal:'
   -
     type: set
     attrs:
