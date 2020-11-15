@@ -1,9 +1,300 @@
+---
 rich_content:
   -
-    type: text
-    text: '<h2>Unsere Vision</h2><p>Wir träumen von einer Kirche, ...</p><ul><li>in der Menschen&nbsp;<strong>Gott kennen</strong>&nbsp;und in intensiver Beziehung zu ihm stehen!</li><li>in der Menschen ihre Einzigartigkeit erkennen und echte&nbsp;<strong>Freiheit erleben</strong>!</li><li>in der Menschen ihr&nbsp;<strong>Potenzial entfalten</strong>, um gemeinsam an etwas Gewaltigem zu bauen!</li><li>die&nbsp;<strong>Jesus widerspiegelt</strong>&nbsp;und seine Liebe bis in die Mitte der Gesellschaft trägt!</li></ul><p><br></p><h2>Unsere Werte</h2><p><strong>Voller Leidenschaft</strong><br>Wir sind begeistert von Jesus und wollen unser Bestes für ihn geben.</p><p><strong>Am Puls der Zeit</strong><br>Wir wollen unseren Glauben in zeitgemäßer Art und Weise leben und weitergeben.</p><p><strong>Liebe zum Detail</strong><br>Das was wir tun zeichnet sich durch ein Auge fürs Detail un Exzellenz aus.</p><p><strong>Eine Familie</strong><br>Wertschätzung und Großzügigkeit prägen unser Miteinander.</p><p><strong>Jeder ist willkommen</strong><br>Wir begegnen jedem Menschen herzlich und offen.</p><p><br></p><h2><strong>Unser Leitungsteam</strong></h2><p><strong>Simon Lempenauer</strong><br>Pastor</p><p><strong>Simon Garrecht</strong><br>Co-Pastor, Next Steps, Kleingruppen</p><p><strong>Silas Kettner</strong><br>Co-Pastor, Lobpreis</p><p><strong>Steve Bührle<br></strong>Gebäude und Heimwerker</p><p><strong>Markus Krampitz</strong><br>Technik</p><p><strong>Jana Baumann</strong><br>Medien</p><p><strong>Samuel Seidel</strong><br>Finanzen</p>'
+    type: heading
+    attrs:
+      level: '2'
+    content:
+      -
+        type: text
+        text: 'Unsere Vision'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Wir träumen von einer Kirche, ...'
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "in der Menschen\_"
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Gott kennen'
+              -
+                type: text
+                text: "\_und in intensiver Beziehung zu ihm stehen!"
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "in der Menschen ihre Einzigartigkeit erkennen und echte\_"
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Freiheit erleben'
+              -
+                type: text
+                text: '!'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "in der Menschen ihr\_"
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Potenzial entfalten'
+              -
+                type: text
+                text: ', um gemeinsam an etwas Gewaltigem zu bauen!'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "die\_"
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Jesus widerspiegelt'
+              -
+                type: text
+                text: "\_und seine Liebe bis in die Mitte der Gesellschaft trägt!"
+  -
+    type: paragraph
+    content:
+      -
+        type: hard_break
+  -
+    type: heading
+    attrs:
+      level: '2'
+    content:
+      -
+        type: text
+        text: 'Unsere Werte'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Voller Leidenschaft'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Wir sind begeistert von Jesus und wollen unser Bestes für ihn geben.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Am Puls der Zeit'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Wir wollen unseren Glauben in zeitgemäßer Art und Weise leben und weitergeben.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Liebe zum Detail'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Das was wir tun zeichnet sich durch ein Auge fürs Detail und Exzellenz aus.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Eine Familie'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Wertschätzung und Großzügigkeit prägen unser Miteinander.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jeder ist willkommen'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Wir begegnen jedem Menschen herzlich und offen.'
+  -
+    type: paragraph
+    content:
+      -
+        type: hard_break
+  -
+    type: heading
+    attrs:
+      level: '2'
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Unser Leitungsteam'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Simon Lempenauer'
+      -
+        type: hard_break
+      -
+        type: text
+        text: Pastor
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Simon Garrecht'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Co-Pastor, Next Steps, Kleingruppen'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Silas Kettner'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Co-Pastor, Lobpreis'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Steve Bührle'
+      -
+        type: hard_break
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: 'Gebäude und Heimwerker'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Markus Krampitz'
+      -
+        type: hard_break
+      -
+        type: text
+        text: Technik
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Jana Baumann'
+      -
+        type: hard_break
+      -
+        type: text
+        text: Medien
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Samuel Seidel'
+      -
+        type: hard_break
+      -
+        type: text
+        text: Finanzen
 header_image: images/82386384_3055824794450591_5131911806146576384_o.jpg
 title: Identität
-id: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
 slug: identitaet
 blueprint: default
+hero: false
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1605450798
+id: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
+---
