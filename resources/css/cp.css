@@ -8,3 +8,4 @@
 .nav-main {
     height: 100%;
 }
+#statamic { overflow-x: hidden; }
