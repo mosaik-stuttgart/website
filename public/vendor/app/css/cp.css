@@ -1,10 +1,1 @@
-/* This is all you. */
-.outside {
-    background: linear-gradient(45deg,#4d2ef5df,#43caf3df,#28f5c4df) !important;
-}
-.outside .logo svg path {
-    fill: rgba(0,0,0,.33);
-}
-.nav-main {
-    height: 100%;
-}
+.outside{background:linear-gradient(45deg,rgba(77,46,245,.87),rgba(67,202,243,.87),rgba(40,245,196,.87))!important}.outside .logo svg path{fill:rgba(0,0,0,.33)}.nav-main{height:100%}#statamic{overflow-x:hidden}
