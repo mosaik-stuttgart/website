@@ -2,8 +2,8 @@
 title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1605259891
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1608582545
 blueprint: default
 rich_content:
   -
@@ -15,6 +15,32 @@ rich_content:
           -
             type: bold
         text: 'Eine Kirche - viele Wohnzimmer. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Bis zum 3. Januar feiern wir gemeinsam als Mosaik Family Gottesdienst.'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Den Livestream findest du auf dem '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.youtube.com/c/mosaikinfo'
+              target: _blank
+              rel: null
+        text: 'YouTube-Kanal der Mosaik Ulm'
+      -
+        type: text
+        text: .
+  -
+    type: paragraph
   -
     type: paragraph
     content:
@@ -97,7 +123,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '18. Oktober'
+                text: '24. Januar'
       -
         type: list_item
         content:
@@ -106,7 +132,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '08. November'
+                text: '7. Februar'
       -
         type: list_item
         content:
@@ -115,7 +141,25 @@ rich_content:
             content:
               -
                 type: text
-                text: '22. November'
+                text: '21. Februar'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '14. März'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '28. März'
 hero: false
 id: f6e58554-18d0-44bb-9b5a-162626aafb70
 ---
