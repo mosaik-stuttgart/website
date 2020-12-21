@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24e06ecba986140fa5aae517ecfc1a59",
+    "content-hash": "1a6f3aca702e7ec67d042ab614951353",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3443,16 +3443,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.34",
+            "version": "v3.0.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "100ae64ee18c6cdb3ac54fa3fd64bd744e6e6931"
+                "reference": "653430e185e9c457b69bb879e30b6db1b4894606"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/100ae64ee18c6cdb3ac54fa3fd64bd744e6e6931",
-                "reference": "100ae64ee18c6cdb3ac54fa3fd64bd744e6e6931",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/653430e185e9c457b69bb879e30b6db1b4894606",
+                "reference": "653430e185e9c457b69bb879e30b6db1b4894606",
                 "shasum": ""
             },
             "require": {
@@ -3519,7 +3519,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.0.34"
+                "source": "https://github.com/statamic/cms/tree/v3.0.35"
             },
             "funding": [
                 {
@@ -3527,7 +3527,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-09T20:23:32+00:00"
+            "time": "2020-12-17T16:29:54+00:00"
         },
         {
             "name": "statamic/stringy",
