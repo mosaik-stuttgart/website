@@ -41,14 +41,12 @@ return [
         [
             'type' => 'collection',
             'collection' => 'podcasts',
-            'limit' => 5,
-	    'width' => 50,
+            'limit' => 4,
         ],
 	[
             'type' => 'collection',
             'collection' => 'blog',
-            'limit' => 5,
-	    'width' => 50,
+            'limit' => 4,
         ],
         [
             'type' => 'form',

@@ -33,7 +33,7 @@ rich_content:
           
         button_text: Anmelden
         disabled: true
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/591'
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/594#'
   -
     type: paragraph
   -
