@@ -81,7 +81,7 @@ steps:
     cta: null
 header_image: images/header.jpg
 welcome_home: 'Welcome Home'
-subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart Süd.'
+subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart.'
 seo:
   title: 'Mosaik Church - Deine Kirche in Stuttgart'
   description: 'Deine Freikirche im Herzen von Stuttgart-Süd. Eine leidenschaftliche & menschenorientierte Gemeinde mit vielen jungen Erwachsenen, voller Liebe für Jesus!'
@@ -101,7 +101,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1608582604
+updated_at: 1608583893
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
@@ -109,10 +109,10 @@ content:
     content:
       -
         type: text
-        text: 'Mosaik Church'
         marks:
           -
             type: bold
+        text: Mosaik
       -
         type: hard_break
         marks:
@@ -136,10 +136,10 @@ content:
     content:
       -
         type: text
-        text: 'Eine evangelische Freikirche'
         marks:
           -
             type: bold
+        text: 'Eine evangelische Freikirche'
       -
         type: text
         text: "\_"
@@ -150,13 +150,14 @@ content:
         text: "Wir glauben, dass vor Gott nur eine freie, persönliche Entscheidung für den Glauben und zur Nachfolge Jesu zählt. Jedes Mitglied hat sich persönlich\_und frei für die Zugehörigkeit zu unserer Gemeinde entschieden. Darüber hinaus finanziert sich unsere Gemeinde nicht durch Steuergelder, sondern rein aus\_"
       -
         type: text
-        text: 'freiwilligen Spenden'
         marks:
           -
             type: link
             attrs:
-              rel: noopener
               href: 'https://mosaik-stuttgart.net/geben.html'
+              target: null
+              rel: noopener
+        text: 'freiwilligen Spenden'
       -
         type: text
         text: .
@@ -169,10 +170,10 @@ content:
     content:
       -
         type: text
-        text: 'Teil von etwas Größerem'
         marks:
           -
             type: bold
+        text: 'Teil von etwas Größerem'
       -
         type: hard_break
       -
@@ -180,40 +181,40 @@ content:
         text: 'Als Mosaik Stuttgart sind wir Teil der "'
       -
         type: text
-        text: 'Gemeinde der Christen Ecclesia e.V.'
         marks:
           -
             type: link
             attrs:
+              href: 'https://www.ecclesia-kirchen.de/'
               target: _blank
               rel: noopener
-              href: 'https://www.ecclesia-kirchen.de/'
+        text: 'Gemeinde der Christen Ecclesia e.V.'
       -
         type: text
         text: "\" und als solche wiederum Mitglied im\_"
       -
         type: text
-        text: 'Bund Freikirchlicher Pfingstgemeinden K.d.ö.R.'
         marks:
           -
             type: link
             attrs:
+              href: 'http://www.bfp.de/'
               target: _blank
               rel: noopener
-              href: 'http://www.bfp.de/'
+        text: 'Bund Freikirchlicher Pfingstgemeinden K.d.ö.R.'
       -
         type: text
         text: ".\_Außerdem engagieren wir uns in der\_"
       -
         type: text
-        text: 'evangelischen Allianz'
         marks:
           -
             type: link
             attrs:
+              href: 'http://www.ea-stuttgart.de/'
               target: _blank
               rel: noopener
-              href: 'http://www.ea-stuttgart.de/'
+        text: 'evangelischen Allianz'
       -
         type: text
         text: ", der viele evangelische Kirchengemeinden angehören.\_"

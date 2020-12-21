@@ -4,6 +4,13 @@ sections:
     display: Main
     fields:
       -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
         handle: primary_card
         field:
           type: bard
@@ -81,10 +88,10 @@ sections:
                   handle: cta
                   field:
                     type: link
-                    localizable: false
                     listable: hidden
                     display: Ziel
           listable: hidden
+          collapse: accordion
       -
         handle: content
         field:
@@ -136,3 +143,20 @@ sections:
         field:
           type: text
           display: Tagline
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
