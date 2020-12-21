@@ -8,6 +8,40 @@ rich_content:
     content:
       -
         type: text
+        text: Heiligabend
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Die nächsten beiden Wochen feiern wir gemeinsam als Mosaik Family Gottesdienst. Am 3. Januar wird unser Pastor Simon Lempenauer predigen.'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Den Livestream findest du auf dem '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://youtube.com/c/mosaikinfo'
+              target: _blank
+              rel: null
+        text: 'YouTube-Kanal der Mosaik Ulm'
+      -
+        type: text
+        text: '. Der Gottesdienst am Heiligabend startet um 14:30 Uhr.'
+      -
+        type: hard_break
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
         text: 'November im Gebet'
   -
     type: paragraph
@@ -117,7 +151,7 @@ rich_content:
               rel: null
         text: 'Homezone finden'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1604253870
+updated_at: 1608590568
 blueprint: default
 hero: true
 id: 9dbef045-7133-4f00-9538-ca37027adf91
