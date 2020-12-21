@@ -7,27 +7,18 @@ primary_card:
     content:
       -
         type: text
-        text: 'Neu hier?'
+        text: '🎄 Frohe Weihnachten!'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Wir feiern aktuell sonntags abwechselnd Gottesdienst im Maritim Hotel und online. Du bist herzlich eingeladen dabei zu sein, um mit uns zu feiern!'
+        text: 'Bis zum 3. Januar feiern wir gemeinsam als Mosaik Family Gottesdienst. '
       -
         type: hard_break
       -
         type: text
-        text: 'Aktuelle Infos findest du auf Instagram '
-      -
-        type: text
-        marks:
-          -
-            type: italic
-        text: (@mosaik_church)
-      -
-        type: text
-        text: ' und melde dich auf jeden Fall zu einer unserer Homezones an.'
+        text: 'Den Livestream findest du auf dem YouTube-Kanal der Mosaik Ulm. Der Gottesdienst am Heiligabend startet um 14:30 Uhr.'
       -
         type: hard_break
       -
@@ -36,10 +27,10 @@ primary_card:
           -
             type: link
             attrs:
-              href: /besuche-uns/gottesdienst
-              target: null
+              href: 'https://www.youtube.com/c/mosaikinfo'
+              target: _blank
               rel: null
-        text: 'mehr Infos'
+        text: YouTube
       -
         type: text
         text: '   '
@@ -110,7 +101,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1604840826
+updated_at: 1608582604
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
