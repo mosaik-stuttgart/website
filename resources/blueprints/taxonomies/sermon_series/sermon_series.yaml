@@ -1,5 +1,5 @@
 title: Predigtserien
-taxonomies: false
+taxonomies: true
 sections:
   main:
     display: Main
@@ -8,25 +8,21 @@ sections:
         handle: title
         field:
           type: text
+          required: true
           display: Titel
           width: 50
           localizable: true
+          validate:
+            - required
       -
         handle: slug
         field:
           type: text
+          required: true
           display: slug
           width: 50
-      -
-        handle: image
-        field:
-          type: assets
-          container: main
-          folder: /images
-          restrict: false
-          max_files: 1
-          display: Bild
-          mode: grid
+          validate:
+            - required
       -
         handle: content
         field:
@@ -44,3 +40,31 @@ sections:
           restrict_assets: false
           classes: bard
           display: Beschreibung
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: date_range
+        field:
+          mode: range
+          time_enabled: false
+          time_required: false
+          earliest_date: '2016-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: Zeitraum
+          type: date
+          icon: date
+          listable: hidden
+      -
+          handle: image
+          field:
+            type: assets
+            container: main
+            folder: /images
+            restrict: false
+            max_files: 1
+            display: Bild
+            mode: grid

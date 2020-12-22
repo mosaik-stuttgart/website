@@ -1,0 +1,14 @@
+title: 'The Star Is Born For You'
+image: images/star-born.jpg
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Denn ein Kind ist uns geboren, ein Sohn uns gegeben und die Herrschaft ruht auf seiner Schulter; und man nennt seinen Namen: Wunderbarer Ratgeber, starker Gott, Vater der Ewigkeit, Fürst des Friedens. - Jes. 9,5 ELB'
+date_range:
+  start: '2020-12-05'
+  end: '2020-12-23'
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1608642238

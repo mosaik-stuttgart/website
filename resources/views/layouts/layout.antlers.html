@@ -39,10 +39,10 @@
 
   <body class="font-sans font-normal">
   <!--[if lt IE 11]><html class="old-browser"><![endif]-->
-    {{ partial src="components/NavMobile"}}
-    {{ partial src="components/NavDesktop"}}
+    {{ partial src="layout/NavMobile"}}
+    {{ partial src="layout/NavDesktop"}}
     {{ template_content }}
-    {{ partial:footer }}
+    {{ partial:layout/footer }}
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
       <g id="down" transform="translate(1640.9044,-1070.8715)"><path d="m -1405.2806,1517.0889 -235.6238,-235.6307 65.3242,-65.2933 65.3242,-65.2934 170.6133,170.6099 170.6133,170.6098 170.31423,-170.3107 c 93.6728,-93.671 170.878,-170.3108 171.567,-170.3108 0.689,0 30.4995,29.2507 66.2454,65.0016 l 64.9926,65.0016 -235.6208,235.6234 c -129.59153,129.5928 -236.18453,235.6233 -236.87343,235.6233 -0.6889,0 -107.2832,-106.0338 -236.8762,-235.6307 z"/></g>
       <g id="extern"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke="currentColor" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></g>
@@ -53,6 +53,6 @@
       <g id="youtube"><path class="fill-current" d="M12.04 3.5c.59 0 7.54.02 9.34.5a3.02 3.02 0 0 1 2.12 2.15C24 8.05 24 12 24 12v.04c0 .43-.03 4.03-.5 5.8A3.02 3.02 0 0 1 21.38 20c-1.76.48-8.45.5-9.3.51h-.17c-.85 0-7.54-.03-9.29-.5A3.02 3.02 0 0 1 .5 17.84c-.42-1.61-.49-4.7-.5-5.6v-.5c.01-.9.08-3.99.5-5.6a3.02 3.02 0 0 1 2.12-2.14c1.8-.49 8.75-.51 9.34-.51zM9.54 8.4v7.18L15.82 12 9.54 8.41z"/></g>
     </svg>
   <script defer src="{{ mix src='/js/site.js' }}"></script>
-  {{ partial src="components/GoogleAnalytics" }}
+  {{ partial src="layout/AnalyticsSnippet" }}
   </body>
 </html>

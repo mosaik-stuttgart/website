@@ -125,6 +125,17 @@ fields:
                 display: URL
                 type: text
                 listable: hidden
+        partial:
+          display: Partial
+          fields:
+            -
+              handle: id
+              field:
+                input_type: text
+                display: id
+                type: text
+                icon: text
+                listable: hidden
       buttons:
         - h2
         - h3

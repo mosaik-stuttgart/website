@@ -1,0 +1,17 @@
+<div class="max-w-2xl mx-auto py-4 pb-24">
+{{ sermon_series date_range:exists="true" as="item" sort="date_range.end" min_count="1"}}
+  <style>
+    main {background-color:#f7f6f8 !important;}
+  </style>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6  m-4 text-5xl sm:text-4xl md:text-3xl max-w-5xl md:-mx-12">
+    {{item}}
+    <a href="{{url}}" class="shadow-lg bg-black hover:cursor-pointer transition duration-150 rounded overflow-hidden flex relative">
+      <img {{if image}}src="{{image}}" {{else}}src="https://picsum.photos/id/{{index | add:300}}/1024/576"{{/if}} alt="image"/>
+      <div class="p-5 md:p-4 flex justify-center text-center items-center absolute bottom-0 h-full bg-black text-shadow text-white w-full bg-opacity-25 hover:bg-opacity-35">
+        <h2 class="font-bold hyphens-auto leading-tight">{{title}}</h2>
+      </div>
+    </a>
+    {{/item}}
+  </div>
+{{ /sermon_series }}
+</div>

@@ -1,3 +1,5 @@
+{{partial:layout/hero}}
+{{partial:layout/content}}
 {{ collection:podcasts paginate="true" as="episode" limit="10" }} 
   {{ if no_results }}<p>Keine Predigten gefunden.</p> {{ /if }}
   <div class="space-y-2 pt-3 md:pt-0">
@@ -20,10 +22,11 @@
   {{ /episode }}
   </div>
   {{ paginate }}
-  <div class="max-w-xl mx-auto mt-8 flex justify-between">
-    <a href="{{ prev_page }}" class="bg-gray-300 rounded-sm p-2 leading-none"><svg class="text-gray-900 stroke-current h-4 inline p-0 -mt-1 leading-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" alt="Zurück"><path d="M15 18l-6-6 6-6"/></svg></a>
+  <div class="max-w-xl mx-auto mt-8 flex justify-between text-gray-900">
+    <a href="{{ prev_page }}" class="bg-gray-300 rounded-sm px-3 py-1 {{ current_page <= 1 ?= 'opacity-0' }}">&larr; Zurück</a>
     <span class="leading-loose font-semibold">Seite {{ current_page }} von {{ total_pages }}</span>
-    <a href="{{ next_page }}" class="bg-gray-300 rounded-sm p-2 leading-none"><svg class="text-gray-900  stroke-current h-4 inline p-0 -mt-1 leading-none" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" alt="Vorwärts"><path d="M9 18l6-6-6-6"/></svg></a>
+    <a href="{{ next_page }}" class="bg-gray-300 rounded-sm px-3 py-1 leading-normal {{ current_page == total_pages ?= 'opacity-0' }}">Weiter &rarr;</a>
   </div>
   {{ /paginate }}
 {{ /collection:podcasts }}
+{{/partial:layout/content}}

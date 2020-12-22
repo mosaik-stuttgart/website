@@ -24,6 +24,9 @@ Route::statamic('account', 'user.account');
 Route::statamic('register', 'auth.register');
 Route::statamic('forgot-password', 'auth.password-forgot');
 Route::statamic('reset-password', 'auth.password-reset');
+Route::get('/media/series/{id}', function($id){
+    return redirect('/sermon-series');
+});
 
 Route::permanentRedirect('login', 'cp');
 Route::permanentRedirect('live', '/besuche-uns/gottesdienst');

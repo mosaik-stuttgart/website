@@ -1,5 +1,6 @@
 title: Podcast
-template: episode
+template: podcasts/show
+layout: layout
 taxonomies:
   - speaker
   - tags

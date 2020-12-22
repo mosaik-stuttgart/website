@@ -41,6 +41,9 @@ main {position: relative;}
 .desaturate-1\/3 {
     filter: saturate(0.33) brightness(1.02);
 }
+.hover\:bg-opacity-35:hover {
+  --bg-opacity: 0.35;
+}
 .text-md { font-size: 0.96rem; }      
 .tracking-loose { letter-spacing: 0.0125rem; }
 

@@ -1,1 +1,2 @@
 title: Predigtserien
+route: '/media/series/{slug}'
