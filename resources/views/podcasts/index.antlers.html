@@ -1,5 +1,5 @@
-{{partial:layout/hero}}
-{{partial:layout/content}}
+{{partial:Layout/Hero}}
+{{partial:Layout/Content}}
 {{ collection:podcasts paginate="true" as="episode" limit="10" }} 
   {{ if no_results }}<p>Keine Predigten gefunden.</p> {{ /if }}
   <div class="space-y-2 pt-3 md:pt-0">
@@ -29,4 +29,4 @@
   </div>
   {{ /paginate }}
 {{ /collection:podcasts }}
-{{/partial:layout/content}}
+{{/partial:Layout/Content}}
