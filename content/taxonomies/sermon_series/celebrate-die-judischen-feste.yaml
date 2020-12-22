@@ -1,4 +1,16 @@
 title: 'Celebrate - Die jüdischen Feste'
 image: images/Celebrate-1.jpg
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1602528853
+updated_at: 1608631208
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Diese Predigtreihe dreht sich um die jüdischen Feste des Volkes Israel. Gemeinsam wollen wir verstehen, welche Rolle sie damals spielten, wie sie gefeiert wurden, sich schlussendlich in Jesus erfüllen und welche Bedeutung sie dadurch auch noch für unser Leben haben.'
+      -
+        type: hard_break
+date_range:
+  start: '2020-09-26'
+  end: '2020-11-21'

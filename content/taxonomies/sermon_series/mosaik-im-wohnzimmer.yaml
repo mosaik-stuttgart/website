@@ -1,2 +1,7 @@
 title: 'Mosaik im Wohnzimmer'
-image: /assets/main/images/mosaik_im_wohnzimmer.jpg
+image: images/livingroom.jpg
+date_range:
+  start: '2020-03-14'
+  end: '2020-04-04'
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1608642591

@@ -11,7 +11,7 @@ rich_content:
     content:
       -
         type: text
-        text: '{{partial:contact_form}}'
+        text: '{{partial:Pages/ContactForm}}'
       -
         type: hard_break
 header_image: images/kontakt.jpg

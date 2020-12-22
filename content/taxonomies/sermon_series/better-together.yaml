@@ -1,5 +1,14 @@
 title: 'Better together'
-content: '<p>In dieser Predigtserie geht es um Liebe und Treue; um Höhen und Tiefen; um große Geheimnisse, kleine Schritte und starke Gefühle! #verliebtverlobtverheiratet #reallove</p>'
+content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'In dieser Predigtserie geht es um Liebe und Treue; um Höhen und Tiefen; um große Geheimnisse, kleine Schritte und starke Gefühle!'
 date_range:
   start: '2018-02-04'
   end: '2018-02-18'
+dating: '2020-12-21'
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1608643636
