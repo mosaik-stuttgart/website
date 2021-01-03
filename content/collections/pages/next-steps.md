@@ -22,6 +22,15 @@ rich_content:
           -
             type: bold
         text: 'Jeden Sonntag im Hotel, direkt nach dem Gottesdienst bzw. 13 Uhr online'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Nächster Next-Steps Kurs beginnt am 10.01.'
       -
         type: hard_break
         marks:
@@ -58,7 +67,7 @@ title: 'Next Steps'
 slug: next-steps
 blueprint: default
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1604825357
+updated_at: 1609667367
 hero: false
 id: faa47d88-a7dc-45d9-9f1d-d46deafeed43
 ---
