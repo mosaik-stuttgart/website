@@ -28,17 +28,6 @@ primary_card:
       -
         type: text
         text: 'und melde dich auf jeden Fall zu einer unserer Homezones an.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Bis zum 3. Januar feiern wir gemeinsam als Mosaik Family Gottesdienst. '
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Den Livestream findest du auf dem YouTube-Kanal der Mosaik Ulm.'
       -
         type: hard_break
       -
@@ -47,10 +36,10 @@ primary_card:
           -
             type: link
             attrs:
-              href: 'https://www.youtube.com/c/mosaikinfo'
-              target: _blank
+              href: /besuche-uns/gottesdienst
+              target: null
               rel: null
-        text: YouTube
+        text: 'mehr Infos'
       -
         type: text
         text: '   '
@@ -121,7 +110,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1609605766
+updated_at: 1609753874
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
