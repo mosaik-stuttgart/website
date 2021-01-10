@@ -33,7 +33,7 @@ rich_content:
           
         button_text: Anmelden
         disabled: false
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/606'
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/609'
   -
     type: paragraph
   -
@@ -143,7 +143,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1609605799
+updated_at: 1610275180
 hero: false
 header_image: images/1200px-Tagungsbestuhlung-1601369275.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
