@@ -57,11 +57,12 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => env('AWS_ACCESS_KEY_ID'),
-            'secret' => env('AWS_SECRET_ACCESS_KEY'),
-            'region' => env('AWS_DEFAULT_REGION'),
-            'bucket' => env('AWS_BUCKET'),
-            'endpoint' => env('AWS_URL'),
+            'key' => env('S3_ACCESS_KEY_ID'),
+            'secret' => env('S3_SECRET_ACCESS_KEY'),
+            'region' => env('S3_DEFAULT_REGION'),
+            'bucket' => env('S3_BUCKET'),
+            'endpoint' => env('S3_ENDPOINT_URL'),
+            'url' => env('S3_URL'),
         ],
 
         'assets_main' => [
@@ -70,14 +71,6 @@ return [
             'url' => '/assets/main',
             'visibility' => 'public',
         ],
-
-        'assets_podcast' => [
-            'driver' => 'local',
-            'root' => public_path('assets/podcast'),
-            'url' => '/assets/podcast',
-            'visibility' => 'public',
-        ],
-
     ],
 
     /*
