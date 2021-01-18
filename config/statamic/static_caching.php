@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'strategy' => 'half',
+    'strategy' => env('CACHING_STRATEGY', null),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return [
 
     'exclude' => [
         '/kontakt',
-        '/podcast/feed'
+        '/feed/podcast'
     ],
 
     /*
