@@ -28,6 +28,8 @@ Route::get('/media/series/{id}', function($id){
     return redirect('/sermon-series');
 });
 
+Route::statamic('/feed/podcast', 'podcasts.feed', ["layout" => null, "content_type" => 'application/xml']);
+
 Route::permanentRedirect('login', 'cp');
 Route::permanentRedirect('live', '/besuche-uns/gottesdienst');
 Route::permanentRedirect('besuche-uns/anmeldung', '/besuche-uns/gottesdienst#anmeldung');
