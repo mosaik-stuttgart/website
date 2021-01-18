@@ -43,7 +43,7 @@
 							<dc:creator><![CDATA[Mosaik Church Stuttgart]]></dc:creator>
 							<pubDate>{{ date format="D, d M o 13:00:00 GMT"}}</pubDate>
 							{{ if audio }}
-							<enclosure url="http://{{ environment == 'production' ?= 'dts.podtrac.com/redirect.mp3/'  }}{{audio | get:permalink | substr:8 }}" length="{{audio | get:size_bytes}}" type="audio/mpeg"/>
+							<enclosure url="https://{{ environment == 'production' ?= 'dts.podtrac.com/redirect.mp3/'  }}{{audio | get:permalink | substr:8 }}" length="{{audio | get:size_bytes}}" type="audio/mpeg"/>
 							<itunes:duration>{{audio get="size_bytes" divide="10590" ceil="true"}}</itunes:duration> 
 							{{/if}}
 							<itunes:summary>{{description}}</itunes:summary>
