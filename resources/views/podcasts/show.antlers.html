@@ -62,7 +62,7 @@
             }, {{if audio}}
             duration: '00:{{audio get="size_bytes" divide="635400" ceil="true"}}:00',
             audio: [{
-                url: "http://{{ environment == 'production' ?= 'dts.podtrac.com/redirect.mp3/'  }}{{audio | get:permalink | substr:8 }}",
+                url: "https://{{ environment == 'production' ?= 'dts.podtrac.com/redirect.mp3/'  }}{{audio | get:permalink | substr:8 }}",
                 mimeType: 'audio/mpeg',
                 size: 0{{ audio | get:size_bytes }},
                 title: 'Audio MP3'
