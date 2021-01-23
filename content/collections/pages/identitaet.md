@@ -238,6 +238,20 @@ rich_content:
         marks:
           -
             type: bold
+        text: 'David Schneider'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Pastor der Mosaik Family (Ulm, Stuttgart, Pforzheim, Ehingen)'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
         text: 'Steve Bührle'
       -
         type: hard_break
@@ -294,7 +308,7 @@ title: Identität
 slug: identitaet
 blueprint: default
 hero: false
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1605450798
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1611433626
 id: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
 ---
