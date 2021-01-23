@@ -48,12 +48,12 @@ rich_content:
         url: 'https://us02web.zoom.us/j/88608448741'
   -
     type: paragraph
-header_image: images/next-steps.jpg
+header_image: images/Next_Steps_Insta.jpg
 title: 'Next Steps'
 slug: next-steps
 blueprint: default
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1609783457
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1611430070
 hero: false
 id: faa47d88-a7dc-45d9-9f1d-d46deafeed43
 ---

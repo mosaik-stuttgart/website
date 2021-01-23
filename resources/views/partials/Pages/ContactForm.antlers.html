@@ -12,11 +12,11 @@
         <div class="max-w-xl space-y-6 text-gray-700 uppercase tracking-wide font-bold">
         <div>
             <label class="text-xs" for="name">Name</label>
-            <input class="block mt-1 mb-2 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-sm appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="name" type="text" value="{{old:name}}">
+            <input class="block mt-1 mb-2 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-px appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="name" type="text" value="{{old:name}}">
         </div>
         <div>
             <label class="text-xs" for="email">E-Mail</label>
-            <input class="block mt-1 mb-2 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-sm appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="email" type="email" value="{{old:email}}">
+            <input class="block mt-1 mb-2 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-px appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="email" type="email" value="{{old:email}}">
             {{if get:ref}}
             <input class="hidden" type="text" name="subject" value="{{if get:ref==='next-steps'}}Anmeldung zu Next Steps{{/if}}">
             {{/if}}
@@ -24,9 +24,9 @@
         <input autocomplete="off" type="text" name="prank_call" class="hidden">
         <div>
             <label class="text-xs" for="text_message">Nachricht</label>
-            <textarea rows="8" class="block my-1 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-sm appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="text_message" value="{{old:message}}"></textarea>
+            <textarea rows="8" class="block my-1 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-px appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="text_message" value="{{old:message}}"></textarea>
         </div>
-        <button type="submit" class="w-24 py-2 font-semibold text-blue-100 bg-blue-900 rounded-sm shadow hover:cursor-pointer hover:shadow-md hover:bg-blue-800 focus:outline-none focus:bg-blue-800"> Senden </button>
+        <button type="submit" class="w-24 py-2 font-semibold text-blue-100 bg-blue-800 rounded-px shadow-sm hover:cursor-pointer hover:shadow hover:bg-blue-700 focus:outline-none focus:bg-blue-700"> Senden </button>
         </div>
     {{ /form:create }}
     {{ /if }}

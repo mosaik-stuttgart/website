@@ -67,7 +67,7 @@ main {position: relative;}
 }
 
 .primary_card a {
-    @apply mb-2 mt-2 font-semibold inline-block leading-relaxed px-2 pb-1 rounded-sm bg-t-gray;
+    @apply mb-2 mt-2 font-semibold inline-block leading-relaxed px-2 py-px rounded-sm bg-t-gray;
     &:hover {
         background-color: rgba(22,12,56,.15);
     }
