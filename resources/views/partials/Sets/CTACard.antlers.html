@@ -1,4 +1,4 @@
-<div id="anmeldung"  class="{{ if disabled }}banner{{endif}} mt-8 md:mt-12 p-3 bg-neutral-400 bg-opacity-25 rounded text-indigo-900 relative">
+<div id="anmeldung"  class="{{ if disabled }}banner{{endif}} -mx-2 mt-8 md:mt-10 px-5 py-4 bg-neutral-400 rounded-px text-gray-900 relative">
   <div {{ if disabled }} class="opacity-50" {{endif}}>
     <div class="prose">
       {{markdown}}
@@ -8,11 +8,12 @@
     </div> 
 
     {{ if disabled }}
-    <button disabled class="px-5 py-2 inline-block bg-blue-500 bg-opacity-50 text-lg font-medium no-underline text-black rounded-sm shadow-sm hover:cursor-not-allowed hover:bg-blue-300 focus:outline-none focus:bg-gray-600">
+    <button disabled class="mb-1 py-2 px-4 font-semibold text-gray-900 bg-blue-300 rounded-px hover:cursor-not-allowed focus:outline-none">
         {{button_text}}
     </button>
     {{ else }}
-    <a class="px-5 py-2 inline-block bg-blue-500 bg-opacity-50 text-lg font-medium no-underline text-black rounded-sm shadow-sm hover:bg-blue-300 focus:outline-none focus:bg-gray-600"
+    <a class="inline-block mb-1 py-2 px-4 font-semibold text-gray-900 bg-blue-300 rounded-px
+    hover:cursor-pointer hover:shadow-sm hover:bg-opacity-75 focus:outline-none focus:bg-opacity-75 no-underline"
       target="_blank"
       href="{{cta_link}}">
       {{button_text}}
@@ -22,9 +23,9 @@
 </div>
 <style>
     .bg-neutral-400 {
-      background-color: rgba(99, 139, 187, var(--bg-opacity));
+      filter: brightness(0.98);
     }
-    .bg-blue-500 { filter: saturate(0.6) }
+    [class*="bg-blue"] { filter: saturate(0.6) hue-rotate(16deg) }
     .banner::before {
       content: "Anmeldung geschlossen";
       font-weight: 700;

@@ -55,24 +55,6 @@ rich_content:
             content:
               -
                 type: text
-                text: '10. Januar'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '17. Januar'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
                 text: '31. Januar'
       -
         type: list_item
@@ -119,7 +101,7 @@ rich_content:
         type: hard_break
       -
         type: text
-        text: 'An den anderen Sonntagen veranstalten wir einen Livestream. '
+        text: 'An den anderen Sonntagen veranstalten wir einen Livestream: '
       -
         type: hard_break
       -
@@ -131,7 +113,7 @@ rich_content:
               href: /besuche-uns/livestream
               target: null
               rel: null
-        text: 'mehr Infos'
+        text: 'Kirche im Wohnzimmer'
   -
     type: paragraph
     content:
@@ -143,7 +125,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1611422872
+updated_at: 1611429864
 hero: false
 header_image: images/Maritim.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
