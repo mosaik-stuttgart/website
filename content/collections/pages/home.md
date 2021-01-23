@@ -18,7 +18,7 @@ primary_card:
         type: hard_break
       -
         type: text
-        text: 'Aktuelle Infos findest du auf Instagram '
+        text: 'Aktuelle News findest du auf Instagram '
       -
         type: text
         marks:
