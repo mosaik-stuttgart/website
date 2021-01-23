@@ -21,7 +21,7 @@
             <input class="hidden" type="text" name="subject" value="{{if get:ref==='next-steps'}}Anmeldung zu Next Steps{{/if}}">
             {{/if}}
         </div>
-        <input type="text" name="snaretrap" class="hidden">
+        <input autocomplete="off" type="text" name="prank_call" class="hidden">
         <div>
             <label class="text-xs" for="text_message">Nachricht</label>
             <textarea rows="8" class="block my-1 w-full px-4 py-3 leading-tight bg-gray-300 border border-gray-300 rounded-sm appearance-none focus:outline-none focus:bg-gray-200 focus:border-blue-500" name="text_message" value="{{old:message}}"></textarea>
