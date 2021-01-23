@@ -1,6 +1,6 @@
-<header aria-hidden class="h-16 hidden md:block antialiased">
+<header aria-hidden class="h-16 hidden md:block antialiased shadow-sm">
 {{# Topbar#}}
-<div class="fixed z-50 bg-black  w-full shadow px-4">
+<div class="fixed z-50 bg-black  w-full px-4">
     <div class="flex justify-between items-center h-16 max-w-6xl mx-auto">
     <a href="/" class="text-white" aria-label="Home">
         {{ svg src="logo.svg" }}
@@ -22,10 +22,10 @@
                     </a>
                     {{ if children }}
                         <div class="absolute hidden group-hover:block shadow-lg -ml-3">
-                            <ul class="flex flex-col font-normal py-1 text-gray-500 bg-gray-100 shadow-xs rounded-b-sm text-base text-gray-900">
+                            <ul class="flex flex-col font-normal py-1 bg-gray-100 shadow-xs text-tip text-gray-900">
                             {{ children }}
-                                <li class="hover:bg-indigo-200 desaturate-1/3 text-lg hover:text-black font-medium {{ if is_current }} font-semibold bg-indigo-200 {{ /if }}">
-                                    <a class="px-4 py-1 block " href="{{ url }}">{{ title }}</a>
+                                <li class="hover:bg-gray-300 mx-1 rounded-px hover:text-black font-medium {{ if is_current }} font-semibold bg-indigo-200 hover:bg-indigo-200 desaturate-1/3 {{ /if }}">
+                                    <a class="px-3 py-1 block " href="{{ url }}">{{ title }}</a>
                                 </li>
                             {{ /children}}
                             </ul>

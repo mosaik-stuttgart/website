@@ -9,8 +9,12 @@ main {position: relative;}
 /* p:empty { display: none; } */
 
 .rounded-px {border-radius: 1px}
+.rounded-b-px {border-radius: 0 0 1px 1px;}
 .shadow-brand { box-shadow: 0 1px 3px 0 rgba(56, 0, 102, 0.1), 0 1px 2px 0 rgba(56, 0, 102,.06); }
 .min-w-xs { min-width: 20rem; }
+.bg-neutral-400 {
+    background-color: #e7f1ff;
+}
 .bg-grad {
     background: #de6161;
     background: -webkit-linear-gradient(to left, #4c3dd6, #d14848);
@@ -28,10 +32,10 @@ main {position: relative;}
     background-color: rgba(200,200,200,var(--bg-opacity));
 }
 .bg-t-gray {
-    background: rgba(0, 0, 0, .095);
+    background: rgba(22, 12, 56, .11);
 }
 .hover\:bg-t-gray:hover {
-    background: rgba(0,0,0,.13)
+    background: rgba(22,12,56,.15)
 }
 .highlighter {
     background: linear-gradient(180deg, transparent 64%, rgba(129, 140, 197, 0.55) 65%);
@@ -44,7 +48,8 @@ main {position: relative;}
 .hover\:bg-opacity-35:hover {
   --bg-opacity: 0.35;
 }
-.text-md { font-size: 0.96rem; }      
+.text-md { font-size: 0.94rem; } 
+.text-tip { font-size: 1.08rem; }     
 .tracking-loose { letter-spacing: 0.0125rem; }
 
 .hyphens-auto { hyphens: auto; }
@@ -62,9 +67,9 @@ main {position: relative;}
 }
 
 .primary_card a {
-    @apply mb-2 mt-2 font-semibold inline-block leading-relaxed px-2 rounded-sm bg-t-gray;
+    @apply mb-2 mt-2 font-semibold inline-block leading-relaxed px-2 pb-1 rounded-sm bg-t-gray;
     &:hover {
-        background: rgba(0,0,0,.13);
+        background-color: rgba(22,12,56,.15);
     }
 }
 .bard {

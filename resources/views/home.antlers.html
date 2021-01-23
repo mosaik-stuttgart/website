@@ -22,7 +22,7 @@
 </style>
 <section x-data="{loaded: false}" x-init="()=>loaded = true" x-ref="hero" x-on:scroll.window.passive="parallax($refs)"
     class="-mt-14 w-full bg-gray-800 bg-no-repeat bg-cover text-center flex flex-col pt-12 relative z-0"
-    style="height: 90vh; background-image: url({{header_image}}); background-position: 80% 30%;">
+    style="height: 90vh; background-image: linear-gradient(rgba(155, 105, 255, 0.17), rgba(0, 100, 255, 0.17)), url({{header_image}}); background-position: 80% 30%;">
     <div class="my-auto" x-ref="heroText" x-show="loaded" x-cloak
     x-transition:enter="transition ease-in-out duration-500"
     x-transition:enter-start="opacity-0 transform translate-y-10"
@@ -33,11 +33,15 @@
         <h1 class="mt-4 md:mt-2 font-sans text-base text-gray-100 text-shadow-lg w-5/6 mx-auto font-medium leading-tight">{{subtitle}}</h1>  
     </div>  
 </div>
-<a id="👋🏼" href="#👋🏼" class="tap-highlight-none focus:outline-none relative z-10 font-mono text-gray-300 text-shadow text-4xl font-hairline" style="transform: translateY(-5rem)">↓</a>
+<a id="👋🏼" href="#👋🏼" class="tap-highlight-none focus:outline-none relative z-10 font-mono text-gray-300 text-shadow mx-auto py-3" style="transform: translateY(-5rem)">
+  <svg class="h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="square" stroke-linejoin="square" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+  </svg>
+</a>
 </section>
 
-<section class="bg-white relative z-10 -mb-16 h-36 flex flex-col justify-center" >
-      <div class="primary_card w-11/12 mx-auto bg-purple-100 rounded-px p-4 md:p-6 md:py-5 shadow-brand max-w-3xl transform -translate-y-16">
+<section class="bg-white relative z-10 -mb-16 h-36 flex flex-col justify-center">
+      <div class="primary_card w-11/12 mx-auto bg-neutral-400 bg-opacity-25 rounded-px text-indigo-900 p-4 md:p-6 md:py-5 max-w-3xl transform -translate-y-16">
         {{primary_card}}
         <style> 
           .primary_card a:after {
