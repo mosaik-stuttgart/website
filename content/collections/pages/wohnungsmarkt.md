@@ -53,12 +53,12 @@ rich_content:
               target: _blank
               rel: null
         text: 'Zum Wohnungsmarkt'
-header_image: images/wohnung.jpg
+header_image: images/wohnung-neu.jpg
 title: Wohnungsmarkt
 slug: wohnungsmarkt
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1611427379
+updated_at: 1611661624
 hero: false
 id: 9c824f20-8bb8-42c3-818d-d3bf80bf3451
 ---

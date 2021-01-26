@@ -151,8 +151,9 @@ rich_content:
               rel: null
         text: 'Homezone finden'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1608590568
+updated_at: 1611660992
 blueprint: default
 hero: true
+header_image: images/aktuelles.jpg
 id: 9dbef045-7133-4f00-9538-ca37027adf91
 ---
