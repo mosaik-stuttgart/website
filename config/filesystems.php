@@ -63,6 +63,7 @@ return [
             'bucket' => env('S3_BUCKET'),
             'endpoint' => env('S3_ENDPOINT_URL'),
             'url' => env('S3_URL'),
+            'visibility' => 'public',
         ],
 
         'assets_main' => [
