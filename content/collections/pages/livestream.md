@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1611659316
+updated_at: 1613331349
 blueprint: default
 rich_content:
   -
@@ -23,6 +23,17 @@ rich_content:
       -
         type: text
         text: 'Neben unseren Gottesdiensten im Maritim Hotel feiern wir alle zwei Wochen Kirche im Wohnzimmer.'
+  -
+    type: set
+    attrs:
+      values:
+        type: cta_card
+        text: 'Am 21. Februar feiern wir gemeinsam als Mosaik Family. Du findest den Livestream auf dem YouTube-Channel der Mosaik Ulm.'
+        button_text: Livestream
+        disabled: false
+        cta_link: 'https://youtube.com/c/mosaikinfo'
+  -
+    type: paragraph
   -
     type: paragraph
   -
