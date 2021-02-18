@@ -114,27 +114,6 @@ rich_content:
         marks:
           -
             type: bold
-        text: Zoom-Link
-      -
-        type: text
-        text: ': '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://us02web.zoom.us/j/82306955150?pwd=OC93OUJDUzBNM1E2WGZyOWx4dlp0dz09'
-              target: _blank
-              rel: null
-        text: 'https://us02web.zoom.us/j/82306955150?pwd=OC93OUJDUzBNM1E2WGZyOWx4dlp0dz09'
-      -
-        type: hard_break
-      -
-        type: text
-        marks:
-          -
-            type: bold
         text: Infos
       -
         type: text
@@ -204,7 +183,7 @@ rich_content:
               rel: null
         text: 'Homezone finden'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1613668700
+updated_at: 1613668823
 blueprint: default
 hero: true
 header_image: images/aktuelles.jpg
