@@ -26,6 +26,8 @@ rich_content:
               href: 'https://us02web.zoom.us/j/84794302977?pwd=ZXpmTlRnbDNVNkFzT0YvUTdEa0tIUT09'
               target: _blank
               rel: null
+          -
+            type: bold
         text: 'Zum Zoom-Meeting'
   -
     type: heading
@@ -183,7 +185,7 @@ rich_content:
               rel: null
         text: 'Homezone finden'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1613668823
+updated_at: 1613668881
 blueprint: default
 hero: true
 header_image: images/aktuelles.jpg
