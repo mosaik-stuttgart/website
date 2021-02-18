@@ -8,6 +8,59 @@ rich_content:
     content:
       -
         type: text
+        text: '21 Tage des Gebets'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Am 1. März starten wir wieder mit den 21 Tagen des Gebets.\_Jeden Tag um 6:30 Uhr möchten wir den Tag mit gemeinsamen Gebet über Zoom beginnen."
+      -
+        type: hard_break
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://us02web.zoom.us/j/84794302977?pwd=ZXpmTlRnbDNVNkFzT0YvUTdEa0tIUT09'
+              target: _blank
+              rel: null
+        text: 'Zum Zoom-Meeting'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Gottesdienst mit Mosaik Family'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Am 20. Februar feiern wir wieder gemeinsam als Mosaik Family Gottesdienst. Den Livestream findest du auf dem '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://youtube.com/c/mosaikinfo/live'
+              target: _blank
+              rel: null
+        text: 'YouTube-Kanal der Mosaik Ulm'
+      -
+        type: text
+        text: .
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
         text: Heiligabend
   -
     type: paragraph
@@ -151,7 +204,7 @@ rich_content:
               rel: null
         text: 'Homezone finden'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1611660992
+updated_at: 1613668371
 blueprint: default
 hero: true
 header_image: images/aktuelles.jpg
