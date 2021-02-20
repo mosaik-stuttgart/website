@@ -38,12 +38,40 @@ rich_content:
         url: 'https://mosaik.link/gebet'
   -
     type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: Begleitheft
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Passend zu den 21 Tagen des Gebets gibt es ein Begleitheft. Darin enthalten sind die verschiednen Namen Gottes, mit denen wir uns beschäftigen wollen, sowie die Gebetsanliegen, durch die wir in den 21 Tagen gehen möchten. Es soll dir außerdem praktische Tipps über Fasten, Beten und deine persönliche Quality Time mit Gott an die Hand geben.'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Du findest das Heft entweder im Gottesdienst oder hier als PDF zum Download.'
+  -
+    type: set
+    attrs:
+      values:
+        type: datei
+        file: final_pray21_2021.pdf
+        title: '21 Tage des Gebets'
+  -
+    type: paragraph
 header_image: images/prayer.jpg
 title: '21 Tage des Gebets'
 slug: 21-tage-des-gebets
 blueprint: default
 hero: false
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1613819141
+updated_at: 1613819444
 id: dc6dc7c8-d128-4f0b-8e6d-c598f3ae5f12
 ---
