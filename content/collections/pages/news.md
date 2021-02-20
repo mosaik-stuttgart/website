@@ -14,7 +14,7 @@ rich_content:
     content:
       -
         type: text
-        text: "Am 1. März starten wir wieder mit den 21 Tagen des Gebets.\_Jeden Tag um 6:30 Uhr möchten wir den Tag gemeinsam mit Gebet über Zoom beginnen."
+        text: "Am 1. März starten wir wieder mit den 21 Tagen des Gebets.\_ Jeden Morgen möchten wir den Tag gemeinsam mit Gebet über Zoom beginnen. Montag bis Freitag von 6:30 bis 7:00 Uhr und samstags von 9:00 bis 9:30 Uhr."
       -
         type: hard_break
       -
@@ -23,12 +23,12 @@ rich_content:
           -
             type: link
             attrs:
-              href: 'https://us02web.zoom.us/j/84794302977?pwd=ZXpmTlRnbDNVNkFzT0YvUTdEa0tIUT09'
-              target: _blank
+              href: /mitmachen/21-tage-des-gebets
+              target: null
               rel: null
           -
             type: bold
-        text: 'Zum Zoom-Meeting'
+        text: 'mehr Infos'
   -
     type: heading
     attrs:
@@ -185,7 +185,7 @@ rich_content:
               rel: null
         text: 'Homezone finden'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1613668881
+updated_at: 1613819689
 blueprint: default
 hero: true
 header_image: images/aktuelles.jpg
