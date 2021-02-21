@@ -33,7 +33,7 @@ primary_card:
           -
             type: link
             attrs:
-              href: /besuche-uns/livestream
+              href: /besuche-uns/gottesdienst
               target: null
               rel: null
         text: 'mehr Infos'
@@ -104,7 +104,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1613332866
+updated_at: 1613903807
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
