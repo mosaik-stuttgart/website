@@ -66,12 +66,12 @@ rich_content:
         title: '21 Tage des Gebets'
   -
     type: paragraph
-header_image: images/prayer.jpg
+header_image: images/WEBSEITE_Insta_21pray_20212.jpg
 title: '21 Tage des Gebets'
 slug: 21-tage-des-gebets
 blueprint: default
 hero: false
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1613819444
+updated_at: 1614037117
 id: dc6dc7c8-d128-4f0b-8e6d-c598f3ae5f12
 ---
