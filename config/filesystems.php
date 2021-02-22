@@ -57,7 +57,6 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'cache' => true,
             'key' => env('S3_ACCESS_KEY_ID'),
             'secret' => env('S3_SECRET_ACCESS_KEY'),
             'region' => env('S3_DEFAULT_REGION'),
