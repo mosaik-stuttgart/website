@@ -11,6 +11,7 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "league/flysystem-aws-s3-v3": "~1.0",
+        "league/flysystem-cached-adapter": "^1.1",
         "nckg/laravel-minify-html": "^1.2",
         "predis/predis": "^1.1",
         "statamic/cms": "^3.0.45"

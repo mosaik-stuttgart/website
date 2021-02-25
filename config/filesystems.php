@@ -64,6 +64,7 @@ return [
             'endpoint' => env('S3_ENDPOINT_URL'),
             'url' => env('S3_URL'),
             'visibility' => 'public',
+            'cache' => true,
         ],
 
         'assets_main' => [
