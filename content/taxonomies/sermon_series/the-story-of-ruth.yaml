@@ -1,15 +1,1 @@
 title: 'The Story of Ruth'
-content:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Ruth, eine Frau, deren Glaube und Treue wahrlich auf die Probe gestellt wurde und die nicht den einfachen Ausweg gewählt hat. Bist du bereit, dein Verständnis von Glaube und Beziehungen in Frage zu stellen und dich herausfordern zu lassen?'
-date_range:
-  start: '2021-02-06'
-  end: '2021-02-27'
-image: images/TheStoryofRuth.jpg
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1612953568
-blueprint: sermon_series
