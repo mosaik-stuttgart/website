@@ -26,9 +26,14 @@ rich_content:
     content:
       -
         type: text
-        text: 'Montag bis Freitag von 6:30 bis 7:00 Uhr und samstags von 9:00 bis 9:30 Uhr wollen wir morgens per Zoom zusammenkommen un den Tag gemeinsam mit Worship, einen glaubensstärkenden Input und Gebet starten.'
+        text: 'Montag bis Freitag von 6:30 bis 7:00 Uhr und Samstags von 9:00 bis 9:30 Uhr wollen wir morgens per Zoom zusammenkommen un den Tag gemeinsam mit Worship, einem glaubensstärkenden Input und Gebet starten.'
       -
         type: hard_break
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Der Kenncode für das Zoom-Meeting ist "Gebet".'
   -
     type: set
     attrs:
@@ -71,7 +76,7 @@ title: '21 Tage des Gebets'
 slug: 21-tage-des-gebets
 blueprint: default
 hero: false
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1614503206
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1614554037
 id: dc6dc7c8-d128-4f0b-8e6d-c598f3ae5f12
 ---
