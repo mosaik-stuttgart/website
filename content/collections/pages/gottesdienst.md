@@ -90,7 +90,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '21. März'
+                text: '28. März'
   -
     type: paragraph
   -
@@ -124,7 +124,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1614514389
+updated_at: 1614873220
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
