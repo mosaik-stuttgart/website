@@ -139,7 +139,7 @@ homezones:
   -
     title: Feierabend
     full: false
-    target_group: 'Junge Erwachsene, Studenten'
+    target_group: 'Junge Erwachsene und Studenten'
     topic: 'Exodus - das zweite Buch der Bibel'
     location: 'In Wohnzimmern und an anderen Locations in Stuttgart'
     weekday: Mittwoch
@@ -149,11 +149,6 @@ homezones:
       - Freundschaft
       - 'Geistlich wachsen'
       - 'Freiheit erleben'
-    more_info: |-
-      Wir möchten uns gegenseitig ermutigen, Glaubensschritte zu gehen und beim gemeinsamen Essen und gelegentlichen Aktionen Freundschaft leben.  
-
-      Willst du dich als Christ nicht im Kreis drehen, sondern herausfordern lassen Schritte auf deinem Weg mit Jesus zu gehen? Wir schauen uns Punkte an, in denen Gott uns motiviert aktiv zu werden und nicht in unserer Komfortzone zu verharren. 
-      Wenn du Lust hast auf ehrliche Gespräche, im Vertrauen auf Jesus zu wachsen und auf jede Menge Spaß, freuen wir uns auf eine geniale Zeit mit dir in unserer Homezone.
     contact_person: 'Silas Krause, Elisa Köhler'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/541'
     type: homezone
@@ -247,7 +242,7 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615827960
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1615828311
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
