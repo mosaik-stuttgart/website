@@ -7,19 +7,19 @@ rich_content:
     content:
       -
         type: text
-        text: 'Kleingruppen existieren für dich'
+        text: 'Homezones existieren für dich'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Kleingruppen haben vor allem ein Ziel: Menschen zusammenzubringen. Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen.\_Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen."
+        text: "Homezones haben vor allem ein Ziel: Menschen zusammenzubringen. Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen.\_Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Homezones."
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Am 1. März beginnen unsere 21 Tage des Gebets. In dieser Zeit finden keine Kleingruppen-Treffen statt.'
+        text: 'Vom 01. bis zum 21. März haben wir unsere 21 Tage des Gebets in denen wir für das kommende Gemeindesemester beten wollen. In dieser Zeit finden keine Homezone-Treffen statt.'
   -
     type: set
     attrs:
@@ -49,13 +49,13 @@ rich_content:
     content:
       -
         type: text
-        text: 'Eine Kleingruppe leiten'
+        text: 'Eine Homezone leiten'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Um eine Kleingruppe zu leiten musst du nicht perfekt sein. Du darfst anderen dienen, indem du einen Ort schaffst, an dem sie Beziehungen knüpfen können. Eine Gruppe zu starten ist nicht schwer. Wähle ein Thema oder eine Aktivität, die dich interessiert, eine Zeit und einen Ort, um sie mit anderen zu teilen. Wir glauben, dass Menschenleben Semester für Semester verändert werden, indem jeder seine nächsten Schritte mit Jesus geht. Als Kleingruppenleiter darfst du in diesem Prozess eine wichtige Rolle spielen! Komm einfach zu unserem Homezoneleiter Training und erfahre mehr!'
+        text: 'Um eine Homezone zu leiten musst du nicht perfekt sein. Du darfst anderen dienen, indem du einen Ort schaffst, an dem sie Beziehungen knüpfen können. Eine Gruppe zu starten ist nicht schwer. Wähle ein Thema oder eine Aktivität, die dich interessiert, eine Zeit und einen Ort, um sie mit anderen zu teilen. Wir glauben, dass Menschenleben Semester für Semester verändert werden, indem jeder seine nächsten Schritte mit Jesus geht. Als Homezoneleiter darfst du in diesem Prozess eine wichtige Rolle spielen! Komm einfach zu unserem Homezoneleiter Training und erfahre mehr!'
   -
     type: paragraph
   -
@@ -88,9 +88,6 @@ rich_content:
         text: 'Jede Homezone sieht anders aus, je nach den Interessen und Leidenschaften der Teilnehmer. Ob Joggen, Bowling oder Bibelstudium, mach aus dem, was du jetzt bereits gerne tust, eine Homezone!'
   -
     type: paragraph
-    content:
-      -
-        type: hard_break
   -
     type: heading
     attrs:
@@ -193,8 +190,8 @@ header_image: images/homezones.jpg
 title: Homezones
 slug: homezones
 blueprint: default
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1613820090
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1615803436
 hero: false
 id: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
 ---
