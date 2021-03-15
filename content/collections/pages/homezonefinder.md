@@ -245,13 +245,31 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/646'
     type: homezone
     enabled: true
+  -
+    title: 'Pull Up'
+    full: false
+    target_group: 'Alle, die gerne Sport machen, Jesus lieben, und von der guten Botschaft erzählen wollen'
+    topic: 'Outdoor Fitness'
+    location: 'Südheimer Platz, Trainingsanlage'
+    weekday: Mittwoch
+    time: '18:00'
+    biweekly: false
+    tags:
+      - Evangelium
+      - Hoffnung
+      - Fitness
+    more_info: 'Hey, kannst du es auch kaum erwarten, draußen zu sein und Menschen (mit Abstand) zu begegnen? Jeden Mittwoch wollen wir uns in der Öffentlichkeit auspowern und dabei mit Leuten ins Gespräch kommen. So teilen wir ganz natürlich miteinander und mit anderen nicht nur den Alltag, sondern auch unsere Hoffnung in Jesus. Lass deine sportliche Leidenschaft von Gott gebrauchen!'
+    contact_person: 'Jonas Brocksieper, Hannah Schröder'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/649'
+    type: homezone
+    enabled: true
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1615830582
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1615831090
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---

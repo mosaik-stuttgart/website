@@ -20,7 +20,7 @@ rich_content:
         type: hard_break
       -
         type: text
-        text: 'Unser neues Homezonesemester beginnt am 22. März, hier kannst du dich für eine Homezone anmelden:'
+        text: 'Unser neues Homezonesemester beginnt am 22. März. Hier kannst du dich für eine Homezone anmelden:'
       -
         type: hard_break
   -
@@ -195,7 +195,7 @@ title: Homezones
 slug: homezones
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1615828362
+updated_at: 1615831031
 hero: false
 id: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
 ---
