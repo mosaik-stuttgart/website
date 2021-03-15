@@ -77,12 +77,12 @@ homezones:
     type: homezone
     enabled: true
   -
-    title: '#TGIW - Thank God it´s Wednesday'
+    title: '#TGIW - Thank God it´s Tuesday'
     full: false
     target_group: 'Jeder ist willkommen'
     topic: 'Namen Gottes'
     location: 'Unterschiedliche Wohnzimmer und Parks in Stuttgart'
-    weekday: Mittwoch
+    weekday: Dienstag
     time: '20:00'
     biweekly: false
     tags:
@@ -248,6 +248,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615826697
+updated_at: 1615827380
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
