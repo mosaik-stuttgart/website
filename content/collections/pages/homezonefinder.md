@@ -2,7 +2,7 @@
 homezones:
   -
     title: Origins
-    full: true
+    full: false
     target_group: Jeder!
     topic: 'Genesis - das erste Buch der Bibel'
     location: 'Unterschiedlich (jeder ist mal Gastgeber)'
@@ -36,7 +36,7 @@ homezones:
     enabled: false
   -
     title: 'Jung & Jünger'
-    full: true
+    full: false
     target_group: 18-22
     topic: Hebräerbrief
     weekday: Dienstag
@@ -58,7 +58,7 @@ homezones:
     enabled: true
   -
     title: Hygge
-    full: true
+    full: false
     target_group: 'Alle sind willkommen'
     topic: 'Familie leben'
     weekday: Freitag
@@ -248,6 +248,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615827380
+updated_at: 1615827960
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
