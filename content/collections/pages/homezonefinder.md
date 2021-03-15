@@ -140,7 +140,7 @@ homezones:
   -
     title: Feierabend
     full: false
-    target_group: 'Junge Erwachsene und Studenten'
+    target_group: 'Studenten und Junge Erwachsene'
     topic: 'Exodus - das zweite Buch der Bibel'
     location: 'In Wohnzimmern und an anderen Locations in Stuttgart'
     weekday: Mittwoch
@@ -154,6 +154,11 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/541'
     type: homezone
     enabled: true
+    more_info: |-
+      Wir wollen gemeinsam das 2. Buch Mose lesen, gemeinsam Essen, sobald es geht, und bei gelegentlichen Aktionen Freundschaft leben.  
+      <br>
+      Was würde in unserem Alltag passieren, wenn wir fest darauf vertrauen würden, dass Gott eine aktive Rolle in unserem Leben spielt? Was würde passieren, wenn wir begreifen, dass Vertrauen auf Gott uns wirklich frei macht? Dass er treu und gnädig ist? <br>
+      Unser Gottesbild prägt unser Leben enorm. Deswegen ist Exodus ein extrem spannendes Buch. Es ist vollgepackt mit Erlebnissen, in denen Gott sich offenbart und wir sein Wesen und Charakter kennenlernen können.
   -
     title: VIP-Lounge
     full: false
@@ -246,7 +251,7 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615829970
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1615830245
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
