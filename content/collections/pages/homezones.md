@@ -14,21 +14,15 @@ rich_content:
       -
         type: text
         text: "Homezones haben vor allem ein Ziel: Menschen zusammenzubringen. Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen.\_Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Homezones."
-  -
-    type: paragraph
-    content:
+      -
+        type: hard_break
+      -
+        type: hard_break
       -
         type: text
-        text: 'Vom 01. bis zum 21. März haben wir unsere 21 Tage des Gebets in denen wir für das kommende Gemeindesemester beten wollen. In dieser Zeit finden keine Homezone-Treffen statt.'
-  -
-    type: set
-    attrs:
-      values:
-        type: button
-        text: '21 Tage des Gebets'
-        url: 'entry::dc6dc7c8-d128-4f0b-8e6d-c598f3ae5f12'
-  -
-    type: paragraph
+        text: 'Unser neues Homezonesemester beginnt am 22. März, hier kannst du dich für eine Homezone anmelden:'
+      -
+        type: hard_break
   -
     type: set
     attrs:
@@ -41,6 +35,18 @@ rich_content:
     content:
       -
         type: hard_break
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Vom 01. bis zum 21. März haben wir unsere 21 Tage des Gebets in denen wir für das kommende Semester beten wollen. In dieser Zeit finden keine Homezone-Treffen statt.'
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        text: '21 Tage des Gebets'
+        url: 'entry::dc6dc7c8-d128-4f0b-8e6d-c598f3ae5f12'
   -
     type: heading
     attrs:
@@ -68,9 +74,6 @@ rich_content:
     type: paragraph
   -
     type: paragraph
-    content:
-      -
-        type: hard_break
   -
     type: heading
     attrs:
@@ -190,7 +193,7 @@ title: Homezones
 slug: homezones
 blueprint: default
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615826867
+updated_at: 1615827126
 hero: false
 id: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
 ---
