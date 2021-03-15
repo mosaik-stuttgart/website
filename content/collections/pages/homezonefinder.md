@@ -150,9 +150,9 @@ homezones:
       - 'Geistlich wachsen'
       - 'Freiheit erleben'
     more_info: |-
-      Wir möchten uns gegenseitig ermutigen, Glaubensschritte zu gehen und beim gemeinsamen Essen und gelegentlichen Aktionen Freundschaft leben.  <br><br>
+      Wir möchten uns gegenseitig ermutigen, Glaubensschritte zu gehen und beim gemeinsamen Essen und gelegentlichen Aktionen Freundschaft leben.  
 
-      Willst du dich als Christ nicht im Kreis drehen, sondern herausfordern lassen Schritte auf deinem Weg mit Jesus zu gehen? Wir schauen uns Punkte an, in denen Gott uns motiviert aktiv zu werden und nicht in unserer Komfortzone zu verharren. <br>
+      Willst du dich als Christ nicht im Kreis drehen, sondern herausfordern lassen Schritte auf deinem Weg mit Jesus zu gehen? Wir schauen uns Punkte an, in denen Gott uns motiviert aktiv zu werden und nicht in unserer Komfortzone zu verharren. 
       Wenn du Lust hast auf ehrliche Gespräche, im Vertrauen auf Jesus zu wachsen und auf jede Menge Spaß, freuen wir uns auf eine geniale Zeit mit dir in unserer Homezone.
     contact_person: 'Silas Krause, Elisa Köhler'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/541'
@@ -223,6 +223,24 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/439'
     type: homezone
     enabled: true
+  -
+    title: 'Deep Talk 3.0'
+    full: false
+    target_group: 'Alle :-)'
+    topic: 'Serendipity Bible: Der Gott, der uns nahe ist'
+    location: Unterschiedlich
+    weekday: Dienstag
+    time: '19:30'
+    biweekly: false
+    tags:
+      - 'Gott erleben'
+      - 'Quality Time'
+      - Fun
+    more_info: '"Gott nahe zu Sein sein ist mein Glück". So betet ein Psalm. Und Glück wohnt nicht nur im Kopf. Es ist spürbar mit allen Sinnen. Im kommenden Sommersemester wollen wir all unsere Sinne in unserem Glauben mit einbeziehen und so die Freude an Gott miteinander spürbar machen. Durch gemeinsame Aktionen wollen wir den Frühling und Sommer ganz neu erleben und sehen, auf wie vielfältige weise uns Gott in unserem Alltag begegnen möchte. Gemeinsam möchten wir uns darüber austauschen, wie wir Gottes Nähe mit all unseren Sinnen wahrnehmen können und lesen, was Gottes Wort uns darüber lehren möchte. Wir freuen uns auf dich!'
+    contact_person: 'Sinja Hiss, Sucithra Dey'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/646'
+    type: homezone
+    enabled: true
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -230,6 +248,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615803225
+updated_at: 1615826697
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
