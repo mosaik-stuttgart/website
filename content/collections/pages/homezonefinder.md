@@ -157,7 +157,7 @@ homezones:
     more_info: |-
       Wir wollen gemeinsam das 2. Buch Mose lesen, gemeinsam Essen, sobald es geht, und bei gelegentlichen Aktionen Freundschaft leben.  
       <br>
-      Was würde in unserem Alltag passieren, wenn wir fest darauf vertrauen würden, dass Gott eine aktive Rolle in unserem Leben spielt? Was würde passieren, wenn wir begreifen, dass Vertrauen auf Gott uns wirklich frei macht? Dass er treu und gnädig ist? <br>
+      Was würde in unserem Alltag passieren, wenn wir fest darauf vertrauen würden, dass Gott eine aktive Rolle in unserem Leben spielt? Was würde passieren, wenn wir begreifen, dass Vertrauen auf Gott uns wirklich frei macht? <br>
       Unser Gottesbild prägt unser Leben enorm. Deswegen ist Exodus ein extrem spannendes Buch. Es ist vollgepackt mit Erlebnissen, in denen Gott sich offenbart und wir sein Wesen und Charakter kennenlernen können.
   -
     title: VIP-Lounge
@@ -252,6 +252,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1615830245
+updated_at: 1615830582
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
