@@ -192,8 +192,8 @@ header_image: images/homezones.jpg
 title: Homezones
 slug: homezones
 blueprint: default
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615827126
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1615828225
 hero: false
 id: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
 ---
