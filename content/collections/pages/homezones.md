@@ -32,7 +32,6 @@ rich_content:
   -
     type: set
     attrs:
-      enabled: false
       values:
         type: button
         text: 'Homezone finden'
@@ -191,7 +190,7 @@ title: Homezones
 slug: homezones
 blueprint: default
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615803436
+updated_at: 1615826867
 hero: false
 id: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
 ---
