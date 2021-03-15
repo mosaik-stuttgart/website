@@ -56,6 +56,7 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/632'
     type: homezone
     enabled: true
+    location: Unterschiedlich
   -
     title: Hygge
     full: false
@@ -77,7 +78,7 @@ homezones:
     type: homezone
     enabled: true
   -
-    title: '#TGIW - Thank God it´s Tuesday'
+    title: '#TGIT - Thank God it´s Tuesday'
     full: false
     target_group: 'Jeder ist willkommen'
     topic: 'Namen Gottes'
@@ -202,7 +203,7 @@ homezones:
     title: Nordzone
     full: false
     target_group: 'Personen aus dem Kreis Ludwigsburg und dem regionalen Norden Stuttgarts'
-    topic: 'Was sagt die Bibel über das Thema Freude?'
+    topic: 'Die Gleichnisse Jesu'
     location: 'Unterschiedliche Wohnungen im Kreis Ludwigsburg'
     weekday: Mittwoch
     time: '19:00'
@@ -212,8 +213,11 @@ homezones:
       - Gemeinschaft
       - Gebet
     more_info: |-
-      "God is most glorified in uns when we are most satisfied in Him." (John Piper)
-      In Zeiten von Corona wollen wir und als Homezone dem Thema Freude widmen und uns mithilfe eines Bibelleseplans gemeinsam anschauen, was die Bibel zu diesem Thema zu sagen hat. Daneben wollen wir uns Zeit für Gemeinschaft, Gebet und gemeinsames Essen nehmen :)
+      “Und er lehrte sie vieles in Gleichnissen…” (Mk. 4, 2). Egal ob es die Parabel vom verlorenen Sohn oder die vom barmherzigen Samariter ist: Die Gleichnisse Jesu gehören zu den bekanntesten Aussprüchen, die uns von Jesus in den Evangelien überliefert sind. 
+      So gut wie jeder hat sie schon mal gehört, trotzdem haben sich wohl nur wenige bereits intensiver mit ihrer Message auseinandergesetzt - zumindest nicht mit allen. 
+      Gemeinsam als Homezone wollen wir dies tun und herausfinden, was die Gleichnisse Jesu uns heute noch zu sagen haben. 
+
+      Daneben wollen wir uns regelmäßig Zeit für Gebet, gemeinsamen Austausch und Spiele nehmen. Wir freuen uns auf dich!
     contact_person: 'Elia Weberruss, Simon Wittwock'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/439'
     type: homezone
@@ -242,7 +246,7 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1615828311
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1615829970
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
