@@ -79,7 +79,7 @@ homezones:
     enabled: true
     location: 'Stuttgart Mitte/Süd'
   -
-    title: '#TGIT - Thank God it´s Tuesday'
+    title: 'Thank God it´s Tuesday'
     full: false
     target_group: 'Jeder ist willkommen'
     topic: 'Namen Gottes'
@@ -271,6 +271,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1615846313
+updated_at: 1615887502
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
