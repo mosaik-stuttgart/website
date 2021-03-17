@@ -2,7 +2,7 @@
 homezones:
   -
     title: Origins
-    full: false
+    full: true
     target_group: Jeder!
     topic: 'Genesis - das erste Buch der Bibel'
     location: 'Unterschiedlich (jeder ist mal Gastgeber)'
@@ -270,7 +270,7 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1616007431
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1616014036
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
