@@ -183,7 +183,7 @@ homezones:
     enabled: true
   -
     title: 'Meet & Greet'
-    full: false
+    full: true
     target_group: 'jung, dynamisch, gutaussehend, also du :)'
     topic: Apostelgeschichte
     location: 'Stuttgarter Westen und Umgebung'
@@ -271,6 +271,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1616086603
+updated_at: 1616089085
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
