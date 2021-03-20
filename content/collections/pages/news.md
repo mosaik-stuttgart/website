@@ -8,6 +8,30 @@ rich_content:
     content:
       -
         type: text
+        text: 'Homezone Anmeldung'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Du kannst dich jetzt wieder für eine Kleingruppe anmelden. '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://mosaik-stuttgart.net/mitmachen/homezones/homezonefinder'
+              target: null
+              rel: null
+        text: 'Homezone finden'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
         text: '21 Tage des Gebets'
   -
     type: paragraph
@@ -158,34 +182,8 @@ rich_content:
               target: null
               rel: null
         text: 'mehr Infos'
-  -
-    type: paragraph
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: 'Homezone Anmeldung'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Du kannst dich jetzt wieder für eine Kleingruppe anmelden. '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://mosaik-stuttgart.net/mitmachen/homezones/homezonefinder'
-              target: null
-              rel: null
-        text: 'Homezone finden'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1613819689
+updated_at: 1616229532
 blueprint: default
 hero: true
 header_image: images/aktuelles.jpg
