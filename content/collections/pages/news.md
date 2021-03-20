@@ -39,20 +39,6 @@ rich_content:
       -
         type: text
         text: "Am 1. März starten wir wieder mit den 21 Tagen des Gebets.\_ Jeden Morgen möchten wir den Tag gemeinsam mit Gebet über Zoom beginnen. Montag bis Freitag von 6:30 bis 7:00 Uhr und samstags von 9:00 bis 9:30 Uhr."
-      -
-        type: hard_break
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: /mitmachen/21-tage-des-gebets
-              target: null
-              rel: null
-          -
-            type: bold
-        text: 'mehr Infos'
   -
     type: heading
     attrs:
@@ -183,7 +169,7 @@ rich_content:
               rel: null
         text: 'mehr Infos'
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1616229532
+updated_at: 1616229568
 blueprint: default
 hero: true
 header_image: images/aktuelles.jpg
