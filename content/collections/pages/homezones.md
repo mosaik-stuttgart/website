@@ -32,23 +32,6 @@ rich_content:
         url: 'entry::cf1f52b8-f2ab-4c29-ac42-a775be5b764a'
   -
     type: paragraph
-    content:
-      -
-        type: hard_break
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Vom 01. bis zum 21. März haben wir unsere 21 Tage des Gebets in denen wir für das kommende Semester beten wollen. In dieser Zeit finden keine Homezone-Treffen statt.'
-  -
-    type: set
-    attrs:
-      values:
-        type: button
-        text: '21 Tage des Gebets'
-        url: 'entry::dc6dc7c8-d128-4f0b-8e6d-c598f3ae5f12'
-  -
-    type: paragraph
   -
     type: heading
     attrs:
@@ -195,7 +178,7 @@ title: Homezones
 slug: homezones
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1615831031
+updated_at: 1616229420
 hero: false
 id: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
 ---
