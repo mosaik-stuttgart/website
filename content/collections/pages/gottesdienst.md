@@ -54,7 +54,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '31. Januar'
+                text: '04. April'
       -
         type: list_item
         content:
@@ -63,7 +63,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '14. Februar'
+                text: '18. April'
       -
         type: list_item
         content:
@@ -72,7 +72,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '28. Februar'
+                text: '02. Mai'
       -
         type: list_item
         content:
@@ -81,7 +81,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '7. März'
+                text: '16. Mai'
       -
         type: list_item
         content:
@@ -90,7 +90,61 @@ rich_content:
             content:
               -
                 type: text
-                text: '28. März'
+                text: '30. Mai'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '13. Juni'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '27. Juni'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '11. Juli'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '25. Juli'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '01. August'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '22. August'
   -
     type: paragraph
   -
@@ -124,7 +178,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1616229361
+updated_at: 1616362736
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb

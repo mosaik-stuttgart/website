@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1616319565
+updated_at: 1616362815
 blueprint: default
 rich_content:
   -
@@ -105,7 +105,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '24. Januar'
+                text: '11. April'
       -
         type: list_item
         content:
@@ -114,7 +114,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '7. Februar'
+                text: '25. April'
       -
         type: list_item
         content:
@@ -123,7 +123,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '21. Februar'
+                text: '09. Mai'
       -
         type: list_item
         content:
@@ -132,7 +132,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '14. März'
+                text: '23. Mai'
       -
         type: list_item
         content:
@@ -141,7 +141,52 @@ rich_content:
             content:
               -
                 type: text
-                text: '21. März'
+                text: '06. Juni'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '20. Juni'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '04. Juli'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '18. Juli'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '08. August'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '15. August'
 hero: false
 id: f6e58554-18d0-44bb-9b5a-162626aafb70
 ---
