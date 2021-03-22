@@ -162,7 +162,7 @@ homezones:
       Unser Gottesbild prägt unser Leben enorm. Deswegen ist Exodus ein extrem spannendes Buch. Es ist vollgepackt mit Erlebnissen, in denen Gott sich offenbart und wir sein Wesen und Charakter kennenlernen können.
   -
     title: VIP-Lounge
-    full: false
+    full: true
     target_group: 'Junge Erwachsene (20-29 Jahre)'
     topic: 'Personen der Bibel: Glaubensväter & Co.'
     location: 'In unseren Wohnzimmern ;)'
@@ -271,6 +271,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1616147202
+updated_at: 1616406545
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
