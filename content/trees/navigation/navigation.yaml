@@ -1,0 +1,47 @@
+tree:
+  -
+    entry: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
+  -
+    entry: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
+  -
+    title: Sonntag
+    url: /besuche-uns/gottesdienst
+    children:
+      -
+        entry: c6f67036-26e8-452c-8798-6b5bf5967cfb
+      -
+        entry: f6e58554-18d0-44bb-9b5a-162626aafb70
+      -
+        entry: aa8ad754-8ff5-463a-9a3d-d141c34de9df
+  -
+    title: Mitmachen
+    url: /mitmachen
+    children:
+      -
+        entry: faa47d88-a7dc-45d9-9f1d-d46deafeed43
+      -
+        entry: a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305
+        children:
+          -
+            entry: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
+      -
+        entry: a2a99bfd-edd8-4ace-af21-917ad6de0ab4
+      -
+        entry: 9c824f20-8bb8-42c3-818d-d3bf80bf3451
+  -
+    title: Medien
+    url: /media
+    children:
+      -
+        entry: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
+      -
+        title: Predigtreihen
+        url: /sermon-series/
+      -
+        entry: 32c435e9-31ef-4677-aa24-53da80112fdf
+  -
+    entry: 9dbef045-7133-4f00-9538-ca37027adf91
+  -
+    entry: 82b3ae9b-c690-4b90-b2dc-120dfd3b4477
+  -
+    entry: b4818062-4e78-4b28-b651-24eda6bfcc8f

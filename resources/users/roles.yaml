@@ -29,6 +29,9 @@ uploader:
     - 'view podcast assets'
     - 'upload podcast assets'
     - 'edit podcast assets'
+    - 'edit other authors podcasts entries'
+    - 'publish other authors podcasts entries'
+    - 'delete other authors podcasts entries'
 editor:
   title: Editor
   permissions:
@@ -74,3 +77,9 @@ editor:
     - 'delete podcast assets'
     - 'view contact form submissions'
     - 'delete contact form submissions'
+    - 'edit other authors pages entries'
+    - 'edit other authors podcasts entries'
+    - 'publish other authors pages entries'
+    - 'publish other authors podcasts entries'
+    - 'delete other authors pages entries'
+    - 'delete other authors podcasts entries'
