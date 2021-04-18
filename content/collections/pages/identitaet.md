@@ -197,9 +197,11 @@ rich_content:
           -
             type: bold
         text: 'David Schneider'
-  -
-    type: paragraph
-    content:
+      -
+        type: hard_break
+        marks:
+          -
+            type: bold
       -
         type: text
         text: 'Pastor der Mosaik Family (Ulm, Stuttgart, Pforzheim, Ehingen)'
@@ -216,7 +218,7 @@ rich_content:
         type: hard_break
       -
         type: text
-        text: 'Co-Pastor, Next Steps, Kleingruppen'
+        text: 'Campus-Pastor, Next Steps, Kleingruppen'
   -
     type: paragraph
     content:
@@ -296,6 +298,6 @@ slug: identitaet
 blueprint: default
 hero: false
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1618747713
+updated_at: 1618750094
 id: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
 ---
