@@ -196,12 +196,13 @@ rich_content:
         marks:
           -
             type: bold
-        text: 'Simon Lempenauer'
-      -
-        type: hard_break
+        text: 'David Schneider'
+  -
+    type: paragraph
+    content:
       -
         type: text
-        text: Pastor
+        text: 'Pastor der Mosaik Family (Ulm, Stuttgart, Pforzheim, Ehingen)'
   -
     type: paragraph
     content:
@@ -230,20 +231,6 @@ rich_content:
       -
         type: text
         text: 'Co-Pastor, Lobpreis'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'David Schneider'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Pastor der Mosaik Family (Ulm, Stuttgart, Pforzheim, Ehingen)'
   -
     type: paragraph
     content:
@@ -309,6 +296,6 @@ slug: identitaet
 blueprint: default
 hero: false
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1611433626
+updated_at: 1618747713
 id: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
 ---
