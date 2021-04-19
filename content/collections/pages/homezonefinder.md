@@ -80,7 +80,7 @@ homezones:
     location: 'Stuttgart Mitte/Süd'
   -
     title: 'Thank God it´s Tuesday'
-    full: false
+    full: true
     target_group: 'Jeder ist willkommen'
     topic: 'Namen Gottes'
     location: 'Unterschiedliche Wohnzimmer und Parks in Stuttgart'
@@ -271,6 +271,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1616406545
+updated_at: 1618854954
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
