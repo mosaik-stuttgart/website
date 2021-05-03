@@ -1,6 +1,46 @@
 ---
 homezones:
   -
+    title: 'Starter Homezone'
+    full: false
+    target_group: 'Jeder der neu in der Kirche ist'
+    topic: 'Anschluss finden, im Glauben wachsen'
+    location: 'Momentan auf Zoom, bald vielleicht ja wieder im Wohnzimmer :)'
+    weekday: Mittwoch
+    time: '19:30'
+    biweekly: false
+    tags:
+      - 'Church kennenlernen'
+      - Gemeinschaft
+      - Fun
+    more_info: |-
+      Bist du neu in der Mosaik Church und möchtest Anschluss finden?
+      Dann ist unsere Homezone genau das richtige für dich!
+
+      Wir wollen uns gegenseitig im Glauben ermutigen, Jesus besser kennenlernen, Fun miteinander haben und in der Church ankommen.
+    contact_person: 'Simon Garrecht'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/683'
+    type: homezone
+    enabled: true
+  -
+    title: 'Deep Talk 3.0'
+    full: false
+    target_group: 'Alle :-)'
+    topic: 'Serendipity Bible: Der Gott, der uns nahe ist'
+    location: Unterschiedlich
+    weekday: Dienstag
+    time: '19:30'
+    biweekly: false
+    tags:
+      - 'Gott erleben'
+      - 'Quality Time'
+      - Fun
+    more_info: '"Gott nahe zu Sein sein ist mein Glück". So betet ein Psalm. Und Glück wohnt nicht nur im Kopf. Es ist spürbar mit allen Sinnen. Im kommenden Sommersemester wollen wir all unsere Sinne in unserem Glauben mit einbeziehen und so die Freude an Gott miteinander spürbar machen. Durch gemeinsame Aktionen wollen wir den Frühling und Sommer ganz neu erleben und sehen, auf wie vielfältige weise uns Gott in unserem Alltag begegnen möchte. Gemeinsam möchten wir uns darüber austauschen, wie wir Gottes Nähe mit all unseren Sinnen wahrnehmen können und lesen, was Gottes Wort uns darüber lehren möchte. Wir freuen uns auf dich!'
+    contact_person: 'Sinja Hiss, Sucithra Dey'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/646'
+    type: homezone
+    enabled: true
+  -
     title: Origins
     full: true
     target_group: Jeder!
@@ -57,27 +97,6 @@ homezones:
     type: homezone
     enabled: true
     location: Unterschiedlich
-  -
-    title: Hygge
-    full: false
-    target_group: 'Alle sind willkommen'
-    topic: 'Familie leben'
-    weekday: Freitag
-    time: '19:00'
-    biweekly: false
-    tags:
-      - Familie
-      - Lobpreis
-      - 'Wort Gottes'
-    more_info: |-
-      Hygge Def.: Ein Gefühl von Ruhe, Gemütlichkeit und Wohlbehagen. Oft in Verbindung mit leckerem Essen, warmen Decken, und der Gesellschaft von geliebten Menschen. 
-
-      In dieser Atmosphäre wollen wir gemeinsam Gott erleben und anbeten.
-    contact_person: 'Enrico und Christina Pankratz'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/641'
-    type: homezone
-    enabled: true
-    location: 'Stuttgart Mitte/Süd'
   -
     title: 'Thank God it´s Tuesday'
     full: true
@@ -229,24 +248,6 @@ homezones:
     type: homezone
     enabled: true
   -
-    title: 'Deep Talk 3.0'
-    full: false
-    target_group: 'Alle :-)'
-    topic: 'Serendipity Bible: Der Gott, der uns nahe ist'
-    location: Unterschiedlich
-    weekday: Dienstag
-    time: '19:30'
-    biweekly: false
-    tags:
-      - 'Gott erleben'
-      - 'Quality Time'
-      - Fun
-    more_info: '"Gott nahe zu Sein sein ist mein Glück". So betet ein Psalm. Und Glück wohnt nicht nur im Kopf. Es ist spürbar mit allen Sinnen. Im kommenden Sommersemester wollen wir all unsere Sinne in unserem Glauben mit einbeziehen und so die Freude an Gott miteinander spürbar machen. Durch gemeinsame Aktionen wollen wir den Frühling und Sommer ganz neu erleben und sehen, auf wie vielfältige weise uns Gott in unserem Alltag begegnen möchte. Gemeinsam möchten wir uns darüber austauschen, wie wir Gottes Nähe mit all unseren Sinnen wahrnehmen können und lesen, was Gottes Wort uns darüber lehren möchte. Wir freuen uns auf dich!'
-    contact_person: 'Sinja Hiss, Sucithra Dey'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/646'
-    type: homezone
-    enabled: true
-  -
     title: 'Pull Up'
     full: true
     target_group: 'Alle, die gerne Sport machen, Jesus lieben, und von der guten Botschaft erzählen wollen'
@@ -265,27 +266,26 @@ homezones:
     type: homezone
     enabled: true
   -
-    title: 'Starter Homezone'
+    title: Hygge
     full: false
-    target_group: 'Jeder der neu in der Kirche ist'
-    topic: 'Anschluss finden, im Glauben wachsen'
-    location: 'Momentan auf Zoom, bald vielleicht ja wieder im Wohnzimmer :)'
-    weekday: Mittwoch
-    time: '19:30'
+    target_group: 'Alle sind willkommen'
+    topic: 'Familie leben'
+    weekday: Freitag
+    time: '19:00'
     biweekly: false
     tags:
-      - 'Church kennenlernen'
-      - Gemeinschaft
-      - Fun
+      - Familie
+      - Lobpreis
+      - 'Wort Gottes'
     more_info: |-
-      Bist du neu in der Mosaik Church und möchtest Anschluss finden?
-      Dann ist unsere Homezone genau das richtige für dich!
+      Hygge Def.: Ein Gefühl von Ruhe, Gemütlichkeit und Wohlbehagen. Oft in Verbindung mit leckerem Essen, warmen Decken, und der Gesellschaft von geliebten Menschen. 
 
-      Wir wollen uns gegenseitig im Glauben ermutigen, Jesus besser kennenlernen, Fun miteinander haben und in der Church ankommen.
-    contact_person: 'Simon Garrecht'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/683'
+      In dieser Atmosphäre wollen wir gemeinsam Gott erleben und anbeten.
+    contact_person: 'Enrico und Christina Pankratz'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/641'
     type: homezone
     enabled: true
+    location: 'Stuttgart Mitte/Süd'
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -293,6 +293,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1620031748
+updated_at: 1620035284
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
