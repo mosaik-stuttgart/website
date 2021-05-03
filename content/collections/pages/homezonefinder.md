@@ -264,6 +264,28 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/649'
     type: homezone
     enabled: true
+  -
+    title: 'Starter Homezone'
+    full: false
+    target_group: 'Jeder der neu in der Kirche ist'
+    topic: 'Anschluss finden, im Glauben wachsen'
+    location: 'Momentan auf Zoom, bald vielleicht ja wieder im Wohnzimmer :)'
+    weekday: Mittwoch
+    time: '19:30'
+    biweekly: false
+    tags:
+      - 'Church kennenlernen'
+      - Gemeinschaft
+      - Fun
+    more_info: |-
+      Bist du neu in der Mosaik Church und möchtest Anschluss finden?
+      Dann ist unsere Homezone genau das richtige für dich!
+
+      Wir wollen uns gegenseitig im Glauben ermutigen, Jesus besser kennenlernen, Fun miteinander haben und in der Church ankommen.
+    contact_person: 'Simon Garrecht'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/683'
+    type: homezone
+    enabled: true
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
@@ -271,6 +293,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1618854954
+updated_at: 1620031748
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
