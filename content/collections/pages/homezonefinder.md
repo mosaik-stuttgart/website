@@ -139,7 +139,7 @@ homezones:
     enabled: true
   -
     title: 'Lebensweise Jüngerschaft'
-    full: false
+    full: true
     target_group: Jeder
     topic: Jüngerschaft
     location: 'Stuttgart West'
@@ -293,6 +293,6 @@ template: find-homezone
 slug: homezonefinder
 blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1620035284
+updated_at: 1620075161
 id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
 ---
