@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1619338488
+updated_at: 1620513144
 blueprint: default
 rich_content:
   -
@@ -28,7 +28,7 @@ rich_content:
     attrs:
       values:
         type: cta_card
-        text: 'Am Sonntag, den 25. April um 10:30 Uhr feiern wir gemeinsam als Mosaik Family Gottesdienst. Du findest den Livestream auf dem YouTube-Channel der Mosaik Ulm.'
+        text: 'In Zukunft werden wir den Online-Gottesdienst immer gemeinsam als Mosaik Family feiern. Du findest den Livestream auf dem YouTube-Channel der Mosaik Ulm.'
         button_text: 'Zum Livestream'
         disabled: false
         cta_link: 'https://www.youtube.com/c/mosaikinfo/live'
@@ -77,7 +77,7 @@ rich_content:
       values:
         type: button
         text: 'Youtube-Kanal abonnieren'
-        url: 'https://www.youtube.com/channel/UCUQI6VwkU8NYR-VfpLKmXDw?sub_confirmation=1'
+        url: 'https://www.youtube.com/c/mosaikinfo?sub_confirmation=1'
   -
     type: paragraph
   -
@@ -96,24 +96,6 @@ rich_content:
   -
     type: bullet_list
     content:
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '11. April'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '25. April'
       -
         type: list_item
         content:
