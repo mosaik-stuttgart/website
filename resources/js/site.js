@@ -3,7 +3,7 @@ import "alpinejs"
 
 function liveStreamStatus() {
     const API_URL = 'https://www.googleapis.com/youtube/v3/search?part=snippet'
-    const channelId = 'UCUQI6VwkU8NYR-VfpLKmXDw'
+    const channelId = 'UCde6_2hUGCLt4bHT3-IiqKQ'
 
     return {
         live: false,
