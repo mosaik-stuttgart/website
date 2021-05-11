@@ -1,9 +1,6 @@
 {
   "name": "website",
   "description": "",
-  "keywords": [
-    "mosaik"
-  ],
   "website": "https://mosaik-stuttgart.net/",
   "repository": "https://github.com/mosaik-church/website",
   "logo": "https://mosaik-stuttgart.net/favicon.svg",
@@ -16,5 +13,5 @@
       "description": "Prevent running npm start",
       "value": false
     }
-  },
+  }
 }
