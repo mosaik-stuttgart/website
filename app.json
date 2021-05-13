@@ -6,7 +6,9 @@
   "logo": "https://mosaik-stuttgart.net/favicon.svg",
   "success_url": "/",
   "scripts": {
-    "postinstall": "npm run prod"
+     "dokku": {
+      "predeploy": "npm run prod"
+    },
   },
   "env": {
     "NPM_CONFIG_PRODUCTION": {
