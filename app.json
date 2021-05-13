@@ -8,11 +8,5 @@
      "dokku": {
       "predeploy": "npm run prod"
     }
-  },
-  "env": {
-    "NPM_CONFIG_PRODUCTION": {
-      "description": "Prevent running npm start",
-      "value": false
-    }
   }
 }
