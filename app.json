@@ -4,7 +4,6 @@
   "website": "https://mosaik-stuttgart.net/",
   "repository": "https://github.com/mosaik-church/website",
   "logo": "https://mosaik-stuttgart.net/favicon.svg",
-  "success_url": "/",
   "scripts": {
      "dokku": {
       "predeploy": "npm run prod"
