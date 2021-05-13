@@ -8,7 +8,7 @@
   "scripts": {
      "dokku": {
       "predeploy": "npm run prod"
-    },
+    }
   },
   "env": {
     "NPM_CONFIG_PRODUCTION": {
