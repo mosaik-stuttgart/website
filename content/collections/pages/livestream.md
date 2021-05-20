@@ -3,7 +3,7 @@ title: 'Kirche im Wohnzimmer'
 header_image: images/livingroom.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1621538193
+updated_at: 1621538541
 blueprint: default
 rich_content:
   -
@@ -55,7 +55,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Lade einen Freund ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Message. Außerdem wird es immer 2-3 knackige Fragen zur Predigt geben, über die ihr euch austauschen könnt und die du in deine Woche mitnehmen darfst. '
+        text: 'Lade einen Freund ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Message. Außerdem wird es immer Fragen zur Predigt geben, über die ihr euch austauschen könnt. '
   -
     type: paragraph
     content:
@@ -70,7 +70,7 @@ rich_content:
         text: '10:30'
       -
         type: text
-        text: ' und ist auf unserem YouTube-Channel zu finden. Am besten abonnierst du unseren Kanal:'
+        text: ' und ist auf dem YouTube-Channel von unserem Haupt-Standort Ulm zu finden. Am besten abonnierst du den Kanal:'
   -
     type: set
     attrs:
