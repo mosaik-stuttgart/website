@@ -5,10 +5,10 @@ rich_content:
     content:
       -
         type: text
-        text: 'Wieso feiern wir Gottesdienst?'
         marks:
           -
             type: bold
+        text: 'Wieso feiern wir Gottesdienst?'
       -
         type: hard_break
       -
@@ -19,10 +19,10 @@ rich_content:
     content:
       -
         type: text
-        text: 'Was erwartet mich in einem Gottesdienst?'
         marks:
           -
             type: bold
+        text: 'Was erwartet mich in einem Gottesdienst?'
       -
         type: hard_break
       -
@@ -38,10 +38,10 @@ rich_content:
     content:
       -
         type: text
-        text: 'Wie kann ich andere kennenlernen und Anschluss finden?'
         marks:
           -
             type: bold
+        text: 'Wie kann ich andere kennenlernen und Anschluss finden?'
       -
         type: hard_break
       -
@@ -49,23 +49,27 @@ rich_content:
         text: 'Da gibt es verschiedene Möglichkeiten. Wir empfehlen dir als ersten Schritt, an "'
       -
         type: text
-        text: 'Next Steps'
         marks:
           -
             type: link
             attrs:
               href: /mitmachen/next-steps/
+              target: null
+              rel: null
+        text: 'Next Steps'
       -
         type: text
         text: '" teilzunehmen, um die Church besser kennenzulernen. Außerdem sind wir in Kleingruppen - sogenannten '
       -
         type: text
-        text: Homezones
         marks:
           -
             type: link
             attrs:
               href: /mitmachen/homezones
+              target: null
+              rel: null
+        text: Homezones
       -
         type: text
         text: ' - organisiert, die sich unter der Woche treffen. Hier kannst du Freundschaften knüpfen und aufbauen und mehr über das Leben und die Gemeinde erfahren. In all dem bekommst du die Möglichkeit, in deinem Glauben zu wachsen.'
@@ -79,10 +83,10 @@ rich_content:
             type: bold
       -
         type: text
-        text: 'Was ist der Unterschied zwischen einer Landeskirche und einer Freikirche?'
         marks:
           -
             type: bold
+        text: 'Was ist der Unterschied zwischen einer Landeskirche und einer Freikirche?'
       -
         type: hard_break
         marks:
@@ -96,10 +100,10 @@ rich_content:
     content:
       -
         type: text
-        text: 'Zu welchem Verband gehört die Mosaik Church?'
         marks:
           -
             type: bold
+        text: 'Zu welchem Verband gehört die Mosaik Church?'
       -
         type: hard_break
       -
@@ -107,23 +111,27 @@ rich_content:
         text: 'Die Mosaik Church ist Teil der '
       -
         type: text
-        text: 'Ecclesia Kirchen'
         marks:
           -
             type: link
             attrs:
               href: 'https://ecclesia-kirchen.de'
+              target: null
+              rel: null
+        text: 'Ecclesia Kirchen'
       -
         type: text
         text: '. Wir sind eine evangelikale Freikirche, vertreten in vielen Städten in ganz Deutschland. Die einzelnen Ortskirchen sind unterschiedlich in Größe und Prägung, verstehen sich aber als ein Verband, den gemeinsame Ziele, Werte und Interessen verbinden. Als Ecclesia Kirchen sind wir Teil des "'
       -
         type: text
-        text: 'Bundes Freikirchlicher Pfingstgemeinden KdÖR'
         marks:
           -
             type: link
             attrs:
               href: 'https://bfp.de'
+              target: null
+              rel: null
+        text: 'Bundes Freikirchlicher Pfingstgemeinden KdÖR'
       -
         type: text
         text: '", zu dem sich in Deutschland etwa 830 Kirchengemeinden zählen. '
@@ -134,14 +142,14 @@ rich_content:
         text: "Außerdem engagieren wir uns in der\_"
       -
         type: text
-        text: 'evangelischen Allianz'
         marks:
           -
             type: link
             attrs:
+              href: 'http://www.ea-stuttgart.de/'
               target: _blank
               rel: noopener
-              href: 'http://www.ea-stuttgart.de/'
+        text: 'evangelischen Allianz'
       -
         type: text
         text: ", der viele evangelische Kirchengemeinden angehören.\_"
@@ -155,37 +163,24 @@ rich_content:
     content:
       -
         type: text
-        text: 'Folgende Fragen sind wieder relevant, wenn wir die Gottesdienste wieder in der Church feiern können:'
         marks:
           -
-            type: italic
+            type: bold
+        text: 'Was soll ich mir anziehen? Gibt es Kleidervorschriften?'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Was soll ich mir anziehen? Gibt es besondere Sitzplätze?'
-        marks:
-          -
-            type: bold
+        text: 'Bei uns gibt es keine Kleidervorschriften, komm in einem Outfit, in dem du dich wohlfühlst. Kirche ist ein Ort, an dem wir so zu Gott kommen dürfen, wie wir sind. Hier geht es nicht darum, wie du aussiehst oder was du anhast.'
       -
         type: hard_break
       -
         type: text
-        text: 'Klamotten wären gut. Nein, ganz im Ernst, bei uns gibt es keine Kleidervorschriften. :)'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Komm in einem Outfit, in dem du dich wohlfühlst. Kirche ist ein Ort, an dem wir so zu Gott kommen dürfen, wie wir sind. Hier geht es nicht darum, wie du aussiehst oder was du anhast. Bei uns gibt es auch keine reservierten Sitzplätze. Jeder ist frei dort zu sitzen, wo es ihm passt.'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Oder ganz kurz'
         marks:
           -
             type: italic
+        text: 'Oder ganz kurz'
       -
         type: text
         text: ': Nein. Komm einfach so, wie du bist und wie du dich am wohlsten fühlst.'
@@ -194,40 +189,35 @@ rich_content:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Wo findet der Gottesdienst statt? Wo kann ich parken?'
+      -
+        type: hard_break
         marks:
           -
             type: bold
       -
-        type: hard_break
-      -
         type: text
-        text: 'Unsere Sonntagsgottesdienste feiern wir in der Römerstraße 10 in Stuttgart.'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Parkplätze findest du z.B. in der direkt angrenzenden Tübingerstraße. Falls hier keine mehr frei sind in der Parallelstraße, der Hohenstaufenstraße. Ansonsten einfach mal die Karlshöhe hoch, da gibt es irgendwann freie Plätze.'
+        text: 'Unsere Sonntagsgottesdienste feiern wir in der Seidenstraße 34, in der Alten Reiterhalle des Maritim Hotels in Stuttgart. Parkplätze findest du in den angrenzenden Seitenstraßen, oder in nahegelegenen Parkhäusern, wie der Parkgarage Tivoli, oder der Tiefgarage der Liederhalle.'
   -
     type: paragraph
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Kann man einfach unangemeldet vorbeikommen?'
+      -
+        type: hard_break
         marks:
           -
             type: bold
       -
-        type: hard_break
-      -
         type: text
-        text: 'Klar! Normalerweise kommen jeden Sonntag neue Besucher in unsere Gottesdienste. Wir freuen uns, wenn du einfach bei uns vorbeischaust. Für deine Fragen stehen dir die Mitarbeiter am Info Point gerne zur Verfügung.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
+        text: 'Momentan besteht für unsere Gottesdienste eine Anmeldepflicht. Durch feste Vorab-Anmeldungen haben wir eine Übersicht über die der Gottesdienstbesucher und können so sicherstellen, dass die die maximale Teilnehmerzahl nicht überschritten wird.'
       -
         type: hard_break
   -
@@ -235,35 +225,36 @@ rich_content:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Wie ist das mit Kindern während den Gottesdiensten?'
+      -
+        type: hard_break
         marks:
           -
             type: bold
-      -
-        type: hard_break
       -
         type: text
         text: 'Kinder ab 2 Jahren können unter der Betreuung von Kinderdienstmitarbeitern an einem für sie vorbereiteten Kinderprogramm teilnehmen - der Kids Church. Hier wird zusammen gebastelt, gespielt, werden Lieder gesungen und biblische Werte vermittelt.'
-  -
-    type: paragraph
-    content:
+      -
+        type: hard_break
+      -
+        type: hard_break
       -
         type: text
-        text: 'Gibt es einen Raum für Eltern mit Babys?'
         marks:
           -
             type: bold
+        text: 'Gibt es einen Raum für Eltern mit Babys?'
       -
         type: hard_break
+        marks:
+          -
+            type: bold
       -
         type: text
         text: 'Für Eltern mit Kleinkindern und Säuglingen steht ein Eltern-Kind-Raum zur Verfügung, in dem man den Gottesdienst sehen und hören kann. Neben Spielzeug findet sich dort auch ein Wickeltisch.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
       -
         type: hard_break
   -
@@ -271,57 +262,63 @@ rich_content:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Wie geht es nach dem Gottesdienst weiter?'
+      -
+        type: hard_break
         marks:
           -
             type: bold
       -
-        type: hard_break
-      -
         type: text
-        text: 'Anschließend erwartet dich der "zweite Teil" unseres Gottesdienstes: ein Chill-Out, bei dem du neue Leute kennenlernen und eine gute Zeit mit Snacks und Getränken verbringen kannst.'
+        text: 'Aktuell ist es durch die Pandemiesituation erforderlich, dass die Gottesdienstbesucher den Raum und das Gelände direkt im Anschluss an den Gottesdienst verlassen und draußen keine Stehgruppen bilden. Wenn du mit Menschen aus der Mosaik Church in Kontakt möchtest, kannst du das aber trotzdem machen, indem du eine Kontaktkarte ausfüllst und unserem Connect-Team am Ausgang übergibst. Unser Follow-Up Team wird sich dann bei dir melden und dir eine passende Homezone (Kleingruppe) vorschlagen.'
   -
     type: paragraph
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Wie kann ich mitarbeiten?'
+      -
+        type: hard_break
         marks:
           -
             type: bold
       -
-        type: hard_break
-      -
         type: text
-        text: 'Wir haben eine ganze Reihe von Teams, die den Gottesdienst und das Gemeindeleben gestalten, und die Deine Hilfe brauchen. Sprich uns einfach an: Am einfachsten nach dem Gottesdienst am Info-Point oder wende Dich einfach direkt an die Team-Mitarbeiter.'
+        text: 'Wir haben eine ganze Reihe von Teams, die den Gottesdienst und das Gemeindeleben gestalten, und die Deine Hilfe brauchen. Sprich uns einfach an: Am einfachsten indem du eine Kontaktkarte ausfüllst und am Info-Point abgibst. In unserem Next-Steps Kurs gibt es in Teil 4 einen Gesamtüberblick, über die verschiedenen Teams unserer Kirche.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "\_"
-      -
-        type: hard_break
-  -
-    type: paragraph
-    content:
-      -
-        type: text
+        marks:
+          -
+            type: bold
         text: 'Kostet mich der Gottesdienstbesuch etwas oder werde ich bei einem Besuch nach Geld gefragt?'
+      -
+        type: hard_break
         marks:
           -
             type: bold
-      -
-        type: hard_break
       -
         type: text
         text: 'Jeder kann gerne zu unseren Gottesdiensten kommen. Der Besuch ist dabei natürlich komplett kostenlos. Am Ende des Gottesdienstes gibt es die Möglichkeit, freiwillig zu geben.'
+  -
+    type: paragraph
+    content:
+      -
+        type: hard_break
 header_image: images/kontakt.jpg
 title: 'Häufige Fragen'
 slug: faq
 blueprint: default
 hero: false
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1612289637
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1622043729
 id: aa8ad754-8ff5-463a-9a3d-d141c34de9df
 ---
