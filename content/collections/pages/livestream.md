@@ -1,9 +1,9 @@
 ---
-title: 'Kirche im Wohnzimmer'
+title: 'Mosaik Family Gottesdienst'
 header_image: images/livestream.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1621588427
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1622566867
 blueprint: default
 rich_content:
   -
@@ -22,13 +22,13 @@ rich_content:
     content:
       -
         type: text
-        text: 'Neben unseren Gottesdiensten im Maritim Hotel feiern wir alle zwei Wochen Kirche im Wohnzimmer.'
+        text: 'Neben unseren Gottesdiensten im Maritim Hotel, feiern wir einmal im Monat gemeinsam mit den drei anderen Standorten unserer Mosaik Family, einen Online-Gottesdienst, der von der Mosaik Ulm aus ausgestrahlt wird.'
   -
     type: set
     attrs:
       values:
         type: cta_card
-        text: 'In Zukunft werden wir den Online-Gottesdienst immer gemeinsam als Mosaik Family mit unseren anderen Standorten feiern. Du findest den Livestream auf dem YouTube-Channel der Mosaik Ulm.'
+        text: 'An dem Mosaik Family Gottesdienst, wirken Mitarbeiter aus allen vier Standorten mit. Du findest den Livestream dazu, auf dem YouTube Channel der Mosaik Ulm.'
         button_text: 'Zum Livestream'
         disabled: false
         cta_link: 'https://www.youtube.com/c/mosaikinfo/live'
@@ -55,7 +55,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Lade einen Freund ein, schnapp dir deine Bibel und erlebt zusammen eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Gebetszeit und eine relevante, ermutigende Message. Außerdem wird es immer Fragen zur Predigt geben, über die ihr euch austauschen könnt. '
+        text: 'Lade einen Freund ein, schnapp dir deine Bibel und erlebt zusammen von Zuhause aus, eine geniale Zeit in Gottes Gegenwart! Euch erwartet eine starke Lobpreiszeit und eine relevante, ermutigende Message. '
   -
     type: paragraph
     content:
@@ -67,7 +67,7 @@ rich_content:
         marks:
           -
             type: bold
-        text: '10:30'
+        text: '10:00'
       -
         type: text
         text: ' und ist auf dem YouTube-Channel von unserem Haupt-Standort Ulm zu finden. Am besten abonnierst du den Kanal:'
