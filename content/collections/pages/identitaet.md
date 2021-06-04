@@ -52,7 +52,7 @@ rich_content:
             content:
               -
                 type: text
-                text: 'Wir träumen von einer Kirche, die leidenschaftlich Menschen und der Gesellschaft dient.'
+                text: 'die leidenschaftlich Menschen und der Gesellschaft dient.'
               -
                 type: hard_break
   -
@@ -287,6 +287,6 @@ slug: identitaet
 blueprint: default
 hero: false
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1622849164
+updated_at: 1622849381
 id: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
 ---
