@@ -96,7 +96,7 @@ template: home
 slug: home
 blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1617789466
+updated_at: 1622849582
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 content:
   -
@@ -173,7 +173,7 @@ content:
         type: hard_break
       -
         type: text
-        text: 'Als Mosaik Stuttgart sind wir Teil der "'
+        text: 'Als Mosaik sind wir Teil der "'
       -
         type: text
         marks:
