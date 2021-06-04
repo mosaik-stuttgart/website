@@ -30,7 +30,7 @@ rich_content:
             <div><div class="prose">
             <h3 style="margin-bottom: 0">Anmeldung</h3>
           	<p>Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.<br>
-          	Achtung: Am nächsten Sonntag, den 13. Juni, finden einmal 2 Gottesdienste statt.
+          	Achtung: Am nächsten Sonntag, den 13. Juni, finden einmal 2 Gottesdienste statt. <br/>
           	</p>
             </div> 
           	<a class="inline-block mb-1 py-2 px-4 font-semibold text-gray-900 bg-blue-300 rounded-px
@@ -43,6 +43,13 @@ rich_content:
             </a>
             </div> 
           </div>
+
+          <style>
+              .bg-neutral-400 {
+                filter: brightness(0.98);
+              }
+              [class*="bg-blue"] { filter: saturate(0.6) hue-rotate(16deg) }
+           </style>
   -
     type: paragraph
   -
@@ -206,7 +213,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1622848004
+updated_at: 1622848304
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
