@@ -21,27 +21,43 @@ rich_content:
         type: text
         text: 'Melde dich am besten direkt an: '
   -
+    type: set
+    attrs:
+      values:
+        type: html
+        html: |-
+          <div id="anmeldung" class=" -mx-2 mt-6 md:mt-10 p-3 md:px-5 md:py-4 bg-neutral-400 rounded-px text-gray-900 relative">
+            <div><div class="prose">
+            <h3 style="margin-bottom: 0">Anmeldung</h3>
+          	<p>Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.<br>
+          	Achtung: Am nächsten Sonntag, den 13. Juni, finden einmal 2 Gottesdienste statt.
+          	</p>
+            </div> 
+          	<a class="inline-block mb-1 py-2 px-4 font-semibold text-gray-900 bg-blue-300 rounded-px
+              hover:cursor-pointer hover:shadow-sm hover:bg-opacity-75 focus:outline-none focus:bg-opacity-75 no-underline" target="_blank" href="https://mosaik-church.church.tools/publicgroup/665">
+                Anmelden 10:00 Uhr
+            </a>
+          	<a class="inline-block mb-1 py-2 px-4 font-semibold text-gray-900 bg-blue-300 rounded-px
+              hover:cursor-pointer hover:shadow-sm hover:bg-opacity-75 focus:outline-none focus:bg-opacity-75 no-underline" target="_blank" href="https://mosaik-church.church.tools/publicgroup/688">
+                Anmelden 11:30 Uhr
+            </a>
+            </div> 
+          </div>
+  -
     type: paragraph
   -
     type: set
     attrs:
+      enabled: false
       values:
         type: cta_card
         text: |-
           ### Anmeldung
           Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.
-          Änderung 13.Juni: es finden 2 Gottesdienste statt
+          Achtung: Am nächsten Sonntag, den 13. Juni, finden einmal 2 Gottesdienste statt.
         button_text: 'Anmelden 10:00 Uhr'
-        disabled: false
+        disabled: true
         cta_link: 'https://mosaik-church.church.tools/publicgroup/665'
-  -
-    type: set
-    attrs:
-      values:
-        type: cta_card
-        button_text: 'Anmelden 11:30 Uhr'
-        disabled: false
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/688'
   -
     type: paragraph
   -
@@ -64,6 +80,21 @@ rich_content:
               -
                 type: text
                 text: '13. Juni'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '20. Juni - '
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'Open Air Gottesdienst'
       -
         type: list_item
         content:
@@ -108,9 +139,22 @@ rich_content:
             content:
               -
                 type: text
+                text: '15. August - '
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'Open Air Gottesdienst'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
                 text: '22. August'
-  -
-    type: paragraph
   -
     type: paragraph
     content:
@@ -118,19 +162,20 @@ rich_content:
         type: hard_break
       -
         type: text
-        text: 'An den anderen Sonntagen veranstalten wir einen Livestream: '
-      -
-        type: hard_break
+        text: 'An allen anderen Sonntagen nehmen wir von zuhause am '
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: /besuche-uns/livestream
+              href: /besuche-uns/gottesdienst
               target: null
               rel: null
-        text: 'Kirche im Wohnzimmer'
+        text: 'Mosaik Family Gottesdienst'
+      -
+        type: text
+        text: ' teil.'
   -
     type: paragraph
   -
@@ -160,8 +205,8 @@ title: 'Kirche im Hotel'
 template: default
 slug: gottesdienst
 blueprint: default
-updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1622750211
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1622848004
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
