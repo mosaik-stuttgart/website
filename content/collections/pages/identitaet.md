@@ -25,16 +25,7 @@ rich_content:
             content:
               -
                 type: text
-                text: "in der Menschen\_"
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Gott kennen'
-              -
-                type: text
-                text: "\_und in intensiver Beziehung zu ihm stehen!"
+                text: "in der tausende Menschen\_Gott anbeten."
       -
         type: list_item
         content:
@@ -43,16 +34,7 @@ rich_content:
             content:
               -
                 type: text
-                text: "in der Menschen ihre Einzigartigkeit erkennen und echte\_"
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Freiheit erleben'
-              -
-                type: text
-                text: '!'
+                text: 'in der Menschen zu Gottesfreunden werden.'
       -
         type: list_item
         content:
@@ -61,16 +43,7 @@ rich_content:
             content:
               -
                 type: text
-                text: "in der Menschen ihr\_"
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Potenzial entfalten'
-              -
-                type: text
-                text: ', um gemeinsam an etwas Gewaltigem zu bauen!'
+                text: 'deren Menschen es lieben, das Leben miteinander zu teilen.'
       -
         type: list_item
         content:
@@ -79,21 +52,9 @@ rich_content:
             content:
               -
                 type: text
-                text: "die\_"
+                text: 'Wir träumen von einer Kirche, die leidenschaftlich Menschen und der Gesellschaft dient.'
               -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Jesus widerspiegelt'
-              -
-                type: text
-                text: "\_und seine Liebe bis in die Mitte der Gesellschaft trägt!"
-  -
-    type: paragraph
-    content:
-      -
-        type: hard_break
+                type: hard_break
   -
     type: heading
     attrs:
@@ -292,12 +253,40 @@ rich_content:
       -
         type: text
         text: Finanzen
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Linda Kruck'
+      -
+        type: hard_break
+      -
+        type: text
+        text: Connect
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Danieyala Sivarajah'
+      -
+        type: hard_break
+      -
+        type: text
+        text: Kids
 header_image: images/82386384_3055824794450591_5131911806146576384_o.jpg
 title: Identität
 slug: identitaet
 blueprint: default
 hero: false
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1618750094
+updated_at: 1622849164
 id: 513fe025-5b6d-475b-bc9c-c84cee7ff17a
 ---
