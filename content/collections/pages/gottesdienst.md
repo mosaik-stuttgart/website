@@ -176,7 +176,7 @@ rich_content:
           -
             type: link
             attrs:
-              href: /besuche-uns/gottesdienst
+              href: /besuche-uns/livestream
               target: null
               rel: null
         text: 'Mosaik Family Gottesdienst'
@@ -213,7 +213,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1622906205
+updated_at: 1622968678
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
