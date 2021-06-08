@@ -21,6 +21,8 @@ sections:
           width: 33
           listable: hidden
           display: Slug
+          validate:
+            - 'unique_entry_value:{collection},{id},{site}'
       -
         handle: audio
         field:
@@ -47,17 +49,18 @@ sections:
         handle: speaker
         field:
           type: terms
+          taxonomies: speaker
           display: Sprecher
           mode: typeahead
           max_items: 2
           label: '{{ title }}'
           width: 50
           listable: hidden
-          taxonomies: speaker
       -
         handle: sermon_series
         field:
           type: terms
+          taxonomies: sermon_series
           display: Predigtserie
           mode: select
           max_items: 1
@@ -66,7 +69,6 @@ sections:
           listable: hidden
           if:
             type: 'equals message'
-          taxonomies: sermon_series
   sidebar:
     display: Sidebar
     fields:
@@ -83,6 +85,6 @@ sections:
         handle: tags
         field:
           type: terms
+          taxonomies: tags
           display: Themen
           mode: select
-          taxonomies: tags
