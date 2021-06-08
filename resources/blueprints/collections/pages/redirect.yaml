@@ -6,14 +6,19 @@ sections:
         handle: title
         field:
           type: text
+          required: true
           display: Titel
           width: 66
       -
         handle: slug
         field:
           type: text
+          required: true
+          localizable: true
           display: Slug
           width: 33
+          validate:
+            - 'unique_entry_value:{collection},{id},{site}'
       -
         handle: redirect
         field:
@@ -24,4 +29,15 @@ sections:
         handle: content
         field:
           type: hidden
+  sidebar:
+    fields:
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
 taxonomies: true

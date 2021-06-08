@@ -6,8 +6,28 @@ sections:
         handle: title
         field:
           type: text
+          required: true
       -
         handle: redirect
         field:
           type: link
           required: true
+  sidebar:
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - 'unique_entry_value:{collection},{id},{site}'
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
