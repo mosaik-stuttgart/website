@@ -23,6 +23,7 @@ rich_content:
   -
     type: set
     attrs:
+      enabled: false
       values:
         type: html
         html: |-
@@ -55,7 +56,6 @@ rich_content:
   -
     type: set
     attrs:
-      enabled: false
       values:
         type: cta_card
         text: |-
@@ -78,15 +78,6 @@ rich_content:
   -
     type: bullet_list
     content:
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '13. Juni'
       -
         type: list_item
         content:
@@ -212,8 +203,8 @@ title: 'Kirche im Hotel'
 template: default
 slug: gottesdienst
 blueprint: default
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1623503489
+updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
+updated_at: 1623568324
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
