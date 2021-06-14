@@ -2,24 +2,6 @@
 rich_content:
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: 'Alle zwei Wochen feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s immer um '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: '10.30 Uhr'
-      -
-        type: text
-        text: '. '
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Melde dich am besten direkt an: '
   -
     type: set
     attrs:
@@ -60,7 +42,9 @@ rich_content:
         type: cta_card
         text: |-
           ### Anmeldung zum Open-Air-Gottesdienst
-          Am 20. Juni feiern wir wieder im Ostergarten Gottesdienst. Los geht's ausnahmsweise um **10:00 Uhr** in Bad Cannstatt (Masurenstraße 31). Die Plätze sind limitiert. Melde dich am besten frühzeitig an.
+          Am 20. Juni feiern wir wieder im Ostergarten Gottesdienst. 
+          Los geht's ausnahmsweise um **10:00 Uhr** in Bad Cannstatt (Masurenstraße 31). 
+          Die Plätze sind limitiert. Melde dich am besten frühzeitig an.
           Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.
         button_text: 'Anmelden 10:00'
         disabled: false
@@ -203,8 +187,8 @@ title: 'Kirche im Hotel'
 template: default
 slug: gottesdienst
 blueprint: default
-updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1623696987
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1623700889
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
