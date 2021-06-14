@@ -204,7 +204,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1623696842
+updated_at: 1623696987
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
