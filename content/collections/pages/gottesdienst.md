@@ -41,14 +41,11 @@ rich_content:
       values:
         type: cta_card
         text: |-
-          ### Anmeldung zum Open-Air-Gottesdienst
-          Am 20. Juni feiern wir wieder im Ostergarten Gottesdienst. 
-          Los geht's ausnahmsweise um **10:00 Uhr** in Bad Cannstatt (Masurenstraße 31). 
-          Die Plätze sind limitiert. Melde dich am besten frühzeitig an.
+          ### Anmeldung
           Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.
-        button_text: 'Anmelden 10:00'
-        disabled: true
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/691'
+        button_text: Anmelden
+        disabled: false
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/668'
   -
     type: paragraph
   -
@@ -62,21 +59,6 @@ rich_content:
   -
     type: bullet_list
     content:
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '20. Juni - '
-              -
-                type: text
-                marks:
-                  -
-                    type: italic
-                text: 'Open Air Gottesdienst'
       -
         type: list_item
         content:
@@ -188,7 +170,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1624176460
+updated_at: 1624213999
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
