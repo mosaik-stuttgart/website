@@ -2,39 +2,24 @@
 rich_content:
   -
     type: paragraph
-  -
-    type: set
-    attrs:
-      enabled: false
-      values:
-        type: html
-        html: |-
-          <div id="anmeldung" class=" -mx-2 mt-6 md:mt-10 p-3 md:px-5 md:py-4 bg-neutral-400 rounded-px text-gray-900 relative">
-            <div><div class="prose">
-            <h3 style="margin-bottom: 0">Anmeldung</h3>
-          	<p style="margin-bottom: 0.75rem">Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.<br>
-          	Achtung: Am nächsten Sonntag, den 13. Juni, finden einmal 2 Gottesdienste statt. <br/>
-          	</p>
-            </div> 
-          	<a class="inline-block mb-1 py-2 px-4 font-semibold text-gray-900 bg-blue-300 rounded-px
-              hover:cursor-pointer hover:shadow-sm hover:bg-opacity-75 focus:outline-none focus:bg-opacity-75 no-underline" target="_blank" href="https://mosaik-church.church.tools/publicgroup/665">
-                Anmelden 10:00 Uhr
-            </a>
-          	<a class="inline-block mb-1 py-2 px-4 font-semibold text-gray-900 bg-blue-300 rounded-px
-              hover:cursor-pointer hover:shadow-sm hover:bg-opacity-75 focus:outline-none focus:bg-opacity-75 no-underline" target="_blank" href="https://mosaik-church.church.tools/publicgroup/688">
-                Anmelden 11:30 Uhr
-            </a>
-            </div> 
-          </div>
-
-          <style>
-              .bg-neutral-400 {
-                filter: brightness(0.98);
-              }
-              [class*="bg-blue"] { filter: saturate(0.6) hue-rotate(16deg) }
-           </style>
-  -
-    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Alle zwei Wochen feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s immer um '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '10:30 Uhr'
+      -
+        type: text
+        text: .
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Melde dich am besten direkt an:'
   -
     type: set
     attrs:
@@ -169,8 +154,8 @@ title: 'Kirche im Hotel'
 template: default
 slug: gottesdienst
 blueprint: default
-updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1624213999
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1624613076
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
