@@ -2,8 +2,8 @@
 title: 'Mosaik Family Gottesdienst'
 header_image: images/livestream.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1622566867
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1624613215
 blueprint: default
 rich_content:
   -
@@ -22,13 +22,13 @@ rich_content:
     content:
       -
         type: text
-        text: 'Neben unseren Gottesdiensten im Maritim Hotel, feiern wir einmal im Monat gemeinsam mit den drei anderen Standorten unserer Mosaik Family, einen Online-Gottesdienst, der von der Mosaik Ulm aus ausgestrahlt wird.'
+        text: 'Neben unseren Gottesdiensten im Maritim Hotel, feiern wir einmal im Monat gemeinsam mit den drei anderen Standorten, unserer Mosaik Family, einen Online-Gottesdienst, der von der Mosaik Ulm aus ausgestrahlt wird.'
   -
     type: set
     attrs:
       values:
         type: cta_card
-        text: 'An dem Mosaik Family Gottesdienst, wirken Mitarbeiter aus allen vier Standorten mit. Du findest den Livestream dazu, auf dem YouTube Channel der Mosaik Ulm.'
+        text: 'An dem Mosaik Family Gottesdienst wirken Mitarbeiter aus allen vier Standorten mit. Du findest den Livestream auf dem YouTube Channel der Mosaik Ulm.'
         button_text: 'Zum Livestream'
         disabled: false
         cta_link: 'https://www.youtube.com/c/mosaikinfo/live'
@@ -96,33 +96,6 @@ rich_content:
   -
     type: bullet_list
     content:
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '23. Mai'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '06. Juni'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '20. Juni'
       -
         type: list_item
         content:
