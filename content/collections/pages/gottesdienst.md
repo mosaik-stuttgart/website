@@ -30,7 +30,7 @@ rich_content:
           Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.
         button_text: Anmelden
         disabled: true
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/674'
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/677'
   -
     type: paragraph
   -
@@ -44,15 +44,6 @@ rich_content:
   -
     type: bullet_list
     content:
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '25. Juli'
       -
         type: list_item
         content:
@@ -137,7 +128,7 @@ template: default
 slug: gottesdienst
 blueprint: default
 updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1627204719
+updated_at: 1627300870
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 id: c6f67036-26e8-452c-8798-6b5bf5967cfb
