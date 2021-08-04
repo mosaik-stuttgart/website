@@ -6,6 +6,6 @@
     fill: rgba(0,0,0,.33);
 }
 .nav-main {
-    height: calc(100% - 52px);
+    height: calc(100% - 52px) !important;
 }
 #statamic { overflow-x: hidden; }
