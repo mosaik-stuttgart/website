@@ -25,15 +25,16 @@ rich_content:
       values:
         type: cta_card
         text: |
-          ### Anmeldung
-          Am 15. August feiern wir wieder im Stuttgarter Ostergarten, einen Open-Air Gottesdienst mit Taufen.
-          Los geht's ausnahmsweise um 10:00 Uhr in Bad Cannstatt (Masurenstraße 31).
+          ### Anmeldung zum Open-Air-Gottesdienst
+          Am 15. August feiern wir wieder im Ostergarten Gottesdienst mit Taufe. 
+          Los geht's ausnahmsweise um **10:00 Uhr** in Bad Cannstatt (Masurenstraße 31). 
+                    Die Plätze sind limitiert. Melde dich am besten frühzeitig an.
           Wenn du zusammen mit deinem Partner, engen Verwandten oder anderen Angehörigen deines Haushaltes kommst, bitten wir dich dies bei der Anmeldung im Kommentarfeld anzugeben, so dass wir dies bei der Sitzplatzvergabe berücksichtigen können.
 
-          Nach dem Gottesdienst werden wir vor Ort grillen. 
-          Bitte bedenke, dass man für das anschließende Grillen vorher einen Antigen Schnelltest getätigt haben, geimpft oder genesen sein sollte.
+          Nach dem Gottesdienst werden wir vor Ort **grillen**. 
+          Für das gemeinsame Grillen gelten die 3G-Regeln. Wenn du nicht geimpft oder genesen bist, lasse dich bitte testen.
           Grillgut, Getränke und Brot werden wir stellen, weitere Beilagen bitten wir selbst mitzubringen.
-        button_text: Anmelden
+        button_text: 'Anmelden | 10:00 Uhr'
         disabled: false
         cta_link: 'https://mosaik-church.church.tools/publicgroup/695'
   -
@@ -177,8 +178,8 @@ rich_content:
 title: Gottesdienste
 template: default
 slug: gottesdienst
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1628507847
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1628543387
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
