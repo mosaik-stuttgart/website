@@ -4,21 +4,6 @@ blueprint: default
 rich_content:
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: 'Alle zwei Wochen feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s immer um '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: '10:30 Uhr'
-      -
-        type: text
-        text: .
-      -
-        type: hard_break
   -
     type: set
     attrs:
@@ -39,6 +24,18 @@ rich_content:
         cta_link: 'https://mosaik-church.church.tools/publicgroup/695'
   -
     type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '  '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Alle zwei Wochen feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s im Hotel immer um 10:30 Uhr.'
   -
     type: heading
     attrs:
@@ -179,7 +176,7 @@ title: Gottesdienste
 template: default
 slug: gottesdienst
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1628543387
+updated_at: 1628543694
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
