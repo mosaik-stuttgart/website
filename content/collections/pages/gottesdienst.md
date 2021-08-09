@@ -1,4 +1,6 @@
 ---
+id: c6f67036-26e8-452c-8798-6b5bf5967cfb
+blueprint: default
 rich_content:
   -
     type: paragraph
@@ -17,20 +19,20 @@ rich_content:
         text: .
       -
         type: hard_break
-      -
-        type: text
-        text: 'Melde dich am besten direkt an:'
   -
     type: set
     attrs:
       values:
         type: cta_card
-        text: |-
+        text: |
           ### Anmeldung
-          Am 15. August feiern wir wieder im Ostergarten Gottesdienst.
+          Am 15. August feiern wir wieder im Stuttgarter Ostergarten, einen Open-Air Gottesdienst mit Taufen.
           Los geht's ausnahmsweise um 10:00 Uhr in Bad Cannstatt (Masurenstraße 31).
-          Die Plätze sind limitiert. Melde dich am besten frühzeitig an.
-          Bei der Anmeldung ist es wichtig, dass du deinen Ehepartner und Kinder angibst, beziehungsweise ihr euch als WG einzeln anmeldet und in das Kommentarfeld schreibt, zu welcher WG ihr gehört. Dann wissen wir, wer zusammensitzen kann.
+          Wenn du zusammen mit deinem Partner, engen Verwandten oder anderen Angehörigen deines Haushaltes kommst, bitten wir dich dies bei der Anmeldung im Kommentarfeld anzugeben, so dass wir dies bei der Sitzplatzvergabe berücksichtigen können.
+
+          Nach dem Gottesdienst werden wir vor Ort grillen. 
+          Bitte bedenke, dass man für das anschließende Grillen vorher einen Antigen Schnelltest getätigt haben, geimpft oder genesen sein sollte.
+          Grillgut, Getränke und Brot werden wir stellen, weitere Beilagen bitten wir selbst mitzubringen.
         button_text: Anmelden
         disabled: false
         cta_link: 'https://mosaik-church.church.tools/publicgroup/695'
@@ -71,6 +73,60 @@ rich_content:
               -
                 type: text
                 text: '22. August'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '12. September'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '19. September'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '26. September'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '10. Oktober'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '17. Oktober'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '31. Oktober'
   -
     type: paragraph
     content:
@@ -78,7 +134,7 @@ rich_content:
         type: hard_break
       -
         type: text
-        text: 'An allen anderen Sonntagen nehmen wir von Zuhause am '
+        text: 'An allen anderen Sonntagen nehmen wir von Zuhause aus am '
       -
         type: text
         marks:
@@ -86,8 +142,9 @@ rich_content:
             type: link
             attrs:
               href: /besuche-uns/livestream
-              target: null
               rel: null
+              target: null
+              title: null
         text: 'Mosaik Family Gottesdienst'
       -
         type: text
@@ -117,13 +174,11 @@ rich_content:
             </div>
   -
     type: paragraph
-title: 'Kirche im Hotel'
+title: Gottesdienste
 template: default
 slug: gottesdienst
-blueprint: default
-updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1627842867
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1628507847
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
-id: c6f67036-26e8-452c-8798-6b5bf5967cfb
 ---
