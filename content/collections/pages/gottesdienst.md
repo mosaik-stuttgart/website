@@ -19,7 +19,7 @@ rich_content:
           Nach dem Gottesdienst werden wir vor Ort **grillen**. 
           Grillgut, Getränke und Brot werden wir stellen, weitere Beilagen bitten wir selbst mitzubringen.
         button_text: 'Anmelden | 10:00 Uhr'
-        disabled: false
+        disabled: true
         cta_link: 'https://mosaik-church.church.tools/publicgroup/695'
   -
     type: paragraph
@@ -174,8 +174,8 @@ rich_content:
 title: Gottesdienste
 template: default
 slug: gottesdienst
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1628613800
+updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
+updated_at: 1629020113
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
