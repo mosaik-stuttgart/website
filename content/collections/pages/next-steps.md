@@ -18,7 +18,7 @@ rich_content:
         type: hard_break
       -
         type: text
-        text: 'Next Steps findet sonntags immer direkt nach den Gottesdiensten im Maritim Hotel statt. An allen Sonntagen, an denen wir Mosaik Family Gottesdienste per Livestream feiern, startet der Next Steps Kurs ab 11:30 per Zoom Link.'
+        text: 'Next Steps findet sonntags immer direkt nach den Gottesdiensten im Maritim Hotel statt. An allen Sonntagen, an denen wir Mosaik Family Gottesdienste per Livestream feiern, startet der Next Steps Kurs ab 18:00 per Zoom Link.'
       -
         type: hard_break
       -
@@ -59,6 +59,6 @@ header_image: images/Next_Steps_Insta.jpg
 title: 'Next Steps'
 slug: next-steps
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1628182885
+updated_at: 1629723839
 hero: false
 ---
