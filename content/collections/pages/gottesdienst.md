@@ -13,7 +13,7 @@ rich_content:
           ### Anmeldung zum Gottesdienst
           Die Plätze sind limitiert. Melde dich am besten frühzeitig an.
           Wenn du zusammen mit deinem Partner, engen Verwandten oder anderen Angehörigen deines Haushaltes kommst, bitten wir dich dies bei der Anmeldung im Kommentarfeld anzugeben, so dass wir dies bei der Sitzplatzvergabe berücksichtigen können.
-        button_text: 'Anmelden | 10:30 Uhr'
+        button_text: Anmelden
         disabled: true
         cta_link: 'https://mosaik-church.church.tools/publicgroup/680'
   -
@@ -29,7 +29,7 @@ rich_content:
     content:
       -
         type: text
-        text: 'Alle zwei Wochen feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s im Hotel immer um 10:30 Uhr.'
+        text: 'Dreimal im Monat feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s im Hotel immer um 10:30 Uhr.'
   -
     type: heading
     attrs:
@@ -154,8 +154,8 @@ rich_content:
 title: Gottesdienste
 template: default
 slug: gottesdienst
-updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1629619042
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1629921198
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
