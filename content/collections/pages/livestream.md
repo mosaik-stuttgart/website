@@ -1,10 +1,11 @@
 ---
+id: f6e58554-18d0-44bb-9b5a-162626aafb70
+blueprint: default
 title: 'Mosaik Family Gottesdienst'
 header_image: images/livestream.jpg
 parent: a92323c9-9033-4013-a5af-5f754218a74f
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1624613215
-blueprint: default
+updated_at: 1629920950
 rich_content:
   -
     type: heading
@@ -80,8 +81,6 @@ rich_content:
         url: 'https://www.youtube.com/c/mosaikinfo?sub_confirmation=1'
   -
     type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: hard_break
@@ -104,7 +103,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '04. Juli'
+                text: '29. August'
       -
         type: list_item
         content:
@@ -113,7 +112,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '18. Juli'
+                text: '5. September'
       -
         type: list_item
         content:
@@ -122,7 +121,7 @@ rich_content:
             content:
               -
                 type: text
-                text: '08. August'
+                text: '3. Oktober'
       -
         type: list_item
         content:
@@ -131,7 +130,15 @@ rich_content:
             content:
               -
                 type: text
-                text: '15. August'
+                text: '24. Oktober'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '21. November'
 hero: false
-id: f6e58554-18d0-44bb-9b5a-162626aafb70
 ---
