@@ -22,7 +22,7 @@
 </style>
 <section x-data="{loaded: false}" x-init="()=>loaded = true" x-ref="hero" x-on:scroll.window.passive="parallax($refs)"
     class="-mt-14 w-full bg-gray-800 bg-no-repeat bg-cover text-center flex flex-col pt-12 relative z-0"
-    style="height: 90vh; background-image: linear-gradient(rgba(155, 105, 255, 0.1), rgba(0, 100, 255, 0.1)), url({{header_image}}); background-position: 80% 30%;">
+    style="height: 90vh; background-image: linear-gradient(rgba(155, 105, 255, 0.1), rgba(0, 100, 255, 0.1)), url({{header_image}}); background-position: {{header_image:focus | background_position}}">
     <div class="my-auto" x-ref="heroText" x-show="loaded" x-cloak
     x-transition:enter="transition ease-in-out duration-500"
     x-transition:enter-start="opacity-0 transform translate-y-10"
