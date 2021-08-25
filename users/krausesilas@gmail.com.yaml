@@ -36,3 +36,6 @@ preferences:
     -
       name: Hauptmenü
       url: navigation/navigation
+  assets:
+    main:
+      mode: grid

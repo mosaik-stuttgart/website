@@ -1,4 +1,6 @@
 ---
+id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
+blueprint: home
 primary_card:
   -
     type: heading
@@ -42,9 +44,9 @@ steps:
     type: step
     titel: 'Gott kennen'
     linktext: 'Predigten anhören'
-    text: '<p>Wir tr&auml;umen von einer Kirche, in der Menschen <strong>Gott kennen</strong> und in intensiver Beziehung zu ihm stehen!</p>'
+    text: '<p>Wir träumen von einer Kirche, in der Menschen <strong>Gott kennen</strong> und in intensiver Beziehung zu ihm stehen!</p>'
     subtitel: Gottesdienst
-    bild: images/gottesdienst-hotel-1617789163.jpg
+    bild: images/david_preacht.jpg
     ziel: ed8bf94f-f4a2-4099-a34d-9eb1077a8438
     enabled: true
     cta: 'entry::ed8bf94f-f4a2-4099-a34d-9eb1077a8438'
@@ -53,7 +55,7 @@ steps:
     titel: 'Freiheit erleben'
     subtitel: Homezones
     linktext: 'Homezone finden'
-    text: '<p>Wir tr&auml;umen von einer Kirche, in der Menschen ihre Einzigartigkeit erkennen und echte <strong>Freiheit erleben</strong>.</p>'
+    text: '<p>Wir träumen von einer Kirche, in der Menschen ihre Einzigartigkeit erkennen und echte <strong>Freiheit erleben</strong>.</p>'
     ziel: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
     bild: images/homezones-1562411070.jpg
     enabled: true
@@ -65,7 +67,7 @@ steps:
     subtitel: Dreamteams
     linktext: 'Next Steps'
     ziel: 1c507839-092f-452c-aabe-7eaf1fc95998
-    text: '<p>Wir tr&auml;umen von einer Kirche, in der Menschen ihr <strong>Potenzial entfalten</strong>, um gemeinsam an etwas Gewaltigem zu bauen!</p>'
+    text: '<p>Wir träumen von einer Kirche, in der Menschen ihr <strong>Potenzial entfalten</strong>, um gemeinsam an etwas Gewaltigem zu bauen!</p>'
     enabled: true
     cta: 'entry::faa47d88-a7dc-45d9-9f1d-d46deafeed43'
   -
@@ -73,9 +75,9 @@ steps:
     bild: images/jesus.jpg
     titel: 'Jesus wider&shy;spiegeln'
     subtitel: 'Im Alltag'
-    text: '<p>Wir tr&auml;umen von einer Kirche, die <strong>Jesus widerspiegelt</strong> und seine Liebe in die Mitte der Gesellschaft tr&auml;gt.</p>'
+    text: '<p>Wir träumen von einer Kirche, die <strong>Jesus widerspiegelt</strong> und seine Liebe in die Mitte der Gesellschaft trägt.</p>'
     enabled: true
-header_image: images/header.jpg
+header_image: images/gottesdienst-hotel.jpg
 welcome_home: 'Welcome Home'
 subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart.'
 seo:
@@ -94,10 +96,8 @@ card: |
 title: Home
 template: home
 slug: home
-blueprint: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1622849582
-id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
+updated_at: 1629922704
 content:
   -
     type: paragraph
