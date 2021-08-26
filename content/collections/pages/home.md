@@ -77,7 +77,7 @@ steps:
     subtitel: 'Im Alltag'
     text: '<p>Wir träumen von einer Kirche, die <strong>Jesus widerspiegelt</strong> und seine Liebe in die Mitte der Gesellschaft trägt.</p>'
     enabled: true
-header_image: images/gottesdienst-hotel.jpg
+header_image: images/gottesdienst-hotel-silas.jpg
 welcome_home: 'Welcome Home'
 subtitle: 'Mosaik Church, deine Kirche im Herzen von Stuttgart.'
 seo:
@@ -97,7 +97,7 @@ title: Home
 template: home
 slug: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1629923706
+updated_at: 1629973499
 content:
   -
     type: paragraph
