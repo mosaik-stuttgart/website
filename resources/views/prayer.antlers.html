@@ -55,7 +55,7 @@
 			<div x-show="date.setHours(21) > now" x-data="{ date: new Date(`September ${index}, 2021`), now: Date.now()}">
 				<h3 class="uppercase font-bold text-xl mb-2" x-text="date.toLocaleDateString('de', { weekday: 'long' })"></h3>
 				<ul class="divide-y divide-green-200 border-b border-green-200 font-semibold text-lg">
-					<template x-for="(event, index) in weekday.sort((a,b)=>a.id - b.id)">
+					<template x-for="(event, index) in weekday.sort((a,b)=>a.information.meetingTime.split(':')[0] - b.information.meetingTime.split(':')[0])">
 						<li class="group" x-data="{availableSeats: event.maxMemberCount - event.currentMemberCount, past: date.setHours(8) < now && index == 0}">
 							<a target="_blank" :href="'https://mosaik-church.church.tools/publicgroup/'+event.id" :class="past ? 'bg-gray-50 hover:bg-gray-100 border-t border-gray-200 -mt-px' : availableSeats <= 0 ? 'bg-red-50 hover:cursor-not-allowed relative z-10 border-t border-b border-red-200 -my-px': 'bg-green-50 hover:bg-green-100 hover:bg-opacity-80'" class="inline-flex justify-between items-center px-4 py-4 w-full transition duration-150">
 								<div x-show="!past" class="flex flex-col">
@@ -96,7 +96,7 @@
 			Römerstraße 10 <br>
 			70178 Stuttgart
 		</p>
-		<p class="text-gray-900 sm:mdtext-sm">
+		<p class="text-gray-900 sm:text-sm">
 			Parkplätze findest du z.B. in der direkt angrenzenden Tübingerstraße. Falls hier keine mehr frei sind in der Parallelstraße, der Hohen&shy;staufen&shy;straße. Oder komme mit dem ÖPNV zum Marienplatz.
 		</p>
 
