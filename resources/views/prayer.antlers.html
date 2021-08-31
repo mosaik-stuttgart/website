@@ -1,0 +1,91 @@
+{{partial:Layout/Hero}}
+{{partial:Layout/Content}}
+{{# <script type="importmap">
+	Safari 🤦🏽‍♂️
+{
+	"imports": {
+		"@churchtools/churchtools-client": "https://cdn.skypack.dev/pin/@churchtools/churchtools-client@v1.1.0-eD1aaT06Wr2L79Ch8GmP/mode=imports,min/optimized/@churchtools/churchtools-client.js",
+		"alpinejs": "https://cdn.skypack.dev/pin/alpinejs@v3.2.4-9ymVnSNFWDr1txdBYJz1/mode=imports,min/optimized/alpinejs.js"
+	}
+}
+</script> #}}
+<script type="module">
+	import { churchtoolsClient } from "https://cdn.skypack.dev/pin/@churchtools/churchtools-client@v1.1.0-eD1aaT06Wr2L79Ch8GmP/mode=imports,min/optimized/@churchtools/churchtools-client.js"
+	import Alpine from "https://cdn.skypack.dev/pin/alpinejs@v3.2.4-9ymVnSNFWDr1txdBYJz1/mode=imports,min/optimized/alpinejs.js"
+	churchtoolsClient.setBaseUrl('https://mosaik-church.church.tools/')
+
+	function groupByDate(objectArray) {
+		return objectArray.reduce((days, obj) => {
+			//const key = obj.information.weekday.id;
+			const key = obj.name.substring(obj.name.indexOf('09')-3, obj.name.indexOf('09')-1);
+			(days[key] = days[key] || []).push(obj);
+			return days;
+		}, {});
+	}
+	
+
+	Alpine.data('groups', (initialOpenState = []) => ({
+		groups: initialOpenState,
+		init() {
+			churchtoolsClient
+				.get('/grouphomepages/5GK85TY28Az1qabjhtmhhlxUqPDrOIXM')
+				.then(prayer => {
+					this.groups = groupByDate(prayer.groups)
+				})
+				.catch(error => {
+					console.error(error)
+					this.groups = { 
+						error: true,
+						message: "Termine konnten nicht geladen werden"
+					}
+				})
+		}
+	}))
+
+	Alpine.start()		
+</script>
+
+<section x-data="groups" class="max-w-2xl md:mx-auto w-full my-10">
+	<h1 class="text-3xl font-bold mb-8">Anmeldung</h1>
+	<p x-show="groups.length == 0">Termine werden geladen...</p>
+	<pre x-show="groups.error" class="text-red-500" x-text="groups.message"></pre>
+	
+	<div x-show="!groups.error" class="flex flex-col md:grid grid-cols-2 gap-6 gap-y-12">
+		<template x-for="(weekday, index) in groups">
+			<div x-show="date.setHours(21) > now" x-data="{ date: new Date(`September ${index}, 2021`), now: Date.now()}">
+				<h3 class="uppercase font-bold text-xl mb-2" x-text="date.toLocaleDateString('de', { weekday: 'long' })"></h3>
+				<ul class="divide-y divide-green-200 border-b border-green-200 font-semibold text-lg">
+					<template x-for="(event, index) in weekday.sort((a,b)=>a.id - b.id)">
+						<li class="group" x-data="{availableSeats: event.maxMemberCount - event.currentMemberCount, past: date.setHours(8) < now && index == 0}">
+							<a target="_blank" :href="'https://mosaik-church.church.tools/publicgroup/'+event.id" :class="past ? 'bg-gray-50 hover:bg-gray-100 border-t border-gray-200 -mt-px' : availableSeats <= 0 ? 'bg-red-50 hover:cursor-not-allowed relative z-10 border-t border-b border-red-200 -my-px': 'bg-green-50 hover:bg-green-100 hover:bg-opacity-80'" class="inline-flex justify-between items-center px-4 py-4 w-full transition duration-150">
+								<div x-show="!past" class="flex flex-col">
+									<span x-text="event.information.meetingTime" :class="availableSeats <= 0 ? 'text-red-900': 'text-green-900'"></span>
+									<div x-show="availableSeats > 0" class="text-xs -mt-1 font-light text-green-600">
+										<svg class="inline text-green-700 -mr-1.5 opacity-80" xmlns="http://www.w3.org/2000/svg" height="13" viewBox="5 1.5 26 24" width="18"><path fill="currentColor" d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+										<span x-show="availableSeats > 3" x-text="`Noch ${availableSeats} Plätze frei`"></span>
+										<span x-show="availableSeats <= 3" x-text="`Nur noch ${availableSeats} ${availableSeats > 1 ? 'Plätze' : 'Platz'} frei!`"></span>
+									</div>
+									<div x-show="availableSeats <= 0" class="text-xs -mt-1 font-light text-red-600">
+										<svg class="inline text-red-600 -mr-1.5 opacity-80" xmlns="http://www.w3.org/2000/svg" height="13" viewBox="5 1.5 26 24" width="18"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-4.42 3.58-8 8-8 1.85 0 3.55.63 4.9 1.69L5.69 16.9C4.63 15.55 4 13.85 4 12zm8 8c-1.85 0-3.55-.63-4.9-1.69L18.31 7.1C19.37 8.45 20 10.15 20 12c0 4.42-3.58 8-8 8z"/></svg>
+										<span x-text="`Keine Plätze mehr frei`"></span>
+									</div>
+								</div>
+								<div x-show="past" class="flex flex-col">
+									<span x-text="event.information.meetingTime" class="text-gray-800"></span>
+									<div class="text-xs -mt-1 font-light text-gray-600">
+										<svg class="inline text-gray-600 -mr-1.5 opacity-80" xmlns="http://www.w3.org/2000/svg" height="13" viewBox="5 1.5 26 24" width="18"><path fill="currentColor" d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.25 2.52.77-1.29-3.52-2.09V8H12z"/></svg>
+										<span x-text="`Hat schon stattgefunden`"></span>
+									</div>
+								</div>
+								<svg x-show="availableSeats > 0 && !past" class="text-[#172017] transition-transform ease-out group-hover:translate-x-0.5" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="4 -2 24 24" width="24">
+									<path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z" />
+								</svg>
+							</a>
+						</li>
+					</template>
+				</ul>
+			</div>
+		</template>
+</section>
+	
+{{/partial:Layout/Content}}
