@@ -10,9 +10,9 @@
 }
 </script> #}}
 <script type="module">
-	import { churchtoolsClient } from "https://cdn.skypack.dev/pin/@churchtools/churchtools-client@v1.1.0-eD1aaT06Wr2L79Ch8GmP/mode=imports,min/optimized/@churchtools/churchtools-client.js"
-	import Alpine from "https://cdn.skypack.dev/pin/alpinejs@v3.2.4-9ymVnSNFWDr1txdBYJz1/mode=imports,min/optimized/alpinejs.js"
-	churchtoolsClient.setBaseUrl('https://mosaik-church.church.tools/')
+	import { churchtoolsClient } from "https://cdn.skypack.dev/pin/@churchtools/churchtools-client@v1.1.0-eD1aaT06Wr2L79Ch8GmP/mode=imports,min/optimized/@churchtools/churchtools-client.js";
+	import Alpine from "https://cdn.skypack.dev/pin/alpinejs@v3.2.4-9ymVnSNFWDr1txdBYJz1/mode=imports,min/optimized/alpinejs.js";
+	churchtoolsClient.setBaseUrl('https://mosaik-church.church.tools/');
 
 	function groupByDate(objectArray) {
 		return objectArray.reduce((days, obj) => {
@@ -21,7 +21,7 @@
 			(days[key] = days[key] || []).push(obj);
 			return days;
 		}, {});
-	}
+	};
 	
 
 	Alpine.data('groups', (initialOpenState = []) => ({
@@ -33,7 +33,7 @@
 					this.groups = groupByDate(prayer.groups)
 				})
 				.catch(error => {
-					console.error(error)
+					console.error(error);
 					this.groups = { 
 						error: true,
 						message: "Termine konnten nicht geladen werden"
