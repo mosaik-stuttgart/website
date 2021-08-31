@@ -4,7 +4,7 @@ html { scroll-behavior: smooth; }
     scroll-margin-top: 100px;
     scroll-snap-margin-top: 100px; 
 }
-body { @apply bg-white font-hairline }
+body { @apply bg-white font-thin }
 main {position: relative;}
 /* p:empty { display: none; } */
 
@@ -27,9 +27,9 @@ main {position: relative;}
     background: linear-gradient(#2a4365, #fff);
 }
 .bg-warm-700 {
-    --bg-opacity: 1;
+    --tw-bg-opacity: 1;
     background-color: #BEBEBE;
-    background-color: rgba(200,200,200,var(--bg-opacity));
+    background-color: rgba(200,200,200,var(--tw-bg-opacity));
 }
 .bg-t-gray {
     background: rgba(22, 12, 56, .11);
@@ -67,7 +67,8 @@ main {position: relative;}
 }
 
 .primary_card a {
-    @apply mb-2 mt-2 font-semibold inline-block leading-relaxed px-2 py-px rounded-sm bg-t-gray;
+    @apply mb-2 mt-2 font-semibold inline-block leading-relaxed px-2 py-px rounded-sm;
+    background: rgba(22, 12, 56, .11);
     &:hover {
         background-color: rgba(22,12,56,.15);
     }
