@@ -59,7 +59,7 @@ steps:
     ziel: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
     bild: images/homezones-1562411070.jpg
     enabled: true
-    cta: 'entry::cf1f52b8-f2ab-4c29-ac42-a775be5b764a'
+    cta: 'entry::a67c8f4a-2ed3-4d13-9534-0f2bb0cd7305'
   -
     type: step
     bild: images/dreamteams.jpg
@@ -97,7 +97,7 @@ title: Home
 template: home
 slug: home
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1629973991
+updated_at: 1630419974
 content:
   -
     type: paragraph
