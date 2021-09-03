@@ -1,10 +1,10 @@
-<div x-cloak x-data="liveStreamStatus()" x-init="fetchStatus()" >
+{{# <div x-cloak x-data="liveStreamStatus()" x-init="fetchStatus()" >
 <a x-show="live" target="_blank" rel="noopener noreferrer" x-bind:href="video" class="hover:pointer w-full block text-sm p-2 bg-red-700 text-white font-medium text-center relative z-10" style="--bg-opacity: 0.9">
   <span class="inline-flex items-center w-36 space-x-2">
-    <svg xmlns="http://www.w3.org/2000/svg" class="inline animate-pulse" width="12" height="12" viewBox="0 0 24 24" fill="#FFFFFF"><circle cx="12" cy="12" r="10"></circle></svg> 
+    <svg xmlns="http://www.w3.org/2000/svg" class="inline animate-pulse" width="12" height="12" viewBox="0 0 24 24" fill="#FFFFFF"><circle cx="12" cy="12" r="10"></circle></svg>
     <span  class="border-b border-red-400">Wir sind live</span>
 </a>
-</div>
+</div> #}}
 <style>
   .animate-pulse {
     animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
@@ -20,7 +20,7 @@
     }
   }
 </style>
-<section x-data="{loaded: false}" x-init="()=>loaded = true" x-ref="hero" x-on:scroll.window.passive="parallax($refs)"
+<section x-data="{loaded: false}" x-init="$nextTick(()=>{loaded = true})" x-ref="hero" x-on:scroll.window.passive="parallax($refs)"
     class="-mt-14 w-full bg-gray-800 bg-no-repeat bg-cover text-center flex flex-col pt-12 relative z-0"
     style="height: 90vh; background-image: linear-gradient(rgba(155, 105, 255, 0.1), rgba(0, 100, 255, 0.1)), url({{header_image}}); background-position: {{header_image:focus | background_position}}">
     <div class="my-auto" x-ref="heroText" x-show="loaded" x-cloak
@@ -30,8 +30,8 @@
     <div class="font-serif font-semibold text-6xl sm:text-7xl lg:text-8xl text-white text-shadow-sm leading-none">{{welcome_home}}</div>
     <div>
         <!-- <hr class="border-b pt-4 border-gray-100 w-24 my-4"> -->
-        <h1 class="mt-4 md:mt-2 font-sans text-base text-gray-100 text-shadow-lg w-5/6 mx-auto font-medium leading-tight">{{subtitle}}</h1>  
-    </div>  
+        <h1 class="mt-4 md:mt-2 font-sans text-base text-gray-100 text-shadow-lg w-5/6 mx-auto font-medium leading-tight">{{subtitle}}</h1>
+    </div>
 </div>
 <a id="👋🏼" href="#👋🏼" class="tap-highlight-none focus:outline-none relative z-10 font-mono text-gray-300 text-shadow mx-auto py-3" style="transform: translateY(-5rem)">
   <svg class="h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -43,11 +43,11 @@
 <section class="bg-white relative z-10 -mb-16 flex flex-col justify-center">
       <div class="primary_card w-11/12 mx-auto bg-neutral-400 bg-opacity-25 rounded-px text-indigo-900 p-4 md:p-6 md:py-5 max-w-3xl transform -translate-y-16">
         {{primary_card}}
-        <style> 
+        <style>
           .primary_card a:after {
             content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" class="inline"  width="20" height="12" viewBox="14 2 30 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="square" stroke-linejoin="arcs"><path d="M 4.903 11.986 L 42.971 12.252 M 36.971 5.252 L 43.971 12.252 L 36.971 19.252"></path></svg>');
             display: inline-block;
-            margin-left: 8px; 
+            margin-left: 8px;
             transform: translateY(2px);
           }
         </style>
@@ -56,7 +56,7 @@
 <main>
 
 <div class="px-4 pt-12 -mb-6">
- {{steps}} 
+ {{steps}}
  <div class="flex flex-col md:flex-row mt-12 mb-24 md:mb-32 md:max-w-4xl lg:max-w-4xl mx-auto">
         <picture class="bg-gray-200 block relative md:static z-10 md:z-0 w-full md:w-3/5 md:max-w-md lg:max-w-lg">
             <source type="image/webp" srcset="{{ glide :src='bild' h='800' w='1024' q='80' fm='webp' }} 1024w, {{ glide :src='bild' h='400' w='512' q='80' fm='webp' }} 512w" sizes="100%"/>
@@ -66,7 +66,7 @@
         <div class="md:py-8">
           <h4 class="md:hidden mt-4 -mb-1 text-lg font-medium text-gray-700 pl-px leading-snug tracking-wide opacity-75">{{subtitel | upper }}</h4>
           <h2
-            class="uppercase tracking-loose font-extrabold text-4xl sm:text-4xxl leading-none md:bg-white md:pt-2 md:pb-3 font-serif md:mt-3 md:-ml-12 relative md:z-20 md:pl-3 break-words" 
+            class="uppercase tracking-loose font-extrabold text-4xl sm:text-4xxl leading-none md:bg-white md:pt-2 md:pb-3 font-serif md:mt-3 md:-ml-12 relative md:z-20 md:pl-3 break-words"
           >
             {{titel}}
           </h2>
@@ -81,12 +81,12 @@
           </div>
         </div>
       </div>
- {{/steps}}  
-</div> 
+ {{/steps}}
+</div>
 <style>
   .bg-image {
-    background: 
-      linear-gradient(#fdfcffec, #fdfcffff), 
+    background:
+      linear-gradient(#fdfcffec, #fdfcffff),
       url('{{ glide src="/assets/main/images/jesus_saves.jpg" width="800" format="webp" quality="70" }}'),
       #5A67D8;
   }
@@ -114,10 +114,10 @@
            .then(res => res.json())
            .then(res => {
               console.log(`We are live! `+(res.items.length > 0));
-              console.log(`videoId: `+res.items[0].id.videoId);          
+              console.log(`videoId: `+res.items[0].id.videoId);
       })
     }
-  } 
+  }
 </script>
 <!--FAQ SCHEMA-->
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wieso feiern wir Gottesdienst?","acceptedAnswer":{"@type":"Answer","text":"Gottesdienst feiern bedeutet für uns Gott zu begegnen, seine verändernde Kraft zu erfahren und ihn dafür zu ehren sowie zu feiern, dass er uns auf verschiedene Weise seine Liebe zu uns gezeigt hat."}},{"@type":"Question","name":"Was erwartet mich in einem Gottesdienst?","acceptedAnswer":{"@type":"Answer","text":"Der Gottesdienst am Sonntag dauert ca. 70 Minuten.\nDu darfst dich auf eine besucherorientierte und freundliche Atmosphäre freuen. Unser Gottesdienst beginnt mit zeitgemäßer, auf Gott ausgerichteter Musik und geht über in eine Predigt, die praktisch und relevant für dein Leben ist."}},{"@type":"Question","name":"Wie kann ich andere kennenlernen und Anschluss finden?","acceptedAnswer":{"@type":"Answer","text":"Da gibt es verschiedene Möglichkeiten. Über das Kontakteknüpfen an einem Sonntagsgottesdienst hinaus empfehlen wir dir als ersten Schritt, an \"Next Steps\" teilzunehmen, um die Church besser kennenzulernen. Außerdem sind wir in Kleingruppen - sogenannten Homezones - organisiert, die sich unter der Woche treffen. Hier kannst du Freundschaften knüpfen und aufbauen und mehr über das Leben und die Gemeinde erfahren. In all dem bekommst du die Möglichkeit, in deinem Glauben zu wachsen."}}]}</script>
