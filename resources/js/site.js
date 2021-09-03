@@ -1,5 +1,7 @@
-import "instant.page"
-import "alpinejs"
+import "instant.page";
+import Alpine from 'alpinejs';
+window.Alpine = Alpine;
+Alpine.start()
 
 function liveStreamStatus() {
     const API_URL = 'https://www.googleapis.com/youtube/v3/search?part=snippet'
