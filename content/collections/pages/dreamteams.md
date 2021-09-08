@@ -1,4 +1,6 @@
 ---
+id: a2a99bfd-edd8-4ace-af21-917ad6de0ab4
+blueprint: default
 rich_content:
   -
     type: paragraph
@@ -11,13 +13,13 @@ rich_content:
     content:
       -
         type: text
-        text: 'Bistroteam, Serviceteam, Lichttechnik, Soundtechnik, Beamerteam, Worshipteam, Mediateam, Connectteam, Heimwerkerteam, Kidsteam, u.v.m.'
+        text: 'Bistroteam, Serviceteam, Lichttechnik, Soundtechnik, Beamerteam, Worshipteam, Mediateam, Connectteam, Heimwerkerteam, Serve-the-City Team, Kidsteam, u.v.m.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Einfach an einem Next Steps Kurs teilnehmen und die für dich passende Dienstgruppe finden.'
+        text: 'Wir laden dich ein, an unserem Next Steps Kurs teilnehmen, in dem du unsere Kirche besser kennen lernst und ein Dreamteam finden kannst, in dem du dein Potential entfalten kannst!'
   -
     type: paragraph
   -
@@ -31,16 +33,10 @@ rich_content:
     type: paragraph
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: '[haltung eines Mitarbeiters]'
 header_image: images/dreamteams.jpg
 title: Dreamteams
 slug: dreamteams
-blueprint: default
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1611658689
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1631103785
 hero: false
-id: a2a99bfd-edd8-4ace-af21-917ad6de0ab4
 ---
