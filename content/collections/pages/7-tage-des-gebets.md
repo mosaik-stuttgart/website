@@ -6,21 +6,26 @@ header_image: images/prayer.jpg
 template: prayer
 hero: false
 parent: 1c507839-092f-452c-aabe-7eaf1fc95998
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1630411688
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1631632405
 rich_content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Wir glauben, dass Gebet einen großen Stellenwert in unserem Leben einnehmen sollte. Deshalb gibt es zweimal im Jahr unsere 7 Tage des Gebets. Diesen Sommer finden sie vom '
+        text: 'An Gottes Segen ist alles gelegen. Darum wollen wir als Kirche nicht nur auf unsere eigenen Fähigkeiten setzen, sondern uns nach Gottes Wirken ausstrecken und dem Gebet einen hohen Stellenwert geben. '
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Deshalb treffen wir uns vor jedem Semester gemeinsam für mehrere Tage in unseren 7 bzw. 21 Tagen des Gebets. Diesen Sommer finden sie vom '
       -
         type: text
         marks:
           -
             type: bold
-        text: '13. bis 19. September'
+        text: '20. bis 26. September'
       -
         type: text
         text: ' statt.'
