@@ -1,94 +1,60 @@
 ---
+id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
+blueprint: find_homezone
 homezones:
   -
-    title: 'Starter Homezone'
-    full: false
-    target_group: 'Jeder der neu in der Kirche ist'
-    topic: 'Anschluss finden, im Glauben wachsen'
-    location: 'Momentan auf Zoom, bald vielleicht ja wieder im Wohnzimmer :)'
-    weekday: Mittwoch
-    time: '19:30'
-    biweekly: false
-    tags:
-      - 'Church kennenlernen'
-      - Gemeinschaft
-      - Fun
-    more_info: |-
-      Bist du neu in der Mosaik Church und möchtest Anschluss finden?
-      Dann ist unsere Homezone genau das richtige für dich!
-
-      Wir wollen uns gegenseitig im Glauben ermutigen, Jesus besser kennenlernen, Fun miteinander haben und in der Church ankommen.
-    contact_person: 'Simon Garrecht'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/683'
-    type: homezone
-    enabled: true
-  -
-    title: 'Deep Talk 3.0'
+    title: 'Deep Talk 4.0'
     full: false
     target_group: 'Alle :-)'
     topic: 'Serendipity Bible: Der Gott, der uns nahe ist'
     location: Unterschiedlich
     weekday: Dienstag
-    time: '19:30'
+    time: '19:00'
     biweekly: false
     tags:
-      - 'Gott erleben'
-      - 'Quality Time'
-      - Fun
-    more_info: '"Gott nahe zu Sein sein ist mein Glück". So betet ein Psalm. Und Glück wohnt nicht nur im Kopf. Es ist spürbar mit allen Sinnen. Im kommenden Sommersemester wollen wir all unsere Sinne in unserem Glauben mit einbeziehen und so die Freude an Gott miteinander spürbar machen. Durch gemeinsame Aktionen wollen wir den Frühling und Sommer ganz neu erleben und sehen, auf wie vielfältige weise uns Gott in unserem Alltag begegnen möchte. Gemeinsam möchten wir uns darüber austauschen, wie wir Gottes Nähe mit all unseren Sinnen wahrnehmen können und lesen, was Gottes Wort uns darüber lehren möchte. Wir freuen uns auf dich!'
+      - Austausch
+      - Lobpreis
+      - Liebessprache
+    more_info: 'Gott lädt uns ein, ihn mit unserer ganz persönlichen Liebessprache zu suchen und zu hören. Er wirbt für Großzügigkeit, Gelassenheit und Freude. Wir wollen diese Beziehung zu ihm und zueinander stärken und vertiefen.'
     contact_person: 'Sinja Hiss, Sucithra Dey'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/646'
     type: homezone
-    enabled: true
+    enabled: false
   -
-    title: Origins
+    title: 'Bible and Friends'
     full: true
     target_group: Jeder!
-    topic: 'Genesis - das erste Buch der Bibel'
+    topic: 'Exodus - das zweite Buch der Bibel'
     location: 'Unterschiedlich (jeder ist mal Gastgeber)'
     weekday: Dienstag
-    time: '19:30'
+    time: '19:00'
     biweekly: false
     tags:
       - Bibel
       - Gemeinschaft
-      - Gebet
-    more_info: 'Zusammen wollen wir das erste Buch der Bibel mit all seinen interessanten, spannenden und für uns vielleicht manchmal auch komischen Geschichten erkunden und dabei entdecken, wie relevant dieses Buch für uns ist.'
+      - Essen
+    more_info: |-
+      Was gibt es besseres, als gemeinsam mit guten Freunden abzuhängen, leckeres Essen zu genießen und über das faszinierendste Buch der Welt zu quatschen?
+      Das zweite Buch der Bibel hat es in sich und wir sind total gespannt, was wir gemeinsam über Gott und uns lernen werden. Gutes Essen fehlt nie und du hoffentlich auch nicht. ;)
     contact_person: 'Silas Kettner + Nathalie Müller'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/629'
     type: homezone
     enabled: true
   -
-    title: 'Mosaik Kickers'
-    full: false
-    target_group: 'Für Kugelstoßer und Ballschubser aller Art'
-    location: 'Kornwestheim - Soccerhalle'
-    weekday: Montag
-    time: '19:30'
-    biweekly: true
-    tags:
-      - Input
-      - Kicken
-      - Gemeinschaft
-    contact_person: 'Etienne Graf'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/458'
-    type: homezone
-    enabled: false
-  -
     title: 'Jung & Jünger'
     full: false
-    target_group: 18-22
-    topic: Hebräerbrief
+    target_group: 'alle Anfang 20 (plus, minus :D)'
+    topic: '1. Korinther'
     weekday: Dienstag
-    time: '19:00'
+    time: '19:30'
     biweekly: false
     tags:
-      - Jung
-      - Frisch
-      - Lebendig
+      - Spaß
+      - Bibel
+      - Beten
     more_info: |-
       Du fühlst dich jung, frisch und hast Lust mit anderen jungen Menschen das Leben in Angriff zu nehmen? Dann bist du herzlich Willkommen bei „Jung & Jünger“. 
-      Wir wollen gemeinsam Spaß haben, Leben teilen und den Hebräerbrief auseinander nehmen. 
+      Wir wollen gemeinsam Spaß haben, Leben teilen und Jesus nachfolgen.
 
       Jesus hatte eine Gruppe von 12 Jüngern, mit denen er durch das Leben ging. Deshalb bleib nicht alleine, sondern schließ dich uns an, um gemeinsam Jesus nachzufolgen. 
       Wir freuen uns auf die Zeit mit dir.
@@ -101,10 +67,10 @@ homezones:
     title: 'Thank God it´s Tuesday'
     full: true
     target_group: 'Jeder ist willkommen'
-    topic: 'Namen Gottes'
-    location: 'Unterschiedliche Wohnzimmer und Parks in Stuttgart'
+    topic: 'Namen & Titel Gottes'
+    location: 'wechselnd, bei jedem der gerne Gäste bei sich hat'
     weekday: Dienstag
-    time: '20:00'
+    time: '19:30'
     biweekly: false
     tags:
       - Community
@@ -113,29 +79,9 @@ homezones:
     more_info: |-
       Wir wollen uns gemeinsam verschiedene Namen und Titel anschauen, mit denen Gott sich in der Bibel offenbart, um dadurch seine Eigenschaften und sein Wesen zu entdecken.
       Dabei wollen wir das Leben miteinander teilen, füreinander im Gebet einstehen und unsere nächsten Schritte im Glauben gehen.
-    contact_person: 'Simon Garrecht, Chris Klein'
+    contact_person: 'Simon Garrecht, Samia El-Tamimi'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/638'
     type: homezone
-    enabled: true
-  -
-    type: homezone
-    title: 'Moms & Kids'
-    topic: 'Happy Life'
-    target_group: Mamas
-    location: 'In deinem Wohnzimmer ;)'
-    weekday: Mittwoch
-    time: '20:00'
-    biweekly: false
-    tags:
-      - 'Alltag teilen'
-      - 'Freundschaft leben'
-      - 'Geistlich wachsen'
-    contact_person: 'Annemarie Seidel und Christina Pankratz'
-    full: false
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/427'
-    more_info: |-
-      Gemeinsam wollen wir Leben teilen und uns über Themen austauschen, die uns begeistern und herausfordern. Wir wollen geistlich wachsen und eine richtig gute Zeit zusammen haben!
-      Zudem treffen wir uns ab und an tagsüber mit unseren Kids und erkunden die Stuttgarter Spielplätze.
     enabled: true
   -
     title: 'Lebensweise Jüngerschaft'
@@ -147,9 +93,9 @@ homezones:
     time: '19:00'
     biweekly: false
     tags:
-      - FOOD
-      - FUN
-      - FAITH
+      - Jüngerschaft
+      - Gemeinschaft
+      - Wachstum
     more_info: |-
       Es geht um dich. Um Gott. Um Beziehung. Um deine Berufung. Es geht um Jüngerschaft.
       Gemeinsam wollen wir Leben und Glauben teilen, mit einander und von einander lernen.
@@ -161,8 +107,8 @@ homezones:
     title: Feierabend
     full: false
     target_group: 'Junge Erwachsene'
-    topic: 'Exodus - das zweite Buch der Bibel'
-    location: 'In Wohnzimmern und an anderen Locations in Stuttgart'
+    topic: '1. Samuel'
+    location: Stuttgart
     weekday: Mittwoch
     time: '19:00'
     biweekly: false
@@ -170,54 +116,32 @@ homezones:
       - Freundschaft
       - 'Geistlich wachsen'
       - 'Freiheit erleben'
-    contact_person: 'Silas Krause, Elisa Köhler'
+    contact_person: 'Silas Krause, Jasmina El-Tamimi'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/541'
     type: homezone
     enabled: true
     more_info: |-
-      Wir wollen gemeinsam das 2. Buch Mose lesen, gemeinsam essen, sobald es geht, und bei gelegentlichen Aktionen Freundschaft leben.  
-      <br>
-      Was würde in unserem Alltag passieren, wenn wir fest darauf vertrauen würden, dass Gott eine aktive Rolle in unserem Leben spielt? Was würde passieren, wenn wir begreifen, dass Vertrauen auf Gott uns wirklich frei macht? <br>
-      Unser Gottesbild prägt unser Leben enorm. Deswegen ist Exodus ein extrem spannendes Buch. Es ist vollgepackt mit Erlebnissen, in denen Gott sich offenbart und wir sein Wesen und Charakter kennenlernen können.
-  -
-    title: VIP-Lounge
-    full: true
-    target_group: 'Junge Erwachsene (20-29 Jahre)'
-    topic: 'Personen der Bibel: Glaubensväter & Co.'
-    location: 'In unseren Wohnzimmern ;)'
-    weekday: Mittwoch
-    time: '19:00'
-    biweekly: false
-    tags:
-      - Spaß
-      - Tiefgang
-      - 'Alltag teilen'
-    more_info: |-
-      Kennst du das, wenn andere etwas von sich erzählen und du dir denkst: Bei mir ist es genauso? Dann bist du in dieser Homezone genau richtig. Wir wollen nicht nur voneinander lernen, sondern auch von den verschiedensten Charakteren der Bibel. 
-      Dieses Semester werden wir uns vor allem Abraham, Isaak & Jakob anschauen. Dabei wollen wir herausfinden, warum sie auch "Glaubensväter" der Bibel genannt werden. Lass uns daran teilhaben, was dich an ihnen inspiriert. 
-      Wenn es wieder möglich ist, kommen nice Aktionen und natürlich auch gutes Essen dazu. Wir freuen uns auf eine starke Zeit, um als Gruppe zusammenzuwachsen und Alltag zu teilen!
-    contact_person: 'Katharina Wagner, Felix Reisgys'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/547'
-    type: homezone
-    enabled: true
+      Wir wollen gemeinsam essen, 1. Samuel lesen und bei gelegentlichen Aktionen Freundschaft leben.
+      Wer ist der König in deinem Leben? Auf welche Stimme hörst du? In erster Samuel werden wir die Geschichte vom Volk Israel lesen, das sich einen irdischen König wünscht. Sei gespannt darauf, wie wir durch die Geschichte und Wahl der Könige neu verstehen dürfen, welche Eigenschaften und Haltung Gott bei seinen Nachfolgern wertschätzt.
   -
     title: 'Meet & Greet'
     full: true
     target_group: 'jung, dynamisch, gutaussehend, also du :)'
-    topic: Apostelgeschichte
-    location: 'Stuttgarter Westen und Umgebung'
+    topic: 'Jesus Top 50 Subjects'
+    location: 'mal bei uns - mal bei euch'
     weekday: Mittwoch
     time: '19:15'
     biweekly: false
     tags:
-      - Community
+      - Jesus
+      - 'Gutes Essen'
       - Spaß
-      - Bibel
     more_info: |-
-      Wir wollen  gemeinsam mit leckerem Essen, guten Gesprächen und der Bibel im Glauben wachsen.
-      Wir dachten uns: wie geht's eigentlich so weiter nachdem Jesus wieder bei Gott im Himmel ist 🤔 
-      Wir wollen uns die Apostelgeschichte anschauen und checken wie die Apostel das von Jesus gelernte leben.
-      Wir freuen uns auf dich! ✌🏼
+      Hey Du :) 
+      Hast du auch Lust auf eine Homezone mit nicer Gemeinschaft, coolen Aktionen, leckerem Essen und willst Leben und den Glauben mit anderen teilen? Perfekt, dann bist du bei uns richtig! 
+      Wir wollen uns gemeinsam die einige der Top 50 Themen anschauen, über die Jesus gelehrt hat. Hättest du gedacht, dass “Kingdom of God” auf Platz eins ist? Und du wirst nie glauben welches Thema auf Platz 5 ist…Willst du’s wissen? Dann meld dich an ;) 
+      Wir freuen uns auf dich!
+      Bis bald :) 
 
       Ah noch was: Nice Aktionen, Spieleabend und das ein oder andere Highlight dürfen natürlich nicht fehlen.
     contact_person: 'Jana Baumann, Jannik Schwitzgebel'
@@ -248,51 +172,72 @@ homezones:
     type: homezone
     enabled: true
   -
-    title: 'Pull Up'
-    full: true
-    target_group: 'Alle, die gerne Sport machen, Jesus lieben, und von der guten Botschaft erzählen wollen'
-    topic: 'Outdoor Fitness'
-    location: 'Südheimer Platz, Trainingsanlage'
-    weekday: Mittwoch
-    time: '18:00'
-    biweekly: false
-    tags:
-      - Evangelium
-      - Hoffnung
-      - Fitness
-    more_info: 'Hey, kannst du es auch kaum erwarten, draußen zu sein und Menschen (mit Abstand) zu begegnen? Jeden Mittwoch wollen wir uns in der Öffentlichkeit auspowern und dabei mit Leuten ins Gespräch kommen. So teilen wir ganz natürlich miteinander und mit anderen nicht nur den Alltag, sondern auch unsere Hoffnung in Jesus. Lass deine sportliche Leidenschaft von Gott gebrauchen!'
-    contact_person: 'Jonas Brocksieper, Hannah Schröder'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/649'
-    type: homezone
-    enabled: true
-  -
-    title: Hygge
+    title: 'Christ Crowd'
     full: false
-    target_group: 'Alle sind willkommen'
-    topic: 'Familie leben'
-    weekday: Freitag
+    target_group: 'Junge Erwachsene (20-29)'
+    topic: 'Gleichnisse Jesu'
+    location: Unterschiedlich
+    weekday: Mittwoch
     time: '19:00'
     biweekly: false
     tags:
-      - Familie
-      - Lobpreis
-      - 'Wort Gottes'
+      - Alltagsrelevant
+      - Gemeinschaft
+      - Spaß
     more_info: |-
-      Hygge Def.: Ein Gefühl von Ruhe, Gemütlichkeit und Wohlbehagen. Oft in Verbindung mit leckerem Essen, warmen Decken, und der Gesellschaft von geliebten Menschen. 
+      „Denn wo zwei oder drei versammelt sind in meinem Namen, da bin ich mitten unter ihnen.“ (Matthäus 18,20)
 
-      In dieser Atmosphäre wollen wir gemeinsam Gott erleben und anbeten.
-    contact_person: 'Enrico und Christina Pankratz'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/641'
+      Vor 2000 Jahren versammelten sich die Menschen, um Jesu Gleichnisse zu hören und Gemeinschaft zu haben. In unserer Homezone hat beides seinen Platz: Wir werden uns die unterschiedlichsten Gleichnisse Jesu anschauen und diskutieren, welche Bedeutung sie für uns auch heute noch haben. Darüber hinaus wird es natürlich auch gutes Essen und coole gemeinsame Aktionen geben.
+    contact_person: 'Felix Reisygs, Kilijon Ostrowicki'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/805'
     type: homezone
     enabled: true
-    location: 'Stuttgart Mitte/Süd'
+  -
+    title: 'Moms & Kids'
+    full: false
+    target_group: 'Moms mit  Kids (bis circa 3 Jahre) - auch werdende Moms sind herzlich willkommen :)'
+    topic: 'Von Frau zu Frau'
+    location: 'Stuttgart West'
+    weekday: Montag
+    time: '09:30'
+    biweekly: false
+    tags:
+      - Austausch
+      - Gebet
+      - Familie
+    more_info: |-
+      Wer bin ich als Jesus-Nachfolgerin, als Mama, als Frau, als Freundin, ...? Darüber und über vieles mehr wollen wir uns austauschen. Wir wollen uns gegenseitig inspirieren und Zeit mit anderen Mamas verbringen. Leben und auch Herausforderungen teilen. Gemeinsam Jesus erleben, einander ermutigen, voneinander lernen und miteinander beten.
+      Dazu treffen wir uns einmal die Woche gemütlich auf dem Sofa oder machen bei gutem Wetter auch mal die Spielplätze in Stuttgart unsicher. 
+      Du fühlst dich angesprochen? Ich freue mich dich und deine Kids kennen zu lernen!!
+    contact_person: 'Annika Bossert'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/811'
+    type: homezone
+    enabled: true
+  -
+    title: U34
+    full: false
+    target_group: 'Alle U34 (und die sich so fühlen)'
+    topic: 'Timothy Keller: "Jesus the King"'
+    location: 'wechselnd, bei jedem der gerne Gäste bei sich hat'
+    weekday: Mittwoch
+    time: '19:00'
+    biweekly: false
+    tags:
+      - Jesus
+      - Gemeinschaft
+      - Essen
+    more_info: |-
+      U34 - uns verbindet eine U-Bahn Linie und ein Alter. U34 war auch Jesus, als er auf der Erde gewirkt hat. Sein Leben, Tod und seine Auferstehung sind das Zentrum unseres Glaubens. Deshalb wollen wir ihn besser verstehen. Wir gucken uns sein Handeln und was er erlebt hat anhand der Beschreibung von Markus an. Gemeinsam wollen wir uns von seinem Leben begeistern lassen, neue Zusammenhänge entdecken und Antworten finden. Dabei hilft uns das Buch "Jesus the King" von Timothy Keller. 
+      Wir freuen uns wenn Du dabei bist!
+    contact_person: 'Antonia Eschenbacher, Klemens Boltenhagen'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/814'
+    type: homezone
+    enabled: true
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
-blueprint: find_homezone
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1620075161
-id: cf1f52b8-f2ab-4c29-ac42-a775be5b764a
+updated_at: 1631725187
 ---
