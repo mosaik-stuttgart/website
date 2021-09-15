@@ -22,7 +22,7 @@ homezones:
     enabled: false
   -
     title: 'Bible and Friends'
-    full: true
+    full: false
     target_group: Jeder!
     topic: 'Exodus - das zweite Buch der Bibel'
     location: 'Unterschiedlich (jeder ist mal Gastgeber)'
@@ -65,7 +65,7 @@ homezones:
     location: Unterschiedlich
   -
     title: 'Thank God it´s Tuesday'
-    full: true
+    full: false
     target_group: 'Jeder ist willkommen'
     topic: 'Namen & Titel Gottes'
     location: 'wechselnd, bei jedem der gerne Gäste bei sich hat'
@@ -85,7 +85,7 @@ homezones:
     enabled: true
   -
     title: 'Lebensweise Jüngerschaft'
-    full: true
+    full: false
     target_group: Jeder
     topic: Jüngerschaft
     location: 'Stuttgart West'
@@ -239,5 +239,5 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1631725187
+updated_at: 1631725790
 ---
