@@ -209,7 +209,7 @@ homezones:
       Wer bin ich als Jesus-Nachfolgerin, als Mama, als Frau, als Freundin, ...? Darüber und über vieles mehr wollen wir uns austauschen. Wir wollen uns gegenseitig inspirieren und Zeit mit anderen Mamas verbringen. Leben und auch Herausforderungen teilen. Gemeinsam Jesus erleben, einander ermutigen, voneinander lernen und miteinander beten.
       Dazu treffen wir uns einmal die Woche gemütlich auf dem Sofa oder machen bei gutem Wetter auch mal die Spielplätze in Stuttgart unsicher. 
       Du fühlst dich angesprochen? Ich freue mich dich und deine Kids kennen zu lernen!!
-    contact_person: 'Annika Bossert'
+    contact_person: 'Anina Bossert'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/811'
     type: homezone
     enabled: true
@@ -239,5 +239,5 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1631725790
+updated_at: 1631728210
 ---
