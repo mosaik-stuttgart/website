@@ -6,7 +6,7 @@ homezones:
     title: 'Deep Talk 4.0'
     full: false
     target_group: 'Alle :-)'
-    topic: 'Serendipity Bible: Der Gott, der uns nahe ist'
+    topic: 'Die fünf Sprachen der Liebe Gottes'
     location: Unterschiedlich
     weekday: Dienstag
     time: '19:00'
@@ -19,7 +19,7 @@ homezones:
     contact_person: 'Sinja Hiss, Sucithra Dey'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/646'
     type: homezone
-    enabled: false
+    enabled: true
   -
     title: 'Bible and Friends'
     full: false
@@ -238,6 +238,6 @@ seo:
 title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
-updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1631782862
+updated_by: 838df855-d75e-401d-8e84-3666c8327568
+updated_at: 1631797922
 ---
