@@ -37,7 +37,7 @@ homezones:
       Was gibt es besseres, als gemeinsam mit guten Freunden abzuhängen, leckeres Essen zu genießen und über das faszinierendste Buch der Welt zu quatschen?
       Das zweite Buch der Bibel hat es in sich und wir sind total gespannt, was wir gemeinsam über Gott und uns lernen werden. Gutes Essen fehlt nie und du hoffentlich auch nicht. ;)
     contact_person: 'Silas Kettner + Nathalie Müller'
-    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/629'
+    churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/808'
     type: homezone
     enabled: true
   -
@@ -238,6 +238,6 @@ seo:
 title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1631731199
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1631782862
 ---
