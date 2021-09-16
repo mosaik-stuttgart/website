@@ -152,8 +152,8 @@ homezones:
     title: Nordzone
     full: false
     target_group: 'Personen aus dem Kreis Ludwigsburg und dem regionalen Norden Stuttgarts'
-    topic: 'Die Gleichnisse Jesu'
-    location: 'Unterschiedliche Wohnungen im Kreis Ludwigsburg'
+    topic: Weisheit
+    location: 'Unterschiedliche Wohnzimmer in Ludwigsburg & Umbegung'
     weekday: Mittwoch
     time: '19:00'
     biweekly: false
@@ -162,11 +162,10 @@ homezones:
       - Gemeinschaft
       - Gebet
     more_info: |-
-      “Und er lehrte sie vieles in Gleichnissen…” (Mk. 4, 2). Egal ob es die Parabel vom verlorenen Sohn oder die vom barmherzigen Samariter ist: Die Gleichnisse Jesu gehören zu den bekanntesten Aussprüchen, die uns von Jesus in den Evangelien überliefert sind. 
-      So gut wie jeder hat sie schon mal gehört, trotzdem haben sich wohl nur wenige bereits intensiver mit ihrer Message auseinandergesetzt - zumindest nicht mit allen. 
-      Gemeinsam als Homezone wollen wir dies tun und herausfinden, was die Gleichnisse Jesu uns heute noch zu sagen haben. 
-
-      Daneben wollen wir uns regelmäßig Zeit für Gebet, gemeinsamen Austausch und Spiele nehmen. Wir freuen uns auf dich!
+      “Denn der Weisheit Anfang ist: Erwirb Weisheit und erwirb Einsicht mit allem, was du hast…” (Sprüche 4, 7). In einer Zeit, in der das Leben offenbar immer komplizierter und chaotischer wird, scheinen Weisheit und kluges Handeln wichtiger denn je zu sein. 
+      Als Homezone wollen wir uns daher mit dem Thema Weisheit befassen und uns gemeinsam anschauen, was uns die Bibel hierzu zu sagen hat. 
+      Mithilfe der Weisheitsbücher (insbesondere Prediger und Sprüche) wollen wir der Frage auf den Grund gehen, was Weisheit aus biblischer Sicht bedeutet, und herausfinden, was uns die Bibel für sowohl die aktuelle Zeit als auch grundsätzlich für unser Leben rät.
+      Daneben wollen wir uns regelmäßig Zeit fürs Gebet, gemeinsamen Austausch und Spiele nehmen. Und auch für das leibliche Wohl soll stets gesorgt sein. :)
     contact_person: 'Elia Weberruss, Simon Wittwock'
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/439'
     type: homezone
@@ -233,11 +232,16 @@ homezones:
     churchtoolslink: 'https://mosaik-church.church.tools/publicgroup/814'
     type: homezone
     enabled: true
+  -
+    full: false
+    biweekly: false
+    type: homezone
+    enabled: false
 seo:
   description: 'Wir glauben, dass Gott uns geschaffen hat, um in Beziehung mit Anderen zu stehen. Denn nur dann können wir in der Fülle leben, die er für uns beabsichtigt hat. Diese Art von Beziehung zu finden ist nicht immer leicht. Aus diesem Grund existieren Kleingruppen.'
 title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1631797922
+updated_at: 1631798103
 ---
