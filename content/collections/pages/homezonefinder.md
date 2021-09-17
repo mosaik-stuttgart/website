@@ -125,7 +125,7 @@ homezones:
       Wer ist der König in deinem Leben? Auf welche Stimme hörst du? In erster Samuel werden wir die Geschichte vom Volk Israel lesen, das sich einen irdischen König wünscht. Sei gespannt darauf, wie wir durch die Geschichte und Wahl der Könige neu verstehen dürfen, welche Eigenschaften und Haltung Gott bei seinen Nachfolgern wertschätzt.
   -
     title: 'Meet & Greet'
-    full: false
+    full: true
     target_group: 'jung, dynamisch, gutaussehend, also du :)'
     topic: 'Jesus Top 50 Subjects'
     location: 'mal bei uns - mal bei euch'
@@ -243,5 +243,5 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1631798103
+updated_at: 1631879518
 ---
