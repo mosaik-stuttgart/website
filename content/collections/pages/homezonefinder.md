@@ -65,7 +65,7 @@ homezones:
     location: Unterschiedlich
   -
     title: 'Thank God it´s Tuesday'
-    full: false
+    full: true
     target_group: 'Jeder ist willkommen'
     topic: 'Namen & Titel Gottes'
     location: 'wechselnd, bei jedem der gerne Gäste bei sich hat'
@@ -243,5 +243,5 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1631879518
+updated_at: 1632296333
 ---
