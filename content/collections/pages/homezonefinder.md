@@ -4,7 +4,7 @@ blueprint: find_homezone
 homezones:
   -
     title: 'Deep Talk 4.0'
-    full: false
+    full: true
     target_group: 'Alle :-)'
     topic: 'Die fünf Sprachen der Liebe Gottes'
     location: Unterschiedlich
@@ -243,5 +243,5 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1632296333
+updated_at: 1632386814
 ---
