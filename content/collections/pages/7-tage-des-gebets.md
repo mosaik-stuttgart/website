@@ -1,5 +1,6 @@
 ---
 id: 8903de32-230d-4e94-bddd-62f362037841
+published: false
 blueprint: default
 title: '7 Tage des Gebets'
 header_image: images/prayer.jpg
@@ -7,7 +8,7 @@ template: prayer
 hero: false
 parent: 1c507839-092f-452c-aabe-7eaf1fc95998
 updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1631632405
+updated_at: 1632578891
 rich_content:
   -
     type: paragraph
