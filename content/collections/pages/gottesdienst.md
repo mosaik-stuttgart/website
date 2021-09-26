@@ -15,7 +15,7 @@ rich_content:
           Wenn du zusammen mit deinem Partner, engen Verwandten oder anderen Angehörigen deines Haushaltes kommst, bitten wir dich dies bei der Anmeldung im Kommentarfeld anzugeben, so dass wir dies bei der Sitzplatzvergabe berücksichtigen können.
         button_text: Anmelden
         disabled: false
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/706'
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/754'
   -
     type: paragraph
   -
@@ -41,15 +41,6 @@ rich_content:
   -
     type: bullet_list
     content:
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '26. September'
       -
         type: list_item
         content:
@@ -128,7 +119,7 @@ title: Gottesdienste
 template: default
 slug: gottesdienst
 updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1632113848
+updated_at: 1632655358
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
