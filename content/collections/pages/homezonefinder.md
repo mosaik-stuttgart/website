@@ -105,7 +105,7 @@ homezones:
     enabled: true
   -
     title: Feierabend
-    full: false
+    full: true
     target_group: 'Junge Erwachsene'
     topic: '1. Samuel'
     location: Stuttgart
@@ -242,6 +242,6 @@ seo:
 title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1632386814
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1632781829
 ---
