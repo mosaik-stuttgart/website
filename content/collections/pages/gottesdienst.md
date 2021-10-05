@@ -4,6 +4,10 @@ blueprint: default
 rich_content:
   -
     type: paragraph
+    content:
+      -
+        type: text
+        text: 'Dreimal im Monat feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s im Hotel immer um 10:30 Uhr.'
   -
     type: set
     attrs:
@@ -24,12 +28,6 @@ rich_content:
       -
         type: text
         text: '  '
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Dreimal im Monat feiern wir zusammen im Maritim Hotel in Stuttgart Mitte und du bist herzlich eingeladen dabei zu sein! Los geht’s im Hotel immer um 10:30 Uhr.'
   -
     type: heading
     attrs:
@@ -118,8 +116,8 @@ rich_content:
 title: Gottesdienste
 template: default
 slug: gottesdienst
-updated_by: 8bf483f2-b204-4798-8bd3-a91989bcef6a
-updated_at: 1632655358
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1633426514
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
