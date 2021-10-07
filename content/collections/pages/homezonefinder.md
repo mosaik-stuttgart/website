@@ -22,7 +22,7 @@ homezones:
     enabled: true
   -
     title: 'Bible and Friends'
-    full: false
+    full: true
     target_group: Jeder!
     topic: 'Exodus - das zweite Buch der Bibel'
     location: 'Unterschiedlich (jeder ist mal Gastgeber)'
@@ -243,5 +243,5 @@ title: 'Homezone finden'
 template: find-homezone
 slug: homezonefinder
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1632781829
+updated_at: 1633611278
 ---
