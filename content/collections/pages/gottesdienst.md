@@ -47,15 +47,6 @@ rich_content:
             content:
               -
                 type: text
-                text: '10. Oktober'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
                 text: '17. Oktober'
       -
         type: list_item
@@ -65,7 +56,34 @@ rich_content:
             content:
               -
                 type: text
-                text: '31. Oktober'
+                text: '31. Oktober - 10:00 und 11:30 Uhr'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '7. November'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '14. November'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '28. November'
   -
     type: paragraph
     content:
@@ -117,7 +135,7 @@ title: Gottesdienste
 template: default
 slug: gottesdienst
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1633859169
+updated_at: 1633977789
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
