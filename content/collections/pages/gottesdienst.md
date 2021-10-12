@@ -18,8 +18,8 @@ rich_content:
           Die Plätze sind limitiert. Melde dich am besten frühzeitig an.
           Wenn du zusammen mit deinem Partner, engen Verwandten oder anderen Angehörigen deines Haushaltes kommst, bitten wir dich dies bei der Anmeldung im Kommentarfeld anzugeben, so dass wir dies bei der Sitzplatzvergabe berücksichtigen können.
         button_text: Anmelden
-        disabled: true
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/754'
+        disabled: false
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/757'
   -
     type: paragraph
   -
@@ -135,7 +135,7 @@ title: Gottesdienste
 template: default
 slug: gottesdienst
 updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
-updated_at: 1633977789
+updated_at: 1634033937
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
