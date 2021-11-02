@@ -19,7 +19,7 @@ rich_content:
           Wenn du zusammen mit deinem Partner, engen Verwandten oder anderen Angehörigen deines Haushaltes kommst, bitten wir dich dies bei der Anmeldung im Kommentarfeld anzugeben, so dass wir dies bei der Sitzplatzvergabe berücksichtigen können.
         button_text: Anmelden
         disabled: false
-        cta_link: 'https://mosaik-church.church.tools/publicgroup/760'
+        cta_link: 'https://mosaik-church.church.tools/publicgroup/817'
   -
     type: paragraph
   -
@@ -134,8 +134,8 @@ rich_content:
 title: Gottesdienste
 template: default
 slug: gottesdienst
-updated_by: 838df855-d75e-401d-8e84-3666c8327568
-updated_at: 1635772134
+updated_by: e79a8c77-cd3c-4c3e-b80d-41ca2e46cad2
+updated_at: 1635875262
 hero: false
 header_image: images/Kirche_im_Hotel-2-1.jpg
 ---
